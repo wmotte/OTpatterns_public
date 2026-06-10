@@ -1,3 +1,5 @@
+![Infographic](infograph.png)
+
 # OT-patronen
 
 Publieke uitsnede van een project over Oudtestamentische exegese
