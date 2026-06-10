@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zoek mee in de Hebreeuwse tekst — bij de 1 Samuël-toelichtingen</title>
+<style>
+  :root { --ink:#1c1a17; --soft:#6b6660; --line:#e3ddd3; --bg:#faf7f1;
+          --ok:#1f7a44; --bad:#a4282a; --warn:#8a6d1a; --accent:#3a5a78; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.6 Georgia, "Times New Roman", serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:2.2rem 1.2rem 4rem; }
+  h1 { font-size:1.7rem; line-height:1.25; margin:0 0 .4rem; }
+  .lead { color:var(--soft); margin:0 0 1.6rem; }
+  .panel { background:#fff; border:1px solid var(--line); border-radius:8px;
+           padding:1.1rem 1.2rem; margin:1.2rem 0; }
+  label { display:block; font-weight:bold; font-size:.82rem; letter-spacing:.04em;
+          text-transform:uppercase; color:var(--soft); margin:0 0 .4rem; }
+  select, textarea { width:100%; font-family:"SF Mono",Menlo,Consolas,monospace;
+            font-size:.95rem; border:1px solid var(--line); border-radius:6px;
+            padding:.55rem .6rem; background:#fff; color:var(--ink); }
+  textarea { min-height:5.5em; resize:vertical; white-space:pre; }
+  .presets { display:flex; flex-wrap:wrap; gap:.4rem; margin:.2rem 0 0; }
+  button { cursor:pointer; font:inherit; }
+  .preset { font-family:"SF Mono",Menlo,Consolas,monospace; font-size:.8rem;
+            background:#f1ece2; border:1px solid var(--line); border-radius:999px;
+            padding:.3rem .7rem; color:var(--ink); }
+  .preset:hover { background:#e7e0d3; }
+  #run { margin-top:.7rem; background:var(--accent); color:#fff; border:none;
+         border-radius:6px; padding:.55rem 1.3rem; font-size:.95rem; }
+  #run:hover { background:#2e4860; }
+  #meta { font-size:.85rem; color:var(--soft); margin:.2rem 0 0; }
+  .count { font-size:1.15rem; font-weight:bold; margin:.2rem 0 .3rem; }
+  .ok { color:var(--ok); margin:.1rem 0; } .bad { color:var(--bad); margin:.1rem 0; }
+  .warn { color:var(--warn); margin:.1rem 0; font-size:.9rem; }
+  table.hits { border-collapse:collapse; width:100%; margin-top:.6rem; font-size:.95rem; }
+  table.hits th { text-align:left; color:var(--soft); font-size:.78rem;
+                  text-transform:uppercase; letter-spacing:.04em;
+                  border-bottom:1px solid var(--line); padding:.3rem .4rem; }
+  table.hits td { border-bottom:1px solid var(--line); padding:.35rem .4rem; vertical-align:top; }
+  td.heb { font-size:1.5rem; line-height:1.3; font-family:"SBL Hebrew","Ezra SIL","Times New Roman",serif; }
+  .note { font-size:.88rem; color:var(--soft); }
+  code { background:#f1ece2; padding:.05rem .3rem; border-radius:4px;
+         font-family:"SF Mono",Menlo,Consolas,monospace; font-size:.85em; }
+  h2 { font-size:1.05rem; margin:2rem 0 .5rem; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Zoek mee in de Hebreeuwse tekst</h1>
+  <p class="lead">Toelichtingen op passages uit 1 Samuël. Kies een passage, klik op een
+  zoekopdracht of typ er zelf een, en tel de aantallen.</p>
+
+  <div class="panel">
+    <label for="passage">Passage</label>
+    <select id="passage"></select>
+    <p id="meta"></p>
+  </div>
+
+  <div class="panel">
+    <label>Kant-en-klare zoekopdrachten (met het verwachte aantal)</label>
+    <div class="presets" id="presets"></div>
+  </div>
+
+  <div class="panel">
+    <label for="query">Eigen zoekopdracht (Text-Fabric-syntaxis)</label>
+    <textarea id="query" spellcheck="false" placeholder="word gn=f"></textarea>
+    <button id="run">Zoek</button>
+    <div id="result"></div>
+  </div>
+
+  <h2>Wat is dit precies?</h2>
+  <p class="note">Dit is een <strong>afgebakende, statische</strong> versie om de output van de
+  Text-Fabric-browser (een Python-programma dat de hele bijbel doorzoekt) te demonstreren in
+  uw eigen browser, zonder server. Het is voldoende om de
+  tellingen na te lopen.</p>
+  <p class="note">Ondersteunde syntaxis is een deel van Text-Fabric: één object
+  (<code>word</code>, <code>clause</code>, <code>phrase</code>, <code>sentence</code>) met
+  eventueel ingesprongen <code>word</code>-regels eronder, en <code>kenmerk=waarde</code>-filters
+  (meerdere waarden met <code>|</code>, bijvoorbeeld <code>lex=&gt;MH/|CPXH/</code>). Operatoren als
+  <code>&lt;</code>, <code>&lt;:</code> of <code>mother</code> worden hier niet ondersteund.</p>
+  <p class="note">De gegevens en de verwachte aantallen komen uit de ETCBC/BHSA-database (versie 2021). De volledige browser staat op
+  <a href="https://annotation.github.io/text-fabric/tf/about/browser.html">de Text-Fabric-site</a>;
+  online doorzoekbaar (met een andere zoektaal, MQL) via
+  <a href="https://shebanq.ancient-data.org/hebrew/queries">SHEBANQ</a>.</p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
