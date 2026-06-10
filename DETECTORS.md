@@ -58,6 +58,9 @@ lezerswerk.
   - [weqatal_procedural_chain](#weqatal_procedural_chain)
   - [epistemic_doubt_zone](#epistemic_doubt_zone)
   - [volitive_clash](#volitive_clash)
+  - [vocative_imperative_bundle](#vocative_imperative_bundle)
+  - [disjunctive_waw_x_onset](#disjunctive_waw_x_onset)
+  - [negative_existential_bundle](#negative_existential_bundle)
   - [agentless_niphal](#agentless_niphal)
   - [stem_contrast](#stem_contrast)
   - [hitpael_speech](#hitpael_speech)
@@ -86,10 +89,15 @@ lezerswerk.
   - [spatial_kinetic_axis](#spatial_kinetic_axis)
 - [Corpus-relationele laag (`relational_detectors.py`, `--relational`)](#corpus-relationele-laag-relational_detectorspy---relational)
   - [collexeme_anomaly](#collexeme_anomaly)
+  - [function_collexeme_anomaly](#function_collexeme_anomaly)
+  - [entity_syntactic_role_anomaly](#entity_syntactic_role_anomaly)
   - [transition_anomaly](#transition_anomaly)
   - [distribution_shape](#distribution_shape)
 - [NER-laag (`ner_detectors.py`, `--ner`, BHSA 2023)](#ner-laag-ner_detectorspy---ner-bhsa-2023)
   - [entity_role_pressure](#entity_role_pressure)
+  - [entity_role_transition](#entity_role_transition)
+  - [entity_copresence](#entity_copresence)
+  - [entity_speech_action_link](#entity_speech_action_link)
 - [Novelty-familie (`novelty_families.py`, `--novelty-families`)](#novelty-familie-novelty_familiespy---novelty-families)
   - [deictic_participant_chain](#deictic_participant_chain)
   - [verb_frame_slot_pressure](#verb_frame_slot_pressure)
@@ -156,6 +164,20 @@ lezerswerk.
   - [maqef_compression_zone](#maqef_compression_zone)
   - [paseq_density](#paseq_density)
   - [sof_pasuq_rhythm](#sof_pasuq_rhythm)
+- [Discourse/pragmatiek-laag (`discourse_pragmatics_detectors.py`, `--discourse-pragmatics`)](#discoursepragmatiek-laag-discourse_pragmatics_detectorspy---discourse-pragmatics)
+  - [asymmetric_qa_frames](#asymmetric_qa_frames)
+  - [unframed_speech_onset](#unframed_speech_onset)
+  - [heavy_quotation_formula](#heavy_quotation_formula)
+  - [causative_coercion_spike](#causative_coercion_spike)
+  - [depersonalisation_pual_hofal](#depersonalisation_pual_hofal)
+  - [middle_voice_mimicry](#middle_voice_mimicry)
+  - [subject_over_encoding](#subject_over_encoding)
+  - [vocative_isolation](#vocative_isolation)
+  - [relational_preposition_density](#relational_preposition_density)
+  - [locative_he_pressure](#locative_he_pressure)
+  - [instrumental_b_focus](#instrumental_b_focus)
+  - [infc_purpose_chains](#infc_purpose_chains)
+  - [clause_ellipsis_pressure](#clause_ellipsis_pressure)
 
 ---
 
@@ -310,6 +332,15 @@ epistemic_doubt_zone zoekt clusters van modale partikels van onzekerheid, hoop o
 ### volitive_clash
 volitive_clash zoekt aangrenzende redeclauses (beide `txt~Q`) die wisselen tussen een directe imperatief (`vt=impv`) en een verzachte of indirecte volitief (jussief/cohortatief-proxy via `vt=impf ps=p1|p3`, of het partikel נא lex N>). Dat kan wijzen op statusverschil, beleefdheidswisseling of een toonverandering in de aanspraak.
 
+### vocative_imperative_bundle
+vocative_imperative_bundle zoekt een vocatief-frase (`function=Voct`, naam of titel als aanspraak) met een imperatief-predicaat (`vt=impv`) in dezelfde of de direct aangrenzende clause (beide richtingen): de aangesprokene wordt zowel genoemd als bevolen. ETCBC codeert de vocatief als eigen clause, dus de adjacentie draagt het signaal. Dat kan wijzen op de retorische druk van directe aanspreking (gebed, summons, confrontatie).
+
+### disjunctive_waw_x_onset
+disjunctive_waw_x_onset zoekt clauses die openen met een conjunctie (eerste woord `sp=conj`) waarbij de subject-frase vóór de predicaatsfrase staat (`function=Subj` < `function=Pred`): de waw-X-volgorde. Dat kan wijzen op de klassieke onderbreking van de narratieve wayyiqtol-keten, een contrast- of achtergrondclause.
+
+### negative_existential_bundle
+negative_existential_bundle zoekt clauses met het negatieve existentieel אֵין (lex `>JN/`) gevolgd door een participium (`vt=ptca|ptcp`) binnen dezelfde clause: 'er is niemand die X doet', een ontkende duratieve toestand. Dat kan wijzen op een leegte- of isolementsmotief, het ontbreken van een handelende partij.
+
 ### agentless_niphal
 agentless_niphal zoekt clauses met een finiet niphal-predicaat (`vs=nif`, `vt` in perf/impf/wayq/impv) zónder expliciete `function=Subj`-frase: de agensloze passief of medium ('het werd gedaan'). Dat kan wijzen op verborgen of goddelijke agency ('divine passive') of een bewust ongenoemde dader.
 
@@ -395,6 +426,12 @@ spatial_kinetic_axis zoekt bewegingswerkwoorden (root in MOTION_DIRECTION: QWM/<
 ### collexeme_anomaly
 collexeme_anomaly meet de collostructionele associatie (Stefanowitsch-Gries) via een 2×2 log-likelihood G² tussen een constructiesleuf en het daarin gerealiseerde lexeem, corpusbreed over twee slots: werkwoord-Pred-lex × Objc-head-lex (`clause kind=VC`, `phrase function=Pred`/`Objc`, `sp=verb`, `lex`) en nomen-regens × rectum (een `st=c` woord direct gevolgd door het volgende woord binnen dezelfde frase). Per stratum vlagt G² (min_g2=10,83, ~p<0,001) of de collocatie corpusbreed sterk gebonden (`bound`) dan wel afgestoten (`repelled`) is tegenover toeval. Dat kan wijzen op een idiomatische of vaste verbinding, een opvallend zeldzaam-bij-elkaar woordpaar, of een bewuste stilistische keuze.
 
+### function_collexeme_anomaly
+function_collexeme_anomaly meet een drieweg-collostructionele cel: vult DÍT lexeem deze frasefunctie binnen dit clausetype vaker (`bound`) of minder vaak (`repelled`) dan de corpusmarges voorspellen? Een 2×2 G²-toets per stratum tegen de v11-collostruct-`fn`-tabel (linkermarge = functie+typ, rechtermarge = kop-lexeem), met min_g2=10,83 (~p<0,001, df=1). Het vereist een baseline-schema ≥11; op een oudere cache ontbreekt de `fn`-slot en blijft de detector stil. Dat kan wijzen op een lexeem dat juist in deze grammaticale rol-en-clausetype-combinatie sterk gebonden of afgestoten is.
+
+### entity_syntactic_role_anomaly
+entity_syntactic_role_anomaly toetst eigennaamklasse × syntactische rol tegen het corpus: worden persoon-, plaats- of volksnamen (`nametype`) in deze passage over- of ondergebruikt in een bepaalde frasefunctie (Subj/Objc/Cmpl…)? Een one-sample G² per stratum tegen de v11-`ner_roles`-marges, via de `_pref`/`_n_context`-route van de engine (zodat `_enrich` G²/q/robuustheid levert). BHSA-`nametype` is incompleet gedocumenteerd, wat de dekking beperkt, niet de hardheid van de getelde cellen. Dat kan wijzen op een naamklasse die opvallend vaak als handelend subject of juist als lijdend voorwerp optreedt.
+
 ### transition_anomaly
 transition_anomaly meet aangrenzende clausetype-bigrammen (`typ` op opeenvolgende clauses) als Markov-overgang en toetst de geobserveerde frequentie van typ_a naar typ_b tegen de corpus-overgangskans P(typ_b | typ_a) met een one-sample G² (min_g2=10,0, min_obs=2), gelabeld `over` of `under`. Het is order-gevoelig: een shuffle die de adjacentie breekt laat de finding wegvallen. Dat kan wijzen op een afwijkend discourse-ritme, een opvallende narratieve cadans of een genre-effect in de afwisseling van clausetypen.
 
@@ -407,6 +444,15 @@ distribution_shape meet de vorm van de volledige feature-verdeling van een passa
 
 ### entity_role_pressure
 entity_role_pressure zoekt benoemde entiteiten (uit de BHSA 2023 NER-laag via `common.entity_mentions`: gecompileerde entity-nodes of NER-sheet occurrence-specs, met `nametype` als conservatieve fallback) die via hun frasefunctie (`function` Subj/Objc/Cmpl/Loca/Adju/Frnt) syntactisch zijn geplaatst rond een predicaat-wortel (`sp=verb`, `lex` naar `root_skeleton` in een Pred-frase) uit vooraf gedefinieerde bewegings-, spreek- of respons/druk-wortels. Het labelt entiteiten als subject-driver, bewegingsdoel, locatieve drukknoop of spreekdoel, en signaleert entiteiten die binnen de passage van rol wisselen (≥2 functies). Dat kan wijzen op plot-druk, narratieve agentschap-verschuiving of het inzoomen van een scène op één figuur.
+
+### entity_role_transition
+entity_role_transition zoekt agens-patiens-wisselingen langs de vermeldingsreeks van één entiteit: dezelfde entiteit beweegt tussen Subj en Objc/Cmpl in opeenvolgende rol-dragende vermeldingen (handelend wordt ondergaan, of omgekeerd). Het is volgordegevoelig: de wisseling zit in de vermeldingsreeks, dus de niet-aangrenzende synthetische controle in calibrate.py laat hem instorten. De rollen zijn formeel; dat het om één referent gaat is duiding. Dat kan wijzen op een figuur die van handelend naar ondergaand kantelt (of omgekeerd).
+
+### entity_copresence
+entity_copresence zoekt entiteitenparen die herhaald (≥2 keer) dezelfde clause delen, plus exclusiviteit: een entiteit die alleen ooit samen met één partner voorkomt. De paaridentiteit rust op sheet- of nametype-entiteitenbinding. Dat kan wijzen op een vaste relatie, een dyade of een figuur die narratief aan één tegenspeler is gekoppeld.
+
+### entity_speech_action_link
+entity_speech_action_link zoekt entiteiten met een sterk scheef predicaat-bucketprofiel: alleen toegesproken of besproken (speech_target), alleen sprekend (speech_actor), alleen bewegend (motion_actor) of alleen doelwit van beweging (motion_target). De buckets komen uit de vaste SPEECH_ROOTS/MOTION_ROOTS-lexiconlijsten. Dat kan wijzen op een eenzijdige rolverdeling: wie spreekt en wie zwijgt, wie beweegt en wie het doel is.
 
 ---
 
@@ -614,3 +660,48 @@ paseq_density zoekt opeenhopingen van de corpus-zeldzame paseq-streep (codepoint
 
 ### sof_pasuq_rhythm
 sof_pasuq_rhythm meet de verdeling van verslengtes (woorden per sof-pasuq-interval, gebucket in ≤5/6-10/11-15/16-25/>25) en toetst die met een G²-test tegen het verslengte-histogram van het stratum (bij voorkeur same_genre, anders global). Dat kan wijzen op staccato-verzen of monsterverzen, de versadem van poëzie tegenover de proza-adem.
+
+---
+
+## Discourse/pragmatiek-laag (`discourse_pragmatics_detectors.py`, `--discourse-pragmatics`)
+
+Dertien detectoren rond dialoog- en citaatarchitectuur, valentie en stam/voice, participant-tracking en bijwoordelijke syntaxis. Elk mikt op een feature-combinatie binnen één object, een sequentieel patroon over objecten of een configuratie van samenvallende features die de vlakke single-feature-scans niet bereiken. Findings lopen door de standaard `_enrich()`-pijplijn; structurele detectoren zonder natuurlijke corpus-rate zetten een heuristische `surprise` uit het bewijs binnen de passage.
+
+### asymmetric_qa_frames
+asymmetric_qa_frames zoekt een clause die opent met een interrogatief (`ls=ques` of een vraaglexeem) en NIET binnen een kort clause-venster (≤4) wordt beantwoord, waarbij een antwoord een nieuwe beurt moet zijn (een niet-vragend predicaat met kaderwissel: andere `txt`-Q-diepte of een vers spreekwerkwoord ervoor), geen vervolgclause van dezelfde spreker. Het is het complement van disputation_QA (citaat plus weerlegging); question_profile telt enkel vraagdichtheid, nooit of er antwoord volgt. Dat kan wijzen op een retorische vraag, een stilte of een geweigerd antwoord.
+
+### unframed_speech_onset
+unframed_speech_onset zoekt een overgang ín directe rede (de `txt`-Q-diepte stijgt) waarvan de clause zelf en de ≤2 voorgaande clauses GEEN spreekwerkwoord (SPEECH_LEX) dragen: de standaard wayyiqtol-plus-spreekwerkwoord-plus-לֵאמֹר-formule ontbreekt, zodat het citaat abrupt begint. quotation_introducers profileert alleen het inleidende werkwoord als het er is; de afwezigheid bij een rede-onset ziet het niet. Dat kan wijzen op geëmotioneerde, snelle of staccato dialoog.
+
+### heavy_quotation_formula
+heavy_quotation_formula zoekt een 'zware' spreekinleiding: een clause met ≥2 spreekwerkwoorden, of een reeks van ≥2 opeenvolgende spreekwerkwoord-clauses die naar één citaat leiden ('en hij antwoordde en hief zijn stem op en sprak…'). De vlakke detectoren reduceren een citaatkader tot één inleidend werkwoord; de gestapelde, plechtige formule is de configuratie die ze missen. Dat kan wijzen op solemniteit, vaak bij orakels of koninklijke besluiten.
+
+### causative_coercion_spike
+causative_coercion_spike zoekt een lokale cluster (1D-clustering, eps=20) van hifil-predicaten (`vs=hif`), gewogen wanneer de wortel in qal intransitief of beweging/toestand is (zodat de hifil een andere partij dwingt: 'maken dat hij gaat/komt/sterft', via CAUSATIVE_INTRANS_ROOTS). categorical telt vs=hif-dichtheid vlak; de lokale concentratie plus de coërcieve-wortelweging is de toegevoegde laag. Dat kan wijzen op dwang, manipulatie of sterke (theologische) bemoeienis.
+
+### depersonalisation_pual_hofal
+depersonalisation_pual_hofal zoekt een concentratie van de zeldzame passieve binyanim pual en hofal (`vs=pual|hof`): systematische agens-blindheid, de handeling wordt ondergaan zonder genoemde dader. Deze stammen zijn corpus-zeldzaam, dus zelfs een kleine concentratie is gemarkeerd, gestratificeerd tegen de corpus pual/hof-per-werkwoord-rate. Dat kan wijzen op een tekst waarin het lot van de lijdende partij centraal staat en de dader bewust ongenoemd blijft.
+
+### middle_voice_mimicry
+middle_voice_mimicry zoekt niphal/hitpael-predicaatclauses ZONDER kerncomplement (geen Objc- en geen Cmpl-frase): extreme valentiereductie, reflexieve introspectie of gebeurtenissen die zich 'vanzelf' lijken te voltrekken zonder uitgeoefende macht. agentless_niphal sleutelt op het ontbrekende subject; dit sleutelt op het ontbrekende object/complement en voegt hitpael toe, gestratificeerd tegen de corpus-rate per finiete verbale clause. Dat kan wijzen op een middle-voice-effect of zelf-betrokken handelen.
+
+### subject_over_encoding
+subject_over_encoding zoekt twee of meer opeenvolgende verbale clauses die BEIDE hetzelfde lexicale subject-nomen uitspellen, terwijl de werkwoordsuitgang van de latere clause had volstaan ('God deed X. God deed Y.'). De her-benoeming foregrondt de referent; geen enkele losse feature-telling drukt een redundante her-codering over aangrenzende clauses uit. Dat kan wijzen op narratieve of theologische her-markering ('het is écht God die dit doet').
+
+### vocative_isolation
+vocative_isolation zoekt frasen met `function=Voct` (een directe aanspraak: naam of titel apart gezet van de werkwoordsargumenten) en bundelt ze als aanspreek-druk, gestratificeerd tegen de corpus Voct-per-frase-rate. De vlakke detectoren vouwen een vocatief in gewone NP-tellingen; de Voct-rol zelf is het signaal. Dat kan wijzen op relationele intensiteit, wanhoop of intimiteit van gebed of confrontatie.
+
+### relational_preposition_density
+relational_preposition_density meet de verhouding tussen relationele preposities (B/L/>L/<M/<L/MN) met een pronominaal suffix (`prs_ps`) en dezelfde preposities die een lexicaal nomen regeren. Een hoog suffix-aandeel markeert een 'gesloten circuit': alles speelt zich af tussen reeds bekende actoren (interpersoonlijk) in plaats van naar objecten toe. participant_density poolt alle suffixen; dit is de prepositie-gebonden ratio. Dat kan wijzen op een sterk interpersoonlijk register.
+
+### locative_he_pressure
+locative_he_pressure zoekt de directionele of locatieve he (`uvf=H`) op nomina en toponiemen ('…waarts'): kinetische, ruimtelijke energie waarin alles in beweging érgens naartoe is. `uvf` zit niet in OBJECT_FEATURES, dus geen vlakke detector ziet het; de beperking tot nominale gastheren (subs/nmpr) houdt de richting-he apart van een verbale uvf=H. Clusters via 1D-clustering, gestratificeerd tegen de corpus he-locale-per-nominaal-rate. Dat kan wijzen op een sterk gerichte bewegingszone.
+
+### instrumental_b_focus
+instrumental_b_focus zoekt bijwoordelijke of complement-frasen met de prepositie בְּ (lex `B`) als kop in een Adju/Cmpl-rol: het middel of instrument ('door/met', vaak geweld, techniek of vaardigheid). De vlakke detectoren tellen beth-dichtheid vlak; het isoleren van de instrumentele syntactische slot is de toegevoegde laag. De middel-tegenover-locatief-lezing is een lexicaal-contextueel oordeel. Dat kan wijzen op nadruk op de methode boven de handeling zelf.
+
+### infc_purpose_chains
+infc_purpose_chains zoekt clusters van de infinitivus constructus (`vt=infc`, 1D-clustering, eps=20), in het bijzonder voorafgegaan door de prepositie לְ ('om te…'). Een dichte doel-infinitief-zone markeert sterk intentioneel, teleologisch handelen en een hoog-complexe zinsarchitectuur. Geen vlakke detector telt infc-clustering of het l+infc-doelkader. Dat kan wijzen op doelgerichte, planmatige handeling.
+
+### clause_ellipsis_pressure
+clause_ellipsis_pressure meet de dichtheid van extreem korte verbale clauses (≤2 woorden) waarvan de verplichte argumenten (Subj en Objc) beide syntactisch afwezig zijn en uit de context moeten worden afgeleid. Hoge ellipsdichtheid is een kwantificeerbare proxy voor poëtische compressie, haast of woede (staccato-grammatica); geen vlakke detector meet het ontbreken van verplichte argumenten in een minimale clause, gestratificeerd tegen de corpus-rate per finiete verbale clause. Dat kan wijzen op verdichte, geëmotioneerde of gehaaste formulering.
