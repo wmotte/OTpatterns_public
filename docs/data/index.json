@@ -1,9 +1,44 @@
 {
  "passages": [
   {
+   "slug": "1_samuel_1_12_18",
+   "label": "1 Samuël 1:12-18",
+   "file": "data/1_samuel_1_12_18.json"
+  },
+  {
+   "slug": "1_samuel_3_15_18",
+   "label": "1 Samuël 3:15-18",
+   "file": "data/1_samuel_3_15_18.json"
+  },
+  {
+   "slug": "1_samuel_8_4_22",
+   "label": "1 Samuël 8:4-22",
+   "file": "data/1_samuel_8_4_22.json"
+  },
+  {
+   "slug": "1_samuel_10_14_16",
+   "label": "1 Samuël 10:14-16",
+   "file": "data/1_samuel_10_14_16.json"
+  },
+  {
+   "slug": "1_samuel_13_11_14",
+   "label": "1 Samuël 13:11-14",
+   "file": "data/1_samuel_13_11_14.json"
+  },
+  {
+   "slug": "1_samuel_14_24_45",
+   "label": "1 Samuël 14:24-30; 43-45",
+   "file": "data/1_samuel_14_24_45.json"
+  },
+  {
    "slug": "1_samuel_15_13_31",
    "label": "1 Samuël 15:13-31",
    "file": "data/1_samuel_15_13_31.json"
-  } 
+  },
+  {
+   "slug": "1_samuel_17_28_37",
+   "label": "1 Samuël 17:28-37",
+   "file": "data/1_samuel_17_28_37.json"
+  }
  ]
 }

@@ -26,7 +26,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149817,
@@ -44,7 +46,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 364,
+   "freq_lex": 2570
   },
   {
    "n": 149818,
@@ -62,7 +66,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 149819,
@@ -80,7 +86,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4839,
+   "freq_lex": 5517
   },
   {
    "n": 149820,
@@ -98,7 +106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 149821,
@@ -116,7 +126,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149822,
@@ -134,7 +146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149823,
@@ -152,7 +166,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 1160,
+   "freq_lex": 20069
   },
   {
    "n": 149824,
@@ -170,7 +186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 149825,
@@ -188,7 +206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 92,
+   "freq_lex": 327
   },
   {
    "n": 149826,
@@ -206,7 +226,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 864,
+   "freq_lex": 747
   },
   {
    "n": 149827,
@@ -224,7 +246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 149828,
@@ -242,7 +266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149829,
@@ -260,7 +286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5,
+   "freq_lex": 629
   },
   {
    "n": 149830,
@@ -278,7 +306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149831,
@@ -296,7 +326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1308,
+   "freq_lex": 1441
   },
   {
    "n": 149832,
@@ -314,7 +346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149833,
@@ -332,7 +366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149834,
@@ -350,7 +386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149835,
@@ -368,7 +406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 149836,
@@ -386,7 +426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149837,
@@ -404,7 +446,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 567,
+   "freq_lex": 573
   },
   {
    "n": 149838,
@@ -422,7 +466,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 330,
+   "freq_lex": 505
   },
   {
    "n": 149839,
@@ -440,7 +486,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149840,
@@ -458,7 +506,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 204,
+   "freq_lex": 274
   },
   {
    "n": 149841,
@@ -476,7 +526,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149842,
@@ -494,7 +546,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1188,
+   "freq_lex": 1177
   },
   {
    "n": 149843,
@@ -512,7 +566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149844,
@@ -530,7 +586,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 66,
+   "freq_lex": 187
   },
   {
    "n": 149845,
@@ -548,7 +606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149846,
@@ -566,7 +626,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 330,
+   "freq_lex": 505
   },
   {
    "n": 149847,
@@ -584,7 +646,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149848,
@@ -602,7 +666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 372,
+   "freq_lex": 183
   },
   {
    "n": 149849,
@@ -620,7 +686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5547,
+   "freq_lex": 5500
   },
   {
    "n": 149850,
@@ -638,7 +706,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 359,
+   "freq_lex": 359
   },
   {
    "n": 149851,
@@ -656,7 +726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 290,
+   "freq_lex": 1159
   },
   {
    "n": 149852,
@@ -674,7 +746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149853,
@@ -692,7 +766,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149854,
@@ -710,7 +786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 149855,
@@ -728,7 +806,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 149856,
@@ -746,7 +826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 12,
+   "freq_lex": 12
   },
   {
    "n": 149857,
@@ -764,7 +846,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "pl",
-   "function": null
+   "function": null,
+   "freq_occ": 4,
+   "freq_lex": 2570
   },
   {
    "n": 149858,
@@ -782,7 +866,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5547,
+   "freq_lex": 5500
   },
   {
    "n": 149859,
@@ -800,7 +886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6,
+   "freq_lex": 40
   },
   {
    "n": 149860,
@@ -818,7 +906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149861,
@@ -836,7 +926,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1673,
+   "freq_lex": 1866
   },
   {
    "n": 149862,
@@ -854,7 +946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4237,
+   "freq_lex": 5766
   },
   {
    "n": 149863,
@@ -872,7 +966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6,
+   "freq_lex": 6
   },
   {
    "n": 149864,
@@ -890,7 +986,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149865,
@@ -908,7 +1006,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 204,
+   "freq_lex": 274
   },
   {
    "n": 149866,
@@ -926,7 +1026,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149867,
@@ -944,7 +1046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149868,
@@ -962,7 +1066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 372,
+   "freq_lex": 183
   },
   {
    "n": 149869,
@@ -980,7 +1086,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 260,
+   "freq_lex": 272
   },
   {
    "n": 149870,
@@ -998,7 +1106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 139,
+   "freq_lex": 134
   },
   {
    "n": 149871,
@@ -1016,7 +1126,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 149872,
@@ -1034,7 +1146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149873,
@@ -1052,7 +1166,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 349,
+   "freq_lex": 2601
   },
   {
    "n": 149874,
@@ -1070,7 +1186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149875,
@@ -1088,7 +1206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149876,
@@ -1106,7 +1226,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149877,
@@ -1124,7 +1246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15,
+   "freq_lex": 9
   },
   {
    "n": 149878,
@@ -1142,7 +1266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 50
   },
   {
    "n": 149879,
@@ -1160,7 +1286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149880,
@@ -1178,7 +1306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149881,
@@ -1196,7 +1326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 149882,
@@ -1214,7 +1346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4839,
+   "freq_lex": 5517
   },
   {
    "n": 149883,
@@ -1232,7 +1366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 149884,
@@ -1250,7 +1386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6,
+   "freq_lex": 48
   },
   {
    "n": 149885,
@@ -1268,7 +1406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149886,
@@ -1286,7 +1426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6,
+   "freq_lex": 370
   },
   {
    "n": 149887,
@@ -1304,7 +1446,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 979,
+   "freq_lex": 20069
   },
   {
    "n": 149888,
@@ -1322,7 +1466,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149889,
@@ -1340,7 +1486,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5547,
+   "freq_lex": 5500
   },
   {
    "n": 149890,
@@ -1358,7 +1506,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1308,
+   "freq_lex": 1138
   },
   {
    "n": 149891,
@@ -1376,7 +1526,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149892,
@@ -1394,7 +1546,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 469,
+   "freq_lex": 5517
   },
   {
    "n": 149893,
@@ -1412,7 +1566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149894,
@@ -1430,7 +1586,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 215,
+   "freq_lex": 227
   },
   {
    "n": 149895,
@@ -1448,7 +1606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149896,
@@ -1466,7 +1626,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 364,
+   "freq_lex": 5307
   },
   {
    "n": 149897,
@@ -1484,7 +1646,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 1160,
+   "freq_lex": 20069
   },
   {
    "n": 149898,
@@ -1502,7 +1666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1308,
+   "freq_lex": 1138
   },
   {
    "n": 149899,
@@ -1520,7 +1686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149900,
@@ -1538,7 +1706,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149901,
@@ -1556,7 +1726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 149902,
@@ -1574,7 +1746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 743
   },
   {
    "n": 149903,
@@ -1592,7 +1766,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 191,
+   "freq_lex": 5167
   },
   {
    "n": 149904,
@@ -1610,7 +1786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1099,
+   "freq_lex": 1068
   },
   {
    "n": 149905,
@@ -1628,7 +1806,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 70,
+   "freq_lex": 54
   },
   {
    "n": 149906,
@@ -1646,7 +1826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 864,
+   "freq_lex": 747
   },
   {
    "n": 149907,
@@ -1664,7 +1846,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149908,
@@ -1682,7 +1866,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 148,
+   "freq_lex": 887
   },
   {
    "n": 149909,
@@ -1700,7 +1886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 293,
+   "freq_lex": 599
   },
   {
    "n": 149910,
@@ -1718,7 +1906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 57,
+   "freq_lex": 190
   },
   {
    "n": 149911,
@@ -1736,7 +1926,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2505,
+   "freq_lex": 2506
   },
   {
    "n": 149912,
@@ -1754,7 +1946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 864,
+   "freq_lex": 747
   },
   {
    "n": 149913,
@@ -1772,7 +1966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149914,
@@ -1790,7 +1986,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 69
   },
   {
    "n": 149915,
@@ -1808,7 +2006,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149916,
@@ -1826,7 +2026,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 149917,
@@ -1844,7 +2046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2325,
+   "freq_lex": 2523
   },
   {
    "n": 149918,
@@ -1862,7 +2066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4237,
+   "freq_lex": 5766
   },
   {
    "n": 149919,
@@ -1880,7 +2086,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2505,
+   "freq_lex": 2506
   },
   {
    "n": 149920,
@@ -1898,7 +2106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149921,
@@ -1916,7 +2126,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 2,
+   "freq_lex": 847
   },
   {
    "n": 149922,
@@ -1934,7 +2146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149923,
@@ -1952,7 +2166,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149924,
@@ -1970,7 +2186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 436,
+   "freq_lex": 706
   },
   {
    "n": 149925,
@@ -1988,7 +2206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149926,
@@ -2006,7 +2226,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149927,
@@ -2024,7 +2246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 979,
+   "freq_lex": 1547
   },
   {
    "n": 149928,
@@ -2042,7 +2266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149929,
@@ -2060,7 +2286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 50
   },
   {
    "n": 149930,
@@ -2078,7 +2306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149931,
@@ -2096,7 +2326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149932,
@@ -2114,7 +2346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 18,
+   "freq_lex": 19
   },
   {
    "n": 149933,
@@ -2132,7 +2366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149934,
@@ -2150,7 +2386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 39,
+   "freq_lex": 39
   },
   {
    "n": 149935,
@@ -2168,7 +2406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149936,
@@ -2186,7 +2426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2,
+   "freq_lex": 171
   },
   {
    "n": 149937,
@@ -2204,7 +2446,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 370,
+   "freq_lex": 15542
   },
   {
    "n": 149938,
@@ -2222,7 +2466,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1345,
+   "freq_lex": 1263
   },
   {
    "n": 149939,
@@ -2240,7 +2486,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "pl",
-   "function": null
+   "function": null,
+   "freq_occ": 8,
+   "freq_lex": 206
   },
   {
    "n": 149940,
@@ -2258,7 +2506,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "pl",
-   "function": null
+   "function": null,
+   "freq_occ": 620,
+   "freq_lex": 10987
   },
   {
    "n": 149941,
@@ -2276,7 +2526,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149942,
@@ -2294,7 +2546,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 178,
+   "freq_lex": 178
   },
   {
    "n": 149943,
@@ -2312,7 +2566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4996,
+   "freq_lex": 5167
   },
   {
    "n": 149944,
@@ -2330,7 +2586,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 61,
+   "freq_lex": 1159
   },
   {
    "n": 149945,
@@ -2348,7 +2606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149946,
@@ -2366,7 +2626,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 330,
+   "freq_lex": 505
   },
   {
    "n": 149947,
@@ -2384,7 +2646,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149948,
@@ -2402,7 +2666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149949,
@@ -2420,7 +2686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 3
   },
   {
    "n": 149950,
@@ -2438,7 +2706,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4839,
+   "freq_lex": 5517
   },
   {
    "n": 149951,
@@ -2456,7 +2726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149952,
@@ -2474,7 +2746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 64,
+   "freq_lex": 73
   },
   {
    "n": 149953,
@@ -2492,7 +2766,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149954,
@@ -2510,7 +2786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 18,
+   "freq_lex": 2629
   },
   {
    "n": 149955,
@@ -2528,7 +2806,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149956,
@@ -2546,7 +2826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 297,
+   "freq_lex": 347
   },
   {
    "n": 149957,
@@ -2564,7 +2846,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149958,
@@ -2582,7 +2866,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 364,
+   "freq_lex": 887
   },
   {
    "n": 149959,
@@ -2600,7 +2886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149960,
@@ -2618,7 +2906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149961,
@@ -2636,7 +2926,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 149962,
@@ -2654,7 +2946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 149963,
@@ -2672,7 +2966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4839,
+   "freq_lex": 5517
   },
   {
    "n": 149964,
@@ -2690,7 +2986,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 149965,
@@ -2708,7 +3006,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5547,
+   "freq_lex": 5500
   },
   {
    "n": 149966,
@@ -2726,7 +3026,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 51,
+   "freq_lex": 1159
   },
   {
    "n": 149967,
@@ -2744,7 +3046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149968,
@@ -2762,7 +3066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 330,
+   "freq_lex": 505
   },
   {
    "n": 149969,
@@ -2780,7 +3086,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149970,
@@ -2798,7 +3106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149971,
@@ -2816,7 +3126,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 38,
+   "freq_lex": 1547
   },
   {
    "n": 149972,
@@ -2834,7 +3146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 149973,
@@ -2852,7 +3166,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6487,
+   "freq_lex": 30386
   },
   {
    "n": 149974,
@@ -2870,7 +3186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 436,
+   "freq_lex": 706
   },
   {
    "n": 149975,
@@ -2888,7 +3206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5547,
+   "freq_lex": 5500
   },
   {
    "n": 149976,
@@ -2906,7 +3226,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 41,
+   "freq_lex": 847
   },
   {
    "n": 149977,
@@ -2924,7 +3246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 149978,
@@ -2942,7 +3266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149979,
@@ -2960,7 +3286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 20,
+   "freq_lex": 2570
   },
   {
    "n": 149980,
@@ -2978,7 +3306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149981,
@@ -2996,7 +3326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 8,
+   "freq_lex": 8
   },
   {
    "n": 149982,
@@ -3014,7 +3346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2325,
+   "freq_lex": 2523
   },
   {
    "n": 149983,
@@ -3032,7 +3366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 39,
+   "freq_lex": 39
   },
   {
    "n": 149984,
@@ -3050,7 +3386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149985,
@@ -3068,7 +3406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 149986,
@@ -3086,7 +3426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 39,
+   "freq_lex": 39
   },
   {
    "n": 149987,
@@ -3104,7 +3446,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 3,
+   "freq_lex": 50
   },
   {
    "n": 149988,
@@ -3122,7 +3466,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149989,
@@ -3140,7 +3486,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 255,
+   "freq_lex": 965
   },
   {
    "n": 149990,
@@ -3158,7 +3506,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149991,
@@ -3176,7 +3526,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1673,
+   "freq_lex": 1866
   },
   {
    "n": 149992,
@@ -3194,7 +3546,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 149993,
@@ -3212,7 +3566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 149994,
@@ -3230,7 +3586,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 64,
+   "freq_lex": 73
   },
   {
    "n": 149995,
@@ -3248,7 +3606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 204,
+   "freq_lex": 274
   },
   {
    "n": 149996,
@@ -3266,7 +3626,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 149997,
@@ -3284,7 +3646,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 372,
+   "freq_lex": 183
   },
   {
    "n": 149998,
@@ -3302,7 +3666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 45,
+   "freq_lex": 51
   },
   {
    "n": 149999,
@@ -3320,7 +3686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 150000,
@@ -3338,7 +3706,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 41,
+   "freq_lex": 29
   },
   {
    "n": 150001,
@@ -3356,7 +3726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150002,
@@ -3374,7 +3746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 139,
+   "freq_lex": 134
   },
   {
    "n": 150003,
@@ -3392,7 +3766,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150004,
@@ -3410,7 +3786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150005,
@@ -3428,7 +3806,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 349,
+   "freq_lex": 2601
   },
   {
    "n": 150006,
@@ -3446,7 +3826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 150007,
@@ -3464,7 +3846,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6487,
+   "freq_lex": 30386
   },
   {
    "n": 150008,
@@ -3482,7 +3866,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 44,
+   "freq_lex": 40
   },
   {
    "n": 150009,
@@ -3500,7 +3886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150010,
@@ -3518,7 +3906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 150011,
@@ -3536,7 +3926,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 150012,
@@ -3554,7 +3946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 743
   },
   {
    "n": 150013,
@@ -3572,7 +3966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 56,
+   "freq_lex": 39
   },
   {
    "n": 150014,
@@ -3590,7 +3986,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150015,
@@ -3608,7 +4006,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150016,
@@ -3626,7 +4026,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 150017,
@@ -3644,7 +4046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 90,
+   "freq_lex": 286
   },
   {
    "n": 150018,
@@ -3662,7 +4066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150019,
@@ -3680,7 +4086,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 25,
+   "freq_lex": 162
   },
   {
    "n": 150020,
@@ -3698,7 +4106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2878,
+   "freq_lex": 2902
   },
   {
    "n": 150021,
@@ -3716,7 +4126,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 290,
+   "freq_lex": 1159
   },
   {
    "n": 150022,
@@ -3734,7 +4146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 150023,
@@ -3752,7 +4166,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 330,
+   "freq_lex": 505
   },
   {
    "n": 150024,
@@ -3770,7 +4186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150025,
@@ -3788,7 +4206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 905,
+   "freq_lex": 1060
   },
   {
    "n": 150026,
@@ -3806,7 +4226,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 290,
+   "freq_lex": 1159
   },
   {
    "n": 150027,
@@ -3824,7 +4246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 150028,
@@ -3842,7 +4266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 139,
+   "freq_lex": 162
   },
   {
    "n": 150029,
@@ -3860,7 +4286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 423,
+   "freq_lex": 469
   },
   {
    "n": 150030,
@@ -3878,7 +4306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150031,
@@ -3896,7 +4326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 7,
+   "freq_lex": 46
   },
   {
    "n": 150032,
@@ -3914,7 +4346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 150033,
@@ -3932,7 +4366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 107,
+   "freq_lex": 92
   },
   {
    "n": 150034,
@@ -3950,7 +4386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 34,
+   "freq_lex": 163
   },
   {
    "n": 150035,
@@ -3968,7 +4406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4484,
+   "freq_lex": 4483
   },
   {
    "n": 150036,
@@ -3986,7 +4426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 160,
+   "freq_lex": 293
   },
   {
    "n": 150037,
@@ -4004,7 +4446,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 13,
+   "freq_lex": 11
   },
   {
    "n": 150038,
@@ -4022,7 +4466,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 25,
+   "freq_lex": 23
   },
   {
    "n": 150039,
@@ -4040,7 +4486,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150040,
@@ -4058,7 +4506,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 77,
+   "freq_lex": 78
   },
   {
    "n": 150041,
@@ -4076,7 +4526,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150042,
@@ -4094,7 +4546,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15,
+   "freq_lex": 15
   },
   {
    "n": 150043,
@@ -4112,7 +4566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 7
   },
   {
    "n": 150044,
@@ -4130,7 +4586,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 211,
+   "freq_lex": 100
   },
   {
    "n": 150045,
@@ -4148,7 +4606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6,
+   "freq_lex": 75
   },
   {
    "n": 150046,
@@ -4166,7 +4626,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150047,
@@ -4184,7 +4646,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1308,
+   "freq_lex": 1441
   },
   {
    "n": 150048,
@@ -4202,7 +4666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150049,
@@ -4220,7 +4686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150050,
@@ -4238,7 +4706,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 2,
+   "freq_lex": 75
   },
   {
    "n": 150051,
@@ -4256,7 +4726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 150052,
@@ -4274,7 +4746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2325,
+   "freq_lex": 2523
   },
   {
    "n": 150053,
@@ -4292,7 +4766,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150054,
@@ -4310,7 +4786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 150055,
@@ -4328,7 +4806,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 150056,
@@ -4346,7 +4826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4839,
+   "freq_lex": 5517
   },
   {
    "n": 150057,
@@ -4364,7 +4846,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 150058,
@@ -4382,7 +4866,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 47,
+   "freq_lex": 237
   },
   {
    "n": 150059,
@@ -4400,7 +4886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4484,
+   "freq_lex": 4483
   },
   {
    "n": 150060,
@@ -4418,7 +4906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14,
+   "freq_lex": 548
   },
   {
    "n": 150061,
@@ -4436,7 +4926,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150062,
@@ -4454,7 +4946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 275,
+   "freq_lex": 498
   },
   {
    "n": 150063,
@@ -4472,7 +4966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150064,
@@ -4490,7 +4986,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150065,
@@ -4508,7 +5006,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150066,
@@ -4526,7 +5026,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 33,
+   "freq_lex": 1441
   },
   {
    "n": 150067,
@@ -4544,7 +5046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4484,
+   "freq_lex": 4483
   },
   {
    "n": 150068,
@@ -4562,7 +5066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 5,
+   "freq_lex": 332
   },
   {
    "n": 150069,
@@ -4580,7 +5086,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150070,
@@ -4598,7 +5106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 150071,
@@ -4616,7 +5126,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1673,
+   "freq_lex": 1866
   },
   {
    "n": 150072,
@@ -4634,7 +5146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150073,
@@ -4652,7 +5166,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 27,
+   "freq_lex": 1159
   },
   {
    "n": 150074,
@@ -4670,7 +5186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 150075,
@@ -4688,7 +5206,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "pl",
-   "function": null
+   "function": null,
+   "freq_occ": 24,
+   "freq_lex": 505
   },
   {
    "n": 150076,
@@ -4706,7 +5226,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150077,
@@ -4724,7 +5246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 435,
+   "freq_lex": 433
   },
   {
    "n": 150078,
@@ -4742,7 +5266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 20,
+   "freq_lex": 653
   },
   {
    "n": 150079,
@@ -4760,7 +5286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 409,
+   "freq_lex": 404
   },
   {
    "n": 150080,
@@ -4778,7 +5306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150081,
@@ -4796,7 +5326,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 47,
+   "freq_lex": 293
   },
   {
    "n": 150082,
@@ -4814,7 +5346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150083,
@@ -4832,7 +5366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 85,
+   "freq_lex": 1038
   },
   {
    "n": 150084,
@@ -4850,7 +5386,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 281,
+   "freq_lex": 1049
   },
   {
    "n": 150085,
@@ -4868,7 +5406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150086,
@@ -4886,7 +5426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4,
+   "freq_lex": 170
   },
   {
    "n": 150087,
@@ -4904,7 +5446,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150088,
@@ -4922,7 +5466,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150089,
@@ -4940,7 +5486,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150090,
@@ -4958,7 +5506,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 150091,
@@ -4976,7 +5526,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 150092,
@@ -4994,7 +5546,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4839,
+   "freq_lex": 5517
   },
   {
    "n": 150093,
@@ -5012,7 +5566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 150094,
@@ -5030,7 +5586,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4996,
+   "freq_lex": 5167
   },
   {
    "n": 150095,
@@ -5048,7 +5606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 21,
+   "freq_lex": 1038
   },
   {
    "n": 150096,
@@ -5066,7 +5626,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 265,
+   "freq_lex": 1049
   },
   {
    "n": 150097,
@@ -5084,7 +5646,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4484,
+   "freq_lex": 4483
   },
   {
    "n": 150098,
@@ -5102,7 +5666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2,
+   "freq_lex": 75
   },
   {
    "n": 150099,
@@ -5120,7 +5686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150100,
@@ -5138,7 +5706,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1308,
+   "freq_lex": 1441
   },
   {
    "n": 150101,
@@ -5156,7 +5726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150102,
@@ -5174,7 +5746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150103,
@@ -5192,7 +5766,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 2,
+   "freq_lex": 75
   },
   {
    "n": 150104,
@@ -5210,7 +5786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150105,
@@ -5228,7 +5806,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 150106,
@@ -5246,7 +5826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 107,
+   "freq_lex": 3561
   },
   {
    "n": 150107,
@@ -5264,7 +5846,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2325,
+   "freq_lex": 2523
   },
   {
    "n": 150108,
@@ -5282,7 +5866,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4237,
+   "freq_lex": 5766
   },
   {
    "n": 150109,
@@ -5300,7 +5886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2505,
+   "freq_lex": 2506
   },
   {
    "n": 150110,
@@ -5318,7 +5906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150111,
@@ -5336,7 +5926,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 28,
+   "freq_lex": 161
   },
   {
    "n": 150112,
@@ -5354,7 +5946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 150113,
@@ -5372,7 +5966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150114,
@@ -5390,7 +5986,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 102,
+   "freq_lex": 1547
   },
   {
    "n": 150115,
@@ -5408,7 +6006,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150116,
@@ -5426,7 +6026,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 41,
+   "freq_lex": 290
   },
   {
    "n": 150117,
@@ -5444,7 +6046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 14194,
+   "freq_lex": 15542
   },
   {
    "n": 150118,
@@ -5462,7 +6066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 35,
+   "freq_lex": 109
   },
   {
    "n": 150119,
@@ -5480,7 +6086,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 28
   },
   {
    "n": 150120,
@@ -5498,7 +6106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150121,
@@ -5516,7 +6126,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 18,
+   "freq_lex": 63
   },
   {
    "n": 150122,
@@ -5534,7 +6146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150123,
@@ -5552,7 +6166,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 150124,
@@ -5570,7 +6186,9 @@
    "prs_ps": "p3",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 430,
+   "freq_lex": 5517
   },
   {
    "n": 150125,
@@ -5588,7 +6206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 150126,
@@ -5606,7 +6226,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 7,
+   "freq_lex": 63
   },
   {
    "n": 150127,
@@ -5624,7 +6246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150128,
@@ -5642,7 +6266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 9743,
+   "freq_lex": 10987
   },
   {
    "n": 150129,
@@ -5660,7 +6286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 57,
+   "freq_lex": 9
   },
   {
    "n": 150130,
@@ -5678,7 +6306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2505,
+   "freq_lex": 2506
   },
   {
    "n": 150131,
@@ -5696,7 +6326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6236,
+   "freq_lex": 7562
   },
   {
    "n": 150132,
@@ -5714,7 +6346,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 212,
+   "freq_lex": 5766
   },
   {
    "n": 150133,
@@ -5732,7 +6366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 150134,
@@ -5750,7 +6386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1426,
+   "freq_lex": 2304
   },
   {
    "n": 150135,
@@ -5768,7 +6406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150136,
@@ -5786,7 +6426,9 @@
    "prs_ps": "p3",
    "prs_gn": "f",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 42,
+   "freq_lex": 2010
   },
   {
    "n": 150137,
@@ -5804,7 +6446,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150138,
@@ -5822,7 +6466,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 31,
+   "freq_lex": 187
   },
   {
    "n": 150139,
@@ -5840,7 +6486,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 24664,
+   "freq_lex": 30386
   },
   {
    "n": 150140,
@@ -5858,7 +6506,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 423,
+   "freq_lex": 469
   },
   {
    "n": 150141,
@@ -5876,7 +6526,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 78,
+   "freq_lex": 7562
   },
   {
    "n": 150142,
@@ -5894,7 +6546,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150143,
@@ -5912,7 +6566,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 769,
+   "freq_lex": 769
   },
   {
    "n": 150144,
@@ -5930,7 +6586,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 46,
+   "freq_lex": 43
   },
   {
    "n": 150145,
@@ -5948,7 +6606,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2505,
+   "freq_lex": 2506
   },
   {
    "n": 150146,
@@ -5966,7 +6626,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4996,
+   "freq_lex": 5167
   },
   {
    "n": 150147,
@@ -5984,7 +6646,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 6
   },
   {
    "n": 150148,
@@ -6002,7 +6666,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150149,
@@ -6020,7 +6686,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4996,
+   "freq_lex": 5167
   },
   {
    "n": 150150,
@@ -6038,7 +6706,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 25,
+   "freq_lex": 108
   },
   {
    "n": 150151,
@@ -6056,7 +6726,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4484,
+   "freq_lex": 4483
   },
   {
    "n": 150152,
@@ -6074,7 +6746,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4996,
+   "freq_lex": 5167
   },
   {
    "n": 150153,
@@ -6092,7 +6766,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 570,
+   "freq_lex": 553
   },
   {
    "n": 150154,
@@ -6110,7 +6786,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 1586,
+   "freq_lex": 1394
   },
   {
    "n": 150155,
@@ -6128,7 +6806,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150156,
@@ -6146,7 +6826,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6,
+   "freq_lex": 108
   },
   {
    "n": 150157,
@@ -6164,7 +6846,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150158,
@@ -6182,7 +6866,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2160,
+   "freq_lex": 5307
   },
   {
    "n": 150159,
@@ -6200,7 +6886,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 47,
+   "freq_lex": 237
   },
   {
    "n": 150160,
@@ -6218,7 +6906,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 435,
+   "freq_lex": 433
   },
   {
    "n": 150161,
@@ -6236,7 +6926,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 1,
+   "freq_lex": 113
   },
   {
    "n": 150162,
@@ -6254,7 +6946,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 409,
+   "freq_lex": 404
   },
   {
    "n": 150163,
@@ -6272,7 +6966,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 100,
+   "freq_lex": 151
   },
   {
    "n": 150164,
@@ -6290,7 +6986,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 89,
+   "freq_lex": 181
   },
   {
    "n": 150165,
@@ -6308,7 +7006,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 281,
+   "freq_lex": 1866
   },
   {
    "n": 150166,
@@ -6326,7 +7026,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150167,
@@ -6344,7 +7046,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 100,
+   "freq_lex": 151
   },
   {
    "n": 150168,
@@ -6362,7 +7066,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 2505,
+   "freq_lex": 2506
   },
   {
    "n": 150169,
@@ -6380,7 +7086,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150170,
@@ -6398,7 +7106,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 85,
+   "freq_lex": 1038
   },
   {
    "n": 150171,
@@ -6416,7 +7126,9 @@
    "prs_ps": "p1",
    "prs_gn": "unknown",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 281,
+   "freq_lex": 1049
   },
   {
    "n": 150172,
@@ -6434,7 +7146,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150173,
@@ -6452,7 +7166,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 4,
+   "freq_lex": 170
   },
   {
    "n": 150174,
@@ -6470,7 +7186,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150175,
@@ -6488,7 +7206,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   },
   {
    "n": 150176,
@@ -6506,7 +7226,9 @@
    "prs_ps": "p2",
    "prs_gn": "m",
    "prs_nu": "sg",
-   "function": null
+   "function": null,
+   "freq_occ": 349,
+   "freq_lex": 2601
   },
   {
    "n": 150177,
@@ -6524,7 +7246,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150178,
@@ -6542,7 +7266,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 382,
+   "freq_lex": 1038
   },
   {
    "n": 150179,
@@ -6560,7 +7286,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 140,
+   "freq_lex": 140
   },
   {
    "n": 150180,
@@ -6578,7 +7306,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 382,
+   "freq_lex": 715
   },
   {
    "n": 150181,
@@ -6596,7 +7326,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 150182,
@@ -6614,7 +7346,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 50238,
+   "freq_lex": 50272
   },
   {
    "n": 150183,
@@ -6632,7 +7366,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 45,
+   "freq_lex": 170
   },
   {
    "n": 150184,
@@ -6650,7 +7386,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 471,
+   "freq_lex": 406
   },
   {
    "n": 150185,
@@ -6668,7 +7406,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 15641,
+   "freq_lex": 20069
   },
   {
    "n": 150186,
@@ -6686,7 +7426,9 @@
    "prs_ps": null,
    "prs_gn": null,
    "prs_nu": null,
-   "function": null
+   "function": null,
+   "freq_occ": 6828,
+   "freq_lex": 6828
   }
  ],
  "clauses": {
@@ -7209,122 +7951,171 @@
  },
  "presets": [
   {
-   "id": 8,
+   "id": 14,
    "label": "lex  (CMW>L/)",
    "query": "word lex=CMW>L/",
    "expected": 11,
    "novelty": null
   },
   {
-   "id": 17,
+   "id": 23,
    "label": "lex  (C>WL=/)",
    "query": "word lex=C>WL=/",
    "expected": 9,
    "novelty": null
   },
   {
-   "id": 20,
+   "id": 26,
    "label": "nu  (pl)",
    "query": "word nu=pl",
    "expected": 14,
    "novelty": null
   },
   {
-   "id": 27,
+   "id": 33,
    "label": "lex  (M>S[)",
    "query": "word lex=M>S[",
    "expected": 4,
    "novelty": null
   },
   {
-   "id": 28,
+   "id": 34,
    "label": "gn  (f)",
    "query": "word gn=f",
    "expected": 9,
    "novelty": null
   },
   {
-   "id": 30,
+   "id": 36,
    "label": "sp  (subs)",
    "query": "word sp=subs",
    "expected": 65,
    "novelty": null
   },
   {
-   "id": 33,
+   "id": 39,
    "label": "lex  (<MLQ/)",
    "query": "word lex=<MLQ/",
    "expected": 3,
    "novelty": null
   },
   {
-   "id": 35,
+   "id": 41,
    "label": "lex  (QWL/)",
    "query": "word lex=QWL/",
    "expected": 6,
    "novelty": null
   },
   {
-   "id": 37,
+   "id": 42,
    "label": "lex  (XRM[)",
    "query": "word lex=XRM[",
    "expected": 3,
    "novelty": null
   },
   {
-   "id": 39,
+   "id": 43,
    "label": "voice_pun_obey_versus_sound  (clause)",
    "query": "clause domain=Q\n  word lex=QWL/",
    "expected": 5,
    "novelty": null
   },
   {
-   "id": 40,
+   "id": 44,
    "label": "typ  (WayX)",
    "query": "clause typ=WayX",
    "expected": 18,
    "novelty": null
   },
   {
-   "id": 43,
+   "id": 47,
    "label": "divine lex  (godsbenoeming (dichtheid))",
    "query": "word lex=JHWH/|>LHJM/|>L/|>DNJ/|CDJ/|>LWH/|>LH/",
    "expected": 24,
    "novelty": null
   },
   {
-   "id": 45,
+   "id": 49,
    "label": "sp  (nmpr)",
    "query": "word sp=nmpr",
    "expected": 52,
    "novelty": null
   },
   {
-   "id": 48,
+   "id": 50,
    "label": "vt  (wayq)",
    "query": "word vt=wayq",
    "expected": 29,
    "novelty": null
   },
   {
-   "id": 53,
+   "id": 56,
+   "label": "lex  (XWH[)",
+   "query": "word lex=XWH[",
+   "expected": 3,
+   "novelty": null
+  },
+  {
+   "id": 57,
    "label": "vs  (hsht)",
    "query": "word vs=hsht",
    "expected": 3,
    "novelty": null
   },
   {
-   "id": 57,
+   "id": 59,
+   "label": "lex  (BQR/)",
+   "query": "word lex=BQR/",
+   "expected": 3,
+   "novelty": null
+  },
+  {
+   "id": 68,
+   "label": "lex  (CM<[)",
+   "query": "word lex=CM<[",
+   "expected": 6,
+   "novelty": null
+  },
+  {
+   "id": 74,
+   "label": "lex  (>MR[)",
+   "query": "word lex=>MR[",
+   "expected": 13,
+   "novelty": null
+  },
+  {
+   "id": 75,
    "label": "reciprocal_rejection_maas  (clause)",
    "query": "clause domain=Q\n  word lex=M>S[",
    "expected": 2,
    "novelty": null
   },
   {
-   "id": 60,
+   "id": 88,
    "label": "torn_kingdom_enacted_sign  (clause)",
    "query": "clause domain=Q\n  word lex=QR<[",
    "expected": 1,
+   "novelty": null
+  },
+  {
+   "id": 89,
+   "label": "cultic_excuse_sacrifice_verb  (clause)",
+   "query": "clause domain=Q\n  word lex=ZBX[",
+   "expected": 1,
+   "novelty": null
+  },
+  {
+   "id": 90,
+   "label": "bowing_plea_hishtaphel_honor  (clause)",
+   "query": "clause domain=Q\n  word lex=KBD[",
+   "expected": 1,
+   "novelty": null
+  },
+  {
+   "id": 91,
+   "label": "blame_shift_people_as_agent  (clause)",
+   "query": "clause domain=Q\n  word lex=<M/",
+   "expected": 3,
    "novelty": null
   }
  ]
