@@ -32,6 +32,9 @@ levert het bewijs erbij; de conclusie trekt de lezer.
   afgeeft. Het gaat van de vlakke standaardlaag (taalwissel, leitwort, fronting,
   valentie, persoonswisseling) tot opt-in lagen voor compositie, morfosyntaxis,
   klankspel, discourse en zeldzame clause-architectuur.
+- **[ACHTERGROND.md](ACHTERGROND.md)**: introductie voor lezers die ETCBC/BHSA
+  en Text-Fabric niet kennen. Wat de database annoteert, wat Text-Fabric
+  toevoegt, welke vragen daarmee toetsbaar worden en waar de grenzen liggen.
 
 ## De detectoren in het kort
 
@@ -59,3 +62,5 @@ en op [SHEBANQ](https://shebanq.ancient-data.org/hebrew/queries).
 
 Alleen het Hebreeuws-Aramese Oude Testament valt binnen bereik. Het Nieuwe
 Testament zit niet in BHSA en wordt niet behandeld.
+
+Een uitgebreidere introductie staat in [ACHTERGROND.md](ACHTERGROND.md).
