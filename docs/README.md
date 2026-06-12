@@ -1,8 +1,9 @@
-# Statische zoekbrowser bij de 1 Samuël-toelichtingen
+# Statische zoekbrowser bij de 1 Samuël-rapporten
 
 Een afgebakende, statische versie van de Text-Fabric-zoekbrowser, bedoeld voor GitHub Pages. De
-lezer kan de zoekregels uit de toelichtingen zelf intypen en de treffers tellen — zonder iets te
-installeren, volledig client-side, over alleen de geëxporteerde passages.
+lezer kan de zoekregels uit de [rapporten en toelichtingen](../rapporten/README.md) zelf intypen
+en de treffers tellen, zonder iets te installeren, volledig client-side, over alleen de
+geëxporteerde passages.
 
 De echte Text-Fabric-browser is een Python-server en kan **niet** op Pages draaien. Deze versie
 omzeilt dat door per passage de woorden + kenmerken vooraf te exporteren naar JSON en de zoeklogica
@@ -13,7 +14,7 @@ in `app.js` te draaien.
 ```
 docs/
   index.html              UI (Nederlands, Hebreeuws RTL)
-  app.js                  zoekmachine — exacte spiegel van het export-script
+  app.js                  zoekmachine, exacte spiegel van het export-script
   .nojekyll               voorkomt Jekyll-verwerking
   data/
     index.json            lijst van passages
