@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuel 17:28-37 (Eliab/Saul vs David; kleinering jongste). As: macht-asymmetrie. Preregistratie: alle geprobeerde templates blijven staan voor volledige FDR-noemer.",
+  "queries": [
+    {
+      "name": "belittling_question_to_inferior",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  phrase function=Ques\n  word sp=verb ps=p2",
+      "expected_direction": "over",
+      "rationale": "Vraag-clause in directe rede met een 2e-persoons werkwoord: de meerdere ondervraagt de mindere. Eliab vuurt op David twee aanvallende vragen af (v28: 'waarom ben je afgekomen?', 'bij wie heb je die paar schapen gelaten?') — geen informatieverzoek maar kleinering van de jongste broer. Geen vaste detector koppelt het interrogatief aan de 2e-persoons-aanspreking als ondervraging-van-onderen."
+    },
+    {
+      "name": "servant_self_designation_to_superior",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=<BD/ prs_ps=p2",
+      "expected_direction": "over",
+      "rationale": "Het zelfstandig naamwoord <BD ('knecht/dienaar') met 2e-persoons suffix ('uw dienaar', avdeka): David spreekt Saul aan en noemt zichzelf consequent 'uw dienaar' (v32, 34, 36) in plaats van 'ik'. De mindere codeert zijn rang grammaticaal in de zelfaanduiding, terwijl hij tegelijk een gedurfd aanbod doet. Deferentie-register van onderop; geen vaste detector telt de suffix-gedragen zelfvernedering in deze rede."
+    },
+    {
+      "name": "youth_status_diminutive",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=N<R/",
+      "expected_direction": "over",
+      "rationale": "Het lexeem N<R ('jongen/knaap') in directe rede: Saul wijst Davids aanbod af met 'jij bent een naar' (v33), de status-diskwalificatie die de jongste op zijn leeftijd vastzet tegenover 'een krijgsman van jongs af'. De kleinering-as in één woord; geen vaste detector merkt het status-diminutief in de afwijzende rede van de meerdere."
+    },
+    {
+      "name": "embedded_deed_narration_in_speech",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q typ=Way",
+      "expected_direction": "over",
+      "rationale": "Narratieve wayyiqtol-clause binnen directe rede: David bewijst zijn waarde niet met een belofte maar door een verhaal te vertellen — de leeuw en de beer ('toen ging ik hem achterna en sloeg hem', v34-36), een ingebedde deed-vertelling in zijn antwoord aan Saul. De mindere bouwt zijn zaak op door narratie in plaats van argument; geen vaste detector ziet de narratieve-vorm-in-citaat als register van de zich-bewijzende ondergeschikte."
+    },
+    {
+      "name": "defensive_meh_asiti_now",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MH\n  word lex=<FH[",
+      "expected_direction": "over",
+      "rationale": "Interrogatief MH ('wat') naast een vorm van <FH ('doen') in directe rede: Davids 'wat heb ik nu gedaan?' (meh asiti attah, v29) als weerwoord op Eliabs kleinering. Spiegelbeeld van de aanklacht-formule 'wat heb je gedaan' (meh asita) maar nu in de defensieve mond van de mindere die zich verweert tegen de oudere broer. Geen vaste detector koppelt het defensieve interrogatief aan de status-asymmetrie."
+    }
+  ]
+}

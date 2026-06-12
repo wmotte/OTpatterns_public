@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 8:4-22 (oudsten <-> Samuël <-> JHWH). As: macht-asymmetrie in spraak (A) — het volk eist een koning; Samuël waarschuwt met de mishpat hammelekh (wat de koning van JullIE zal NEMEN); de waarschuwing blijft onbeantwoord (volk weigert te horen). Templates mikken op de configuraties die de vaste detectoren NIET als eenheid zien: (a) het seriële roof-yiqtol LQX 'hij zal nemen' dat de waarschuwing aandrijft, (b) datzelfde nemen grammaticaal gericht op 'jullie' (2mp-suffix op het lijdend voorwerp: jullie zonen/dochters/akkers/dienaren), (c) de 'hoor-de-stem'-as CM< + QWL (wiens stem wordt gehoorzaamd; volk weigert), (d) de opwaartse eis-formule imperatief + koning ('stel ons een koning aan'), (e) de titelfrase mishpat hammelekh (MCPV + MLK). Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "royal_seizure_yiqtol",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=LQX[ vs=qal vt=impf",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met het roof-werkwoord LQX in qal-imperfectum ('jiqqach', hij zal nemen, v11.13.14.16 — 4x). Dit seriële toekomstige NEMEN is de ruggengraat van de mishpat hammelekh: de koning ontneemt. Geen vaste detector ziet de herhaalde LQX-impf als configuratie binnen één waarschuwingsrede."
+    },
+    {
+      "name": "seizure_directed_at_you_2mp",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=LQX[ vs=qal\n  word sp=subs prs_ps=p2",
+      "expected_direction": "over",
+      "rationale": "Het nemen (LQX qal) samen met een zelfstandig naamwoord dat het 2e-persoons-meervoudssuffix draagt ('jullie zonen/dochters/akkers/dienaren', v11-17): de onteigening is grammaticaal gericht op het collectief 'jullie'. Scherpste marker van de macht-asymmetrie — de mindere wordt het lijdend voorwerp van het koninklijke nemen."
+    },
+    {
+      "name": "heed_the_voice_axis",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=CM<[\n  word lex=QWL/",
+      "expected_direction": "over",
+      "rationale": "Het werkwoord CM< ('horen/gehoorzamen') naast QWL ('stem'): de frase 'hoor de stem van het volk' (v7.9.22) en haar negatief (v19 volk weigert te horen). De hele scene draait om wiens stem gehoorzaamd wordt — JHWH beveelt Samuël het volk te gehoorzamen, het volk weigert Samuël te gehoorzamen. Inversie van de gezagsrichting, niet door een vaste detector als eenheid gezien."
+    },
+    {
+      "name": "upward_demand_for_king",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word vt=impv\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Imperatief naast het zelfstandig naamwoord MLK ('koning') in directe rede: de opwaartse eis-formule van de mindere naar de meerdere ('stel ons een koning aan', v5; 'geef ons een koning', v6.19-20). De ondergeschikte oudsten richten een bevel-vorm aan profeet en God — gemarkeerde gezagsinversie in het spraakregister."
+    },
+    {
+      "name": "king_manner_mishpat_title",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MCPV/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "MCPV ('mishpat': recht/wijze/aanspraak) naast MLK ('koning'): de titelfrase 'mishpat hammelekh' (v9.11) die de waarschuwing benoemt. Het woord voor 'recht/gerechtigheid' wordt hier de aanduiding van koninklijke aanmatiging — een semantische spanning op de as die geen losse detector oppikt."
+    }
+  ]
+}

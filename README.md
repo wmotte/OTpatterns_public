@@ -21,6 +21,14 @@ levert het bewijs erbij; de conclusie trekt de lezer.
 
 ## Wat hier te vinden is
 
+- **[De rapporten](rapporten/README.md)** (`rapporten/`): acht dialogen uit
+  1 Samuël, geanalyseerd op één as: machtsasymmetrie in spraak en de
+  ontwijking of mislukte communicatie die daarbij hoort. Van Eli die Hanna's
+  stille gebed voor dronkenschap aanziet (1:12-18) tot Eliab en Saul die David
+  als "maar een knaap" wegzetten (17:28-37). Per passage een rapport met
+  metingen en query's, een toelichting in gewone taal, samengevatte
+  nieuwheidsoordelen tegen de commentaarliteratuur en de volledige
+  evidence-data.
 - **[De zoekbrowser](https://wmotte.github.io/OTpatterns_public/)** (`docs/`):
   een afgebakende, statische versie van de Text-Fabric-browser. Je kunt de
   zoekregels uit de toelichtingen zelf intypen en de treffers tellen, zonder

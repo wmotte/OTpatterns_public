@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 1:12-18 (Eli <-> Hanna). As: macht-asymmetrie in spraak + ontwijking. Templates mikken op wat de vaste detectoren (volitive_in_speech, vocative, negation, question_profile, imperative_promise_pair) NIET als configuratie zien: de combinatie van servile zelf-aanduiding met adressaat-suffix, ontkenning-pal-naast-honorificum, vraag-als-bevel, en volitieve petitie met onderdanige zelf-referent. Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "deferential_status_register_in_speech",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=>DWN/|>MH/|CPXH/",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clauses met een rang-aanduidend lexeem (heer/dienstmaagd/slavin): de spreker codeert de sociale asymmetrie grammaticaal in haar eigen aanspraak en zelf-benoeming. Covarieert over de rede (3 clauses: adoni v15, amatka v16, shifchatka v18) en is geen enkele vaste detector."
+    },
+    {
+      "name": "servile_self_term_with_addressee_suffix",
+      "anchor_otype": "word",
+      "feature_tier": "semantic_proxy",
+      "template": "word lex=>MH/|CPXH/|<BD/ prs_ps=p2",
+      "expected_direction": "over",
+      "rationale": "Onderdanig zelf-substantief (dienstmaagd/slavin/dienaar) dat het 2e-persoonssuffix van de aangesprokene draagt: de spreker maakt zichzelf grammaticaal tot bezit/object van de meerdere (amatka v16, shifchatka v18). Scherpste enkel-woord-marker van de status-as."
+    },
+    {
+      "name": "negation_adjacent_to_honorific",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  w1:word lex=L>\n  w2:word lex=>DWN/\nw1 <: w2",
+      "expected_direction": "over",
+      "rationale": "Bare ontkenning direct gevolgd door honorificum ('lo adoni' = nee, mijn heer, v15): tegenspraak naar boven onmiddellijk verzacht/ingekaderd door rang-erkenning. Defensie-opening van mindere -> meerdere."
+    },
+    {
+      "name": "interrogative_then_imperative_no_answer",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word sp=inrg\n< clause domain=Q\n  word vt=impv",
+      "expected_direction": "over",
+      "rationale": "Vraagclause (interrogatief) gevolgd binnen dezelfde rede door een imperatiefclause i.p.v. een antwoord-onthaal ('hoelang...?' + 'doe weg!', v14): de meerdere stelt geen informatie-vraag maar een aanklacht-met-bevel. Interrogatie als machtshandeling, niet als dialoog-opening."
+    },
+    {
+      "name": "deferential_volitive_petition",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word vt=impf\n  word lex=>MH/|CPXH/ prs_ps=p2",
+      "expected_direction": "over",
+      "rationale": "Volitief (jussief-proxy impf) met de onderdanige zelf-referent als grammaticaal subject ('moge uw dienstmaagd genade vinden', v18): wens + zelf-vernedering versmolten tot één petitie-formule over de machtsgrens heen."
+    }
+  ]
+}

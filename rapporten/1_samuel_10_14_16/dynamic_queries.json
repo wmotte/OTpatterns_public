@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 10:14-16 (Saul <-> oom). As: ontwijking / mislukte communicatie (O). De oom ondervraagt ('waar gingen jullie heen', v14; 'vertel mij toch wat Samuël zei', v15); Saul onthult NADRUKKELIJK de decoy (de ezelinnen zijn gevonden, hagged higgid lanu, v16) maar VERZWIJGT het koningschap (we'et debar hammelukah lo higgid lo, v16 — narrator). Het hele toneel draait om het onthullings-werkwoord NGD (higgid), dat 4x voorkomt en relationeel gebonden is aan een ontvanger (li/lanu/lo). De ontwijking is selectieve onthulling: de waarheid wordt deels verteld, het beslissende deel onthouden — en de klap (lo higgid) valt in de verteller, niet in de dialoog. Templates mikken op de configuraties die de vaste detectoren NIET als eenheid zien: (a) NGD gebonden aan een lamed-ontvanger (aan-wie-wordt-onthuld), (b) NGD samen met het verzwegen object MLWKH (koningschap), (c) de nadrukkelijke decoy-onthulling infa+finiet NGD, (d) de openingsvraag (interrogatief) die het ontwijkende deelantwoord uitlokt, (e) de communicatie-collaps negatie + NGD (lo higgid) in de verteltekst. Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "disclosure_bound_to_recipient_lamed",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=NGD[ vs=hif\n  word lex=L prs#absent",
+      "expected_direction": "over",
+      "rationale": "Het onthullings-werkwoord NGD (hifil, higgid) samen met een lamed-prepositie die een pronominaal suffix draagt (li/lanu/lo): de onthulling is grammaticaal gericht op een ontvanger. v15 'haggidah-na LI' (vertel MIJ), v16 'higgid LANU' (vertelde ONS), v16 'lo higgid LO' (vertelde HEM niet). Scherpste marker van de O-as: het hele toneel is een transactie van aan-wie-wordt-wat-onthuld; de ontwijking is het onthouden-aan-hem. Geen vaste detector ziet de NGD+lamed-ontvanger-koppeling als configuratie."
+    },
+    {
+      "name": "withheld_kingship_object",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=NGD[ vs=hif\n  word lex=MLWKH/",
+      "expected_direction": "over",
+      "rationale": "Het onthullings-werkwoord NGD samen met het zelfstandig naamwoord MLWKH (koningschap) in één clause: precies de clause waarin het koningschap wordt VERZWEGEN ('we'et debar hammelukah lo higgid lo', v16). De grammaticale nabijheid van onthullings-werkwoord en het verzwegen object is de punchline van de scene — het ding wordt genoemd alleen om te zeggen dat het niet verteld werd."
+    },
+    {
+      "name": "emphatic_decoy_disclosure_infabs",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause\n  word lex=NGD[ vt=infa\n  word lex=NGD[ vt=perf",
+      "expected_direction": "over",
+      "rationale": "De paronomastische infinitief van NGD: infinitivus absolutus naast finiet perfectum van dezelfde root ('hagged higgid lanu', v16 — hij vertelde ons NADRUKKELIJK). De tautologische nadrukconstructie wordt hier ingezet op de DECOY (de ezelinnen zijn gevonden), niet op de waarheid — ironische overdaad: Saul benadrukt het triviale om het beslissende te kunnen verzwijgen. De infa-finiet-koppeling van precies het onthullings-werkwoord is de as-signatuur."
+    },
+    {
+      "name": "interrogative_demand_opener",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  phrase function=Ques",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met een vraag-frase (function=Ques): de openingsvraag van de oom 'an halaktem' (waar gingen jullie heen, v14) die het ontwijkende deelantwoord uitlokt. De vraag-druk van de meerdere (oom) op de mindere (Saul) start de communicatie die vervolgens selectief klapt; de vraagdichtheid in dit korte toneel markeert de ondervragings-as."
+    },
+    {
+      "name": "communication_collapse_negated_disclosure",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=LW>\n  word lex=NGD[ vs=hif",
+      "expected_direction": "over",
+      "rationale": "Negatie (LW>, lo) samen met het onthullings-werkwoord NGD in één clause: 'lo higgid lo' (hij vertelde het hem niet, v16). De syntactische collaps van de communicatie — en cruciaal: deze klap valt in de VERTELTEKST (domein N), niet in de dialoog zelf. De ontwijking wordt niet getoond maar door de verteller gerapporteerd; dat narrator-gedragen karakter van de deflectie is de niet-conventionele waarneming op de O-as."
+    }
+  ]
+}

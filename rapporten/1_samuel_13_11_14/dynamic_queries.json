@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 13:11-14 (Samuël <-> Saul; profeet > koning, rol-inversie). As: macht-asymmetrie in spraak + zelfrechtvaardiging/ontwijking (A+O). Samuël ondervraagt de koning ('meh asita', wat heb je gedaan, v11); Saul rechtvaardigt zich met een gestapeld causaal verweer ('ki ra'iti ki nafac ha'am ... we'attah lo' bata', want ik zag dat het volk uiteenstoof ... en jij kwam niet, v11) en een reflexieve zelfbeheersings-formule ('wa'et'appaq wa'a'aleh', ik bedwong mij en bracht het offer, v12); Samuël velt het vonnis dat de dynastie ontneemt ('lo'-taqum mamlaktka', je koningschap zal niet standhouden, v14). De inversie: de profeet (formeel mindere positie?) ontmantelt in directe rede de dynastie van de koning. Het hele toneel scharniert op drie 'attah' (nu): Saul gebruikt 'nu' om het noodoffer te rechtvaardigen (v12), Samuël keert hetzelfde 'nu' om tot oordeel (v13-14). Templates mikken op de configuraties die de vaste detectoren NIET als eenheid zien: (a) het gestapelde causale KJ-verweer in directe rede (argument-door-grond), (b) de reflexieve hitpael van zelfbeheersing als excuus-werkwoord, (c) de ondervragings-opener 'meh asita' (interrogatief MH + perfectum van <FH, de meerdere eist rekenschap), (d) 'attah' + imperfectum (het deictische nu dat een onomkeerbare toekomst projecteert), (e) het dynastie-werkwoordpaar QWM + MMLKH dat het vonnis omlijst. Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "causal_ki_grounding_in_speech",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KJ",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met het voegwoord KJ (causaal/grond 'want/omdat'): de gestapelde grond-clauses waarmee Saul zijn noodoffer verdedigt ('ki ra'iti', want ik zag, v11; 'ki nafac ha'am', want het volk stoof uiteen, v11) en waarmee Samuël zijn vonnis grondt ('ki attah hekin', want nu zou Hij bevestigd hebben, v13; 'ki lo' shamarta', want je hebt niet bewaard, v14). Het hele dispuut is argument-door-grond: beide sprekers bouwen een keten van redenen. Geen vaste detector ziet de KJ-grond-stapeling binnen directe rede als configuratie op de zelfrechtvaardigings-as."
+    },
+    {
+      "name": "self_restraint_hitpael_excuse",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause\n  word lex=>PQ[ vs=hit",
+      "expected_direction": "over",
+      "rationale": "De reflexieve hitpael van >PQ ('zich bedwingen'): 'wa'et'appaq' (ik bedwong mijzelf, v12). De zelfbeheersings-formule is het scharnier van Sauls excuus — hij presenteert het overtreden van het gebod als een daad van moeizame zelfdwang ('ik moest mijzelf overwinnen om toch te offeren'), niet als ongehoorzaamheid. De middle-voice/reflexieve verpakking van de overtreding als innerlijke worsteling is de ontwijkings-signatuur; de vaste middle_voice_mimicry-detector telt hit-predicaten generiek, niet deze excuus-functie."
+    },
+    {
+      "name": "account_demand_meh_asita",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MH\n  word lex=<FH[ vt=perf",
+      "expected_direction": "over",
+      "rationale": "Interrogatief MH ('wat') naast een perfectum van <FH ('doen'): de ondervragings-opener 'meh asita' (wat heb je gedaan, v11). De meerdere (profeet) eist rekenschap van de koning met een gesloten verleden-tijd-vraag die geen informatie zoekt maar een aanklacht is — de rol-inversie waarin de profeet de koning ter verantwoording roept. De vraag-druk van boven die het defensieve deelantwoord uitlokt; geen losse detector koppelt het interrogatief aan het rekenschap-eisende perfectum."
+    },
+    {
+      "name": "attah_future_projection",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=<TH\n  word vt=impf",
+      "expected_direction": "over",
+      "rationale": "Het deictische 'attah' ('nu') naast een imperfectum in directe rede: 'attah yerdu' (nu zullen de Filistijnen afdalen, v12 — Sauls dreiging-projectie) en 'we'attah ... lo' taqum' (en nu zal je koningschap niet standhouden, v14 — Samuëls vonnis-projectie). Hetzelfde 'nu+toekomst' dient eerst de zelfrechtvaardiging, dan het oordeel: de deictische scharnier waar de tijd-as van excuus naar vonnis kantelt. De vaste discourse_particle-detector telt 'attah'-dichtheid, maar niet de koppeling aan de toekomst-projectie die de twee sprekers tegen elkaar uitspelen."
+    },
+    {
+      "name": "dynasty_unmade_qum_mamlakah",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=MMLKH/\n  word lex=QWM[",
+      "expected_direction": "over",
+      "rationale": "Het zelfstandig naamwoord MMLKH ('koningschap/dynastie') naast het werkwoord QWM ('opstaan/standhouden'): het dynastie-werkwoordpaar dat het vonnis omlijst — 'hekin ... mamlaktka' (Hij zou je koningschap bevestigd hebben, v13) tegenover 'mamlaktka lo' taqum' (je koningschap zal niet standhouden, v14). De punchline van de inversie: in één werkwoordpaar wordt de dynastie eerst hypothetisch opgericht en dan in de directe rede van de profeet ontmanteld. Geen vaste detector ziet de QWM+MMLKH-koppeling als de syntactische drager van het dynastie-vonnis."
+    }
+  ]
+}

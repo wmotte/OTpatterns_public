@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 14:24-30+43-45 (Saul <-> Jonatan; koning > zoon). As: macht-asymmetrie in spraak + ontwijking/mislukte communicatie (A+O). De scene draait om de BINDENDE EED als machtsinstrument dat boemerangt. Saul legt het volk een zelfvervloekende eed op ('arur ha'ish asher yo'kal lechem', vervloekt de man die brood eet, v24); Jonatan, onwetend, overtreedt door honing te proeven; bij de ondervraging ('haggidah li meh asitah', vertel mij wat je gedaan hebt, v43) verdedigt Jonatan zich minimaliserend ('ta'om ta'amti ... me'at debash', ik proefde slechts een beetje honing, v43; 'hinneni amut', hier ben ik, ik zal sterven, v43); Saul escaleert tot een zelfvervloekende doods-eed ('koh ya'aseh elohim wekoh yosif ki mot tamut', zo doe God en zo voege Hij toe, want je zult zeker sterven, v44); maar het VOLK keert de eed om met een TEGEN-EED ('chay-YHWH im yippol misa'arat rosho', zo waar YHWH leeft, geen haar van zijn hoofd zal vallen, v45) en koopt Jonatan vrij. De inversie: de eed van de koning - hoogste spreker-autoriteit - wordt door de lagere collectiviteit ontkracht; de bindende spraak mislukt, de communicatie klapt (niemand vertelde Jonatan van de eed, v27). Templates mikken op configuraties die de vaste detectoren NIET als eenheid zien: (a) de zelfvervloekende vloek-eed in directe rede (ARR), (b) de zelf-imprecatie-formule KH+JSP (zo-doe-God), (c) de minimaliserende proef-verdediging V<M+M<V (slechts-een-beetje), (d) de tegen-eed XJ+JHWH die de koningseed override, (e) het doods-woord MWT als betwiste munt door de hele scene. Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "self_maledictory_curse_oath_arur",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>RR[",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met >RR ('vervloeken'): de zelfvervloekende eed waarmee Saul het volk bindt ('arur ha'ish asher yo'kal lechem', vervloekt de man die brood eet voor de avond, v24; herhaald gerapporteerd v28). De vloek-eed is het machtsinstrument waarmee de koning de spraak van allen onder één verbod plaatst - de scherpste A-as-marker. Geen vaste detector koppelt de vervloekings-performatief aan het directe-rede-domein als bindende machts-spraak."
+    },
+    {
+      "name": "self_imprecation_koh_yaaseh_yosif",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KH\n  word lex=JSP[",
+      "expected_direction": "over",
+      "rationale": "De zelf-imprecatie-formule KH ('zo') naast JSP ('toevoegen'): 'koh ya'aseh elohim wekoh yosif' (zo doe God en zo voege Hij toe, v44) - de geijkte zelfvervloekings-eedformule waarmee Saul zijn doodsvonnis over Jonatan bekrachtigt. De koning escaleert van bindende vloek (v24) naar een zelf-imprecatoire doods-eed tegen zijn eigen zoon. De KH+JSP-koppeling als de syntactische drager van de eed-escalatie wordt door geen losse detector gezien."
+    },
+    {
+      "name": "minimizing_taste_defense_diminutive",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=V<M[\n  word lex=M<V/",
+      "expected_direction": "over",
+      "rationale": "Het werkwoord V<M ('proeven') naast het diminutief M<V ('weinig') in directe rede: Jonatans minimaliserende zelfverdediging 'ta'om ta'amti ... me'at debash' (ik proefde slechts een beetje honing, v43). De litotes-verkleining van de overtreding - de mindere bagatelliseert zijn daad tegenover de eed van de meerdere; de ontwijkings-signatuur van het verweer-door-minimalisering. Geen vaste detector koppelt het proef-werkwoord aan het diminutief als verdedigings-configuratie."
+    },
+    {
+      "name": "counter_oath_hay_yhwh_override",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=XJ/\n  word lex=JHWH/",
+      "expected_direction": "over",
+      "rationale": "De eedformule XJ ('levend/zo waar leeft') naast JHWH in directe rede: de tegen-eed van het volk 'chay-YHWH im yippol misa'arat rosho arcah' (zo waar YHWH leeft, geen haar van zijn hoofd zal ter aarde vallen, v45) die de koningseed ontkracht en Jonatan vrijkoopt. De inversie-punchline: de lagere collectiviteit zet een eigen eed in om de eed van de hoogste spreker-autoriteit te overrulen - eed-tegen-eed over een machtsgrens heen. De vaste detectoren tellen geen eed-formule-botsing."
+    },
+    {
+      "name": "death_word_contested_in_speech",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MWT[",
+      "expected_direction": "over",
+      "rationale": "Het werkwoord MWT ('sterven') in directe rede: het doods-woord als betwiste munt door de hele confrontatie - Jonatans berusting 'hinneni amut' (hier ben ik, ik zal sterven, v43), Sauls vonnis 'mot tamut' (je zult zeker sterven, v44), het volks-protest 'im yamut' (zal hij sterven?, v45 implicaat). Hetzelfde sterf-woord dient achtereenvolgens berusting, vonnis en redding: de deictische munt waarop de machtsstrijd om Jonatans leven scharniert. De vaste detector telt MWT-dichtheid generiek, niet de spraak-gebonden circulatie tussen drie sprekers."
+    }
+  ]
+}

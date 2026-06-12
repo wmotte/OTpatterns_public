@@ -1,0 +1,2177 @@
+{
+  "ok": true,
+  "meta": {
+    "engine_git_commit": "4ddcaa4",
+    "tf_version": null,
+    "bhsa_version": "2023",
+    "bhsa_tf_data_version": "2021",
+    "baseline_schema": 9,
+    "baseline_checksum": "sha256:b8d9fcd5189e9eeb4287303d68dde1cf197c9076282425396193ec6f0cee759b",
+    "baseline_built_utc": "2026-06-01T12:15:54.574667+00:00",
+    "run_utc": "2026-06-01T16:20:42.868605+00:00",
+    "strata_used": [
+      "global",
+      "same_book",
+      "same_genre",
+      "same_language",
+      "same_period"
+    ],
+    "calibration": null,
+    "cli": {
+      "top": 30,
+      "min_g2": 10.0,
+      "min_obs": 3,
+      "rare_max_freq": 8,
+      "rare_cap": 12,
+      "leitwort_min": 3,
+      "struct_min_g2": 6.0,
+      "min_robust": 4,
+      "dynamic": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/exegese/1_samuel_3_15_18/dynamic_queries.json",
+      "ner": false,
+      "novelty_families": false,
+      "predictive_families": true,
+      "text_dynamics": true
+    },
+    "robust_floor": {
+      "bar": "robustness∈{robust,partially_robust} ∧ q_significant ∧ ceiling≥Middel ∧ niet-exploratief",
+      "n": 4,
+      "ids": [
+        4,
+        11,
+        14,
+        27
+      ],
+      "min_robust": 4,
+      "met": true
+    },
+    "exploratory_floor": {
+      "bar": "robuuste bar ∧ exploratief (provenance=llm_hypothesis/type=dynamic_query)",
+      "n": 5,
+      "ids": [
+        3,
+        13,
+        15,
+        21,
+        30
+      ]
+    },
+    "widening": {
+      "requested": 4,
+      "floor_before": 3,
+      "floor_after": 4,
+      "floor_met": true,
+      "rounds": [
+        {
+          "axis": "uncapped_detectors",
+          "added": 0
+        },
+        {
+          "axis": "subspan_parts_2",
+          "added": 1
+        }
+      ],
+      "n_detector_axes_expanded": 1,
+      "n_windows_scanned": 2,
+      "search_space_n": 3
+    },
+    "dynamic": {
+      "query_file": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/exegese/1_samuel_3_15_18/dynamic_queries.json",
+      "n_queries_tried": 5,
+      "n_queries_attempted": 25,
+      "n_findings": 5,
+      "errors": [],
+      "note": "Exploratief: een geïnformeerde LLM stelde geneste TF-search-templates voor; de engine voerde ze deterministisch uit en scoorde ze tegen dezelfde gestratificeerde nulls. Plafond Middel; FDR over alle geprobeerde queries. Resultaten zijn post-hoc; zie dynamic_query_attempts_<versie>.jsonl."
+    },
+    "detector_config": {
+      "min_g2": 10.0,
+      "struct_min_g2": 6.0,
+      "min_obs": 3,
+      "rare_max_freq": 8,
+      "rare_cap": 12,
+      "leitwort_min": 3,
+      "small_words": 100,
+      "small_clauses": 10,
+      "min_relevant": 5,
+      "fdr_alpha": 0.05,
+      "feature_reliability": {
+        "language_switch": "hard_formal",
+        "qere_ketiv": "hard_formal",
+        "fronting": "hard_formal",
+        "negation": "hard_formal",
+        "construct_chain": "hard_formal",
+        "categorical": "formal_proxy",
+        "rare_lexeme": "formal_proxy",
+        "valence": "formal_proxy",
+        "valence_object_drop": "formal_proxy",
+        "clause_embedding": "formal_proxy",
+        "parallelism": "formal_proxy",
+        "quotation_introducers": "discourse_uncertain",
+        "participant_density": "discourse_uncertain",
+        "person_shift": "discourse_uncertain",
+        "discourse_particle": "discourse_uncertain",
+        "question_profile": "discourse_uncertain",
+        "leitwort": "semantic_proxy",
+        "divine_names": "semantic_proxy",
+        "synoptic_divergence": "formal_proxy",
+        "topological_hapax": "hard_formal",
+        "deep_parallelism": "formal_proxy",
+        "phonological_cluster": "semantic_proxy",
+        "root_play": "semantic_proxy",
+        "infinitive_absolute": "formal_proxy",
+        "casus_pendens": "hard_formal",
+        "narrative_arc": "discourse_uncertain",
+        "divine_agency": "discourse_uncertain",
+        "rhetorical_pivot": "formal_proxy",
+        "composite_structure": "formal_proxy",
+        "dynamic_query": "hypothesis_generated",
+        "ethical_dative_density": "formal_proxy",
+        "redundant_pronoun_emphasis": "formal_proxy",
+        "cleft_pronoun_focus": "formal_proxy",
+        "adjunct_fronting_pressure": "formal_proxy",
+        "tail_modification_pressure": "discourse_uncertain",
+        "circumstantial_slowdown": "discourse_uncertain",
+        "historical_present_participles": "formal_proxy",
+        "poetic_aspect_shift": "formal_proxy",
+        "spatiotemporal_dislocation": "formal_proxy",
+        "weqatal_procedural_chain": "formal_proxy",
+        "epistemic_doubt_zone": "discourse_uncertain",
+        "volitive_clash": "discourse_uncertain",
+        "agentless_niphal": "formal_proxy",
+        "stem_contrast": "semantic_proxy",
+        "hitpael_speech": "discourse_uncertain",
+        "paragogic_nun": "formal_proxy",
+        "volitive_chain": "discourse_uncertain",
+        "volitive_in_speech": "discourse_uncertain",
+        "nominal_clause_order": "formal_proxy",
+        "extraposition_referent": "semantic_proxy",
+        "asyndeton_cluster": "formal_proxy",
+        "ki_profile": "discourse_uncertain",
+        "nested_speech": "formal_proxy",
+        "ithou_register": "discourse_uncertain",
+        "suffix_referent_shift": "formal_proxy",
+        "agreement_discord": "formal_proxy",
+        "disputation_QA": "formal_proxy",
+        "female_suffix_cluster": "formal_proxy",
+        "localized_participant_pressure": "discourse_uncertain",
+        "left_dislocation_resumption_plus": "formal_proxy",
+        "imperative_promise_pair": "discourse_uncertain",
+        "kinship_register_chain": "semantic_proxy",
+        "appositional_title_ladder": "formal_proxy",
+        "speech_safety_zone": "semantic_proxy",
+        "pivot_plus": "formal_proxy",
+        "modal_infabs": "semantic_proxy",
+        "name_rootplay_focus": "semantic_proxy",
+        "speech_action_misalignment": "discourse_uncertain",
+        "spatial_kinetic_axis": "discourse_uncertain",
+        "collexeme_anomaly": "formal_proxy",
+        "transition_anomaly": "formal_proxy",
+        "distribution_shape": "formal_proxy",
+        "entity_role_pressure": "semantic_proxy",
+        "deictic_participant_chain": "discourse_uncertain",
+        "verb_frame_slot_pressure": "formal_proxy",
+        "quote_topology": "discourse_uncertain",
+        "clause_chain_rhythm": "formal_proxy",
+        "lexical_register_zone": "semantic_proxy",
+        "syntactic_surprise": "formal_proxy",
+        "forward_predictive_scaffolding": "discourse_uncertain",
+        "referential_decay_rate": "discourse_uncertain",
+        "semantic_compression_ratio": "formal_proxy",
+        "inanimate_subject_fronting": "semantic_proxy",
+        "binyan_escalation_ladder": "formal_proxy",
+        "actant_centrality": "discourse_uncertain",
+        "lexical_resonance_distance": "formal_proxy",
+        "verbal_entanglement": "discourse_uncertain",
+        "hapax_gravity": "formal_proxy",
+        "syntactic_chiasm": "formal_proxy",
+        "asyndetic_staccato_pressure": "formal_proxy",
+        "polysyndetic_slowdown": "formal_proxy",
+        "morphological_weight": "formal_proxy",
+        "clausal_gasp": "formal_proxy",
+        "actant_obfuscation": "discourse_uncertain",
+        "spatial_euphemism_distance": "discourse_uncertain",
+        "enallage_gender_mismatch": "formal_proxy",
+        "numeric_discord": "formal_proxy",
+        "tam_chaos": "formal_proxy",
+        "infabs_climax_overkill": "formal_proxy",
+        "paused_interrogation": "discourse_uncertain",
+        "deictic_shift_here_now": "formal_proxy",
+        "stative_state_locking": "discourse_uncertain",
+        "pronominal_ambiguity_chain": "discourse_uncertain",
+        "asymmetric_qa_frames": "discourse_uncertain",
+        "unframed_speech_onset": "formal_proxy",
+        "heavy_quotation_formula": "formal_proxy",
+        "causative_coercion_spike": "semantic_proxy",
+        "depersonalisation_pual_hofal": "formal_proxy",
+        "middle_voice_mimicry": "formal_proxy",
+        "subject_over_encoding": "discourse_uncertain",
+        "vocative_isolation": "formal_proxy",
+        "relational_preposition_density": "formal_proxy",
+        "locative_he_pressure": "formal_proxy",
+        "instrumental_b_focus": "semantic_proxy",
+        "infc_purpose_chains": "formal_proxy",
+        "clause_ellipsis_pressure": "formal_proxy",
+        "bayesian_participant_shift": "discourse_uncertain",
+        "latent_collexeme_surprise": "formal_proxy",
+        "cataphoric_ted_drift": "formal_proxy",
+        "information_bottleneck_pressure": "formal_proxy",
+        "syntactic_comorbidity_index": "formal_proxy",
+        "speech_survival_duration": "discourse_uncertain",
+        "fronting_diagnostic_ratio": "discourse_uncertain",
+        "lexeme_percolation_rate": "semantic_proxy",
+        "longitudinal_tense_drift": "discourse_uncertain",
+        "deep_construct_branching": "formal_proxy",
+        "nominal_asphyxiation": "formal_proxy",
+        "infc_subject_rarity": "hard_formal",
+        "spatiotemporal_axis_tilt": "formal_proxy",
+        "dialogue_turn_volatility": "discourse_uncertain",
+        "arthrous_anarthrous_contrast": "formal_proxy",
+        "phrase_level_waw_density": "formal_proxy",
+        "prepositional_overloading": "semantic_proxy",
+        "transmission_noise_density": "hard_formal",
+        "aramaic_intrusion_index": "hard_formal",
+        "entropy_collapse": "formal_proxy",
+        "nested_quote_boundary_blur": "discourse_uncertain"
+      },
+      "reliability_ceiling": {
+        "hard_formal": "Hoog",
+        "formal_proxy": "Hoog",
+        "discourse_uncertain": "Middel",
+        "semantic_proxy": "Laag",
+        "hypothesis_generated": "Middel"
+      }
+    }
+  },
+  "passage": {
+    "ok": true,
+    "version": "2023",
+    "book": "1_Samuel",
+    "chapters": [
+      3
+    ],
+    "verses": [
+      15,
+      18
+    ],
+    "segments": [
+      "1 Samuël 3:15-18"
+    ],
+    "n_segments": 1,
+    "label": "1 Samuël 3:15-18",
+    "slug": "1_samuel_3_15_18",
+    "n_verses": 4,
+    "n_words": 85,
+    "first_ref": "1_Samuel 3:15",
+    "last_ref": "1_Samuel 3:18",
+    "genre": "narrative",
+    "language": "Hebrew",
+    "period": "EBH",
+    "n_clauses": 23,
+    "small_passage": true
+  },
+  "n_findings": 30,
+  "findings": [
+    {
+      "type": "leitwort",
+      "object_type": "word",
+      "feature": "lex",
+      "value": "CMW>L/",
+      "gloss": "Samuel",
+      "effect": "over",
+      "corpus_freq": 140,
+      "observed": 5,
+      "dispersion": 3,
+      "clusters": [
+        {
+          "n": 5,
+          "span": "1_Samuel 3:15-1_Samuel 3:18",
+          "word_span": 66,
+          "density": 0.076
+        }
+      ],
+      "examples": [
+        {
+          "ref": "1_Samuel 3:15",
+          "surface": "שְׁמוּאֵל֙"
+        },
+        {
+          "ref": "1_Samuel 3:15",
+          "surface": "שְׁמוּאֵ֣ל"
+        },
+        {
+          "ref": "1_Samuel 3:16",
+          "surface": "שְׁמוּאֵ֔ל"
+        },
+        {
+          "ref": "1_Samuel 3:16",
+          "surface": "שְׁמוּאֵ֣ל"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "שְׁמוּאֵל֙"
+        }
+      ],
+      "tf_query": "word lex=CMW>L/",
+      "feature_reliability": "semantic_proxy",
+      "n_context": 85,
+      "baselines": {
+        "global": {
+          "expected": 0.028,
+          "G2": 42.24,
+          "p_value": 8.073971943445592e-11,
+          "effect": "over"
+        }
+      },
+      "expected": 0.028,
+      "G2": 42.24,
+      "p_value": 8.073971943445592e-11,
+      "robustness": "global_only",
+      "statistic": 42.24,
+      "effect_size": 7.48,
+      "surprise": 42.24,
+      "rank_score": 42.24,
+      "effective_n": 3,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 2.422191583033678e-10,
+      "q_significant": true,
+      "confidence_ceiling": "Laag",
+      "id": 1
+    },
+    {
+      "type": "leitwort",
+      "object_type": "word",
+      "feature": "lex",
+      "value": "KXD[",
+      "gloss": "hide",
+      "effect": "over",
+      "corpus_freq": 32,
+      "observed": 3,
+      "dispersion": 2,
+      "clusters": [
+        {
+          "n": 3,
+          "span": "1_Samuel 3:17-1_Samuel 3:18",
+          "word_span": 31,
+          "density": 0.097
+        }
+      ],
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "תְכַחֵ֖ד"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "תְּכַחֵ֤ד"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "כִחֵ֖ד"
+        }
+      ],
+      "tf_query": "word lex=KXD[",
+      "feature_reliability": "semantic_proxy",
+      "n_context": 85,
+      "baselines": {
+        "global": {
+          "expected": 0.006,
+          "G2": 31.04,
+          "p_value": 2.524690405618619e-08,
+          "effect": "over"
+        }
+      },
+      "expected": 0.006,
+      "G2": 31.04,
+      "p_value": 2.524690405618619e-08,
+      "robustness": "global_only",
+      "statistic": 31.04,
+      "effect_size": 8.966,
+      "surprise": 31.04,
+      "rank_score": 31.04,
+      "effective_n": 2,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 3.7870356084279284e-08,
+      "q_significant": true,
+      "confidence_ceiling": "Laag",
+      "id": 2
+    },
+    {
+      "query_name": "concealment_with_ablative_speaker",
+      "anchor_otype": "clause",
+      "observed": 2,
+      "effect": "over",
+      "expected_direction": "over",
+      "rationale": "Het verhullings-werkwoord KXD samen met de prepositie MN + 1e-persoonssuffix ('mimmenni' = van mij, v17 2x; 'mimmennu' v18): het verbod-op-ontwijking wordt grammaticaal teruggericht op de eisende meerdere. De ontwijking is gedefinieerd als onthouding-aan-mij; scherpste marker van de dwang-vector.",
+      "tf_query": "clause domain=Q\n  word lex=KXD[ vs=piel\n  word lex=MN prs_ps=p1",
+      "corpus_matches": 6,
+      "type": "dynamic_query",
+      "object_type": "clause",
+      "feature": "concealment_with_ablative_speaker",
+      "value": "clause",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": null
+        }
+      ],
+      "provenance": "llm_hypothesis",
+      "exploratory": true,
+      "feature_tier": "discourse_uncertain",
+      "n_queries_tried": 5,
+      "note": "Hypothese-gegenereerde query (5 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). Het verhullings-werkwoord KXD samen met de prepositie MN + 1e-persoonssuffix ('mimmenni' = van mij, v17 2x; 'mimmennu' v18): het verbod-op-ontwijking wordt grammaticaal teruggericht op de eisende meerdere. De ontwijking is gedefinieerd als onthouding-aan-mij; scherpste marker van de dwang-vector.",
+      "feature_reliability": "hypothesis_generated",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 0.002,
+          "G2": 24.79,
+          "p_value": 6.386404844515453e-07,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.011,
+          "G2": 16.85,
+          "p_value": 4.05104269796804e-05,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.003,
+          "G2": 22.7,
+          "p_value": 1.897445054210532e-06,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.002,
+          "G2": 24.73,
+          "p_value": 6.58518213006728e-07,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.001,
+          "G2": 25.0,
+          "p_value": 5.730392475165761e-07,
+          "effect": "over"
+        }
+      },
+      "expected": 0.002,
+      "G2": 24.79,
+      "p_value": 6.386404844515453e-07,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 5.730392475165761e-07,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 24.79,
+      "effect_size": 9.966,
+      "surprise": 24.79,
+      "rank_score": 24.79,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 3.1932024222577266e-06,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 3
+    },
+    {
+      "type": "forward_predictive_scaffolding",
+      "object_type": "clause",
+      "feature": "pronoun_before_nominal",
+      "value": "pronominal reference precedes explicit nominal",
+      "effect": "over",
+      "observed": 11,
+      "expected": 1.0,
+      "G2": 13.88,
+      "statistic": 13.88,
+      "surprise": 23.8,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:16",
+          "resolved_at": "1_Samuel 3:16",
+          "surface": "וַיֹּ֖אמֶר"
+        },
+        {
+          "ref": "1_Samuel 3:16",
+          "resolved_at": "1_Samuel 3:17",
+          "surface": "וַיֹּ֖אמֶר"
+        },
+        {
+          "ref": "1_Samuel 3:16",
+          "resolved_at": "1_Samuel 3:17",
+          "surface": "הִנֵּֽנִי"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "resolved_at": "1_Samuel 3:17",
+          "surface": "וַיֹּ֗אמֶר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "resolved_at": "1_Samuel 3:17",
+          "surface": "אֲשֶׁ֣רדִּבֶּ֣ראֵלֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "resolved_at": "1_Samuel 3:17",
+          "surface": "אַלנָ֥אתְכַחֵ֖דמִמֶּ֑נִּי"
+        }
+      ],
+      "tf_query": "clause with pronoun/suffix before later nmpr/subs in short window",
+      "note": "Cataaphoric pressure proxy: a pronominal slot is held before a nominal appears.",
+      "provenance": "deterministic_bhsa_tf",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 3.433,
+          "G2": 13.88,
+          "p_value": 0.00019469383295088287,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 3.909,
+          "G2": 11.62,
+          "p_value": 0.0006528352244653722,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 3.673,
+          "G2": 12.69,
+          "p_value": 0.00036663507324081286,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 3.433,
+          "G2": 13.88,
+          "p_value": 0.00019469383295088287,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 3.609,
+          "G2": 13.0,
+          "p_value": 0.0003113926564518175,
+          "effect": "over"
+        }
+      },
+      "p_value": 0.00019469383295088287,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.0003113926564518175,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "effect_size": 3.459,
+      "rank_score": 23.8,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.00019469383295088287,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 4
+    },
+    {
+      "type": "person_shift",
+      "object_type": "clause",
+      "feature": "deixis-naad",
+      "value": "persoonswisseling",
+      "effect": "shift",
+      "observed": 4,
+      "surprise": 22.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "from": "p3",
+          "to": "p2"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "from": "p2",
+          "to": "p3"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "from": "p3",
+          "to": "p2"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "from": "p2",
+          "to": "p3"
+        }
+      ],
+      "tf_query": "dominante ps per clause — wisselpunten",
+      "note": "Clauses waar de dominante grammaticale persoon omklapt (retorische naad). Alleen naden met >=2 lokale markeringen.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 22.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 5
+    },
+    {
+      "type": "qere_ketiv",
+      "object_type": "word",
+      "feature": "qere/ketiv",
+      "value": "leestraditie wijkt af",
+      "effect": "present",
+      "observed": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:18",
+          "ketiv": "ב",
+          "qere": "בְּ"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "ketiv": "עינו",
+          "qere": "עֵינָ֖יו"
+        }
+      ],
+      "surprise": 22.0,
+      "tf_query": "word qere  (qere != ketiv)",
+      "note": "Hier wijkt de leestraditie (qere) af van het geschreven woord (ketiv) — tekstkritisch relevant, los van de syntaxis.",
+      "feature_reliability": "hard_formal",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 22.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 6
+    },
+    {
+      "type": "nested_speech",
+      "object_type": "clause",
+      "feature": "txt-Q-diepte ≥2 (rede-in-rede)",
+      "value": "nesting≤2",
+      "effect": "present",
+      "observed": 5,
+      "max_depth": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "diepte": 2,
+          "surface": "אַלנָ֥אתְכַחֵ֖דמִמֶּ֑נִּי"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "diepte": 2,
+          "surface": "כֹּ֣היַעֲשֶׂהלְּךָ֤אֱלֹהִים֙"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "diepte": 2,
+          "surface": "וְכֹ֣היֹוסִ֔יף"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "diepte": 2,
+          "surface": "אִםתְּכַחֵ֤דמִמֶּ֨נִּי֙דָּבָ֔רמִכָּלהַדָּבָ֖ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "diepte": 2,
+          "surface": "אֲשֶׁרדִּבֶּ֥ראֵלֶֽיךָ"
+        }
+      ],
+      "tf_query": "% clause met ≥2 'Q' in txt (geneste directe rede, bv. NQQ)",
+      "surprise": 14.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Geneste directe rede (stem-binnen-stem) — wie spreekt er in wiens mond? Vaak God geciteerd binnen mensenrede of een eed die andermans woorden aanhaalt. De txt-diepte is formeel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 14.5,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 7
+    },
+    {
+      "type": "leitwort",
+      "object_type": "word",
+      "feature": "lex",
+      "value": "DBR/",
+      "gloss": "word",
+      "effect": "over",
+      "corpus_freq": 1441,
+      "observed": 4,
+      "dispersion": 2,
+      "clusters": [
+        {
+          "n": 4,
+          "span": "1_Samuel 3:17-1_Samuel 3:18",
+          "word_span": 34,
+          "density": 0.118
+        }
+      ],
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָר֙"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָ֔ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָ֖ר"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "דְּבָרִ֔ים"
+        }
+      ],
+      "tf_query": "word lex=DBR/",
+      "feature_reliability": "semantic_proxy",
+      "n_context": 85,
+      "baselines": {
+        "global": {
+          "expected": 0.287,
+          "G2": 13.81,
+          "p_value": 0.00020199359592397635,
+          "effect": "over"
+        }
+      },
+      "expected": 0.287,
+      "G2": 13.81,
+      "p_value": 0.00020199359592397635,
+      "robustness": "global_only",
+      "statistic": 13.81,
+      "effect_size": 3.801,
+      "surprise": 13.81,
+      "rank_score": 13.81,
+      "effective_n": 2,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.00020199359592397635,
+      "q_significant": true,
+      "confidence_ceiling": "Laag",
+      "id": 8
+    },
+    {
+      "type": "tam_chaos",
+      "object_type": "clause",
+      "feature": "rapid_tam_switching",
+      "value": "3+ TAM values in a five-clause window",
+      "effect": "over",
+      "observed": 5,
+      "expected": 1.0,
+      "G2": 2.3,
+      "statistic": 2.3,
+      "surprise": 13.5,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "vt_sequence": "wayq-perf-impf-impf"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "vt_sequence": "impf-impf-impf-perf-wayq"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "vt_sequence": "impf-impf-perf-wayq-perf"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "vt_sequence": "impf-perf-wayq-perf-wayq"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "vt_sequence": "wayq-perf-wayq-impf"
+        }
+      ],
+      "tf_query": "sliding window over Pred verb vt values",
+      "note": "Timeline instability proxy: tense/aspect/mood shifts rapidly in one local zone.",
+      "provenance": "deterministic_bhsa_tf",
+      "feature_reliability": "formal_proxy",
+      "n_context": 19,
+      "baselines": {
+        "global": {
+          "expected": 2.512,
+          "G2": 2.3,
+          "p_value": 0.12907609123150734,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 3.37,
+          "G2": 0.86,
+          "p_value": 0.3532167405932913,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 2.856,
+          "G2": 1.61,
+          "p_value": 0.20443947320221867,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 2.512,
+          "G2": 2.3,
+          "p_value": 0.12907609123150734,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 2.656,
+          "G2": 1.99,
+          "p_value": 0.15816089688413912,
+          "effect": "over"
+        }
+      },
+      "p_value": 0.12907609123150734,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.15816089688413912,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "effect_size": 2.322,
+      "rank_score": 13.5,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.12907609123150734,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 9
+    },
+    {
+      "type": "morphological_weight",
+      "object_type": "clause",
+      "feature": "bound_morpheme_weight",
+      "value": "high average morphological weight",
+      "effect": "over",
+      "observed": 4,
+      "expected": 1.0,
+      "G2": 0.39,
+      "statistic": 0.39,
+      "surprise": 12.2,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:16",
+          "avg_weight": 2.5,
+          "max_weight": 4,
+          "surface": "שְׁמוּאֵ֣לבְּנִ֑י"
+        },
+        {
+          "ref": "1_Samuel 3:16",
+          "avg_weight": 4.0,
+          "max_weight": 4,
+          "surface": "הִנֵּֽנִי"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "avg_weight": 2.0,
+          "max_weight": 4,
+          "surface": "אֲשֶׁ֣רדִּבֶּ֣ראֵלֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "avg_weight": 2.0,
+          "max_weight": 4,
+          "surface": "אֲשֶׁרדִּבֶּ֥ראֵלֶֽיךָ"
+        }
+      ],
+      "tf_query": "prs_*/uvf/vbe proxy per word",
+      "note": "Morphological heaviness proxy based on explicit bound-feature signals.",
+      "provenance": "deterministic_bhsa_tf",
+      "feature_reliability": "formal_proxy",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 5.222,
+          "G2": 0.39,
+          "p_value": 0.5303752766625102,
+          "effect": "under"
+        },
+        "same_book": {
+          "expected": 4.316,
+          "G2": 0.03,
+          "p_value": 0.8648082512867428,
+          "effect": "under"
+        },
+        "same_genre": {
+          "expected": 4.354,
+          "G2": 0.04,
+          "p_value": 0.848745876307404,
+          "effect": "under"
+        },
+        "same_language": {
+          "expected": 5.222,
+          "G2": 0.39,
+          "p_value": 0.5303752766625102,
+          "effect": "under"
+        },
+        "same_period": {
+          "expected": 5.371,
+          "G2": 0.49,
+          "p_value": 0.48468916090120767,
+          "effect": "under"
+        }
+      },
+      "p_value": 0.5303752766625102,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.48468916090120767,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "effect_size": 2.0,
+      "rank_score": 12.2,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.5303752766625102,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 10
+    },
+    {
+      "type": "actant_centrality",
+      "object_type": "clause",
+      "feature": "actant_in_out_degree",
+      "value": "one actant dominates subject or object degree",
+      "effect": "over",
+      "observed": 3,
+      "expected": 1.0,
+      "G2": 4.69,
+      "statistic": 4.69,
+      "surprise": 11.6,
+      "examples": [
+        {
+          "actant": "CMW>L/",
+          "out_degree": 3,
+          "in_degree": 1,
+          "refs": [
+            "1_Samuel 3:15",
+            "1_Samuel 3:15",
+            "1_Samuel 3:16"
+          ]
+        },
+        {
+          "actant": "p3:sg:m",
+          "out_degree": 9,
+          "in_degree": 0,
+          "refs": [
+            "1_Samuel 3:15",
+            "1_Samuel 3:16",
+            "1_Samuel 3:16"
+          ]
+        },
+        {
+          "actant": "DBR/",
+          "out_degree": 1,
+          "in_degree": 3,
+          "refs": [
+            "1_Samuel 3:17",
+            "1_Samuel 3:17",
+            "1_Samuel 3:17"
+          ]
+        }
+      ],
+      "tf_query": "count subject vs object mentions by lexical/person key",
+      "note": "Graph proxy: syntactic agency and patienthood are unevenly distributed.",
+      "provenance": "deterministic_bhsa_tf",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": 18,
+      "baselines": {
+        "global": {
+          "expected": 0.666,
+          "G2": 4.69,
+          "p_value": 0.030364027193065496,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.445,
+          "G2": 6.73,
+          "p_value": 0.009480776379755066,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.67,
+          "G2": 4.67,
+          "p_value": 0.03076532819235119,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.666,
+          "G2": 4.69,
+          "p_value": 0.030364027193065496,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.625,
+          "G2": 5.0,
+          "p_value": 0.02537029718232968,
+          "effect": "over"
+        }
+      },
+      "p_value": 0.030364027193065496,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.02537029718232968,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "effect_size": 1.585,
+      "rank_score": 11.6,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.030364027193065496,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 11
+    },
+    {
+      "type": "asyndeton_cluster",
+      "object_type": "clause",
+      "feature": "keten clauses zonder kop-voegwoord",
+      "value": "asyndeton ×3",
+      "effect": "sequence",
+      "observed": 3,
+      "span": "1_Samuel 3:18",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "יְהוָ֣ה"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "ה֔וּאיַעֲשֶֽׂה"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "הַטֹּ֥ובבעינו"
+        }
+      ],
+      "tf_query": "% ≥3 opeenvolgende clauses zonder nevenschikkend kop-voegwoord (asyndeton/staccato)",
+      "surprise": 11.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Reeks clauses zonder verbindend voegwoord (asyndeton) — staccato-ritme, schok of urgentie. De afwezigheid van de connector is formeel; het ritme-effect duiding.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 11.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 12
+    },
+    {
+      "query_name": "vetitive_against_concealment",
+      "anchor_otype": "clause",
+      "observed": 1,
+      "effect": "over",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met de vetitieve ontkenning (>L=, 'al') plus het verhullings-werkwoord KXD in piel: de meerdere verbiedt de mindere expliciet om te ontwijken ('al na tekhachad', v17). Vetitief als dwangmiddel over de machtsgrens heen; geen vaste detector ziet deze combinatie als configuratie.",
+      "tf_query": "clause domain=Q\n  word lex=>L=\n  word lex=KXD[ vs=piel",
+      "corpus_matches": 6,
+      "type": "dynamic_query",
+      "object_type": "clause",
+      "feature": "vetitive_against_concealment",
+      "value": "clause",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": null
+        }
+      ],
+      "provenance": "llm_hypothesis",
+      "exploratory": true,
+      "feature_tier": "discourse_uncertain",
+      "n_queries_tried": 5,
+      "note": "Hypothese-gegenereerde query (5 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). Directe-rede-clause met de vetitieve ontkenning (>L=, 'al') plus het verhullings-werkwoord KXD in piel: de meerdere verbiedt de mindere expliciet om te ontwijken ('al na tekhachad', v17). Vetitief als dwangmiddel over de machtsgrens heen; geen vaste detector ziet deze combinatie als configuratie.",
+      "feature_reliability": "hypothesis_generated",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 0.002,
+          "G2": 10.97,
+          "p_value": 0.0009281037545510326,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.006,
+          "G2": 8.38,
+          "p_value": 0.0037964628242809226,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.002,
+          "G2": 10.49,
+          "p_value": 0.0011982305483924187,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.002,
+          "G2": 10.94,
+          "p_value": 0.0009430061151565378,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.001,
+          "G2": 11.64,
+          "p_value": 0.0006438160523156659,
+          "effect": "over"
+        }
+      },
+      "expected": 0.002,
+      "G2": 10.97,
+      "p_value": 0.0009281037545510326,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.0006438160523156659,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 10.97,
+      "effect_size": 8.966,
+      "surprise": 10.97,
+      "rank_score": 10.97,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0023202593863775813,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 13
+    },
+    {
+      "type": "categorical",
+      "object_type": "word",
+      "feature": "vs",
+      "value": "piel",
+      "effect": "over",
+      "observed": 5,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דִּבֶּ֣ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "תְכַחֵ֖ד"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "תְּכַחֵ֤ד"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דִּבֶּ֥ר"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "כִחֵ֖ד"
+        }
+      ],
+      "tf_query": "word vs=piel",
+      "feature_reliability": "formal_proxy",
+      "n_context": 51,
+      "baselines": {
+        "global": {
+          "expected": 0.814,
+          "G2": 10.14,
+          "p_value": 0.0014534175416099707,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.558,
+          "G2": 13.45,
+          "p_value": 0.00024473129805693724,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.573,
+          "G2": 13.2,
+          "p_value": 0.000279442238889973,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.826,
+          "G2": 10.01,
+          "p_value": 0.0015533238751682618,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.894,
+          "G2": 9.35,
+          "p_value": 0.0022334455242602096,
+          "effect": "over"
+        }
+      },
+      "expected": 0.814,
+      "G2": 10.14,
+      "p_value": 0.0014534175416099707,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.0022334455242602096,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 10.14,
+      "effect_size": 2.619,
+      "surprise": 10.14,
+      "rank_score": 10.14,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0014534175416099707,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "scope": "subspan 1_Samuel 3:17-1_Samuel 3:18",
+      "id": 14
+    },
+    {
+      "query_name": "disclosure_hifil_bracket",
+      "anchor_otype": "word",
+      "observed": 2,
+      "effect": "over",
+      "expected_direction": "over",
+      "rationale": "Het hifil-onthullingswerkwoord NGD ('higgid', vertellen/aankondigen) omarmt de scene: v15 infinitivus 'vreesde te-vertellen' (ontwijking), v18 wayyiqtol 'en hij vertelde' (gedwongen onthulling). De causatieve stam codeert het dwingen-tot-spreken; de dichtheid van precies dit werkwoord in een dialoog van 4 verzen is de as-signatuur.",
+      "tf_query": "word lex=NGD[ vs=hif",
+      "corpus_matches": 335,
+      "type": "dynamic_query",
+      "object_type": "word",
+      "feature": "disclosure_hifil_bracket",
+      "value": "word",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:15",
+          "surface": "הַגִּ֥יד"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "יַּגֶּד"
+        }
+      ],
+      "provenance": "llm_hypothesis",
+      "exploratory": true,
+      "feature_tier": "formal_proxy",
+      "n_queries_tried": 5,
+      "note": "Hypothese-gegenereerde query (5 geprobeerd); exploratief (meet-plafond volgt feature_tier 'formal_proxy'). Het hifil-onthullingswerkwoord NGD ('higgid', vertellen/aankondigen) omarmt de scene: v15 infinitivus 'vreesde te-vertellen' (ontwijking), v18 wayyiqtol 'en hij vertelde' (gedwongen onthulling). De causatieve stam codeert het dwingen-tot-spreken; de dichtheid van precies dit werkwoord in een dialoog van 4 verzen is de as-signatuur.",
+      "feature_reliability": "hypothesis_generated",
+      "n_context": 85,
+      "baselines": {
+        "global": {
+          "expected": 0.067,
+          "G2": 9.78,
+          "p_value": 0.0017664891550184874,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.211,
+          "G2": 5.46,
+          "p_value": 0.01950892424908588,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.093,
+          "G2": 8.5,
+          "p_value": 0.003544931089441137,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.068,
+          "G2": 9.72,
+          "p_value": 0.0018209055261360853,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.076,
+          "G2": 9.3,
+          "p_value": 0.0022949100239498194,
+          "effect": "over"
+        }
+      },
+      "expected": 0.067,
+      "G2": 9.78,
+      "p_value": 0.0017664891550184874,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.0022949100239498194,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 9.78,
+      "effect_size": 4.9,
+      "surprise": 9.78,
+      "rank_score": 9.78,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0029441485916974794,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 15
+    },
+    {
+      "type": "clause_ellipsis_pressure",
+      "object_type": "clause",
+      "feature": "verbale clause ≤2 woorden zonder Subj/Objc",
+      "value": "elliptische clauses ×4",
+      "effect": "present",
+      "observed": 4,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:16",
+          "surface": "וַיֹּ֖אמֶר"
+        },
+        {
+          "ref": "1_Samuel 3:16",
+          "surface": "וַיֹּ֖אמֶר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "וַיֹּ֗אמֶר"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "וַיֹּאמַ֕ר"
+        }
+      ],
+      "tf_query": "% extreem korte verbale clause (≤2 woorden) zonder Subj- en zonder Objc-frase (verplichte argumenten ontbreken / ellips)",
+      "surprise": 9.2,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Hoge dichtheid van extreem korte clauses zonder verplichte argumenten — poëtische compressie, haast of woede (stotterende grammatica). De ellips is formeel; het affect-effect interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 9.2,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 16
+    },
+    {
+      "type": "phonological_cluster",
+      "object_type": "word",
+      "feature": "root-initiaal",
+      "value": "beginklank 'K'",
+      "effect": "cluster",
+      "observed": 5,
+      "span": "1_Samuel 3:17-1_Samuel 3:18",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "תְכַחֵ֖ד"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "תְּכַחֵ֤ד"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "כָּל"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "כָּל"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "כִחֵ֖ד"
+        }
+      ],
+      "tf_query": "% 5 inhoudswoorden met wortel-beginconsonant 'K' binnen een nauw venster (alliteratie)",
+      "surprise": 9.0,
+      "note": "Opvallende opeenhoping van woorden die met 'K' beginnen — mogelijke alliteratie/klankwerking, geen lexicaal patroon.",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 9.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 17
+    },
+    {
+      "type": "phonological_cluster",
+      "object_type": "word",
+      "feature": "root-initiaal",
+      "value": "beginklank 'D'",
+      "effect": "cluster",
+      "observed": 4,
+      "span": "1_Samuel 3:17-1_Samuel 3:18",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָ֔ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָ֖ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דִּבֶּ֥ר"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "דְּבָרִ֔ים"
+        }
+      ],
+      "tf_query": "% 4 inhoudswoorden met wortel-beginconsonant 'D' binnen een nauw venster (alliteratie)",
+      "surprise": 8.0,
+      "note": "Opvallende opeenhoping van woorden die met 'D' beginnen — mogelijke alliteratie/klankwerking, geen lexicaal patroon.",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 8.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 18
+    },
+    {
+      "type": "quotation_introducers",
+      "object_type": "clause",
+      "feature": "txt~Q + mother",
+      "n_quotation_clauses": 12,
+      "n_traced": 1,
+      "n_untraced": 11,
+      "trace_rate": 0.083,
+      "introducer_lexemes": {
+        "<FH[": 1
+      },
+      "non_speech_introducers": [
+        {
+          "ref": "1_Samuel 3:18",
+          "intro_lex": "<FH[",
+          "intro_gloss": "make"
+        }
+      ],
+      "corpus_speech_introducer_share": 0.073,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:18",
+          "intro_lex": "<FH[",
+          "intro_gloss": "make"
+        }
+      ],
+      "surprise": 8.0,
+      "tf_query": "clause txt~Q  /with/  mother -> word sp=verb",
+      "note": "Welke werkwoorden leiden directe rede in (via mother-relatie). Niet-spreekwerkwoorden zijn opvallend; verbloze/geneste inleidingen blijven buiten beeld (trace_rate=0.08).",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 8.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 19
+    },
+    {
+      "type": "root_play",
+      "object_type": "word",
+      "feature": "root (consonanten)",
+      "value": "DBR",
+      "effect": "cluster",
+      "observed": 4,
+      "distinct_lexemes": [
+        "DBR/",
+        "DBR["
+      ],
+      "span": "1_Samuel 3:17-1_Samuel 3:18",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָ֔ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָ֖ר"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דִּבֶּ֥ר"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "דְּבָרִ֔ים"
+        }
+      ],
+      "tf_query": "% ≥2 verschillende lexemen met root 'DBR' dicht bij elkaar (woordspel/paronomasie)",
+      "surprise": 8.0,
+      "note": "Verschillende woorden van dezelfde stam 'DBR' staan dicht bijeen — kandidaat voor woordspel (paronomasie).",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 8.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 20
+    },
+    {
+      "query_name": "self_imprecation_oath_formula",
+      "anchor_otype": "clause",
+      "observed": 1,
+      "effect": "over",
+      "expected_direction": "over",
+      "rationale": "De zelfvervloekings-eed 'koh ya'aseh lekha elohim ...' (v17): de meerdere legt de mindere een godsoordeel-formule op om de waarheid af te dwingen. De eed-als-pressiemiddel is een machtshandeling, geen informatie-vraag; valt buiten elke vaste detector.",
+      "tf_query": "clause domain=Q\n  word lex=KH\n  word lex=<FH[",
+      "corpus_matches": 28,
+      "type": "dynamic_query",
+      "object_type": "clause",
+      "feature": "self_imprecation_oath_formula",
+      "value": "clause",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": null
+        }
+      ],
+      "provenance": "llm_hypothesis",
+      "exploratory": true,
+      "feature_tier": "discourse_uncertain",
+      "n_queries_tried": 5,
+      "note": "Hypothese-gegenereerde query (5 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). De zelfvervloekings-eed 'koh ya'aseh lekha elohim ...' (v17): de meerdere legt de mindere een godsoordeel-formule op om de waarheid af te dwingen. De eed-als-pressiemiddel is een machtshandeling, geen informatie-vraag; valt buiten elke vaste detector.",
+      "feature_reliability": "hypothesis_generated",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 0.007,
+          "G2": 7.9,
+          "p_value": 0.00495479191317595,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.04,
+          "G2": 4.55,
+          "p_value": 0.032866494906265295,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.013,
+          "G2": 6.82,
+          "p_value": 0.009005842977590231,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.007,
+          "G2": 7.87,
+          "p_value": 0.005035864880130576,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.008,
+          "G2": 7.67,
+          "p_value": 0.005603873336777559,
+          "effect": "over"
+        }
+      },
+      "expected": 0.007,
+      "G2": 7.9,
+      "p_value": 0.00495479191317595,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.005603873336777559,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 7.9,
+      "effect_size": 7.158,
+      "surprise": 7.9,
+      "rank_score": 7.9,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.006193489891469938,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 21
+    },
+    {
+      "type": "speech_safety_zone",
+      "object_type": "clause",
+      "feature": "rede met 2e-persoons aanspraak + zegen/verbod-lexeem",
+      "value": "beschermende rede",
+      "effect": "present",
+      "observed": 3,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "אֲשֶׁ֣רדִּבֶּ֣ראֵלֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "אַלנָ֥אתְכַחֵ֖דמִמֶּ֑נִּי"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "אֲשֶׁרדִּבֶּ֥ראֵלֶֽיךָ"
+        }
+      ],
+      "tf_query": "% clause in txt~Q met 2e-persoons aanspraak (ps/prs_ps=p2) én een zegen- of verbod/negatie-lexeem (beschermende rede)",
+      "surprise": 7.6,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Aansprekende rede die zegen en/of verbod combineert — een beschermende/gastvrije zone (Ruth 2). Aanspraak en lexemen zijn formeel; de 'veilige zone'-lezing is semantisch.",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 7.6,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 22
+    },
+    {
+      "type": "volitive_in_speech",
+      "object_type": "clause",
+      "feature": "impf p3 binnen directe rede (jussief-proxy)",
+      "value": "jussief/decreet-in-rede",
+      "effect": "present",
+      "observed": 3,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "כֹּ֣היַעֲשֶׂהלְּךָ֤אֱלֹהִים֙"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "וְכֹ֣היֹוסִ֔יף"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "ה֔וּאיַעֲשֶֽׂה"
+        }
+      ],
+      "tf_query": "% clause met txt~Q en predicaat word vt=impf ps=p3 (3e-persoons yiqtol in rede = jussief/decreet-proxy)",
+      "surprise": 7.6,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Derde-persoons yiqtol binnen aangesproken rede — leesbaar als jussief/decreet ('het zij…'). De jussief is in BHSA niet apart getagd; de decreet- en (eventueel) goddelijke-spreker-duiding is interpretatief.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 7.6,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 23
+    },
+    {
+      "type": "circumstantial_slowdown",
+      "object_type": "clause",
+      "feature": "WayX/wayq-keten onderbroken door NmCl/Ptcp-circumstantials",
+      "value": "narratieve vertraging",
+      "effect": "sequence",
+      "observed": 1,
+      "n_clusters": 1,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:16",
+          "span": "1_Samuel 3:16-1_Samuel 3:17",
+          "circumstantial_clauses": 1,
+          "surface": "הִנֵּֽנִי"
+        }
+      ],
+      "tf_query": "% narratieve wayq-clause + 1-4 nominale/participiale clauses + narratieve wayq-clause",
+      "surprise": 7.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Narratieve wayyiqtol-stroom wordt tijdelijk onderbroken door nominale/participiale circumstantiële clauses — verhaaltijd vertraagt. De configuratie is formeel; spanningsopbouw is duiding.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": 8,
+      "baselines": {
+        "global": {
+          "expected": 0.779,
+          "G2": 0.06,
+          "p_value": 0.8002541857404649,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.771,
+          "G2": 0.07,
+          "p_value": 0.791986217854757,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.817,
+          "G2": 0.04,
+          "p_value": 0.8355465635908348,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.779,
+          "G2": 0.06,
+          "p_value": 0.8002541857404649,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.75,
+          "G2": 0.08,
+          "p_value": 0.7723193200190591,
+          "effect": "over"
+        }
+      },
+      "expected": 0.779,
+      "G2": 0.06,
+      "p_value": 0.8002541857404649,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.7723193200190591,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 0.06,
+      "effect_size": 0.36,
+      "rank_score": 7.5,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.8002541857404649,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 24
+    },
+    {
+      "type": "heavy_quotation_formula",
+      "object_type": "clause",
+      "feature": "gestapelde spreekwerkwoorden vóór citaat",
+      "value": "zware quotatieve frames ×2",
+      "effect": "present",
+      "observed": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:15",
+          "kind": "3 opeenvolgende spreekwerkwoord-clauses",
+          "surface": "מֵהַגִּ֥ידאֶתהַמַּרְאָ֖האֶלעֵלִֽי"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "kind": "2 opeenvolgende spreekwerkwoord-clauses",
+          "surface": "אֲשֶׁרדִּבֶּ֥ראֵלֶֽיךָ"
+        }
+      ],
+      "tf_query": "% clause met ≥2 spreekwerkwoorden (SPEECH_LEX), of ≥2 opeenvolgende spreekwerkwoord-clauses vóór één citaat (zware/plechtige inleidingsformule)",
+      "surprise": 7.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Meervoudige spreekinleiding ('antwoordde en hief zijn stem op en sprak') — solemniteit/plechtigheid, vaak bij orakels of koninklijke besluiten. De stapeling is formeel; de plechtigheid is interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 7.5,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 25
+    },
+    {
+      "type": "root_play",
+      "object_type": "word",
+      "feature": "root (consonanten)",
+      "value": "DBR",
+      "effect": "cluster",
+      "observed": 2,
+      "distinct_lexemes": [
+        "DBR/",
+        "DBR["
+      ],
+      "span": "1_Samuel 3:17",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דָּבָר֙"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "דִּבֶּ֣ר"
+        }
+      ],
+      "tf_query": "% ≥2 verschillende lexemen met root 'DBR' dicht bij elkaar (woordspel/paronomasie)",
+      "surprise": 7.0,
+      "note": "Verschillende woorden van dezelfde stam 'DBR' staan dicht bijeen — kandidaat voor woordspel (paronomasie).",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 7.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 26
+    },
+    {
+      "type": "syntactic_surprise",
+      "object_type": "clause",
+      "feature": "local_clause_type_transition",
+      "value": "1 locally unexpected transitions",
+      "effect": "over",
+      "observed": 1,
+      "expected": 1.0,
+      "G2": 11.99,
+      "statistic": 11.99,
+      "surprise": 7.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:18",
+          "transition": "Way0->CPen",
+          "local_prior": "0/4",
+          "surface": "יְהוָ֣ה"
+        }
+      ],
+      "tf_query": "clause typ sequence; compare transition with preceding local window",
+      "note": "Local clause-type transition absent or rare in the immediate prior window.",
+      "provenance": "deterministic_bhsa_tf",
+      "feature_reliability": "formal_proxy",
+      "n_context": 22,
+      "baselines": {
+        "global": {
+          "expected": 7.673,
+          "G2": 11.99,
+          "p_value": 0.0005363021921553362,
+          "effect": "under"
+        },
+        "same_book": {
+          "expected": 7.885,
+          "G2": 12.56,
+          "p_value": 0.0003947342914125632,
+          "effect": "under"
+        },
+        "same_genre": {
+          "expected": 7.858,
+          "G2": 12.48,
+          "p_value": 0.00041051263173898944,
+          "effect": "under"
+        },
+        "same_language": {
+          "expected": 7.673,
+          "G2": 11.99,
+          "p_value": 0.0005363021921553362,
+          "effect": "under"
+        },
+        "same_period": {
+          "expected": 7.735,
+          "G2": 12.15,
+          "p_value": 0.0004907219246363775,
+          "effect": "under"
+        }
+      },
+      "p_value": 0.0005363021921553362,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.0004907219246363775,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "effect_size": 0.0,
+      "rank_score": 7.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0005363021921553362,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 27
+    },
+    {
+      "type": "deictic_shift_here_now",
+      "object_type": "clause",
+      "feature": "proximate_deictic_after_narrative",
+      "value": "here/now/behold marker enters finite narrative",
+      "effect": "over",
+      "observed": 1,
+      "expected": 1.0,
+      "G2": 0.18,
+      "statistic": 0.18,
+      "surprise": 6.7,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:16",
+          "surface": "הִנֵּֽנִי"
+        }
+      ],
+      "tf_query": "HNH/PH/<TH/ZH after local finite-narrative context",
+      "note": "Here-and-now shift proxy: proximate deixis interrupts a past-tense flow.",
+      "provenance": "deterministic_bhsa_tf",
+      "feature_reliability": "formal_proxy",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 0.634,
+          "G2": 0.18,
+          "p_value": 0.667175241736035,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 1.083,
+          "G2": 0.01,
+          "p_value": 0.9338900930314907,
+          "effect": "under"
+        },
+        "same_genre": {
+          "expected": 0.802,
+          "G2": 0.05,
+          "p_value": 0.8278726658866478,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.634,
+          "G2": 0.18,
+          "p_value": 0.667175241736035,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.66,
+          "G2": 0.16,
+          "p_value": 0.6928476666687382,
+          "effect": "over"
+        }
+      },
+      "p_value": 0.667175241736035,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.6928476666687382,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "effect_size": 0.0,
+      "rank_score": 6.7,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.667175241736035,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 28
+    },
+    {
+      "type": "relational_preposition_density",
+      "object_type": "word",
+      "feature": "ratio prep+suffix vs prep+lexicaal nomen",
+      "value": "suffix 7/11 (=64%)",
+      "effect": "skew",
+      "observed": 7,
+      "suffixed": 7,
+      "lexical": 4,
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "אֵלֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "מִמֶּ֑נִּי"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "לְּךָ֤"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "מִמֶּ֨נִּי֙"
+        },
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": "אֵלֶֽיךָ"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "לֹ֤ו"
+        },
+        {
+          "ref": "1_Samuel 3:18",
+          "surface": "מִמֶּ֑נּוּ"
+        }
+      ],
+      "tf_query": "% verhouding van relationele preposities (B/L/>L/<M/<L/MN) met pronominaal suffix (prs_ps) versus met lexicaal nomen",
+      "surprise": 6.52,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Hoog aandeel preposities met pronominaal suffix — een 'gesloten circuit': alles speelt zich tussen reeds bekende actoren af (interpersoonlijk) i.p.v. met objecten. De ratio is formeel; de 'gesloten circuit'-lezing interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 6.52,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 29
+    },
+    {
+      "query_name": "totalizing_demand_kol_davar",
+      "anchor_otype": "clause",
+      "observed": 1,
+      "effect": "over",
+      "expected_direction": "over",
+      "rationale": "De totaliserende eis 'davar mikkol hadavar' (een woord van ál het woord, v17): de meerdere eist niet een antwoord maar de volledigheid ervan, met KL ('kol') naast DBR ('davar'). Totaliteit-als-dwang; geen detector ziet de kol+davar-koppeling in directe rede.",
+      "tf_query": "clause domain=Q\n  word lex=KL/\n  word lex=DBR/",
+      "corpus_matches": 85,
+      "type": "dynamic_query",
+      "object_type": "clause",
+      "feature": "totalizing_demand_kol_davar",
+      "value": "clause",
+      "examples": [
+        {
+          "ref": "1_Samuel 3:17",
+          "surface": null
+        }
+      ],
+      "provenance": "llm_hypothesis",
+      "exploratory": true,
+      "feature_tier": "discourse_uncertain",
+      "n_queries_tried": 5,
+      "note": "Hypothese-gegenereerde query (5 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). De totaliserende eis 'davar mikkol hadavar' (een woord van ál het woord, v17): de meerdere eist niet een antwoord maar de volledigheid ervan, met KL ('kol') naast DBR ('davar'). Totaliteit-als-dwang; geen detector ziet de kol+davar-koppeling in directe rede.",
+      "feature_reliability": "hypothesis_generated",
+      "n_context": 23,
+      "baselines": {
+        "global": {
+          "expected": 0.022,
+          "G2": 5.7,
+          "p_value": 0.016931618852826347,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.023,
+          "G2": 5.64,
+          "p_value": 0.017565089019194742,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.019,
+          "G2": 5.99,
+          "p_value": 0.014398501730594237,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.023,
+          "G2": 5.67,
+          "p_value": 0.017213043986127115,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.02,
+          "G2": 5.94,
+          "p_value": 0.014826126265289943,
+          "effect": "over"
+        }
+      },
+      "expected": 0.022,
+      "G2": 5.7,
+      "p_value": 0.016931618852826347,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.014826126265289943,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 5.7,
+      "effect_size": 5.506,
+      "surprise": 5.7,
+      "rank_score": 5.7,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.016931618852826347,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 30
+    }
+  ]
+}

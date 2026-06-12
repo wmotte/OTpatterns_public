@@ -1,0 +1,45 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 3:15-18 (Eli <-> Samuël). As: macht-asymmetrie in spraak + ontwijking. De oudere meerdere (Eli) DWINGT onthulling af; het kind (Samuël) ontwijkt uit angst (v15: 'vreesde de mareh te vertellen'). Templates mikken op de configuraties die de vaste detectoren NIET als eenheid zien: (a) vetitief + verhullings-werkwoord (al-na-tekhachad), (b) verhullings-werkwoord met ablatief-naar-de-spreker (mimmenni 'van mij'), (c) de zelfvervloekings-eed als dwangmiddel (koh ya'aseh ... elohim), (d) het hifil-onthullingswerkwoord NGD dat de scene omarmt (vrees-te-vertellen -> vertelde), (e) de totaliserende eis (kol + davar). Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "vetitive_against_concealment",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>L=\n  word lex=KXD[ vs=piel",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met de vetitieve ontkenning (>L=, 'al') plus het verhullings-werkwoord KXD in piel: de meerdere verbiedt de mindere expliciet om te ontwijken ('al na tekhachad', v17). Vetitief als dwangmiddel over de machtsgrens heen; geen vaste detector ziet deze combinatie als configuratie."
+    },
+    {
+      "name": "concealment_with_ablative_speaker",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KXD[ vs=piel\n  word lex=MN prs_ps=p1",
+      "expected_direction": "over",
+      "rationale": "Het verhullings-werkwoord KXD samen met de prepositie MN + 1e-persoonssuffix ('mimmenni' = van mij, v17 2x; 'mimmennu' v18): het verbod-op-ontwijking wordt grammaticaal teruggericht op de eisende meerdere. De ontwijking is gedefinieerd als onthouding-aan-mij; scherpste marker van de dwang-vector."
+    },
+    {
+      "name": "self_imprecation_oath_formula",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KH\n  word lex=<FH[",
+      "expected_direction": "over",
+      "rationale": "De zelfvervloekings-eed 'koh ya'aseh lekha elohim ...' (v17): de meerdere legt de mindere een godsoordeel-formule op om de waarheid af te dwingen. De eed-als-pressiemiddel is een machtshandeling, geen informatie-vraag; valt buiten elke vaste detector."
+    },
+    {
+      "name": "disclosure_hifil_bracket",
+      "anchor_otype": "word",
+      "feature_tier": "formal_proxy",
+      "template": "word lex=NGD[ vs=hif",
+      "expected_direction": "over",
+      "rationale": "Het hifil-onthullingswerkwoord NGD ('higgid', vertellen/aankondigen) omarmt de scene: v15 infinitivus 'vreesde te-vertellen' (ontwijking), v18 wayyiqtol 'en hij vertelde' (gedwongen onthulling). De causatieve stam codeert het dwingen-tot-spreken; de dichtheid van precies dit werkwoord in een dialoog van 4 verzen is de as-signatuur."
+    },
+    {
+      "name": "totalizing_demand_kol_davar",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KL/\n  word lex=DBR/",
+      "expected_direction": "over",
+      "rationale": "De totaliserende eis 'davar mikkol hadavar' (een woord van ál het woord, v17): de meerdere eist niet een antwoord maar de volledigheid ervan, met KL ('kol') naast DBR ('davar'). Totaliteit-als-dwang; geen detector ziet de kol+davar-koppeling in directe rede."
+    }
+  ]
+}

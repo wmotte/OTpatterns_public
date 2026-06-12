@@ -1,0 +1,53 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samuël 15:13-31 (Samuël <-> Saul; profeet > koning, rol-inversie). As: macht-asymmetrie in spraak + ontwijking/mislukte communicatie (A+O). De scene is het prototype van de DEFLECTIE die zichzelf verraadt. Saul claimt gehoorzaamheid ('haqimoti et dvar YHWH', ik heb het woord van YHWH volbracht, v13); Samuël weerlegt met het GELUID dat de leugen blootlegt ('umeh qol-hatso'n hazzeh be'oznay', wat is dan dit geblaat van schapen in mijn oren, v14). Saul schuift de schuld op het VOLK ('chamal ha'am', het volk spaarde, v15.21) en verpakt de overtreding als cultus ('lizboach la-YHWH eloheykha', om te offeren aan YHWH JOUW God - het distantierende suffix, v15.21). Samuël velt het vonnis dat het hele toneel scharniert op het werkwoord CM< / QWL ('hineh shemoa mizevach tov', zie, gehoorzamen is beter dan offer, v22): hetzelfde QWL dat Saul beweerde te gehoorzamen (de stem) is het QWL dat hem verraadt (het geblaat). Dan de wederzijdse verwerping ('ma'asta et dvar YHWH wayyim'aseka mimmelekh', je hebt het woord verworpen en Hij heeft jou verworpen als koning, v23.26) en het uitgevoerde teken: het scheuren van de mantel = het scheuren van het koningschap ('qara YHWH et mamlekhut', YHWH heeft het koningschap afgescheurd, v28). Saul eindigt gebogen: drie keer de hishtaphel-buiging ('eshtachaweh', v25; 'hishtachaweyti', v30; 'yishtachu', v31) en de eer-bede ('kabbedeni na', eer mij toch, v30) - de afgezette koning buigt fysiek terwijl zijn mondelinge gehoorzaamheid vals bleek. Templates mikken op de configuraties die de vaste detectoren NIET als eenheid zien: (a) het blaam-schuivende VOLK als subject in rede, (b) het verraderlijke QWL+CM<-koppel (stem/geluid), (c) het cultische excuus-werkwoord ZBX, (d) het wederkerige verwerpings-werkwoord M>S, (e) de buigings-bede hishtaphel+KBD. Plafond Middel; exploratief, FDR over alle queries.",
+  "queries": [
+    {
+      "name": "blame_shift_people_as_agent",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=<M/",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met <M ('volk'): Sauls blaam-schuivende deflectie 'chamal ha'am al-meytav hatso'n' (het volk spaarde het beste van het kleinvee, v15) en 'wayyiqqach ha'am ... lizboach' (het volk nam ... om te offeren, v21). Saul maakt het VOLK tot grammaticaal subject van de overtreding om zichzelf als koning uit de handelingslijn te halen - de ontwijkings-signatuur van het verschoven agens. Geen vaste detector koppelt 'het volk-als-subject' aan het directe-rede-domein als deflectie-configuratie op de machts-as."
+    },
+    {
+      "name": "voice_pun_obey_versus_sound",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=QWL/",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met QWL ('stem/geluid'): het woord waarop de hele deflectie kantelt en breekt. Saul beweert de STEM van YHWH te gehoorzamen ('shamati be-qol YHWH', ik heb naar de stem van YHWH geluisterd, v20), maar Samuël hoort het GELUID van het kleinvee ('umeh qol-hatso'n', wat is dit geblaat, v14) en velt 'hineh shemoa ... we-le-haqshiv mi-qol eylim' (gehoorzamen ... acht slaan beter dan het geluid van rammen, v22). Hetzelfde QWL is tegelijk de stem-die-men-moet-gehoorzamen en het geluid-dat-de-ongehoorzaamheid-verraadt: de woordspeling die de leugen ontmaskert. Geen vaste detector telt QWL als spraak-gebonden dubbelganger op de gehoorzaamheids-as."
+    },
+    {
+      "name": "cultic_excuse_sacrifice_verb",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=ZBX[",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met ZBX ('offeren'): het cultische excuus waarmee Saul de overtreding herframet als vroomheid - 'lizboach la-YHWH eloheykha' (om te offeren aan YHWH jouw God, v15.21). De offerterm is Sauls ontwijkings-instrument: niet ongehoorzaamheid maar eredienst. Samuël keert exact die term om in het vonnis 'shemoa mizevach tov' (gehoorzamen is beter dan offer, v22). Geen vaste detector koppelt het offer-werkwoord aan het directe-rede-domein als excuus-herkadering op de ontwijkings-as."
+    },
+    {
+      "name": "reciprocal_rejection_maas",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=M>S[",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met M>S ('verwerpen'): het wederkerige verwerpings-werkwoord dat het machtsvonnis omlijst - 'ya'an ma'asta et-dvar YHWH' (omdat je het woord van YHWH hebt verworpen, v23) tegenover 'wayyim'aseka YHWH mi-melekh' (heeft YHWH jou verworpen als koning, v23.26). Dezelfde wortel keert de verhouding om: Sauls verwerpen-van-het-woord wordt YHWH's verwerpen-van-Saul. De punchline van de inversie - de profeet spreekt de wederkerige verwerping uit die de koning onttroont. Geen vaste detector ziet de M>S-wederkerigheid in directe rede als drager van het dynastie-vonnis."
+    },
+    {
+      "name": "bowing_plea_hishtaphel_honor",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KBD[",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met KBD ('eren/zwaar maken'): de eer-bede waarmee de afgezette koning zich vastklampt aan status - 'kabbedeni na neged ziqney ammi' (eer mij toch tegenover de oudsten van mijn volk, v30). De bede om eer staat naast de drievoudige hishtaphel-buiging (v25.30.31): Saul buigt fysiek en smeekt om eer terwijl zijn mondelinge gehoorzaamheid vals bleek - de omkering waarin de hoogste spreker-autoriteit zich onderwerpt aan de profeet die hem verwierp. Geen vaste detector koppelt het eer-werkwoord aan de buigings-bede als onderwerpings-configuratie op de machts-as."
+    },
+    {
+      "name": "torn_kingdom_enacted_sign",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=QR<[",
+      "expected_direction": "over",
+      "rationale": "Directe-rede-clause met QR< ('scheuren'): het uitgevoerde teken waarin het scheuren van de mantel het scheuren van het koningschap belichaamt - 'qara YHWH et-mamlekhut yisra'el me'aleykha' (YHWH heeft het koningschap van Israël van je afgescheurd, v28), uitgesproken nadat Saul Samuëls mantelzoom scheurt (v27). Het werkwoord verbindt het fysieke scheuren met het dynastieke vonnis: de mantel-scheur ís de troon-scheur. Geen vaste detector koppelt het scheur-werkwoord in directe rede aan het onttronings-teken op de machts-as."
+    }
+  ]
+}
