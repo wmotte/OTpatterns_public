@@ -148,18 +148,6 @@ website shebanq werkt met een andere zoektaal):
 3. Plak de zoekregel in het zoekvak, voer hem uit en blader naar de treffers
    in 1 Samuël 3:15-18.
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat het
-voornaamwoord telkens vóór de naam komt, dat het causatieve werkwoord de scène
-omklemt of dat de godsnaam de slotzin opent, is meetbaar; dat de verteller dit
-zó heeft gewild, blijft een lezing die het rapport aanbiedt. Drie van de vier
-vondsten rusten bovendien op metingen die een hulpprogramma uitvoert (de
-volgorde-telling, de graaf-meting en de overgang-meting); ze ondersteunen de
-lezing als aanwijzing, en u controleert ze alleen in een volledige
-Text-Fabric-omgeving. De stevigste, narekenbare grond is het omklemmende
-werkwoord; de eigenste waarneming is de uitgestelde spreker, die geen enkel
-commentaar eerder zo benoemde.
 
 ## Genoemde commentaren
 

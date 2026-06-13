@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "name": "saul_jonathan_death_report",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=C>WL=/\n  word lex=JHWNTN/\n  word lex=MWT[",
+      "expected_direction": "over",
+      "rationale": "Saul, Jonatan en sterven in één vers: de boodschapper maakt zijn nieuws meteen tot verliesbericht."
+    },
+    {
+      "name": "amalekite_identity_self_report",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=<MLQJ/\n  word ps=p1",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Amalekitische identiteit met eerste persoon samenvalt: de spreker positioneert zichzelf in het verhaal."
+    },
+    {
+      "name": "kill_me_request",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MWT[\n  word prs_ps=p1",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin het doodswerkwoord een eerste-persoonssuffix draagt: de claim wordt als verzoek van Saul geciteerd."
+    },
+    {
+      "name": "i_killed_him_self_incrimination",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MWT[ ps=p1\n  word prs_ps=p3",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de spreker zichzelf als doder formuleert en Saul pronominaal object wordt: de claim belast de boodschapper."
+    },
+    {
+      "name": "crown_armlet_transfer",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=NZR/\n  word lex=>Y<DH/\n  word lex=R>C/\n  word lex=ZRW</",
+      "expected_direction": "over",
+      "rationale": "Kroon, armband, hoofd en arm in één vers: het bewijs van de claim wordt via koninklijke lichaamsmarkeringen overgedragen."
+    },
+    {
+      "name": "mouth_testifies_blood",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=PH/\n  word lex=<NH[\n  word lex=DM/",
+      "expected_direction": "over",
+      "rationale": "Mond, antwoorden/getuigen en bloed in één vers: Davids vonnis laat de eigen woorden van de boodschapper tegen hem spreken."
+    },
+    {
+      "name": "anointed_yhwh_hand",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=MCJX/\n  word lex=JHWH/\n  word lex=JD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin gezalfde van JHWH en hand samen staan: Davids vraag maakt aanraking van Saul tot cultisch-politieke grens."
+    }
+  ]
+}

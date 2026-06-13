@@ -51,9 +51,6 @@ De snelle werkwoordsketen laat de boden bewegen; de onderbrekingen laten David
 en de lezer wachten. Daardoor wordt de vraag niet: wie arriveert het eerst? maar:
 wie durft te zeggen wat de aankomst betekent?
 
-**Wat het niet bewijst:** Wayyiqtol-dichtheid bewijst geen psychologische
-spanning. De lezing van uitstel ontstaat uit de combinatie van snelheid,
-onderbreking en de inhoud van Davids vragen.
 
 **Staat dit al in de commentaren?:** ja. De bodewedstrijd, Davids wachten en de
 vertraging van het slechte nieuws zijn bekend; de metingen van wayyiqtol,
@@ -93,9 +90,6 @@ Ahimaäz kan rennen, aankomen en spreken, maar hij opent niet de volledige
 inhoud. De grammatica lokaliseert het nieuws bij de bode voordat het David
 bereikt.
 
-**Wat het niet bewijst:** De dynamische query is hypothese-gegenereerd en telt
-één treffer. Zij mag alleen naast de bredere nieuws- en bodepatronen worden
-gebruikt.
 
 **Staat dit al in de commentaren?:** ja. De idiomatische waarde van "bericht in
 zijn mond" en de nieuwslogica van de scène worden expliciet besproken; de query
@@ -142,9 +136,6 @@ Kusiet wordt gekoppeld aan het nieuws bij de koning. De verdeling is subtiel:
 Ahimaäz is de snelle bode die de eerste aankomst opeist, maar de Kusiet is de
 bode bij wie het bericht zijn beslissende inhoud krijgt.
 
-**Wat het niet bewijst:** De vers-queries zijn exploratief en werken over
-clausegrenzen heen. Zij tonen co-occurrence in verzen, geen syntactische
-afhankelijkheid binnen één clause.
 
 **Staat dit al in de commentaren?:** ja. De rolverdeling tussen Ahimaäz als
 snelle, aandringende bode en de Kusiet als drager van het beslissende bericht is
@@ -181,9 +172,6 @@ David zit, de wachter ziet, mannen rennen, een bericht lijkt onderweg. Dat
 maakt de aankomst zichtbaar voordat het nieuws hoorbaar wordt. De stilte rond
 Absaloms lot ontstaat uit waarneming die het spreken voor blijft.
 
-**Wat het niet bewijst:** Deictische markers en participia bewijzen geen
-cinematografische bedoeling. Zij ondersteunen alleen de observatie dat de
-vertelling lokaal in waarnemende presentie vertraagt.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De poort- en wachterscène als
 zichtbare vertraging is bekend; de actieve participia als afzonderlijke
@@ -224,8 +212,6 @@ de overwinning op "vijanden" of "opstandelingen" verdwijnt achter één
 private vraag. Ahimaäz ontwijkt die vraag; de Kusiet beantwoordt haar indirect
 door Absalom onder Davids vijanden te rangschikken.
 
-**Wat het niet bewijst:** De lage meervoudsdichtheid verklaart Davids rouw niet.
-Zij toont alleen dat de passage ongewoon enkelvoudig en persoonsgericht is.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Davids dubbele vraag naar de
 jongeman en de spanning tussen overwinning en vaderlijk verlies zijn bekend; de

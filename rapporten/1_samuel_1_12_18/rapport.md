@@ -18,7 +18,7 @@ bewijs gedragen hypothesen.*
 > telkens hoe het Hebreeuws de rangverhouding tussen de twee codeert, en waar
 > de communicatie eerst klapt voor ze zich herstelt.
 
-## Vraag 1: de genoemde meerdere, de naamloze mindere
+## Vraag 1 — de genoemde meerdere, de naamloze mindere
 
 **Vraag:** Wie houdt het verhaal bij naam vast, wie laat het vervagen tot een
 voornaamwoord, en valt die keuze samen met de machtsverhouding?
@@ -56,17 +56,6 @@ en "de vrouw" wordt. Voor wie de scène voorleest of preekt is dit een meetbaar
 ankerpunt: de tekst voert het statusverschil ook op in wie het waard wordt
 geacht herhaald genoemd te worden.
 
-**Wat het niet bewijst:** De vervaldetector werkt op een discourse-proxy
-(`discourse_uncertain`); een referentiepatroon is geen bewijs van auteursopzet.
-De viervoudige naamtelling van Eli is alleen-globaal (global_only): de
-zeldzaamheid is een corpus-eigenschap van die hoge dichtheid in zo weinig
-verzen, zonder gestratificeerde robuustheid. Een corpus-relationele meting uit
-de volledige run maant bovendien tot voorzichtigheid bij het slotvers: אשה als
-expliciet subject in een wayyiqtol-X-clause ("en de vrouw ging haars weegs",
-1:18) is corpusbreed een sterk gebonden patroon (G² = 28,6 globaal, robuust).
-De stap naar "de vrouw" rijdt dus deels op een gangbare discourse-constructie
-die een nieuwe alinea opent; het lidwoord-argument en de naamtelling dragen de
-lezing, de formulering van 1:18 zelf is minder vrij gekozen dan ze oogt.
 
 **Staat dit al in de commentaren?:** nieuw. Frolov en McCarter signaleren
 referentie-verschuivingen, maar tekstkritisch (LXX/4QSamᵃ-varianten in 1:13,
@@ -80,7 +69,7 @@ van agency; de collostructionele binding van het patroon is de toevoeging.
 categorical sp=art, leitwort · robustness: robust (decay, lidwoord), global_only
 (naamtelling) · versie 2023
 
-## Vraag 2: een scène in de vrouwelijke vorm
+## Vraag 2 — een scène in de vrouwelijke vorm
 
 **Vraag:** Welke grammaticale stem beheerst deze verzen, en strookt dat met wie
 hier institutioneel de macht heeft?
@@ -104,10 +93,6 @@ suffixen en voornaamwoorden buigen overwegend naar Hanna. Er zit spanning tussen
 wie de institutionele macht draagt en wie de grammaticale ruimte vult; de
 preeklijn dat dit haar verhaal is, vindt zo al steun in de morfologie.
 
-**Wat het niet bewijst:** Een telling van `gn=f` is een formeel feit;
-geslachtsmarkering valt niet samen met thematische centraliteit zonder dat de
-lezing van de verzen dat staaft. De meting zegt niets over de richting van de
-machtsverhouding zelf.
 
 **Staat dit al in de commentaren?:** nieuw. Van Wijk-Bos, Evans en Frolov
 bespreken Hanna's narratieve dominantie (zij blijft het centrum, Elkana
@@ -117,7 +102,7 @@ oververtegenwoordiging niet als bewijsvorm aan.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): categorical gn=f ·
 robustness: robust · versie 2023
 
-## Vraag 3: de wervelende werkwoordstijd van de confrontatie
+## Vraag 3 — de wervelende werkwoordstijd van de confrontatie
 
 **Vraag:** Waarom stapelen zich in zo'n korte scène zoveel verschillende
 werkwoordsvormen op?
@@ -143,9 +128,6 @@ het imperatieve uithalen van 1:14, het verdedigende qatal van 1:15. De
 werkwoordstijd zelf draagt de onrust van een gesprek dat eerst misloopt en zich
 dan herstelt.
 
-**Wat het niet bewijst:** De maat is een proxy voor tijdlijn-instabiliteit; een
-hoge schakeldichtheid wijst op afwisseling, niet op een specifieke emotie of
-intentie. Welke lezing erbij hoort, volgt pas uit de verzen in context.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Frolov wijst op de "wild
 mix" van vormen in 1:2-7 en op de participiale digressie van 1:12-13a; Keil
@@ -156,7 +138,7 @@ dialoog zelf voegt de kwantificering toe.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): tam_chaos · robustness:
 robust · versie 2023
 
-## Vraag 4: de diep ingebedde zelfverdediging
+## Vraag 4 — de diep ingebedde zelfverdediging
 
 **Vraag:** Waarom is de syntaxis van deze verzen veel sterker onderschikkend dan
 verhalend proza gewoonlijk is?
@@ -183,10 +165,6 @@ Hanna stapelt bijzinnen om uit te leggen wie ze is en waarom ze deed wat Eli
 verkeerd las. De syntactische gelaagdheid is de vorm van het je-moeten-verklaren
 naar boven toe.
 
-**Wat het niet bewijst:** De inbeddingsdiepte is een exacte telling
-(`hard_formal`), maar dat de diepte in Hanna's verweer en niet elders piekt is
-mijn lezing van de verzen, geen apart finding-veld. Diepe inbedding kan ook puur
-tekstueel zijn; McCarter noemt 1:16 zelfs tekstkritisch onzeker.
 
 **Staat dit al in de commentaren?:** nieuw. McCarter bestempelt 1:16 als crux
 interpretum en richt zich op emendaties; Frolov typeert de dialoog als "verbal
@@ -196,7 +174,7 @@ inbeddingsdiepte ontbreekt.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): clause_embedding ·
 robustness: robust · versie 2023
 
-## Vraag 5: de petitie waarin de wens de spreker verdringt
+## Vraag 5 — de petitie waarin de wens de spreker verdringt
 
 **Vraag:** Hoe bouwt Hanna haar verzoeken op? Wie is het grammaticale subject
 als ze iets vraagt?
@@ -222,10 +200,6 @@ persoon komt er niet in voor.
 ook in de zinsbouw van de bede: de spreker maakt zich tot derde-persoons object
 van haar eigen verzoek aan de meerdere.
 
-**Wat het niet bewijst:** Dit is een exploratieve, door de analist voorgestelde
-zoekvraag (vijf templates geprobeerd; provenance `llm_hypothesis`), geen vast
-corpus-feit; het plafond blijft Middel. Met twee treffers is het monster klein,
-en de directe rede (`domain=Q`) is zelf een conditionerend genre.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Bodner, Tsumura en Keil
 lezen 1:18 als beleefdheidsformule en gunst-zoekende zet; de zelfvernedering is
@@ -235,7 +209,7 @@ dat die over 1:16 én 1:18 covarieert, is wat de meting toevoegt.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): dynamic_query
 (deferential_volitive_petition) · robustness: robust, exploratief · versie 2023
 
-## Vraag 6: het rangregister dat heel het antwoord draagt
+## Vraag 6 — het rangregister dat heel het antwoord draagt
 
 **Vraag:** Erkent Hanna de rangverhouding in één beleefdheidswoord, of trekt dat
 register door haar hele weerwoord heen?
@@ -262,15 +236,6 @@ telkens met het suffix dat naar hem verwijst. Ze codeert de meerdere
 grammaticaal in haar eigen zelfbenoeming. Het verweer is fel van inhoud ("geen
 dochter van Belial") en onderdanig van vorm tegelijk.
 
-**Wat het niet bewijst:** Exploratieve zoekvraag (provenance `llm_hypothesis`,
-plafond hier Laag), en het draait op lexeem-identiteit (`semantic_proxy`): de
-engine telt de woorden; de sociale betekenis blijft lezerswerk. Of dit
-deferentie, strategie of beide is, beslist de lezing. De volledige run voegt
-een corpus-ijk toe die het gewicht van de losse onderdelen relativeert: אדון is
-corpusbreed sterk aan de vocatief-rol gebonden (G² = 199 globaal, robuust),
-"mijn heer" als aanspreekvorm is dus een vaste formule. Het signaal van deze
-vraag zit in de covariantie van drie rang-clauses over één korte rede, en daar
-alleen.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Breed besproken als
 nederigheid en etiquette (Bergen, van Wijk-Bos, Cartledge, Weiss als standaard;
@@ -283,7 +248,7 @@ zelf-objectivering, is wat BHSA hier meetbaar maakt.
 (deferential_status_register, servile_self_term) · robustness: robust,
 exploratief · versie 2023
 
-## Vraag 7: twee vormen die nergens anders voorkomen
+## Vraag 7 — twee vormen die nergens anders voorkomen
 
 **Vraag:** Welke woordvormen van deze scène komen in het hele Oude Testament
 alleen hier voor, en wat hebben die twee gemeen?
@@ -320,12 +285,6 @@ gericht. Wie de passage leest of bepreekt kan hier letterlijk zeggen dat de
 tekst voor dit gebed en dit bevel vormen gebruikt die nergens anders in het
 Oude Testament staan.
 
-**Wat het niet bewijst:** Vorm-hapaxen ontstaan deels mechanisch: een zeldzame
-vervoegingscategorie (vrouwelijk enkelvoud) treft een frequent werkwoord, en de
-uniciteit weerspiegelt mede dat vrouwelijke subjecten en aangesprokenen
-corpusbreed schaars zijn. De telling is hard (`hard_formal`), de koppeling aan
-de scharnieren van het misverstand is mijn lezing. Met twee treffers is het
-monster klein.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Auld plaatst de constructie
 "veel doen" plus infinitief in een breder corpusbeeld, Alter vertaalt de duur
@@ -337,8 +296,7 @@ gemarkeerd zijn.
 **Confidence:** Middel (≤ plafond Hoog) · feature(s): morphological_hapax ·
 robustness: robust · versie 2023
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

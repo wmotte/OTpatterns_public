@@ -170,28 +170,6 @@ werkwoorden schuift. Wel kunt u met de zoekregel `clause` plus `word sp=verb`
 de werkwoorden oplichten en de afwisseling van de vormen met eigen ogen
 volgen.
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat de
-werkwoordstijd in Sauls verweer onrustig springt, dat het "nu" van kant
-wisselt, dat de gronden zich opstapelen met "want": het is alle drie meetbaar.
-Dat de verteller dit zó heeft gewild, en dat het Sauls wanhoop tekent, is de
-lezing die het rapport aanbiedt. De passage is kort, en kleine aantallen
-tellen snel als opvallend; de betrouwbaarheid is daarom voor alle drie
-begrensd tot middelhoog. De stevigste van de drie is de onrustige tijdslijn,
-omdat die ook tegen het verhaalgenre overeind blijft; het "nu" en het "want"
-komen uit gerichte, exploratieve zoekslagen en rusten op enkele treffers. Zij
-ondersteunen de lezing als aanwijzing. En de beperking tot de directe rede is
-zelf een keuze die het materiaal kleurt.
-
-Wat de meting niet aanraakt, is de beroemde bovenlaag van deze scène: het
-werkwoord "ik bedwong mij" (וָאֶתְאַפַּק, vers 12) waarmee Saul zijn
-overtreding als moeizame zelfdwang verpakt, en de aanklacht-vraag "wat heb je
-gedaan" waarmee Samuël hem als rechter ondervraagt. Die laag is in de
-commentaren volledig uitgewerkt (Long, Alter, Chapman; Woodhouse, Bergen over
-de parallel met Gods vragen aan Adam, Kaïn en Achan), en het rapport gebruikt
-haar als ijk voor de rol-inversie. De winst van het tellen zit een laag
-dieper: in de grammaticale vorm van het verweer zelf.
 
 ## Genoemde commentaren
 

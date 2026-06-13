@@ -31,8 +31,8 @@ ETCBC/BHSA en Text-Fabric staat in [ACHTERGROND.md](../ACHTERGROND.md).
 ## Wat er per map staat
 
 - `rapport.md`: de uitgewerkte vragen met metingen, Text-Fabric-query's,
-  duiding, expliciete grenzen ("wat het niet bewijst") en een claim-ledger die
-  elke claim aan een veld in `evidence.json` koppelt.
+  duiding en een claim-ledger die elke claim aan een veld in `evidence.json`
+  koppelt.
 - `toelichting.md`: dezelfde kernvondsten in gewone taal, met zoekopdrachten
   om de tellingen zelf na te lopen.
 - `nieuwheidsoordelen.md`: per bevinding het oordeel of de

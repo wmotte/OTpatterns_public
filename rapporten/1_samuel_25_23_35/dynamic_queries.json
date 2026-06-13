@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "name": "maidservant_lord_address",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>MH/|CPXH/\n  word lex=>DWN/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Abigails zelfverlaging als dienstvrouw samenvalt met de herhaalde aanspreektitel voor David."
+    },
+    {
+      "name": "nabal_name_and_folly",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=NBL===/\n  word lex=NBLH/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de eigennaam Nabal en dwaasheid samen staan: Abigaïl verwerkt de belediging zonder David rechtstreeks te laten handelen."
+    },
+    {
+      "name": "blood_hand_restraint",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=DM/\n  word lex=JD/\n  word lex=JC<[",
+      "expected_direction": "over",
+      "rationale": "Bloed, hand en redden/helpen in één vers: de-escalatie wordt geformuleerd als verhindering van eigenhandig bloedvergieten."
+    },
+    {
+      "name": "lord_life_soul_bundle",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=>DWN/\n  word lex=NPC/\n  word lex=XJ/",
+      "expected_direction": "over",
+      "rationale": "Heer, ziel/leven en leven in één vers: Abigaïl verplaatst David van onmiddellijke wraak naar door JHWH bewaarde toekomst."
+    },
+    {
+      "name": "house_established_and_yhwh",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=BJT/\n  word lex=>MN[\n  word lex=JHWH/",
+      "expected_direction": "over",
+      "rationale": "Huis, bevestigen en JHWH in één vers: Abigaïl laat Davids geweldskeuze onder de horizon van dynastieke toekomst vallen."
+    },
+    {
+      "name": "blessing_after_restraint",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=BRK[\n  word lex=>BJGJL/\n  word lex=JC<[",
+      "expected_direction": "over",
+      "rationale": "Zegen, Abigaïl en verhinderen/redden samen: Davids antwoord benoemt de geslaagde de-escalatie."
+    },
+    {
+      "name": "gift_to_young_men",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=BRKH/\n  word lex=N<R/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin geschenk en jonge mannen samen voorkomen: materiële compensatie wordt onderdeel van de vredesrede."
+    }
+  ]
+}

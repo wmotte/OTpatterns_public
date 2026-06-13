@@ -26,7 +26,7 @@ bewijs gedragen hypothesen.*
 > referentiële signatuur waarmee David als hoofdreferent het toneel
 > grammaticaal naar zich toe trekt.
 
-## Vraag 1: de jongste die het toneel naar zich toe trekt
+## Vraag 1 — de jongste die het toneel naar zich toe trekt
 
 **Vraag:** Eliab en Saul zetten David vast op zijn rang ("die paar schapen",
 "maar een knaap"). Keert de tekst die kleinering ook grammaticaal om, in de
@@ -58,12 +58,6 @@ het referentiële verval het syntactische spoor van een omkering: de afgewezen
 jongste is degene naar wie de tekst telkens terugverwijst. De scène kent hem
 grammaticaal toe wat de sprekers hem in woorden ontzeggen.
 
-**Wat het niet bewijst:** Referentieel verval is een discourse-proxy
-(`discourse_uncertain`), geen bewijs van een verteller-intentie. Een scène met
-één dominant handelend personage levert sowieso veel
-naam-naar-voornaamwoord-runs op; dat dit precies de kleinering "omkeert" is
-mijn lezing boven de telling. Plafond Middel; de detector meet de vorm van de
-referentie, de bedoeling erachter blijft buiten bereik.
 
 **Staat dit al in de commentaren?:** nieuw. De commentaren zien Davids
 dominantie, maar niet als referentiële signatuur. Alter typeert David als
@@ -151,8 +145,7 @@ de meest as-dragende metingen vallen in de ijk, en de enige novelty zit in een
 formele, gemeten structuur die de commentaren (gericht op retoriek, theologie
 en woordbetekenis) niet tellen.
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

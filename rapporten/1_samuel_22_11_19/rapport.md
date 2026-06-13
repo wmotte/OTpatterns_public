@@ -49,10 +49,6 @@ past bij de machtsas van de reeks: de meerdere gebruikt informatie niet ter
 weging; hij organiseert de rollen zo dat het antwoord van de mindere al in een
 schuldpositie terechtkomt.
 
-**Wat het niet bewijst:** Actantcentraliteit is een proxy. Zij bewijst niet dat
-Saul juridisch ongelijk heeft en zegt niets over intentie van de auteur. De
-meting laat alleen zien dat syntactische handelingsrollen ongewoon ongelijk
-verdeeld zijn.
 
 **Staat dit al in de commentaren?:** gedeeltelijk gedekt. De commentaren
 beschrijven Saul breed als aanklager en handelende macht tegenover de priesters
@@ -96,10 +92,6 @@ priesterambt zelf in het objectveld van geweld trekt. Dat Doëgs uitvoering met
 `PG<[` volgt op Sauls doodsbevel maakt de machtslijn zichtbaar: het woord van de
 koning zoekt een uitvoerder en vindt die pas buiten de gewone knechten.
 
-**Wat het niet bewijst:** De twee queries zijn dynamisch en exploratief. Zij
-zijn robuust binnen de scoring, maar blijven hypothesen die uit dit passagebeeld
-zijn geformuleerd. De bredere werkwoordframebevindingen bij `MWT[` en `PG<[`
-zijn global-only; die ondersteunen de lezing, maar dragen haar niet alleen.
 
 **Staat dit al in de commentaren?:** gemengd. De koppeling priester +
 doodswerkwoord is gedeeltelijk gedekt: commentaren zien het doodsbevel als
@@ -141,9 +133,6 @@ hij laat de diensttaal niet als ontlasting gelden. De regelmatige terugkeer van
 Achimelechs naam versterkt dat kader: de priester wordt eerst opgeroepen, dan
 antwoordt hij, daarna wordt hij met naam ter dood veroordeeld.
 
-**Wat het niet bewijst:** De servant/king-query is dynamisch en blijft
-exploratief. De resonantieafstand van de naam is formeel, maar de duiding dat
-die afstand oproep, verdediging en vonnis kadert, is interpretatief.
 
 **Staat dit al in de commentaren?:** gedeeltelijk gedekt. De diensttaal in
 Achimelechs verdediging is bekend: commentaren lezen "uw dienaar" en "koning"
@@ -179,10 +168,6 @@ vormlijst. De telling maakt het geweld niet groter dan de tekst zegt; zij laat
 zien dat de slachtoffers buiten het eigenlijke ambtsverhoor pas aan het einde
 grammaticaal zichtbaar worden.
 
-**Wat het niet bewijst:** Gendercodering is een vormcategorie. Zij is niet
-hetzelfde als sociale genderanalyse en bewijst geen bewuste compositie. De
-lezing hangt aan de combinatie van de lage dichtheid en de plaats van de
-voorbeelden.
 
 **Staat dit al in de commentaren?:** nieuw. Commentaren bespreken het
 slotgeweld uitvoerig, vooral de overeenkomst met het Amalek-bevel en Sauls
@@ -219,9 +204,6 @@ bij het moment waarop de taal van verantwoording overgaat in bevel en uitvoering
 Dat maakt de vorm van het geweld scherper: de tekst drukt vooral het
 beslissende bevel samen.
 
-**Wat het niet bewijst:** De telling is klein en same-book/same-genre zijn niet
-significant. Deze vraag mag daarom alleen als ondersteunende observatie dienen,
-niet als zelfstandige kernclaim.
 
 **Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren noemen
 de stijl van de scène kort en snel en bespreken de directe bevelstaal rond

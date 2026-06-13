@@ -49,8 +49,6 @@ clause domain=Q
 koning bevolen en mag door niemand gekend worden. De leugen werkt dus niet via
 lange uitleg, maar via een compacte opdracht- en geheimhoudingsformule.
 
-**Wat het niet bewijst:** De query bewijst niet waarom David liegt. Zij toont
-alleen hoe de tekst zijn verklaring formeel opbouwt.
 
 **Staat dit al in de commentaren?:** standard. De geheime koninklijke opdracht
 en de formule dat niemand van de zaak mag weten worden al expliciet besproken;
@@ -88,9 +86,6 @@ opdracht geloofwaardig te maken, maar de passage blijft sterk enkelvoudig:
 David vraagt, Achimelech toetst, David antwoordt. De groep bestaat vooral in
 Davids uitleg.
 
-**Wat het niet bewijst:** Lage meervoudsdichtheid bewijst niet dat de knechten
-historisch fictief zijn. Zij ondersteunt alleen de observatie dat de passage
-hen niet als handelende groep uitwerkt.
 
 **Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
 de knechten als vage, afwezige of mogelijk fictieve groep; de lage
@@ -132,8 +127,6 @@ clause domain=Q
 Hij formuleert eerst wat er is en onder welke cultische voorwaarde het gegeven
 kan worden. Zo krijgt zijn voorzichtigheid grammaticale vorm.
 
-**Wat het niet bewijst:** De meting bewijst geen innerlijke aarzeling van
-Achimelech. Zij toont de vorm waarin zijn antwoord het verzoek conditioneert.
 
 **Staat dit al in de commentaren?:** standard. Het heilige brood, de
 beschikbaarheid en de rituele voorwaarde zijn standaardcommentaar; BHSA
@@ -170,9 +163,6 @@ clause domain=Q
 verhaal over de knechten. De reinheidsclaim rust dus op dezelfde afwezige groep
 die ook de geheime opdracht geloofwaardig moet maken.
 
-**Wat het niet bewijst:** De query beslist niet of Davids reinheidsclaim waar
-is. Zij toont hoe zijn antwoord grammaticaal op de priesterlijke voorwaarde
-reageert.
 
 **Staat dit al in de commentaren?:** standard. De reinheidsvoorwaarde en
 Davids toepassing daarvan op zijn jonge mannen zijn bekend; BHSA specificeert
@@ -207,8 +197,6 @@ onafgesloten blijven.
 scène waarin de hand, de geadresseerde en het "voor mij/voor jou" dicht op de
 handeling liggen. De grammatica maakt de nood persoonlijk.
 
-**Wat het niet bewijst:** Ethische lamed bewijst geen schuld of sympathie. Zij
-laat zien dat de handelingen subjectief betrokken worden geformuleerd.
 
 **Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
 de bondige, geladen transactie rond brood en zwaard; de ethische-lamedmeting

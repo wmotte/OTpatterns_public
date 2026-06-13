@@ -53,10 +53,6 @@ tussen groepen. Abner maakt van de beschuldiging een conflict tussen één
 generaal en een dynastiek huis. Dat past bij de machtsas van deze dialoog: de
 man zonder kroon bepaalt de termen waarin de koning nog kan spreken.
 
-**Wat het niet bewijst:** De huis/Saul-query is dynamisch en dus
-hypothese-gegenereerd. De lage meervoudsdichtheid bewijst op zichzelf geen
-politieke isolatie; die duiding ontstaat pas uit de combinatie met Abners
-antwoord en Isbosets latere zwijgen.
 
 **Staat dit al in de commentaren?:** gemengd. De huis/Saul-koppeling in Abners
 antwoord is gangbare commentaarstof: commentaren lezen zijn beroep op het huis
@@ -98,9 +94,6 @@ richten. De syntaxis maakt zijn dreiging programmatisch. Daarmee keert de
 machtsverhouding: Isboset vraagt naar een daad in het verleden; Abner formuleert
 een toekomstig politiek programma.
 
-**Wat het niet bewijst:** Infinitieven bewijzen geen intentie buiten de tekst.
-De doelduiding steunt op de lamed-constructies en de lexemen overbrengen en
-oprichten, niet op de vormcategorie alleen.
 
 **Staat dit al in de commentaren?:** gemengd. De gerichte doelketen
 `<BR[`/`QWM[` is bekend: commentaren bespreken "overbrengen" en "oprichten" als
@@ -143,10 +136,6 @@ dreiging. Daardoor verschuift de scène van Isbosets aanklacht naar Abners
 zelfbinding: de generaal zet een vloek op zijn eigen toekomstige handelen en
 ontneemt de koning daarmee de normerende positie.
 
-**Wat het niet bewijst:** De god/Abner-query is exploratief. De jussieflezing
-van derde-persoons yiqtol is een proxy; BHSA tagt de jussief niet als aparte
-vorm. Dit blok ondersteunt dus de lezing van de eed, maar mag niet zwaarder
-worden gemaakt dan de meetlaag draagt.
 
 **Staat dit al in de commentaren?:** bekend. De eedformule, de zelfimprecatie
 en het performatieve karakter van Abners verklaring worden expliciet besproken.
@@ -186,10 +175,6 @@ Abners rede bereidt dat mee voor: vraag, beledigde tegenvraag en dienstclaim
 gaan direct over in negatie, eed en dynastiek programma. De koning stelt één
 vraag; daarna neemt Abners syntaxis de scène over.
 
-**Wat het niet bewijst:** Inbeddingsdiepte en overgangsverrassing verklaren het
-zwijgen niet zelfstandig. De tekst geeft zelf de reden: vrees voor Abner. De
-meting laat alleen zien dat Abners antwoord formeel zwaar en lokaal
-onverwacht is.
 
 **Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren
 beschrijven de retorische zwaarte, abrupte wending en woordmassa van Abners
@@ -224,9 +209,6 @@ beschuldiging; Abners repliek verplaatst het conflict naar mannelijke dynastie-
 en machtstaal. Dat moet sober worden gezegd, omdat de tekst Rizpa zelf geen
 stem geeft.
 
-**Wat het niet bewijst:** Deze bevinding is niet robuust en niet q-significant.
-Zij mag alleen als ondersteunende waarneming worden gebruikt, niet als
-zelfstandige kernclaim.
 
 **Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren
 bespreken Rizpa breed als politiek scharnier, symbool van koninklijke macht of

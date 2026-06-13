@@ -22,7 +22,7 @@ bewijs gedragen hypothesen.*
 > uitgewerkt en dienen hier als ijk; de dragende vragen liggen bij vijf
 > minder-belichte, gemeten patronen.
 
-## Vraag 1: de stem die gehoorzaamd moet worden
+## Vraag 1 — de stem die gehoorzaamd moet worden
 
 **Vraag:** Wie moet in dit hoofdstuk naar wiens stem luisteren, en valt die
 gezagsrichting samen met de machtsverhouding?
@@ -52,11 +52,6 @@ weigert de mindere te horen naar wie boven hem gesteld is. Op de as
 macht-asymmetrie in spraak is dit een ompoling: het bevel om te gehoorzamen
 loopt naar boven, de weigering loopt naar onder.
 
-**Wat het niet bewijst:** Dit is een exploratieve zoekvraag (provenance
-`llm_hypothesis`), plafond Middel. Het monster is klein (3 treffers). De
-beperking tot directe rede (`domain=Q`) is zelf een conditionerend genre, al
-blijft het same_genre-stratum significant, wat het genre-artefact-bezwaar
-verzwakt.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Woodhouse leest de ironie
 scherp: het gevolg van de weigering om naar Samuël te horen is dat Samuël hún
@@ -72,7 +67,7 @@ clausebundel tegen het corpus.
 **Confidence:** Middel (≤ plafond Middel) · feature: dynamic_query
 (heed_the_voice_axis) · robustness: robust, exploratief · versie 2023
 
-## Vraag 2: de opwaartse bevel-eis
+## Vraag 2 — de opwaartse bevel-eis
 
 **Vraag:** In welke werkwoordsvorm verpakt het volk zijn vraag om een koning, en
 wat zegt die vorm over de gezagsverhouding met de profeet?
@@ -99,9 +94,6 @@ jussief ("moge..."). De gekozen vorm codeert dat de gezagsverhouding wankelt:
 wie hier spreekt, beveelt waar hij zou kunnen verzoeken. Op de as
 macht-asymmetrie in spraak is de vorm zelf het datapunt.
 
-**Wat het niet bewijst:** Exploratieve zoekvraag (provenance `llm_hypothesis`),
-plafond Middel. Het monster is klein (2 treffers). De beperking tot directe rede
-conditioneert het materiaal.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Bergen levert de scherpste
 taalkundige observatie, zij het bij een andere passage: een "bald-faced
@@ -116,7 +108,7 @@ imperatief naast koning, getoetst tegen het corpus.
 **Confidence:** Middel (≤ plafond Middel) · feature: dynamic_query
 (upward_demand_for_king) · robustness: robust, exploratief · versie 2023
 
-## Vraag 3: het collectief dat als meervoud spreekt en wordt aangesproken
+## Vraag 3 — het collectief dat als meervoud spreekt en wordt aangesproken
 
 **Vraag:** Wie is in dit hoofdstuk de tegenspeler van de profeet, en hoe codeert
 de grammatica diens identiteit?
@@ -141,9 +133,6 @@ zich de situatie toe door over te schakelen van Samuëls derde persoon ("hij
 neemt") naar de eerste persoon meervoud ("ónze koning", "ónze oorlogen"). De
 meervoudsdichtheid is het formele spoor van die collectieve stem.
 
-**Wat het niet bewijst:** `prs_nu=pl` is een formele telling (`formal_proxy`).
-Dat de meervoud-dichtheid "collectieve agency" markeert is mijn lezing, een
-interpretatieve stap boven het cijfer, geen finding-veld.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Chisholm telt het
 bezittelijke "jullie" twaalfmaal in vv11-17. Halbertal en Holmes wijzen op de
@@ -155,7 +144,7 @@ is nieuw.
 **Confidence:** Hoog (telling; de duiding blijft lezing) · feature: categorical
 prs_nu=pl · robustness: robust · versie 2023
 
-## Vraag 4: de naam die naar het voornaamwoord wegvalt
+## Vraag 4 — de naam die naar het voornaamwoord wegvalt
 
 **Vraag:** Hoe lang houdt de tekst de eigennamen van de hoofdrolspelers vast
 voordat zij in voornaamwoorden overgaan?
@@ -180,9 +169,6 @@ zo'n keten houdt de tekst de eigennamen kort en laat voornaamwoorden de last
 dragen. Samuël als doorgeefluik vervaagt referentieel; de actoren worden niet
 telkens opnieuw vastgepind. De hoge verval-rate is daarvan het meetbare spoor.
 
-**Wat het niet bewijst:** Dit is een discourse-proxy (`discourse_uncertain`).
-Een lange wegval-keten bewijst geen auteursopzet, en de koppeling aan de
-bemiddelingsstructuur is mijn lezing.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Tsumura beschrijft de
 discourse-grammatica waarin eigennamen vooral bij de eerste introductie nodig
@@ -197,7 +183,7 @@ corpus-anomalie is nieuw.
 **Confidence:** Middel (≤ plafond Middel) · feature: referential_decay_rate ·
 robustness: robust · versie 2023
 
-## Vraag 5: wie handelt, wie ondergaat
+## Vraag 5 — wie handelt, wie ondergaat
 
 **Vraag:** Hoe is de agency over de spelers verdeeld wanneer je subject- en
 object-vermeldingen telt, en houdt die verdeling stand tegen de theologie van
@@ -227,10 +213,6 @@ die theologische patiens-positie staat daarmee in spanning. De eenzijdige agency
 is dus een meting van de grammaticale buitenkant, die de diepere positie van God
 en Samuël als ondergane partij maskeert.
 
-**Wat het niet bewijst:** Dit is een graaf-proxy (`discourse_uncertain`). Een
-verschil tussen in- en uitgaande graad bewijst geen thematische bedoeling, en v7
-laat zien dat de oppervlakte-agency de patiens-positie van God en Samuël juist
-verbergt.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Bergen laat zien dat de
 agency grammaticaal gecodeerd is: het 3ms-suffix komt veertienmaal voor op 85
@@ -285,8 +267,7 @@ hoofdstuk waar BHSA vooral kwantificering toevoegt boven op een bestaande
 lezing. Het bruikbare signaal zit in de minder-belichte vragen 1 tot en met 5,
 en in de saturatie zelf als vergelijkend datapunt.
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

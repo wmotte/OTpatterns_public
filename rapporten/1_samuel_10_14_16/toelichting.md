@@ -147,17 +147,6 @@ website shebanq werkt met een andere zoektaal):
 3. Plak een zoekregel in het zoekvak, voer hem uit en blader naar de treffers
    in 1 Samuël 10:14-16.
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat het
-antwoord diep is ingebed, dat de inhoud als object-zin verpakt zit, of dat
-het vertellen telkens een ontvanger draagt, is meetbaar; dat Saul dit zó
-heeft gewild, is de lezing die het rapport aanbiedt. Het monster is bovendien
-klein (drie verzen, vijf treffers bij de stevigste vondst, drie bij de andere
-twee), dus de tellingen rusten op weinig gevallen en zijn gevoelig voor een
-enkele lange zin. Het adresspoor komt daarbij uit een exploratieve zoekslag
-en draagt de lezing als aanwijzing. De stevigste grond onder de analyse is de
-gemeten inbeddingsdiepte; de object-zinnen en het ontvanger-spoor lezen mee.
 
 ## Genoemde commentaren
 

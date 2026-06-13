@@ -138,7 +138,7 @@ BHSA is rijk en heeft tegelijk duidelijke grenzen.
 
 De annotaties zijn formeel en taalkundig. Zij zeggen veel over grammatica, syntaxis en structuur; betekenis, theologie, historische reconstructie en literaire intentie liggen buiten hun bereik. Een feature als `function=Frnt` kan fronting aanwijzen, maar niet automatisch zeggen of de functie focus, contrast, topicalisatie of retorische spanning is.
 
-Sommige features zijn harder dan andere. Taal, woordsoort, status, werkwoordsvorm of ontkenningspartikel zijn doorgaans directer te gebruiken dan discourse-labels of semantische categorieën. Een verantwoord rapport moet daarom confidence geven en uitleggen wat een bevinding niet bewijst.
+Sommige features zijn harder dan andere. Taal, woordsoort, status, werkwoordsvorm of ontkenningspartikel zijn doorgaans directer te gebruiken dan discourse-labels of semantische categorieën. Een verantwoord rapport moet daarom confidence expliciet maken en interpretatieve claims aan controleerbare gegevens koppelen.
 
 Korte passages vragen extra voorzichtigheid. Drie treffers kunnen procentueel enorm lijken. Daarom moeten observed, expected en voorbeelden steeds samen zichtbaar blijven; pas in die combinatie wordt een telling controleerbaar.
 

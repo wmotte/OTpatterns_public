@@ -21,7 +21,7 @@ bewijs gedragen hypothesen.*
 > codeert, en waar de morfologie het conflict over verhullen en vertellen
 > draagt.
 
-## Vraag 1: het verhul-werkwoord dat de confrontatie beheerst
+## Vraag 1 — het verhul-werkwoord dat de confrontatie beheerst
 
 **Vraag:** Welke werkwoordsvorm draagt grammaticaal het deelstuk waarin Eli de
 onthulling afdwingt, en valt die samen met de spanning tussen spreken en
@@ -47,10 +47,6 @@ het ene en het andere zit geconcentreerd in de stam zelf: het conflict gaat
 over onthulling, en de morfologie loopt daarmee mee. Wie v17-18 voorleest,
 hoort vijf keer dezelfde stamklasse terwijl het twistpunt telkens hetzelfde is.
 
-**Wat het niet bewijst:** `vs=piel` is een formele telling (`formal_proxy`);
-dat de stamkeuze het conflict markeert is mijn lezing van de verzen, geen
-apart finding-veld. Dit is een subspan-meting (binnen v17-18, dus een deel van
-de passage) met een klein monster (`min_n_warning`).
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Tsumura bespreekt "did not
 hide" (כחד) als ontkende antoniem van "told" en wijst op de Akkadische
@@ -62,7 +58,7 @@ piel-concentratie als gemeten oververtegenwoordiging tegen het corpus.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): categorical vs=piel ·
 robustness: robust (subspan v17-18) · versie 2023
 
-## Vraag 2: de vrees om te vertellen, het hifil dat haar omkadert
+## Vraag 2 — de vrees om te vertellen, het hifil dat haar omkadert
 
 **Vraag:** Is de spanning tussen Samuëls vrees en zijn gedwongen onthulling
 ook grammaticaal afgebakend, of staat ze alleen in de inhoud?
@@ -92,9 +88,6 @@ werkwoord dat de eed omlijst.
 gedwongen doet. De dwang tot spreken zit zo in de causatieve stam, en de
 eedformule van v17 staat precies tussen de twee hifil-vormen in.
 
-**Wat het niet bewijst:** Dit is een exploratieve, door de analist
-voorgestelde zoekvraag (provenance `llm_hypothesis`; vijf templates
-geprobeerd), dus het plafond blijft Middel. Met obs 2 is het monster klein.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Bergen leest v15 ("de
 deuren openen") als double entendre voor het gedwongen openen of bekendmaken
@@ -107,7 +100,7 @@ toevoeging.
 (disclosure_hifil_bracket); ijk: self_imprecation_oath_formula · robustness:
 robust, exploratief · versie 2023
 
-## Vraag 3: het verbod dat zich op de eiser terugricht
+## Vraag 3 — het verbod dat zich op de eiser terugricht
 
 **Vraag:** Hoe is Eli's eis grammaticaal opgebouwd: vraagt hij om vertellen,
 of om iets anders?
@@ -138,10 +131,6 @@ grammaticaal teruggericht op de meerdere als degene aan wie niets onthouden
 mag worden; de eiser plaatst zichzelf met het suffix in het werkwoord van de
 ander.
 
-**Wat het niet bewijst:** Dit zijn twee exploratieve zoekvragen (provenance
-`llm_hypothesis`; vijf templates geprobeerd), dus het plafond blijft Middel.
-Met obs 1 respectievelijk obs 2 is het monster klein, en de directe rede
-(`domain=Q`) is zelf een conditionerend genre.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Auld noemt de "double
 insistence" op geen-geheimhouding (thematisch). Tsumura brengt in zijn
@@ -153,7 +142,7 @@ structureel gevisualiseerd. De BHSA-meting voegt de corpus-kwantificering toe.
 (vetitive_against_concealment, concealment_with_ablative_speaker) ·
 robustness: robust, exploratief · versie 2023
 
-## Vraag 4: het woord dat alleen ondergaat
+## Vraag 4 — het woord dat alleen ondergaat
 
 **Vraag:** Wie handelt in deze scène grammaticaal, en wat ondergaat alleen
 maar?
@@ -178,9 +167,6 @@ inwerkt en dat zelf niets onderneemt. Als puur patiens ligt het als inzet van
 het machtsspel tussen Eli en Samuël in: de twee mannen handelen, en het woord
 ondergaat hun spreken, verhullen en vertellen.
 
-**Wat het niet bewijst:** De graad-asymmetrie rust op een graaf-proxy
-(`discourse_uncertain`); een verschil in in- en uitgaande graad bewijst geen
-thematische bedoeling. Met obs 3 is het monster klein.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Tsumura toont davar als
 centrale as (A / A′) van de chiastische dialoog; Auld bespreekt het "woord van
@@ -191,7 +177,7 @@ uitgaande graad is wat BHSA toevoegt.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): actant_centrality ·
 robustness: robust · versie 2023
 
-## Vraag 5: de naam die pas na het voornaamwoord komt
+## Vraag 5 — de naam die pas na het voornaamwoord komt
 
 **Vraag:** In welke volgorde pint de tekst vast wie spreekt: eerst de persoon,
 of eerst een voornaamwoord dat zijn referent uitstelt?
@@ -216,10 +202,6 @@ van informatie draait, loopt diezelfde vooruit-binding door de
 verwijzingsstructuur. De tekst stelt het expliciteren uit, net zoals Samuël
 het vertellen uitstelt.
 
-**Wat het niet bewijst:** Het patroon rust op een discourse-proxy
-(`discourse_uncertain`). Een cataforische binding bewijst geen auteursopzet,
-en de koppeling aan het uitstel-thema is mijn lezing van de verzen, geen
-finding-veld.
 
 **Staat dit al in de commentaren?:** nieuw. De geconsulteerde commentaren
 (Tsumura, Auld, Cartledge, Long, McCarter, Bergen) raken dit patroon niet. Zij
@@ -229,7 +211,7 @@ vooruit-binding komt er niet in voor.
 **Confidence:** Middel (≤ plafond Middel) · feature(s):
 forward_predictive_scaffolding · robustness: robust · versie 2023
 
-## Vraag 6: de onverwachte wending naar JHWH
+## Vraag 6 — de onverwachte wending naar JHWH
 
 **Vraag:** Hoe is Eli's berusting in v18 syntactisch gevormd: zet het verhaal
 zijn ritme voort, of breekt de vorm?
@@ -252,9 +234,6 @@ reproduceerbaar.*
 verhaalketen wordt onderbroken door een vooropgeplaatste godsnaam. De vorm van
 de onderwerping is een gemarkeerde wending in het vertelritme.
 
-**Wat het niet bewijst:** De overgang is een exacte telling (`formal_proxy`).
-Dat juist deze wending berusting markeert is mijn lezing van het vers. Met
-één overgang is het monster klein.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Long koppelt de respons
 thematisch aan Davids vrijwel identiek geformuleerde onderwerping later in
@@ -266,8 +245,7 @@ wat de meting toevoegt.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): syntactic_surprise ·
 robustness: robust · versie 2023
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

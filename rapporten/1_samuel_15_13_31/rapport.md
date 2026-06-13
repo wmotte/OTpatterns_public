@@ -32,7 +32,7 @@ bewijs gedragen hypothesen.*
 > vastloopt, en de "beter dan"-constructie die het vonnis van v28 in de mal
 > van de kernspreuk van v22 giet.
 
-## Vraag 1: de confrontatie in kale werkwoorden
+## Vraag 1 — de confrontatie in kale werkwoorden
 
 **Vraag:** Voelt deze tekst alleen "kortaf", of is de soberheid ook meetbaar
 in de werkwoorden zelf, die hier minder zwaar geladen zijn dan directe rede
@@ -69,13 +69,6 @@ ontwijking/mislukte communicatie de grammaticale signatuur van een dispuut
 waarin alleen nog beweerd en geoordeeld wordt. De deflectie heeft de
 handeling uit de zinnen geperst.
 
-**Wat het niet bewijst:** Valentie is een harde formele telling
-(`formal_proxy`), maar de stap van "weinig twee-complement-clauses" naar
-"assertie boven transactie" is mijn lezing boven het cijfer. De
-ondervertegenwoordiging kan deels ook nominale clauses en
-één-complement-werkwoorden om andere redenen weerspiegelen; de meting zegt
-dat de dichtheid corpus-afwijkend is, niet dat een afzonderlijk predicaat
-bijzonder is.
 
 **Staat dit al in de commentaren?:** nieuw. Geen bron telt of bespreekt
 werkwoordsvalentie. Campbell typeert dit type Samuël-proza algemeen als
@@ -87,7 +80,7 @@ van het zwaar geladen werkwoord tegen de directe-rede-baseline staat nergens.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): valence (complements=2,
 onder) · robustness: robust · versie 2023
 
-## Vraag 2: het collectief dat naar het enkelvoud krimpt
+## Vraag 2 — het collectief dat naar het enkelvoud krimpt
 
 **Vraag:** Saul beroept zich telkens op "het volk", een collectief. Spreekt
 de grammatica dat collectief ook als groep aan, of kantelt ze naar het
@@ -120,12 +113,6 @@ gebrachte dieren) en waar Samuël de cultische verpakking afbreekt (de offers
 die het luisteren niet vervangen). Het meervoud is het register van de
 uitvlucht.
 
-**Wat het niet bewijst:** Numerus is een harde formele telling
-(`formal_proxy`), maar de stap van "weinig meervoud" naar "individualisering
-van het collectief" blijft interpretatief. Het collectief-enkelvoud van
-הָעָם is bovendien een standaardtrek van het Hebreeuws; de meting zegt dat de
-dichtheid ervan hier corpus-afwijkend is, niet dat de constructie zelf
-bijzonder is.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Het thema is geraakt, de
 meting ontbreekt. Alter merkt op dat Saul in v15 een "vage derde persoon
@@ -143,7 +130,7 @@ Saul-confrontaties heen terugkeert.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): categorical (nu=pl,
 onder) · robustness: robust · versie 2023
 
-## Vraag 3: de vertelafstand die wegvalt
+## Vraag 3 — de vertelafstand die wegvalt
 
 **Vraag:** Verhalend proza leunt op de afstandelijke derde persoon. Houdt
 deze scène die afstand, of wordt ze grotendeels in de rechtstreekse aanspraak
@@ -178,12 +165,6 @@ macht-asymmetrie is de lage derde persoon de syntactische maat van een
 onttroning die zich in de aanspraak zelf voltrekt: de profeet spreekt het
 vonnis rechtstreeks tegen de koning uit.
 
-**Wat het niet bewijst:** Persoon is een formele telling; "directheid" en
-"confrontatie" blijven mijn lezing boven het cijfer (`discourse_uncertain`).
-De covariantie met de numerus-meting is reëel; ze is geen bewijs van opzet,
-want beide tellingen kunnen deels dezelfde verschuiving naar de twee sprekers
-meten. Het effect is matig (G² = 12,1) en de teleenheid hangt af van de
-ETCBC-persoonscodering.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De directheid is gezien,
 de telling ontbreekt. Davis merkt op dat "het grootste deel van het verhaal
@@ -200,7 +181,7 @@ dezelfde verdichting naar het jij-tegen-jij.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): person_shift (p3,
 onder) · robustness: robust · versie 2023
 
-## Vraag 4: de gebroken zinnen van het verhoor
+## Vraag 4 — de gebroken zinnen van het verhoor
 
 **Vraag:** Het gesprek tussen Samuël en Saul klinkt gejaagd en afgebroken.
 Blijft dat een leesindruk, of markeert de ETCBC-codering hier meetbaar vaker
@@ -240,13 +221,6 @@ ontwijking/mislukte communicatie sluit dat aan bij de eerdere metingen: een
 dispuut van assertie en oordeel, gevoerd in syntaxis die afbreekt op de
 momenten van claim, verhoor en vonnis.
 
-**Wat het niet bewijst:** code=999 is een harde annotatie (`hard_formal`);
-"geëmotioneerd" of "verstoord" blijft lezing boven de tag. De codering
-registreert dat een zinseenheid afbreekt, over de reden zwijgt ze. Het
-boek-stratum is niet significant: tegen de rest van 1 Samuël gemeten is deze
-dichtheid hoog maar gewoon. En een deel van de defectieve atomen zijn korte
-imperatieven die de ETCBC-segmentering als onvoltooid markeert; daar is de
-"breuk" eerder een coderingskeuze dan een anakoloet in enge zin.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De ruwheid is stilistisch
 gezien, geteld is ze nergens. Bodner noemt de "awkward syntax" van Sauls
@@ -264,7 +238,7 @@ worden, significant tegen corpus, genre en periode.
 defective_clause_atom_density (code=999, over) · robustness: robust ·
 versie 2023
 
-## Vraag 5: de spreukvorm die het vonnis voltrekt
+## Vraag 5 — de spreukvorm die het vonnis voltrekt
 
 **Vraag:** De kernspreuk "gehoorzamen is beter dan offer" (v22) en het vonnis
 "uw naaste, die beter is dan u" (v28) delen het woord טוֹב. Delen ze ook de
@@ -306,13 +280,6 @@ beste" van het vee (v9, v15), en juist de offer-overtreffende "beter"-zin
 spreekt hem uit het koningschap. Op de as ontwijking/mislukte communicatie
 krijgt Sauls eigen waardetaal zo het laatste woord tegen hem.
 
-**Wat het niet bewijst:** De G² meet de corpusbinding van de cel en zegt
-daarmee alleen iets over het gedrag van טוֹב in het corpus als geheel: het
-lexeem is overal de prototypische predikaatsvuller van de adjectief-clause.
-Binnen de passage is de telling klein (twee voorkomens; min_n-waarschuwing,
-plafond Middel), en dat juist spreuk en vonnis die twee plekken zijn, is mijn
-lezing van de verdeling boven het cijfer (`formal_proxy`). מֵיטַב in v9/v15
-is een verwante vorm uit hetzelfde lexeemveld en valt buiten de geturfde cel.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De vorm is per vers
 gezien. Keil analyseert טוֹב in v22 expliciet als predicaat, met מִזֶּבַח
@@ -330,7 +297,7 @@ bronnen.
 function_collexeme_anomaly (VWB/ als PreC in AjCl, bound) · robustness:
 robust · versie 2023
 
-## IJkmetingen: wat de commentaren al volledig dekken
+### IJkmetingen: wat de commentaren al volledig dekken
 
 De volgende metingen bevestigen wat de literatuur uitwerkt; ze dienen als ijk
 en scoren alle novelty standard ("bekend"). Twee komen uit exploratieve
@@ -405,8 +372,7 @@ terugkeert. De vierde, de טוֹב-collostructie, komt uit de relationele
 kruisingslaag van de engine; zij verbindt de kernspreuk van v22 met het
 vonnis van v28 via hun gedeelde, corpusbreed gebonden constructie.
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

@@ -1,0 +1,69 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 2 Samueel 11:6-13. As: koninklijke manipulatie en Uria's weigering. De queries richten zich op sturen/laten komen, thuisgaan, de negatieve herhaling 'niet naar zijn huis afdalen', Uria's eed en Davids tweede poging via eten/drinken/roes. Exploratief; FDR over alle geprobeerde queries.",
+  "queries": [
+    {
+      "name": "david_sends_for_uriah_through_joab",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=DWD==/\n  word lex=JW>B/\n  word lex=CLX[\n  word lex=>WRJH/",
+      "expected_direction": "over",
+      "rationale": "Vers waarin David, Joab, zenden en Uria samen staan: de koninklijke opdracht loopt indirect via de legercommandant."
+    },
+    {
+      "name": "threefold_shalom_war_report",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=CLWM/\n  word lex=JW>B/\n  word lex=<M/\n  word lex=MLXMH/",
+      "expected_direction": "over",
+      "rationale": "Vers waarin vrede/welstand, Joab, volk en oorlog samen voorkomen: Davids openingsvraag maskeert het eigenlijke doel als frontbericht."
+    },
+    {
+      "name": "royal_command_down_to_house",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=JRD[ vt=impv\n  word lex=BJT/",
+      "expected_direction": "over",
+      "rationale": "Directe rede met imperatief 'afdalen' en huis: Davids bevel probeert Uria fysiek naar de private ruimte te sturen."
+    },
+    {
+      "name": "negative_down_to_house_refrain",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause\n  word lex=L>\n  word lex=JRD[\n  word lex=BJT/",
+      "expected_direction": "over",
+      "rationale": "Clause waarin negatie, afdalen en huis samen staan: de tekst herhaalt Uria's weigering als grammaticale tegenlijn op Davids bevel."
+    },
+    {
+      "name": "uriah_oath_field_against_house",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=>RWN/\n  word lex=JFR>L/\n  word lex=JHWDH/\n  word lex=BJT/\n  word lex=>CH/",
+      "expected_direction": "over",
+      "rationale": "Vers waarin ark, Israel/Juda, huis en vrouw samen staan: Uria zet publieke oorlogstrouw tegenover Davids private opdracht."
+    },
+    {
+      "name": "eat_drink_lie_with_wife_refusal",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=>KL[\n  word lex=CTH[\n  word lex=CKB[\n  word lex=>CH/",
+      "expected_direction": "over",
+      "rationale": "Vers waarin eten, drinken, liggen en vrouw samen voorkomen: Uria benoemt precies het scenario dat David probeert te organiseren."
+    },
+    {
+      "name": "stay_today_tomorrow_send",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=JCB[ vt=impv\n  word lex=JWM/\n  word lex=MXR/\n  word lex=CLX[",
+      "expected_direction": "over",
+      "rationale": "Directe rede met blijven, vandaag/morgen en zenden: Davids tweede bevel verandert de mislukte thuistocht in uitstel."
+    },
+    {
+      "name": "david_feeds_intoxicates_no_home",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=DWD==/\n  word lex=>KL[\n  word lex=CTH[\n  word lex=CKR[\n  word lex=L>\n  word lex=BJT/",
+      "expected_direction": "over",
+      "rationale": "Vers waarin David eten/drinken/roes organiseert maar huis negatief blijft: de tweede manipulatie mislukt narratief in dezelfde ruimte."
+    }
+  ]
+}

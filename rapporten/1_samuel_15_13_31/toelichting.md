@@ -216,20 +216,6 @@ website shebanq werkt met een andere zoektaal):
    zoekregel naar defectieve zinseenheden, `clause_atom code=999`, werkt
    alleen in deze volledige omgeving.)
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat de
-werkwoorden hier kaler zijn, dat het meervoud wegvalt, dat de derde persoon
-terugtreedt en dat de zinnen vaker afbreken, is meetbaar; dat de verteller
-dit zó heeft gewild, is een lezing die het rapport aanbiedt. De stevigste
-grond is de valentietelling samen met de meervoudsdichtheid: harde,
-deterministische kenmerken die standhouden hoe je ook vergelijkt. De
-persoon-meting leest mee als aanwijzing en covarieert met het meervoud, wat
-reëel is maar geen bewijs van opzet: beide tellingen kunnen deels dezelfde
-verschuiving naar de twee sprekers meten. De drie beroemde lagen van dit
-hoofdstuk (het woordspel op *qol*, "stem" én "geblaat"; de drievoudige
-buiging; de wederkerige verwerping) staan in het rapport als ijkmetingen,
-omdat de commentaren ze al volledig dekken.
 
 ## Genoemde commentaren
 

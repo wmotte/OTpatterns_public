@@ -149,18 +149,6 @@ website shebanq werkt met een andere zoektaal):
 3. Plak een zoekregel in het zoekvak, voer hem uit en blader naar de treffers
    in 1 Samuël 14:24-30 en 43-45.
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat het
-meervoud wegvalt, dat de tweede persoon schaars is, of dat de zinstypen
-gelijkmatig doorlopen, is meetbaar; dat de verteller daarmee de confrontatie
-tussen vader en zoon op afstand zet, is de lezing die het rapport aanbiedt.
-Het collectief-enkelvoud van "het volk" is bovendien een standaardtrek van het
-Hebreeuws: de telling zegt dat de dichtheid ervan hier afwijkt, niet dat de
-constructie zelf bijzonder is. En het monster is klein: tien verzen, vijf
-treffers bij het persoonsspoor. De stevigste grond onder de analyse is het
-wegvallende meervoud; de schaarse aanspraak en de gelijkmatige
-zinstype-keten lezen mee als aanwijzing.
 
 ## Genoemde commentaren
 

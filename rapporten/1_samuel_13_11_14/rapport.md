@@ -26,7 +26,7 @@ bewijs gedragen hypothesen.*
 > Sauls excuus, het עַתָּה ("nu") dat van rechtvaardiging naar vonnis kantelt,
 > en de causale כִּי-stapeling die beide sprekers tegen elkaar uitspelen.
 
-## Vraag 1: de tijd die niet stilstaat in het excuus
+## Vraag 1 — de tijd die niet stilstaat in het excuus
 
 **Vraag:** Klinkt Sauls zelfrechtvaardiging alleen "wanhopig", of is de
 ongedurigheid ook syntactisch meetbaar, in de werkwoordstijd die niet tot rust
@@ -60,11 +60,6 @@ op. Op de as zelfrechtvaardiging is de TAM-instabiliteit het syntactische
 spoor van een verweer dat vooruit en achteruit tegelijk moet praten om de
 overtreding recht te leggen.
 
-**Wat het niet bewijst:** Rapid TAM-switching is een formele proxy
-(formal_proxy) voor timeline-instabiliteit, geen bewijs van een psychische
-toestand. Dat de tijdsprongen "wanhoop" of "drukte" markeren is mijn lezing
-boven de telling. Het monster is klein (n_context 18) en de vensters
-overlappen, zodat enkele dichte clauses het cijfer optillen.
 
 **Staat dit al in de commentaren?:** nieuw. De commentaren richten zich op de
 toon. Tsumura geeft een nauwkeurige structurele lijst van precies deze
@@ -79,7 +74,7 @@ nergens.
 **Confidence:** Middel (≤ plafond Middel) · feature: tam_chaos
 (rapid_tam_switching) · robustness: robust · versie 2023
 
-## Vraag 2: het "nu" dat van kant wisselt
+## Vraag 2 — het "nu" dat van kant wisselt
 
 **Vraag:** Is het herhaalde עַתָּה ("nu") in deze scène een toevallig
 stopwoord, of een scharnier waarop dezelfde tijdsmarkering eerst het excuus
@@ -113,12 +108,6 @@ heden dringend te maken, wordt het scharnier waaraan Samuël het vonnis
 ophangt. Op de as macht-asymmetrie is dit de syntactische greep van de
 meerdere: hij buigt het "nu" van de mindere om tot het ogenblik van afwijzing.
 
-**Wat het niet bewijst:** De dynamische tak is exploratief (provenance
-llm_hypothesis), plafond Middel, met een klein monster (2 treffers). Dat de
-twee sprekers het partikel "tegen elkaar uitspelen" is een lezing die de twee
-treffers verbindt; de telling zegt alleen dat de koppeling עַתָּה+imperfectum
-hier zeldzaam dicht is. De deterministische deixis-tak telt de "nu"-merkers
-maar duidt hun onderlinge spel niet.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Het effect is gezien, de
 drievoudige structuur ontbreekt. Auld behandelt het dubbele עַתָּה in v13-14
@@ -134,7 +123,7 @@ bevestigen (dynamisch én deterministisch) is de toevoeging.
 (attah_future_projection), corroboratie deictic_shift_here_now · robustness:
 robust, exploratief · versie 2023
 
-## Vraag 3: een twist die met "want" wordt gevoerd
+## Vraag 3 — een twist die met "want" wordt gevoerd
 
 **Vraag:** Is het meningsverschil tussen profeet en koning syntactisch een
 ruzie van beschuldigingen, of een over-en-weer van redengeving, argument tegen
@@ -166,12 +155,6 @@ tijd, de vijand), Samuëls grond is één en absoluut (het gebod). De
 de meerdere met één grond volstaat. Op de as zelfrechtvaardiging is het
 grond-voegwoord de syntactische drager van het hele dispuut.
 
-**Wat het niet bewijst:** Dit is een exploratieve zoekvraag (provenance
-llm_hypothesis), plafond Middel, met een bescheiden effect (G² = 6,5, 4
-treffers). De classificatie van כִּי als causaal/grond is interpretatief;
-sommige treffers zijn in vertaling ook recitatief of temporeel te lezen. Dat
-de asymmetrie "omstandig versus absoluut" in de כִּי-verdeling zit, is mijn
-lezing boven de telling.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Het thema is geraakt, de
 grammaticale figuur blijft buiten beeld. Bodner wijst op de "abundant
@@ -228,8 +211,7 @@ gedekte op. De beroemde laag (וָאֶתְאַפַּק, מֶה עָשִׂיתָ)
 in de ijk; de novelty zit in de gemeten temporele structuur, die de
 commentaren, gericht op woordbetekenis en theologie, niet tellen.
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per finding-id;
 de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

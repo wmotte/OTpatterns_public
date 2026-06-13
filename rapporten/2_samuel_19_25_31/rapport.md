@@ -45,8 +45,6 @@ die zijn verhaal draagt. Zelfs zijn fysieke verwaarlozing in 19:25 blijft
 voorbereiding op een enkelvoudige confrontatie: David vraagt, Mefiboset
 antwoordt, Ziba blijft als afwezige knecht aanwezig.
 
-**Wat het niet bewijst:** Lage meervouds- en vrouwelijk-markering bewijst geen
-juridische isolatie. Die duiding komt uit de plaats van de vormen in de scène.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
 persoonlijke, individuele aard van de ontmoeting tussen David en Mefiboset; de
@@ -86,8 +84,6 @@ belangrijk voor het contrast met Ziba in 2 Samuël 16: Ziba wint bezit door een
 beschuldiging; Mefiboset antwoordt vanuit afhankelijkheid en krijgt geen
 volledig herstel.
 
-**Wat het niet bewijst:** De aanspreekquery is hypothese-gegenereerd. Zij toont
-de vorm van deferentie, niet de innerlijke houding van Mefiboset.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De herhaling van "mijn heer
 de koning" en "uw knecht" is bekend en wordt soms geteld; de dynamische
@@ -126,9 +122,6 @@ intentie tegenover: ik zou zadelen, rijden en naar de koning gaan. De inbedding
 maakt zijn verweer gelaagd: hij moet zowel Ziba's daad als zijn eigen
 voorgenomen beweging reconstrueren.
 
-**Wat het niet bewijst:** Eén dynamische treffer bewijst de historische waarheid
-van Mefibosets claim niet. De meting toont alleen dat de tekst zijn verdediging
-grammaticaal rond knecht en bedrog formuleert.
 
 **Staat dit al in de commentaren?:** grotendeels wel. De claim dat Ziba of
 Mefibosets knecht hem bedroog of belasterde wordt expliciet besproken. De
@@ -168,9 +161,6 @@ het beroep op Davids oordeel en de herinnering aan het huis van zijn vader. De
 grammatica past bij een verdediging die veel moet herstellen met weinig formele
 macht.
 
-**Wat het niet bewijst:** Inbeddingsdiepte is een vormmaat. Zij verklaart niet
-of David Mefiboset gelooft; zij laat zien dat de verdediging syntactisch zwaar
-wordt.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Commentaren herkennen de
 uitvoerige onderwerping en Davids abrupte reactie; actantdominantie is bekend,
@@ -206,9 +196,6 @@ uitspraak zet "jij en Ziba" in één verdelingsclause. Dat is grammaticaal hard:
 Mefibosets verdediging eindigt met een veld dat hij moet delen met de man die
 hem volgens zijn eigen woorden bedroog.
 
-**Wat het niet bewijst:** De verdelingsquery bewijst niet hoe rechtvaardig
-Davids oordeel is. Zij toont alleen de vorm van het slot: twee partijen worden
-naast elkaar gezet in één bezitsregeling.
 
 **Staat dit al in de commentaren?:** ja. Davids verdelingsuitspraak wordt breed
 besproken als juridisch of politiek compromis. De query specificeert de

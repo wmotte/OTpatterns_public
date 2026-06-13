@@ -44,9 +44,6 @@ herkent, krijgt Joab naamruimte. De lage naamdichtheid werkt zo als indirecte
 druk: de koning moet zichzelf herkennen in een zaak die nog niet als zijn zaak
 is gelabeld.
 
-**Wat het niet bewijst:** De telling bewijst geen auteursintentie. Zij laat
-alleen zien dat deze lange dialoog ongewoon weinig eigennamen bevat en dat de
-aanwezige namen op God en Joab clusteren.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
 naamloze fictieve casus en de parabelachtige valstrik uitvoerig; de extreme
@@ -85,9 +82,6 @@ moet oordelen. Dat maakt de brug naar Absalom mogelijk. David wordt niet met
 een abstracte clanpolitiek geconfronteerd, maar met het verlies van de laatste
 drager van een naam.
 
-**Wat het niet bewijst:** Lage meervoudsdichtheid bewijst op zichzelf geen
-thema van eenzaamheid. Die duiding hangt aan de plaats van de voorbeelden in
-de fictieve casus en aan het vervolg waarin de verdreven zoon ter sprake komt.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De laatste-zoonlogica en de
 collectieve dreiging van de familie zijn bekend; de lage dichtheid van
@@ -139,9 +133,6 @@ een woord te zeggen en laat het woord zelf het object van de scène worden. De
 machtsinversie zit dus niet in formele gelijkheid. Zij gebruikt de onderpositie
 als retorische vorm om David aan zijn eigen oordeel te binden.
 
-**Wat het niet bewijst:** Actantcentraliteit is een proxy. De dienstvrouw/koning-
-query is dynamisch en exploratief. Samen tonen ze een vormpatroon; ze bewijzen
-niet dat elke aanspreekvorm strategisch bedoeld is.
 
 **Staat dit al in de commentaren?:** overwegend wel. Commentaren bespreken de
 dienstvrouwtaal, "mijn heer de koning"-herhaling, vleierij en diplomatieke
@@ -191,9 +182,6 @@ zichtbaar: van behoud tegen uitroeiing naar herstel van de verstotene. Dat is
 het moment waarop de fictieve rechtszaak haar doel bereikt. Davids oordeel
 over de weduwe wordt een oordeel over zijn eigen weigering om terug te brengen.
 
-**Wat het niet bewijst:** Beide patronen komen uit dynamische queries en blijven
-exploratief. Zij dragen de interpretatie alleen naast de robuuste vloer van
-naamloosheid, meervoudsvermindering en rolverdeling.
 
 **Staat dit al in de commentaren?:** bekend, met een gedeeltelijke meettoevoeging.
 Commentaren bespreken de overgang van zoon/uitroeiing naar
@@ -235,9 +223,6 @@ beweegt vaak in korte handelingen van spreken, vragen, gaan, bevelen en doen,
 tot David de verborgen agent benoemt. Joab verschijnt dan niet als gesprekspartner
 maar als hand achter de gesprekspartner.
 
-**Wat het niet bewijst:** De hand/Joab-query is exploratief. Nul-complement-
-valentie zegt niets over Joab op zichzelf. De duiding ontstaat uit hun samenhang
-met 2 Samuël 14:19-20.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Joabs verborgen regie en de
 "hand van Joab" zijn standaardmateriaal. De nul-complement-valentie is niet als

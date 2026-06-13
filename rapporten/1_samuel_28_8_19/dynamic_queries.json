@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "name": "saul_disguise_other_clothes",
+      "anchor_otype": "verse",
+      "feature_tier": "formal_proxy",
+      "template": "verse\n  word lex=C>WL=/\n  word lex=XPF[\n  word lex=LBC[\n  word lex=BGD/",
+      "expected_direction": "over",
+      "rationale": "Saul, vermommen, aantrekken en kleding in één vers: de scène opent met identiteitsverhulling als formele handeling."
+    },
+    {
+      "name": "necromancy_request_raise_for_me",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=QSM[\n  word lex=<LH[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin waarzeggen en doen opkomen samen staan: Sauls verzoek combineert verboden techniek en gewenste verschijning."
+    },
+    {
+      "name": "woman_saul_deception_recognition",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=RMH=[\n  word lex=C>WL=/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de vrouw bedrog en Saul samen benoemt: de vermomming valt grammaticaal in haar aanklacht uiteen."
+    },
+    {
+      "name": "woman_fear_and_do_not_fear",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=>CH/\n  word lex=JR>[\n  word lex=C>WL=/",
+      "expected_direction": "over",
+      "rationale": "Vrouw, vrezen en Saul in één vers: angst wordt direct aan herkenning en geruststelling gekoppeld."
+    },
+    {
+      "name": "samuel_raised_for_saul",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=CMW>L/\n  word lex=<LH[\n  word lex=C>WL=/",
+      "expected_direction": "over",
+      "rationale": "Samuël, opkomen en Saul in één vers: de gewenste dode wordt zichtbaar binnen Sauls eigen mislukte zoektocht."
+    },
+    {
+      "name": "saul_distress_yhwh_answer_absent",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=C>WL=/\n  word lex=YRR[\n  word lex=JHWH/\n  word lex=<NH[",
+      "expected_direction": "over",
+      "rationale": "Saul, benauwdheid, JHWH en antwoorden in één vers: Sauls reden voor de verboden raadpleging wordt als niet-antwoord van JHWH geformuleerd."
+    },
+    {
+      "name": "yhwh_departed_enemy_frame",
+      "anchor_otype": "verse",
+      "feature_tier": "semantic_proxy",
+      "template": "verse\n  word lex=JHWH/\n  word lex=SWR[\n  word lex=R</",
+      "expected_direction": "over",
+      "rationale": "JHWH, wijken en vijand in één vers: Samuëls antwoord draait Sauls vraag om naar verlies van goddelijke nabijheid."
+    }
+  ]
+}

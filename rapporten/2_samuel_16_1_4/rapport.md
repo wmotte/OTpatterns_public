@@ -46,9 +46,6 @@ bestemd zijn, en waar de afwezige eigenaar is. Dat is belangrijk voor de as van
 deceptie: de gift wordt eerst als nuttige voorziening zichtbaar, voordat de
 beschuldiging tegen Mefiboset het bezit van betekenis verandert.
 
-**Wat het niet bewijst:** Nominale clauses bewijzen geen misleiding. De telling
-laat zien dat de passage ongewoon veel verbless en beschrijvende zinsvormen
-heeft; de lezing als verdacht geschenk komt uit de narratieve context.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
 strategische vertraging rond gift, vragen en overdracht; de hoge
@@ -90,9 +87,6 @@ politieke tegenstander, maar naar de "zoon van uw heer". Ziba's verhaal krijgt
 daarmee een dubbele lading: hij spreekt over iemand aan wie hij door dienst en
 huisrelatie verbonden is.
 
-**Wat het niet bewijst:** Beide queries zijn dynamisch en exploratief. Zij
-bewijzen niet dat Ziba liegt. Zij tonen alleen de vorm waarin zijn identiteit
-en Davids vraag aan Mefiboset gekoppeld blijven.
 
 **Staat dit al in de commentaren?:** bekend. De commentaren bespreken Ziba als
 knecht/beheerder van de afwezige Mefiboset en lezen Davids vraag naar de zoon
@@ -133,9 +127,6 @@ De regelmatige "honderd"-echo versterkt de indruk van een geordende gift. Juist
 die bruikbaarheid maakt de beschuldiging gevaarlijk effectief: David ontvangt
 voorziening op het moment dat hij afhankelijk is.
 
-**Wat het niet bewijst:** De gift-query is exploratief. De resonantieafstand
-bewijst geen retorische bedoeling; zij telt alleen de gelijkmatige herhaling
-van een lexeem.
 
 **Staat dit al in de commentaren?:** bekend, met een gedeeltelijke meettoevoeging.
 De strategische gift en noodvoorraad zijn standaardmateriaal. De herhaling en
@@ -172,9 +163,6 @@ vraag, verklaring; afwezige heer, beschuldiging, overdracht; gunstformule. De
 vormspiegeling is geen chiasmeclaim op literair niveau, maar een formele aanwijzing
 dat de tekst in compacte vraag-antwoordblokken werkt.
 
-**Wat het niet bewijst:** De chiasme-detector werkt op clause-types, zonder
-lexicale betekenis. Zij bewijst geen bewust gecomponeerd chiasme en moet
-voorzichtig als vormspiegeling worden beschreven.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
 compacte vraag-antwoordstructuur en de gespannen loyaliteitstest; de
@@ -214,9 +202,6 @@ en gunst: David draagt het bezit van de afwezige over, Ziba buigt en vraagt
 gunst in Davids ogen. De grammatica sluit dus aan bij de narratieve verdenking:
 Ziba's woorden leveren hem onmiddellijk een nieuwe verhouding tot David op.
 
-**Wat het niet bewijst:** De gunstformule bewijst geen schuld van Ziba. De
-latere verdediging van Mefiboset moet naast deze scène blijven staan. Deze
-meting toont alleen de vorm van Ziba's voordeel aan het slot.
 
 **Staat dit al in de commentaren?:** bekend. Commentaren bespreken Davids
 onmiddellijke overdracht zonder wederhoor, Ziba's winst en de gunstformule als

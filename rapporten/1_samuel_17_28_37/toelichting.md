@@ -136,19 +136,6 @@ website shebanq werkt met een andere zoektaal):
    stap meer: na elke eigennaam telt u zelf de rij voornaamwoord- en
    suffix-verwijzingen die volgt voordat de naam terugkeert.)
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat
-Davids naam hier vaak mag wegzakken in voornaamwoorden, is meetbaar; dat de
-verteller daarmee de kleinering van David "omkeert", is een lezing die het
-rapport aanbiedt. De wegzak-meting is bovendien een discourse-proxy: een scène
-met één dominant handelend personage levert vanzelf veel
-naam-naar-voornaamwoord-reeksen op, en dat maakt het getal hoog zonder dat er
-opzet achter hoeft te zitten. De betrouwbaarheid is middelhoog: de waarneming
-wijst iets aan, en wijst tegen één bestaande uitleg in, maar een
-verteller-bedoeling bewijst zij niet. De twee andere tellingen (het
-dienaar-register en de leeuw-en-beer-keten) zijn harder als telling; zij
-staan al volledig in de commentaren en dienen hier als scène-materiaal.
 
 ## Genoemde commentaren
 

@@ -157,13 +157,3 @@ website shebanq werkt met een andere zoektaal):
 3. Plak een zoekregel in het zoekvak, voer hem uit en blader naar de treffers
    in 1 Samuël 1:12-18.
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat de
-vrouwelijke vormen zich opstapelen of dat Hanna haar naam verliest, is
-meetbaar; dat de verteller dit zó heeft gewild, blijft een lezing die het
-rapport aanbiedt. De vondsten over Hanna's onderdanige register komen uit een
-exploratieve zoekslag: ze ondersteunen de lezing als aanwijzing. En Eli's
-viervoudige naamgeving valt vooral op tegen de hele bijbel, niet tegen elk
-vergelijkingsstuk. De stevigste grond onder de analyse is de vrouwelijke
-grammatica en het enige lidwoord; de rest leest mee als aanwijzing.

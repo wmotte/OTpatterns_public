@@ -28,7 +28,7 @@ bewijs gedragen hypothesen.*
 > zinstypen in de ondervraging, de grammaticale individualisering van het
 > collectief, en de afstandelijke tweede persoon.
 
-## Vraag 1: de ondervraging die strakker loopt dan ze klinkt
+## Vraag 1 — de ondervraging die strakker loopt dan ze klinkt
 
 **Vraag:** Lezers en commentatoren ervaren deze scène als kortaf en stroef. Is
 die schokkerigheid ook meetbaar in de zinstype-overgangen?
@@ -63,12 +63,6 @@ in de inhoud van eed en vonnis en in de tekstuele moeilijkheden die de
 commentaren signaleren, terwijl de opeenvolging van zinstypen strak in het
 spoor blijft.
 
-**Wat het niet bewijst:** Local clause-type transition is een formele proxy
-(formal_proxy) voor onverwachtheid, geen maat voor "spanning" of "haast". Dat
-de schaarse sprongen de gespreksnaden markeren is mijn lezing boven de
-telling; de engine telt alleen waar een clausetype lokaal onverwacht is. Het
-effect is bescheiden (G² = 5,2) en de teleenheid hangt af van de
-ETCBC-clausetypering.
 
 **Staat dit al in de commentaren?:** gedeeltelijk (partially_covered).
 Campbell noemt het Michmas-verhaal een van de "most perplexing texts",
@@ -84,7 +78,7 @@ het corpus gemeten is de keten gelijkmatiger dan gemiddeld.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): syntactic_surprise
 (local_clause_type_transition) · robustness: robust · versie 2023
 
-## Vraag 2: een leger dat grammaticaal uiteenvalt in personen
+## Vraag 2 — een leger dat grammaticaal uiteenvalt in personen
 
 **Vraag:** De scène gaat over collectieven: "het volk" en "de vijanden".
 Spreekt de grammatica die collectieven ook als groep aan, of kantelt ze naar
@@ -114,11 +108,6 @@ terugkeert om Jonatan te redden. Op de as macht-asymmetrie is de
 individualisering de grammaticale voorbereiding van het duel: het toneel wordt
 leeggemaakt tot twee personen en een eed.
 
-**Wat het niet bewijst:** Numerus is een harde formele telling (formal_proxy);
-de stap van "weinig meervoud" naar "individualisering van het collectief" is
-interpretatief. Het collectief-enkelvoud van הָעָם is bovendien een
-standaardtrek van het Hebreeuws; de meting zegt dat de dichtheid ervan hier
-corpus-afwijkend is, niet dat de constructie zelf bijzonder is.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Tsumura wijst er
 herhaaldelijk op dat הָעָם een collectief-enkelvoud is met enkelvoudige
@@ -133,7 +122,7 @@ ondersteunt.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): categorical (nu=pl,
 onder) · robustness: robust · versie 2023
 
-## Vraag 3: de confrontatie die langs de tweede persoon heen gaat
+## Vraag 3 — de confrontatie die langs de tweede persoon heen gaat
 
 **Vraag:** Een ondervraging verwacht je vol "jij": jij at, jij zult sterven.
 Staat de directe tweede-persoons-aanspraak hier inderdaad voorop, of wordt de
@@ -169,11 +158,6 @@ rekenschap en het vonnis. Op de as ontwijking is de lage tweede persoon de
 grammaticale vorm van een gesprek dat de rechtstreekse ontmoeting vermijdt en
 de breuk in de derde persoon afhandelt.
 
-**Wat het niet bewijst:** Persoon is een formele telling; "afstandelijkheid"
-en "ontwijking" blijven mijn lezing boven het cijfer (discourse_uncertain). De
-covariantie met de numerus-meting is reëel en bewijst geen opzet; beide
-tellingen kunnen deels dezelfde verschuiving naar individuen meten. Het effect
-is matig (G² = 9,3).
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Alter merkt op dat Sauls
 eed (v24) een formele derde-persoons-vloek is ("vervloekt is de man") waar een
@@ -266,8 +250,7 @@ keten van zinstypen gelijkmatig, met schaarse sprongen op de gespreksnaden.
 De winst van de analyse ligt in deze vormlaag, die de commentaren, gericht op
 eed en theologie, niet tellen.
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

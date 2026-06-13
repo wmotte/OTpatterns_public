@@ -24,7 +24,7 @@ bewijs gedragen hypothesen.*
 > inbeddingsdiepte van Sauls antwoord en de recitatieve כִּי die juist de
 > afleidingsinhoud draagt.
 
-## Vraag 1: hoe diep ligt het antwoord begraven
+## Vraag 1 — hoe diep ligt het antwoord begraven
 
 **Vraag:** Is Sauls ontwijkende antwoord ook syntactisch dieper gelaagd dan
 gewoon verhaalproza, of voelt het alleen "stroef"?
@@ -54,11 +54,6 @@ antwoord dat filtert en inkapselt, schuift zijn clauses in elkaar. Op de as
 ontwijking is de gemeten inbeddingsdiepte het structurele spoor van een
 antwoord dat omwegen neemt.
 
-**Wat het niet bewijst:** Inbeddingsdiepte is een formele telling
-(`formal_proxy`), geen bewijs van psychologische opzet. De koppeling aan
-"ontwijking" is mijn lezing boven het cijfer. Het monster is klein (n_context
-15 clauses); de telling blijft binnen de passage en is daarom gevoelig voor
-enkele lange zinnen.
 
 **Staat dit al in de commentaren?:** nieuw. De commentaren karakteriseren de
 syntaxis wel, maar kwalitatief. Bodner noemt expliciet de "slightly awkward
@@ -73,7 +68,7 @@ diepte van dit fragment als gemarkeerd verschijnsel te benoemen. De stap van
 **Confidence:** Middel · feature: clause_embedding (tab=diepte 9) ·
 robustness: robust · versie 2023
 
-## Vraag 2: de rede die als verslag is verpakt
+## Vraag 2 — de rede die als verslag is verpakt
 
 **Vraag:** Wordt de directe rede in deze scène grammaticaal aangeboden als
 open uitwisseling, of als gerapporteerde inhoud onder een spreekwerkwoord?
@@ -101,9 +96,6 @@ de ezelinnen onderbrengt en waar het koningschap ontbreekt. Op de as
 ontwijking is de objectszin-dichtheid het formele spoor van een rede die als
 gefilterd verslag wordt aangeboden.
 
-**Wat het niet bewijst:** rela=Objc is een formele telling (`formal_proxy`).
-Dat de verpakking "filtering" markeert is interpretatie; de telling zelf zegt
-alleen dat de inhoud ingebed is. Klein monster (n_context 15).
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De commentaren dekken het
 thema; de meting komt erbij. Bodner leest Sauls antwoord als "selectief": hij
@@ -117,7 +109,7 @@ als statistisch afwijkende verpakking; dat is de toevoeging.
 **Confidence:** Middel · feature: categorical (rela=Objc) · robustness:
 robust · versie 2023
 
-## Vraag 3: aan wie wel, aan wie niet
+## Vraag 3 — aan wie wel, aan wie niet
 
 **Vraag:** Is het vertellen in deze scène een neutrale handeling, of is het
 grammaticaal telkens op een ontvanger gericht, zodat de ontwijking om die
@@ -149,10 +141,6 @@ niet" (לוֹ). De lamed-ontvanger is grammaticaal de scharnier waarop wie-wel
 en wie-niet draait. Op de as ontwijking is de binding NGD+ontvanger de
 configuratie die het selectieve karakter zichtbaar maakt.
 
-**Wat het niet bewijst:** Dit is een exploratieve zoekvraag (provenance
-`llm_hypothesis`), plafond Middel. Het monster is klein (3 treffers). De
-query bindt drie losse instanties; dat zij samen een "transactie" vormen is
-mijn lezing, geen finding-veld.
 
 **Staat dit al in de commentaren?:** gedeeltelijk. De afzonderlijke
 ontvangers worden gezien; de binding als signatuur blijft ongemeten. McCarter
@@ -168,7 +156,7 @@ niet; dat voegt BHSA toe.
 (disclosure_bound_to_recipient_lamed) · robustness: robust, exploratief ·
 versie 2023
 
-## Vraag 4: het partikel dat de afleiding draagt
+## Vraag 4 — het partikel dat de afleiding draagt
 
 **Vraag:** Welke inhoud krijgt in v16 de grammaticale markering van "dit is
 wat ik vertel": de waarheid of de afleiding?
@@ -197,12 +185,6 @@ het meegedeelde en het verzwegene syntactisch vast: wat een כִּי-complement
 krijgt, is wat de oom te horen krijgt. Op de as ontwijking draagt het
 recitatieve partikel de afleidingsinhoud.
 
-**Wat het niet bewijst:** Dit is een discourse-geconditioneerde
-functie-toekenning (`discourse_uncertain`), plafond Middel, en statistisch
-licht: alleen-globaal (global_only), niet q-significant, geen G². Het is een
-lokale observatie, geen corpusbrede anomalie. De recitatief/causaal-
-classificatie is bovendien interpretatief; v14 כִּי אַיִן is op zichzelf zwak
-gemarkeerd. De decoy-lezing hangt aan v16.
 
 **Staat dit al in de commentaren?:** nieuw. De functies van כִּי zijn
 taalkundig geanalyseerd; deze toepassing ontbreekt. Tsumura biedt een
@@ -217,7 +199,7 @@ statistiek, een voorzichtige.
 **Confidence:** Middel (statistisch licht: global_only, niet q-significant) ·
 feature: ki_profile (recitatief) · robustness: global_only · versie 2023
 
-## IJk: wat de commentaren al volledig dekken
+### IJk: wat de commentaren al volledig dekken
 
 De volgende drie metingen bevestigen wat de literatuur uitwerkt. Ze dienen
 als ijk; alle drie scoren nieuwheidsoordeel "bekend" (standard). Twee komen
@@ -276,8 +258,7 @@ bevestigt de werkhypothese achter de selectie: de novelty zit in de
 onderbelichte verzen. De literatuur richt zich op het "higgid"-woordspel en
 laat de gemeten inbeddingsdiepte en de recitatieve כִּי liggen.
 
-## Claim-ledger
-
+**Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
 finding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).

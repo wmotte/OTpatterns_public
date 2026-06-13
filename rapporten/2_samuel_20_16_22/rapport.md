@@ -58,9 +58,6 @@ Zij roept niet alleen uit de stad; de meting vangt dat vrouw, stad, Joab en
 horen in één versconcentratie samenkomen. Het militaire object krijgt zo een
 spreekbare vertegenwoordiger.
 
-**Wat het niet bewijst:** De dynamische queries bewijzen geen formeel ambt van
-de vrouw. Zij tonen hoe de tekst haar op de grens van stad en bevelhebber
-plaatst.
 
 **Staat dit al in de commentaren?:** standard. De rol van de wijze vrouw en de
 spreek-hoorstructuur met Joab worden al expliciet besproken; BHSA voegt vooral
@@ -89,8 +86,6 @@ verbal clause run where first word is not sp=conj
 met korte verbale stappen: hoor, zeg, kom dichterbij, luister. Dat past bij een
 gesprek dat moet ontstaan voordat de belegering haar uitkomst krijgt.
 
-**Wat het niet bewijst:** Asyndese is een vormmaat. Zij bewijst geen paniek of
-tempo op zichzelf; de druk volgt uit de combinatie met stad, muur en Joabs eis.
 
 **Staat dit al in de commentaren?:** standard. Commentaren beschrijven de
 rede van de vrouw al als verhoogd, repetitief en retorisch geconcentreerd;
@@ -129,8 +124,6 @@ clause domain=Q
 conflict tot Seba te reduceren. Dat is onderhandelingstaal: als het probleem
 één man is, hoeft de stad niet als geheel vernietigd te worden.
 
-**Wat het niet bewijst:** De meting beslist niet of Joab moreel betrouwbaar is.
-Zij laat zien dat zijn antwoord de syntactische focus versmalt.
 
 **Staat dit al in de commentaren?:** standard. Joabs vernauwing van de stad
 naar de ene rebel Seba is breed bekend; BHSA markeert vooral de precieze
@@ -167,8 +160,6 @@ zich op een vroegere spreekpraktijk rond Abel, formuleert de identiteit van de
 stad en dwingt Joab tot een voorwaardelijk antwoord. De diepe inbedding past
 bij overleg onder geweldsdruk.
 
-**Wat het niet bewijst:** Inbeddingsdiepte bewijst geen wijsheid als karakter-
-eigenschap. Zij toont de syntactische zwaarte van het betoog.
 
 **Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
 de rede als welsprekend, verhoogd en zorgvuldig opgebouwd, maar niet de
@@ -203,8 +194,6 @@ wordt over de muur naar hem geworpen. Daarmee wordt stadsredding niet als
 gevoel of belofte geformuleerd, maar als harde overdracht die de belegering
 kan beëindigen.
 
-**Wat het niet bewijst:** De query legitimeert het geweld niet. Zij beschrijft
-alleen hoe de tekst de oplossing grammaticaal vormgeeft.
 
 **Staat dit al in de commentaren?:** standard. De overdracht van Seba's hoofd
 over de muur als beslissende deal is al besproken; BHSA specificeert de

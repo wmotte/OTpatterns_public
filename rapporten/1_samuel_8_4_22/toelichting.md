@@ -143,18 +143,6 @@ website shebanq werkt met een andere zoektaal):
 3. Plak een zoekregel in het zoekvak, voer hem uit en blader naar de treffers
    in 1 Samuël 8:4-22.
 
-## Wat de cijfers niet bewijzen
-
-Een grammaticaal patroon is geen bewezen bedoeling van de schrijver. Dat het
-"horen naar de stem" hier omhoog loopt, dat de eis een kale gebiedende wijs
-gebruikt, of dat de meervoudsvormen zich opstapelen, is meetbaar; dat de
-verteller dit zó heeft gewild, blijft een lezing die het rapport aanbiedt. De
-eerste twee vondsten komen bovendien uit een exploratieve zoekslag en rusten op
-kleine aantallen (drie en twee treffers); zij ondersteunen de lezing als
-aanwijzing. De stevigste grond onder de analyse is de meervoudsdichtheid; de
-richting van het horen en de opwaartse eis lezen mee als aanwijzing. En de
-beperking tot de directe rede is zelf een keuze die het materiaal kleurt, al
-houdt het patroon ook binnen dat genre stand.
 
 ## Genoemde commentaren
 
