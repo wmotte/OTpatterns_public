@@ -66,7 +66,7 @@ controleerbaar: bij elk signaal hoort een Text-Fabric-query die je kunt reproduc
 [BHSA](https://github.com/ETCBC/bhsa) is de morfosyntactisch geannoteerde
 Hebreeuwse Bijbel van de ETCBC, ontsloten via
 [Text-Fabric](https://github.com/annotation/text-fabric). De getoonde gegevens
-en verwachte aantallen komen uit BHSA-versie 2021. De volledige, interactieve
+en verwachte aantallen komen uit BHSA-versie 2023. De volledige, interactieve
 browser staat op de [Text-Fabric-site](https://annotation.github.io/text-fabric/tf/about/browser.html)
 en op [SHEBANQ](https://shebanq.ancient-data.org/hebrew/queries).
 
