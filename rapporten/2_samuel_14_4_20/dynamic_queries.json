@@ -1,0 +1,68 @@
+{
+  "queries": [
+    {
+      "name": "woman_to_king_speech_frame",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>CH/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin vrouw en koning samen voorkomen: de fictieve rechtszaak wordt als gesprek tussen machteloze petitioner en koning gedragen."
+    },
+    {
+      "name": "maidservant_petition_to_king",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=CPXH/|>MH/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de spreekster zichzelf als dienstvrouw tegenover de koning positioneert."
+    },
+    {
+      "name": "son_and_destroy_in_petition",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=BN/\n  word lex=CMD[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin zoon en uitroeien/schenden samen voorkomen: de fictieve casus zet familielijn en vernietiging naast elkaar."
+    },
+    {
+      "name": "blood_avenger_and_destroy",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=G>L[\n  word lex=DM/\n  word lex=CXT[|CMD[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin bloedwreker, bloed en verderf/uitroeiing samen staan: de vrouw dwingt de koning tot bescherming tegen vergeldingslogica."
+    },
+    {
+      "name": "banished_return_frame",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=CWB[\n  word lex=NDX[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin terugbrengen en verdrevene samen voorkomen: de fictieve casus wordt expliciet op Davids verbannen zoon toegepast."
+    },
+    {
+      "name": "joab_hand_revealed",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=JD/\n  word lex=JW>B/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin hand en Joab samen voorkomen: de koning detecteert de verborgen regisseur achter de fictie."
+    },
+    {
+      "name": "joab_put_words_in_mouth",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=JW>B/\n  word lex=FJM[\n  word lex=PH/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Joab, zetten en mond samen staan: de tekst benoemt de fictie als ingelegde rede."
+    },
+    {
+      "name": "king_as_divine_messenger_discernment",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=ML>K/\n  word lex=>LHJM/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de koning met een engel van God wordt vergeleken: lofspraak als retorische druk op koninklijk oordeel."
+    }
+  ]
+}

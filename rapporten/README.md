@@ -1,6 +1,6 @@
-# Rapporten: acht dialogen uit 1 Samuël
+# Rapporten: zestien dialogen uit 1-2 Samuël
 
-Acht gespreksscènes uit 1 Samuël, geanalyseerd op één as: machtsasymmetrie in
+Zestien gespreksscènes uit 1-2 Samuël, geanalyseerd op één as: machtsasymmetrie in
 spraak (en de ontwijking of mislukte communicatie die daarbij hoort). Per
 passage staat hier het volledige rapport, een toelichting voor lezers zonder
 Hebreeuws of statistiek, de samenvattende nieuwheidsoordelen tegen de
@@ -19,6 +19,14 @@ ETCBC/BHSA en Text-Fabric staat in [ACHTERGROND.md](../ACHTERGROND.md).
 | 6 | 1 Sam. 14:24-45 | Sauls eed en Jonatans loting | De vloek over het leger en de zoon die het vonnis krijgt: persoonsvormen en een keten van zinstypen die strakker loopt dan ze klinkt | [rapport](1_samuel_14_24_45/rapport.md) | [toelichting](1_samuel_14_24_45/toelichting.md) |
 | 7 | 1 Sam. 15:13-31 | Samuël confronteert Saul over Amalek | Het langste verhoor: Saul claimt gehoorzaamheid, het geblaat van de schapen weerlegt hem, en het vonnis stelt gehoorzamen boven offer | [rapport](1_samuel_15_13_31/rapport.md) | [toelichting](1_samuel_15_13_31/toelichting.md) |
 | 8 | 1 Sam. 17:28-37 | Eliab en Saul kleineren David | "Maar een knaap": de kleinering in woorden tegenover de tekst die David tot referentieel zwaartepunt maakt | [rapport](1_samuel_17_28_37/rapport.md) | [toelichting](1_samuel_17_28_37/toelichting.md) |
+| 9 | 1 Sam. 21:2-10 | David vraagt brood en zwaard bij Achimelech | Geheime opdracht, afwezige knechten en heilig brood: Davids verhaal wordt grammaticaal gedragen door geheimhouding, lage meervoudsdichtheid en priesterlijke voorwaarden | [rapport](1_samuel_21_2_10/rapport.md) | [toelichting](1_samuel_21_2_10/toelichting.md) |
+| 10 | 1 Sam. 22:11-19 | Saul veroordeelt Achimelech en Nob | Macht zonder recht: de koning maakt de priesterrol tot schuldpositie en het verhoor kantelt naar doodsbevel en uitvoering | [rapport](1_samuel_22_11_19/rapport.md) | [toelichting](1_samuel_22_11_19/toelichting.md) |
+| 15 | 2 Sam. 3:7-11 | Isboset beschuldigt Abner | Een zwakke koning stelt één vraag; Abner neemt de syntactische ruimte over met huis-taal, doelinfinitieven en eedformule | [rapport](2_samuel_3_7_11/rapport.md) | [toelichting](2_samuel_3_7_11/toelichting.md) |
+| 19 | 2 Sam. 14:4-20 | De wijze vrouw van Tekoa spreekt David aan | Een fictieve rechtszaak dwingt de koning naar zijn eigen familiepolitiek: dienstvrouw-taal, laatste-zoonlogica en Joabs verborgen regie | [rapport](2_samuel_14_4_20/rapport.md) | [toelichting](2_samuel_14_4_20/toelichting.md) |
+| 20 | 2 Sam. 16:1-4 | Ziba onderschept David | Geschenk, beschuldiging en snelle overdracht: de tekst laat Davids oordeel sneller komen dan controle op Mefibosets afwezigheid | [rapport](2_samuel_16_1_4/rapport.md) | [toelichting](2_samuel_16_1_4/toelichting.md) |
+| 21 | 2 Sam. 18:19-32 | Ahimaäz en de Kusiet brengen nieuws | Snel rennen en traag zeggen: bodewedstrijd, poortwaarneming en Davids vraag naar "de jongeman" stellen slecht nieuws uit | [rapport](2_samuel_18_19_32/rapport.md) | [toelichting](2_samuel_18_19_32/toelichting.md) |
+| 22 | 2 Sam. 19:25-31 | Mefiboset verdedigt zich bij Davids terugkeer | Een half herstel na bedrog: Mefibosets knecht-taal en Davids verdelingsclause laten de beschuldiger naast de verdediger staan | [rapport](2_samuel_19_25_31/rapport.md) | [toelichting](2_samuel_19_25_31/toelichting.md) |
+| 23 | 2 Sam. 20:16-22 | De wijze vrouw van Abel onderhandelt met Joab | Stad, vrouw en bevelhebber komen in een spreek-hoorstructuur samen; Joab vernauwt het geweld tot Seba en de stad wordt gered via een harde overdrachtsclause | [rapport](2_samuel_20_16_22/rapport.md) | [toelichting](2_samuel_20_16_22/toelichting.md) |
 
 ## Wat er per map staat
 

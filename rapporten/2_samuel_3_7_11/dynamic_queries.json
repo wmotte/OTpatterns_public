@@ -1,0 +1,53 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 2 Samueel 3:7-11. As: machtsinversie. Isboset opent met een dynastieke seksuele beschuldiging, maar Abner trekt het gesprek naar trouw, huisoverdracht en eed; Isboset eindigt zonder antwoord uit vrees. De templates koppelen directe rede, huislexeem, persoonsnamen, eedformule, vrees en doelinfinitieven. Plafond Middel; exploratief, FDR over alle geprobeerde queries.",
+  "queries": [
+    {
+      "name": "saul_house_in_abner_speech",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=BJT/\n  word lex=C>WL=/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin huis en Saul samen voorkomen: Abner herkadert Isbosets persoonlijke beschuldiging als dynastieke trouw aan Sauls huis."
+    },
+    {
+      "name": "david_hand_in_negative_loyalty_claim",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=JD/\n  word lex=DWD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin hand en David samen staan: Abners verweer dat hij Isboset niet in Davids hand heeft doen vinden."
+    },
+    {
+      "name": "abner_divine_oath_formula",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=>LHJM/\n  word lex=>BNR/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin God en Abner samen in de eedformule staan; Abner maakt van het conflict een zelfbindende vloek."
+    },
+    {
+      "name": "transfer_kingdom_from_saul_to_david",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MLKWT/\n  word lex=C>WL=/\n  word lex=DWD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin koningschap, Saul en David samen voorkomen: de kernzin van de dynastieke overdracht."
+    },
+    {
+      "name": "purpose_infinitive_transfer_and_establish",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q typ=InfC\n  word lex=<BR[|QWM[",
+      "expected_direction": "over",
+      "rationale": "Infinitiefclauses in directe rede met overbrengen of oprichten: Abners dreiging wordt als doelketen geformuleerd."
+    },
+    {
+      "name": "fear_of_abner_blocks_answer",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=JR>[\n  word lex=>BNR/",
+      "expected_direction": "over",
+      "rationale": "Narratieve clause waarin vrees en Abner samen staan: Isbosets zwijgen wordt door angst voor Abner gemotiveerd."
+    }
+  ]
+}

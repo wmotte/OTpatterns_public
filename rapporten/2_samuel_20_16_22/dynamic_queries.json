@@ -1,0 +1,69 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 2 Samueel 20:16-22. As: machtsinversie en stadsredding. De wijze vrouw dwingt Joab van belegeringsgeweld naar hoorbare onderhandeling; de queries koppelen vrouw/stad/Joab, luisteren/spreken, vredesidentiteit, stad/erfdeel en de overgave van het hoofd. Exploratief; FDR over alle geprobeerde queries.",
+  "queries": [
+    {
+      "name": "woman_from_city_calls_joab",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=>CH/\n  word lex=<JR/\n  word lex=JW>B/\n  word lex=CM<[",
+      "expected_direction": "over",
+      "rationale": "Vers waarin vrouw, stad, Joab en luisteren samen staan: de belegerde stad krijgt via de vrouw een hoorbare onderhandelingsstem."
+    },
+    {
+      "name": "joab_and_woman_hear_speak",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=JW>B/\n  word lex=>CH/\n  word lex=CM<[\n  word lex=DBR[|>MR[",
+      "expected_direction": "over",
+      "rationale": "Vers waarin Joab, de vrouw, horen en spreken samen voorkomen: het conflict verschuift van militaire actie naar wederkerige rede."
+    },
+    {
+      "name": "peaceful_faithful_israel_identity",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=>NKJ\n  word lex=CLWM/\n  word lex=>MWN/\n  word lex=JFR>L/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de vrouw zichzelf met vrede, trouw en Israel verbindt: haar argument is identiteitsmatig, niet militair."
+    },
+    {
+      "name": "why_swallow_city_inheritance",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=LMH/\n  word lex=BL<[\n  word lex=<JR/\n  word lex=NXLH/",
+      "expected_direction": "over",
+      "rationale": "Vraag waarin opslokken, stad en erfdeel samen staan: de vrouw herkadert Joabs aanval als bedreiging van JHWH's erfdeel."
+    },
+    {
+      "name": "joab_denies_swallow_destroy",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=L>\n  word lex=BL<[\n  word lex=CXT[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Joab met negatie opslokken en verderven afwijst: de vrouw dwingt hem zijn geweldsdoel grammaticaal te begrenzen."
+    },
+    {
+      "name": "man_from_ephraim_lifted_hand",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>JC/\n  word lex=HR/|>PRJM/\n  word lex=NF>[\n  word lex=JD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Joab de schuld bij een man uit het gebergte van Efraim legt die zijn hand ophief: de vijand wordt tot een enkel doelwit vernauwd."
+    },
+    {
+      "name": "head_thrown_over_wall_to_you",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=R>C/\n  word lex=CLK[\n  word lex=XWMH/\n  word prs_ps=p2",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin hoofd, werpen, muur en tweede persoon samen staan: de vrouw vertaalt Joabs eis in een concrete overdrachtsclause."
+    },
+    {
+      "name": "woman_wisdom_to_all_people",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause\n  word lex=>CH/\n  word lex=XKMH/\n  word lex=<M/",
+      "expected_direction": "over",
+      "rationale": "Narratieve clause waarin vrouw, wijsheid en volk samen staan: de publieke uitvoering volgt uit haar onderhandelde wijsheid."
+    }
+  ]
+}

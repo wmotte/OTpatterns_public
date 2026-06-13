@@ -1,0 +1,77 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samueel 21:2-10. As: deceptie en priesterlijke voorzichtigheid. David construeert een geheime koninklijke opdracht; Achimelech toetst beschikbaarheid en reinheid; de zwaardvraag herhaalt de noodformule. Exploratief; FDR over alle geprobeerde queries.",
+  "queries": [
+    {
+      "name": "king_command_secret_mission",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MLK/\n  word lex=YWH[\n  word lex=DBR/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin koning, bevelen en zaak/woord samen staan: David legitimeert zijn aanwezigheid met een verzonnen opdracht."
+    },
+    {
+      "name": "no_one_knows_the_matter",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=>JC/\n  word sp=nega\n  word lex=JD<[\n  word lex=DBR/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin niemand, niet-weten en de zaak samen staan: de leugen wordt als geheimhouding gecodeerd."
+    },
+    {
+      "name": "young_men_appointed_place",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=N<R/\n  word lex=JD<[\n  word lex=MQWM/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de knechten naar een bekende plaats zijn verwezen: David laat een onzichtbare groep zijn verhaal ondersteunen."
+    },
+    {
+      "name": "bread_available_under_hand",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=LXM/\n  word lex=JC/\n  word lex=JD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin brood, beschikbaarheid en hand samen staan: de noodvraag wordt als concrete beschikbaarheidsvraag geformuleerd."
+    },
+    {
+      "name": "only_holy_bread_available",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=KJ\n  word lex=LXM/\n  word lex=QDC/\n  word lex=JC/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin alleen heilig brood beschikbaar is: Achimelech verschuift Davids verzoek naar een cultische voorwaarde."
+    },
+    {
+      "name": "young_men_kept_from_women",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=N<R/\n  word lex=>CH/\n  word lex=CMR[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin knechten en vrouwen met bewaren/onthouden verbonden worden: David beantwoordt de reinheidsvoorwaarde via zijn verzonnen mannen."
+    },
+    {
+      "name": "no_spear_or_sword_taken",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=XNJT/\n  word lex=XRB/\n  word sp=nega\n  word lex=LQX[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin speer, zwaard, negatie en nemen samen staan: David presenteert zijn ontwapening als gevolg van haast."
+    },
+    {
+      "name": "king_matter_was_urgent",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=MLK/\n  word lex=DBR/\n  word lex=NXY[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de zaak van de koning urgent heet: Davids tweede verzoek herhaalt de druk van de eerste leugen."
+    },
+    {
+      "name": "goliath_sword_behind_ephod",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=XRB/\n  word lex=GLJT/\n  word lex=>XR/\n  word lex=>PWD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin het zwaard van Goliat achter de efod ligt: het wapen is beschikbaar, maar priesterlijk ingekaderd."
+    }
+  ]
+}

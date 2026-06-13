@@ -1,0 +1,60 @@
+{
+  "queries": [
+    {
+      "name": "ziba_mephibosheth_servant_identity",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=YJB>/\n  word lex=MPJBCT/",
+      "expected_direction": "over",
+      "rationale": "Clause waarin Ziba en Mefiboset samen voorkomen: de scène opent met Ziba's identiteit als knecht van de afwezige eigenaar."
+    },
+    {
+      "name": "gift_inventory_for_king_house",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=XMWR/\n  word lex=BJT/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin ezels, huis en koning samen staan: Ziba verklaart de goederen als koninklijke voorziening."
+    },
+    {
+      "name": "food_and_drink_for_exhausted",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=LXM/|QJY/|JJN/\n  word lex=>KL[|CTH[\n  word lex=J<P/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin voedsel/drank, eten/drinken en de vermoeide samen staan: Ziba's geschenk wordt als noodvoorziening geframed."
+    },
+    {
+      "name": "where_is_lord_son_question",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=>JH\n  word lex=BN/\n  word lex=>DWN/",
+      "expected_direction": "over",
+      "rationale": "Directe vraag naar de zoon van uw heer: David laat Mefiboset via verwantschap en afwezigheid opkomen."
+    },
+    {
+      "name": "mephibosheth_claims_returned_kingdom",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=JCB[\n  word lex=JRWCLM/\n  word lex=CWB[\n  word lex=MMLKWT/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin zitten in Jeruzalem en herstel van het koningschap samen voorkomen: Ziba's beschuldiging krijgt politieke vorm."
+    },
+    {
+      "name": "all_that_belongs_to_mephibosheth_to_you",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KL/\n  word lex=MPJBCT/\n  word lex=L",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin alles van Mefiboset met een tweede-persoons lamed wordt gekoppeld: Davids onmiddellijke overdracht aan Ziba."
+    },
+    {
+      "name": "favor_formula_after_transfer",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=MY>[\n  word lex=XN/\n  word lex=<JN/",
+      "expected_direction": "over",
+      "rationale": "Directe rede met genade vinden in iemands ogen: Ziba rondt de overdracht af als gunstrelatie met David."
+    }
+  ]
+}

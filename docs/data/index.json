@@ -39,6 +39,81 @@
    "slug": "1_samuel_17_28_37",
    "label": "1 Samuël 17:28-37",
    "file": "data/1_samuel_17_28_37.json"
+  },
+  {
+   "slug": "1_samuel_21_2_10",
+   "label": "1 Samuël 21:2-10",
+   "file": "data/1_samuel_21_2_10.json"
+  },
+  {
+   "slug": "1_samuel_22_11_19",
+   "label": "1 Samuël 22:11-19",
+   "file": "data/1_samuel_22_11_19.json"
+  },
+  {
+   "slug": "1_samuel_24_9_22",
+   "label": "1 Samuël 24:9-22",
+   "file": "data/1_samuel_24_9_22.json"
+  },
+  {
+   "slug": "1_samuel_25_23_35",
+   "label": "1 Samuël 25:23-35",
+   "file": "data/1_samuel_25_23_35.json"
+  },
+  {
+   "slug": "1_samuel_28_8_19",
+   "label": "1 Samuël 28:8-19",
+   "file": "data/1_samuel_28_8_19.json"
+  },
+  {
+   "slug": "2_samuel_1_1_16",
+   "label": "2 Samuël 1:1-16",
+   "file": "data/2_samuel_1_1_16.json"
+  },
+  {
+   "slug": "2_samuel_3_7_11",
+   "label": "2 Samuël 3:7-11",
+   "file": "data/2_samuel_3_7_11.json"
+  },
+  {
+   "slug": "2_samuel_11_6_13",
+   "label": "2 Samuël 11:6-13",
+   "file": "data/2_samuel_11_6_13.json"
+  },
+  {
+   "slug": "2_samuel_12_1_13",
+   "label": "2 Samuël 12:1-13",
+   "file": "data/2_samuel_12_1_13.json"
+  },
+  {
+   "slug": "2_samuel_13_10_16",
+   "label": "2 Samuël 13:10-16",
+   "file": "data/2_samuel_13_10_16.json"
+  },
+  {
+   "slug": "2_samuel_14_4_20",
+   "label": "2 Samuël 14:4-20",
+   "file": "data/2_samuel_14_4_20.json"
+  },
+  {
+   "slug": "2_samuel_16_1_4",
+   "label": "2 Samuël 16:1-4",
+   "file": "data/2_samuel_16_1_4.json"
+  },
+  {
+   "slug": "2_samuel_18_19_32",
+   "label": "2 Samuël 18:19-32",
+   "file": "data/2_samuel_18_19_32.json"
+  },
+  {
+   "slug": "2_samuel_19_25_31",
+   "label": "2 Samuël 19:25-31",
+   "file": "data/2_samuel_19_25_31.json"
+  },
+  {
+   "slug": "2_samuel_20_16_22",
+   "label": "2 Samuël 20:16-22",
+   "file": "data/2_samuel_20_16_22.json"
   }
  ]
 }

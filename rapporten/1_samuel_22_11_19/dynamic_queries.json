@@ -1,0 +1,53 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samueel 22:11-19. As: macht-asymmetrie. Saul verandert een priesterlijke verdediging in een koninklijk doodsvonnis; Achimelech beroept zich op dienst, trouw en onwetendheid; Sauls knechten weigeren, waarna Doeg het bevel uitvoert. De templates koppelen lexicale rollen en geweldswerkwoorden aan het rede- of narratiefdomein. Plafond Middel; exploratief, FDR over alle geprobeerde queries.",
+  "queries": [
+    {
+      "name": "priest_object_of_royal_death_command",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KHN/\n  word lex=MWT[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de priesterrol en het doodswerkwoord samen voorkomen: Sauls vonnis maakt de priester grammaticaal tot object van koninklijk geweld."
+    },
+    {
+      "name": "strike_priests_command",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=KHN/\n  word lex=PG<[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin het slaan/treffen van priesters wordt geformuleerd. Dit onderscheidt het bevel en Doegs antwoord van gewone titel- of ambtsvermelding."
+    },
+    {
+      "name": "death_root_in_royal_speech",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=MWT[",
+      "expected_direction": "over",
+      "rationale": "Directe rede met de wortel MWT: de overgang van verhoor naar doodsvonnis, inclusief de infinitivus-absolutusconstructie 'sterven zult u'."
+    },
+    {
+      "name": "servant_defense_before_king",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=<BD/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin knecht- en koningstaal samen staan. Achimelech verdedigt zich door David en zichzelf binnen Sauls dienstorde te plaatsen."
+    },
+    {
+      "name": "negative_knowledge_defense",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word sp=nega\n  word lex=JD<[",
+      "expected_direction": "over",
+      "rationale": "Directe rede met negatie en weten: Achimelechs formele onwetendheidsverweer, tegenover Sauls lezing van samenzwering."
+    },
+    {
+      "name": "royal_servants_refuse_hand",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause\n  word lex=<BD/\n  word lex=JD/\n  word lex=>BH[",
+      "expected_direction": "over",
+      "rationale": "Clause waarin knechten, hand en weigeren samenkomen: Sauls eigen dienaren blokkeren het bevel voordat Doeg het overneemt."
+    }
+  ]
+}

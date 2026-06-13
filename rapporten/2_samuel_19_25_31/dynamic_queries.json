@@ -1,0 +1,76 @@
+{
+  "queries": [
+    {
+      "name": "king_questions_mephibosheth_absence",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=MLK/\n  word lex=MPJBCT/\n  word lex=L>\n  word lex=HLK[",
+      "expected_direction": "over",
+      "rationale": "Directe vraag waarin de koning Mefibosets niet-meegaan benoemt: de verdediging begint als antwoord op afwezigheid."
+    },
+    {
+      "name": "mephibosheth_addresses_my_lord_king",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=>DWN/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede met 'mijn heer de koning': Mefiboset houdt zijn antwoord in deferentiële aanspreektaal."
+    },
+    {
+      "name": "servant_deceived_me",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=<BD/\n  word lex=RMH=[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de knecht wordt gekoppeld aan bedriegen: Mefiboset formuleert Ziba's eerdere verhaal als deceptie."
+    },
+    {
+      "name": "servant_saddle_donkey_and_go",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=<BD/\n  word lex=XBC[\n  word lex=XMWR/\n  word lex=HLK[",
+      "expected_direction": "over",
+      "rationale": "Geneste directe rede waarin Mefiboset een ezel wil zadelen en naar de koning wil gaan: zijn verdediging krijgt doelgerichte bewegingsvorm."
+    },
+    {
+      "name": "servant_slandered_to_lord_king",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=RGL[\n  word lex=<BD/\n  word lex=>DWN/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin lasteren, knecht en mijn heer de koning samen staan: Mefiboset benoemt de communicatie-as waarlangs Ziba hem beschadigde."
+    },
+    {
+      "name": "king_like_messenger_of_god",
+      "anchor_otype": "clause",
+      "feature_tier": "semantic_proxy",
+      "template": "clause domain=Q\n  word lex=MLK/\n  word lex=ML>K/\n  word lex=>LHJM/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin de koning als engel van God wordt aangesproken: lofspraak omlijst Mefibosets gebrek aan formele verhaalsmacht."
+    },
+    {
+      "name": "do_what_is_good_in_your_eyes",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=<FH[\n  word lex=VWB/\n  word lex=<JN/",
+      "expected_direction": "over",
+      "rationale": "Imperatiefachtige formule 'doe wat goed is in uw ogen': Mefiboset legt zijn zaak terug bij Davids oordeel."
+    },
+    {
+      "name": "why_speak_more_words",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=LMH/\n  word lex=<WD/\n  word lex=DBR/",
+      "expected_direction": "over",
+      "rationale": "Vraag naar nog meer woorden: David kapt de verdediging formeel af voordat volledige reconstructie volgt."
+    },
+    {
+      "name": "you_and_ziba_divide_field",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>TH\n  word lex=YJB>/\n  word lex=XLQ[\n  word lex=FDH/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin jij, Ziba, verdelen en veld samen staan: Davids compromis zet Mefiboset en Ziba grammaticaal naast elkaar."
+    }
+  ]
+}
