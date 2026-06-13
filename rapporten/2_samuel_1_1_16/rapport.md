@@ -2,8 +2,7 @@
 
 *Passage: 2 Samuël 1:1-16 (16 verzen, 330 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
-OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 12 juni
-2026, 108 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
+OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
 voorspellende families, tekstdynamiek, NER, novelty-families, de
 querybibliotheek en zeven passagespecifieke dynamische queries. Dynamische
 queries zijn exploratief en krijgen hoogstens confidence Middel. De
@@ -14,8 +13,8 @@ Veertiende dialoog uit de Samuël-reeks: een Amalekitische jongeman brengt
 David het bericht van Sauls en Jonatans dood en belast zichzelf met de claim
 dat hij Saul heeft gedood. De meting laat een kort bericht zien waarin
 narratieve clauses overheersen, directe rede juist laag is en enkele
-zelfpresentatiepunten zwaar wegen: "ik ben Amalekiet", "dood mij", kroon en
-armband, en ten slotte "uw mond heeft tegen u geantwoord".
+zelfpresentatiepunten zwaar wegen: "ik ben Amalekiet", doodstaal rond Saul en
+Jonatan, kroon en armband, en ten slotte "uw mond heeft tegen u geantwoord".
 
 ## Vraag 1 — Hoe maakt de spreker zichzelf zichtbaar?
 
@@ -98,9 +97,10 @@ meerdere frames?
 zeven voorkomens waar minder dan één verwacht is (G² = 20,78; q ≈ 0,000014).
 De voorbeelden lopen van het slagveldbericht in 1:4-5 via Sauls geciteerde
 "dood mij" in 1:9 en de claim "ik doodde hem" in 1:10 naar de executie in 1:15
-en Davids vonnis in 1:16. Een dynamische query naar "dood mij" met
-eerste-persoonssuffix vindt één treffer in 1:9, maar is na FDR niet
-q-significant.
+en Davids vonnis in 1:16. De full-run bewaart daarnaast een lage-confidence
+dynamische query waarin Saul, Jonatan en sterven samen in het verliesbericht
+staan (2 treffers in 1:4-5; G² = 20,38; q ≈ 0,000048). De oudere specifieke
+"dood mij"-query wordt niet meer als actuele top-120-drager gebruikt.
 
 **Text-Fabric-query:**
 
@@ -109,9 +109,10 @@ word lex=MWT[
 ```
 
 ```text
-clause domain=Q
+verse
+  word lex=C>WL=/
+  word lex=JHWNTN/
   word lex=MWT[
-  word prs_ps=p1
 ```
 
 **Duiding:** De doodstaal beweegt door verschillende monden en rollen. Eerst is
@@ -119,13 +120,13 @@ er bericht, daarna geciteerd verzoek, daarna zelfbelastende uitvoering, daarna
 Davids oordeel. Juist die keten maakt de claim gevaarlijk voor de boodschapper.
 
 
-**Staat dit al in de commentaren?:** standard. De doodstaal en Sauls verzoek
-"dood mij" worden besproken; BHSA kwantificeert de lexicale dichtheid en de
-specifieke verzoekvorm.
+**Staat dit al in de commentaren?:** standard. De doodstaal, Sauls verzoek
+"dood mij" en het verliesbericht over Saul en Jonatan worden besproken; BHSA
+kwantificeert de lexicale dichtheid en markeert de berichtformule.
 
 **Confidence:** Laag (≤ plafond Laag) · features: `lex=MWT[`,
-`dynamic_query=kill_me_request` · robustness: global_only / robust maar
-q-significant=false voor de query · versie 2023
+`dynamic_query=saul_jonathan_death_report` · robustness: global_only / robust ·
+versie 2023
 
 ## Vraag 4 — Wat doen kroon en armband?
 
@@ -213,18 +214,63 @@ mond-bloedquery · features: `dynamic_query=mouth_testifies_blood`,
 robust · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":22,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":29,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":10,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":13,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":12,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":25,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":97,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":24,"evidence_field":"examples","claim_type":"statistical_finding"},
-  {"finding_id":49,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":50,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":15,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":77,"evidence_field":"examples","claim_type":"statistical_finding"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 40,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 48,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 26,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 29,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 44,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 45,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "examples",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 68,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 32,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 120,
+      "evidence_field": "examples",
+      "claim_type": "statistical_finding"
+    }
+  ]
+}
 ```

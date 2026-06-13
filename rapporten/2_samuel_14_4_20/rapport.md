@@ -2,8 +2,7 @@
 
 *Passage: 2 Samuël 14:4-20 (17 verzen, 465 woorden; genre narratief,
 periode EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine
-tegen het OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van
-12 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis,
+tegen het OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis,
 discours-pragmatiek, voorspellende families, tekstdynamiek, NER,
 novelty-families, de querybibliotheek en acht passagespecifieke dynamische
 queries. Dynamische queries zijn exploratief en krijgen hoogstens confidence
@@ -233,19 +232,48 @@ zodanig uitgewerkt en blijft een voorzichtige vormlaag bij die bekende lezing.
 robust · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":14,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":14,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":18,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":41,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":24,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":22,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":69,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":13,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":62,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":78,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":40,"evidence_field":"observed","claim_type":"interpretive_hypothesis"},
-  {"finding_id":73,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":100,"evidence_field":"observed","claim_type":"statistical_finding"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 28,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 61,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 40,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 60,
+      "evidence_field": "observed",
+      "claim_type": "interpretive_hypothesis"
+    }
+  ]
+}
 ```

@@ -1,14 +1,14 @@
 {
   "ok": true,
   "meta": {
-    "engine_git_commit": "8005a12",
+    "engine_git_commit": "5a27fbf",
     "tf_version": null,
     "bhsa_version": "2023",
     "bhsa_tf_data_version": "2021",
-    "baseline_schema": 11,
-    "baseline_checksum": "sha256:33fa8e890fe036bbc122882408f984b3d920a3f804e059b7c417408ddd9fcf39",
-    "baseline_built_utc": "2026-06-10T15:38:14.837116+00:00",
-    "run_utc": "2026-06-10T16:50:44.512467+00:00",
+    "baseline_schema": 19,
+    "baseline_checksum": "sha256:dcb9f400165eb25e08b38dfb4a88e6a4f8abc1471595fb62d9b3dbdcf74b9e08",
+    "baseline_built_utc": "2026-06-10T23:50:22.127921+00:00",
+    "run_utc": "2026-06-13T07:51:14.368506+00:00",
     "strata_used": [
       "global",
       "same_book",
@@ -26,16 +26,35 @@
       "leitwort_min": 3,
       "struct_min_g2": 6.0,
       "min_robust": 4,
-      "dynamic": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/exegese/1_samuel_15_13_31/dynamic_queries.json",
+      "dynamic": ".agents/bhsa-exegese/exegese/1_samuel_15_13_31/dynamic_queries.json",
       "ner": true,
-      "query_library": null,
+      "query_library": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/references/query_library.json",
+      "topology": true,
+      "meta": true,
+      "morphosyntax": true,
+      "relational": true,
       "novelty_families": true,
+      "discourse_pragmatics": true,
       "predictive_families": true,
-      "text_dynamics": true
+      "text_dynamics": true,
+      "connectivity": true,
+      "prosody_poetics": true,
+      "ellipsis": true,
+      "accent_syntax": true,
+      "referential_marking": true,
+      "form_rarity": true,
+      "orthography": true,
+      "pausal_forms": true,
+      "individuation": true,
+      "prosody_alignment": true,
+      "ellipsis_parallelism": true,
+      "subphrase": true,
+      "convergence": true,
+      "composite": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/references/patterns.json"
     },
     "robust_floor": {
       "bar": "robustness∈{robust,partially_robust} ∧ q_significant ∧ ceiling≥Middel ∧ niet-exploratief",
-      "n": 31,
+      "n": 33,
       "ids": [
         1,
         2,
@@ -52,39 +71,40 @@
         17,
         20,
         22,
-        26,
-        34,
+        27,
         35,
         36,
         37,
-        40,
-        44,
-        48,
-        49,
-        50,
+        38,
+        41,
+        47,
         51,
+        52,
+        55,
         57,
-        58,
-        69,
-        70,
-        85
+        66,
+        67,
+        84,
+        86,
+        118,
+        119,
+        120
       ],
       "min_robust": 4,
       "met": true
     },
     "exploratory_floor": {
       "bar": "robuuste bar ∧ exploratief (provenance=llm_hypothesis|preregistered_library / type=dynamic_query)",
-      "n": 3,
+      "n": 2,
       "ids": [
-        43,
-        75,
-        88
+        46,
+        91
       ]
     },
     "widening": {
       "requested": 4,
-      "floor_before": 31,
-      "floor_after": 31,
+      "floor_before": 33,
+      "floor_after": 33,
       "floor_met": true,
       "rounds": [],
       "n_detector_axes_expanded": 0,
@@ -92,14 +112,27 @@
       "search_space_n": 0
     },
     "dynamic": {
-      "query_file": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/exegese/1_samuel_15_13_31/dynamic_queries.json",
+      "query_file": ".agents/bhsa-exegese/exegese/1_samuel_15_13_31/dynamic_queries.json",
       "n_queries_tried": 6,
-      "n_queries_attempted": 171,
+      "n_queries_attempted": 614,
       "n_findings": 6,
       "errors": [],
       "note": "Exploratief: een geïnformeerde LLM stelde geneste TF-search-templates voor; de engine voerde ze deterministisch uit en scoorde ze tegen dezelfde gestratificeerde nulls. Plafond Middel; FDR over alle geprobeerde queries. Resultaten zijn post-hoc; zie dynamic_query_attempts_<versie>.jsonl."
     },
-    "query_library": null,
+    "query_library": {
+      "path": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/references/query_library.json",
+      "library_version": 1,
+      "n_in_library": 8,
+      "n_scope_matched": 8,
+      "n_skipped_out_of_scope": 0,
+      "n_executed": 8,
+      "n_failed_kept_in_fdr": 0,
+      "errors": [],
+      "feature_tiers": {
+        "formal_proxy": 8
+      },
+      "note": "Gepreregistreerde querybibliotheek (git-getrackt = preregistratie). Alle scope-gematchte queries — ook mislukt of leeg — tellen mee in de FDR-noemer van de dynamic_query-familie; het meet-plafond per query volgt feature_tier; findings blijven exploratief (provenance=preregistered_library)."
+    },
     "detector_config": {
       "min_g2": 10.0,
       "struct_min_g2": 6.0,
@@ -268,7 +301,30 @@
         "petucha_setuma_pivot": "discourse_uncertain",
         "maqef_compression_zone": "hard_formal",
         "paseq_density": "hard_formal",
-        "sof_pasuq_rhythm": "formal_proxy"
+        "sof_pasuq_rhythm": "formal_proxy",
+        "ellipsis_density": "hard_formal",
+        "gapped_constituent_profile": "formal_proxy",
+        "gapping_distance": "formal_proxy",
+        "prose_ellipsis_marked": "discourse_uncertain",
+        "atnach_asymmetry": "formal_proxy",
+        "accent_syntax_mismatch": "formal_proxy",
+        "atnach_absence": "hard_formal",
+        "dom_unmarked_definite": "formal_proxy",
+        "dom_marked_indefinite": "formal_proxy",
+        "referent_chain_anomaly": "discourse_uncertain",
+        "morphological_hapax": "hard_formal",
+        "rare_form_cluster": "formal_proxy",
+        "plene_defective_skew": "hard_formal",
+        "spelling_switch": "formal_proxy",
+        "pausal_out_of_place": "formal_proxy",
+        "pausal_absent_at_pause": "formal_proxy",
+        "participant_individuation": "discourse_uncertain",
+        "prosody_syntax_alignment": "formal_proxy",
+        "ellipsis_parallelism_coupling": "formal_proxy",
+        "prose_parallel_gapping": "discourse_uncertain",
+        "np_coordination_depth": "formal_proxy",
+        "attributive_stacking": "formal_proxy",
+        "anomaly_convergence": "formal_proxy"
       },
       "reliability_ceiling": {
         "hard_formal": "Hoog",
@@ -306,7 +362,7 @@
     "n_clauses": 86,
     "small_passage": false
   },
-  "n_findings": 91,
+  "n_findings": 120,
   "findings": [
     {
       "type": "function_collexeme_anomaly",
@@ -2154,6 +2210,69 @@
       "id": 25
     },
     {
+      "type": "composite_structure",
+      "object_type": "verse",
+      "feature": "hendiadys",
+      "value": "hendiadys-kandidaten (18)",
+      "effect": "structure",
+      "observed": 1,
+      "statistic": 39.0,
+      "surprise": 39.0,
+      "claim_type": "compositional_structure",
+      "pattern": "hendiadys",
+      "rationale": "Twee nevengeschikte inhoudswoorden van gelijke woordsoort (X-en-Y) zijn kandidaten voor een hendiadys/woordpaar.",
+      "examples": [
+        {
+          "ref": "1_Samuel 15:14",
+          "paar": ">ZN/+QWL/ (subs)"
+        },
+        {
+          "ref": "1_Samuel 15:14",
+          "paar": "CM<[+>MR[ (verb)"
+        },
+        {
+          "ref": "1_Samuel 15:15",
+          "paar": "BW>[+XML[ (verb)"
+        },
+        {
+          "ref": "1_Samuel 15:15",
+          "paar": "XRM[+>MR[ (verb)"
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "paar": "RPH[+NGD[ (verb)"
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "paar": "DBR[+>MR[ (verb)"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "paar": "HLK[+XRM[ (verb)"
+        },
+        {
+          "ref": "1_Samuel 15:20",
+          "paar": "XRM[+LQX[ (verb)"
+        }
+      ],
+      "tf_query": "% twee inhoudswoorden van gelijke woordsoort verbonden door een nevenschikkend voegwoord (X waw Y)",
+      "note": "Nevengeschikte woordparen van gelijke soort (X-en-Y) — kandidaten voor hendiadys/woordpaar; formeel patroon, betekenis interpretatief.",
+      "n_pairs": 18,
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 39.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 26
+    },
+    {
       "type": "categorical",
       "object_type": "word",
       "feature": "nu",
@@ -2249,7 +2368,7 @@
       "q_value": 1.302287429695034e-08,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 26
+      "id": 27
     },
     {
       "type": "lexical_register_zone",
@@ -2327,7 +2446,7 @@
       "q_value": 1.973175290075403e-09,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 27
+      "id": 28
     },
     {
       "type": "distribution_shape",
@@ -2410,7 +2529,7 @@
       "q_value": 0.16583927405659327,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 28
+      "id": 29
     },
     {
       "type": "entity_role_pressure",
@@ -2561,7 +2680,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 29
+      "id": 30
     },
     {
       "type": "forward_predictive_scaffolding",
@@ -2659,7 +2778,7 @@
       "q_value": 0.7282589795202052,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 30
+      "id": 31
     },
     {
       "type": "morphological_weight",
@@ -2763,7 +2882,7 @@
       "q_value": 0.07843990471916641,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 31
+      "id": 32
     },
     {
       "type": "tam_chaos",
@@ -2855,7 +2974,7 @@
       "q_value": 0.7095966092799447,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 32
+      "id": 33
     },
     {
       "type": "leitwort",
@@ -2912,7 +3031,7 @@
       "q_value": 1.8127327974840561e-06,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 33
+      "id": 34
     },
     {
       "type": "categorical",
@@ -3010,7 +3129,7 @@
       "q_value": 2.5771437507757335e-06,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 34
+      "id": 35
     },
     {
       "type": "defective_clause_atom_density",
@@ -3117,7 +3236,7 @@
       "q_value": 0.0012832631317676257,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 35
+      "id": 36
     },
     {
       "type": "categorical",
@@ -3215,7 +3334,7 @@
       "q_value": 2.5771437507757335e-06,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 36
+      "id": 37
     },
     {
       "type": "categorical",
@@ -3313,7 +3432,7 @@
       "q_value": 2.5771437507757335e-06,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 37
+      "id": 38
     },
     {
       "type": "qere_ketiv",
@@ -3350,7 +3469,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 38
+      "id": 39
     },
     {
       "type": "leitwort",
@@ -3403,7 +3522,7 @@
       "q_value": 1.1565221380907438e-05,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 39
+      "id": 40
     },
     {
       "type": "actant_centrality",
@@ -3418,6 +3537,26 @@
       "surprise": 20.4,
       "examples": [
         {
+          "actant": "CMW>L/",
+          "out_degree": 9,
+          "in_degree": 0,
+          "refs": [
+            "1_Samuel 15:13",
+            "1_Samuel 15:14",
+            "1_Samuel 15:16"
+          ]
+        },
+        {
+          "actant": "p1:sg:unknown",
+          "out_degree": 14,
+          "in_degree": 0,
+          "refs": [
+            "1_Samuel 15:13",
+            "1_Samuel 15:16",
+            "1_Samuel 15:20"
+          ]
+        },
+        {
           "actant": "p3:sg:m",
           "out_degree": 8,
           "in_degree": 0,
@@ -3428,13 +3567,13 @@
           ]
         },
         {
-          "actant": "DBR/",
-          "out_degree": 0,
-          "in_degree": 4,
+          "actant": "C>WL=/",
+          "out_degree": 5,
+          "in_degree": 0,
           "refs": [
             "1_Samuel 15:13",
-            "1_Samuel 15:23",
-            "1_Samuel 15:24"
+            "1_Samuel 15:15",
+            "1_Samuel 15:20"
           ]
         },
         {
@@ -3448,33 +3587,13 @@
           ]
         },
         {
-          "actant": "CMW>L/",
-          "out_degree": 9,
-          "in_degree": 0,
+          "actant": "DBR/",
+          "out_degree": 0,
+          "in_degree": 4,
           "refs": [
             "1_Samuel 15:13",
-            "1_Samuel 15:14",
-            "1_Samuel 15:16"
-          ]
-        },
-        {
-          "actant": "p2:sg:m",
-          "out_degree": 14,
-          "in_degree": 0,
-          "refs": [
-            "1_Samuel 15:16",
-            "1_Samuel 15:16",
-            "1_Samuel 15:18"
-          ]
-        },
-        {
-          "actant": "p1:sg:unknown",
-          "out_degree": 14,
-          "in_degree": 0,
-          "refs": [
-            "1_Samuel 15:13",
-            "1_Samuel 15:16",
-            "1_Samuel 15:20"
+            "1_Samuel 15:23",
+            "1_Samuel 15:24"
           ]
         }
       ],
@@ -3531,7 +3650,7 @@
       "q_value": 0.025400731499319585,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 40
+      "id": 41
     },
     {
       "type": "leitwort",
@@ -3596,7 +3715,174 @@
       "q_value": 1.298529541965385e-05,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 41
+      "id": 42
+    },
+    {
+      "type": "spatial_kinetic_axis",
+      "object_type": "word",
+      "feature": "motion-root + subject + complement direction",
+      "value": "return:4,toward:3,toward/into:3,up/initiate:1",
+      "effect": "chain",
+      "observed": 11,
+      "direction_counts": {
+        "toward/into": 3,
+        "up/initiate": 1,
+        "toward": 3,
+        "return": 4
+      },
+      "subject_counts": {
+        "CMW>L/": 2,
+        "p1": 4,
+        "p3": 1,
+        "p2": 3,
+        "unknown": 1
+      },
+      "inversion_spans": [],
+      "examples": [
+        {
+          "ref": "1_Samuel 15:13",
+          "surface": "יָּבֹ֥א",
+          "root": "BW>",
+          "direction": "toward/into",
+          "subject": "CMW>L/",
+          "locative_lexemes": [
+            ">L",
+            "C>WL=/"
+          ],
+          "locative_surface": "אֶלשָׁא֑וּל",
+          "clause_surface": "וַיָּבֹ֥אשְׁמוּאֵ֖לאֶלשָׁא֑וּל"
+        },
+        {
+          "ref": "1_Samuel 15:13",
+          "surface": "הֲקִימֹ֖תִי",
+          "root": "QWM",
+          "direction": "up/initiate",
+          "subject": "p1",
+          "locative_lexemes": [
+            ">T",
+            "DBR/",
+            "JHWH/"
+          ],
+          "locative_surface": "אֶתדְּבַ֥ריְהוָֽה",
+          "clause_surface": "הֲקִימֹ֖תִיאֶתדְּבַ֥ריְהוָֽה"
+        },
+        {
+          "ref": "1_Samuel 15:15",
+          "surface": "הֱבִיא֗וּם",
+          "root": "BW>",
+          "direction": "toward/into",
+          "subject": "p3",
+          "locative_lexemes": [
+            "MN",
+            "<MLQJ/"
+          ],
+          "locative_surface": "מֵעֲמָלֵקִ֣י",
+          "clause_surface": "מֵעֲמָלֵקִ֣יהֱבִיא֗וּם"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": "לֵ֣ךְ",
+          "root": "HLK",
+          "direction": "toward",
+          "subject": "p2",
+          "locative_lexemes": [],
+          "locative_surface": "",
+          "clause_surface": "לֵ֣ךְ"
+        },
+        {
+          "ref": "1_Samuel 15:20",
+          "surface": "אֵלֵ֕ךְ",
+          "root": "HLK",
+          "direction": "toward",
+          "subject": "p1",
+          "locative_lexemes": [
+            "B",
+            "H",
+            "DRK/"
+          ],
+          "locative_surface": "בַּדֶּ֖רֶךְ",
+          "clause_surface": "וָאֵלֵ֕ךְבַּדֶּ֖רֶךְ"
+        },
+        {
+          "ref": "1_Samuel 15:20",
+          "surface": "אָבִ֗יא",
+          "root": "BW>",
+          "direction": "toward/into",
+          "subject": "p1",
+          "locative_lexemes": [
+            ">T",
+            ">GG/",
+            "MLK/",
+            "<MLQ/"
+          ],
+          "locative_surface": "אֶתאֲגַג֙מֶ֣לֶךְעֲמָלֵ֔ק",
+          "clause_surface": "וָאָבִ֗יאאֶתאֲגַג֙מֶ֣לֶךְעֲמָלֵ֔ק"
+        },
+        {
+          "ref": "1_Samuel 15:25",
+          "surface": "שׁ֣וּב",
+          "root": "CWB",
+          "direction": "return",
+          "subject": "p2",
+          "locative_lexemes": [
+            "<M"
+          ],
+          "locative_surface": "עִמִּ֔י",
+          "clause_surface": "וְשׁ֣וּבעִמִּ֔י"
+        },
+        {
+          "ref": "1_Samuel 15:26",
+          "surface": "אָשׁ֖וּב",
+          "root": "CWB",
+          "direction": "return",
+          "subject": "p1",
+          "locative_lexemes": [
+            "<M"
+          ],
+          "locative_surface": "עִמָּ֑ךְ",
+          "clause_surface": "לֹ֥אאָשׁ֖וּבעִמָּ֑ךְ"
+        },
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": "לֶ֑כֶת",
+          "root": "HLK",
+          "direction": "toward",
+          "subject": "unknown",
+          "locative_lexemes": [],
+          "locative_surface": "",
+          "clause_surface": "לָלֶ֑כֶת"
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "surface": "שׁ֣וּב",
+          "root": "CWB",
+          "direction": "return",
+          "subject": "p2",
+          "locative_lexemes": [
+            "<M"
+          ],
+          "locative_surface": "עִמִּ֔י",
+          "clause_surface": "וְשׁ֣וּבעִמִּ֔י"
+        }
+      ],
+      "tf_query": "% motion roots QWM/<LH/JRD/HLK/BW>/BRX/JY>/CWB/NWS in predicate phrases, with Subj and Cmpl/Loca/Adju/Objc",
+      "surprise": 19.9,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Ordent bewegingswerkwoorden als lokale ruimtelijke as: actor, richting en complement. Dit meet niet alleen 'afdalen' of 'gaan', maar de grammaticale bewegingsketen van de passage.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 19.9,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 43
     },
     {
       "type": "leitwort",
@@ -3649,7 +3935,64 @@
       "q_value": 1.6640780820455615e-05,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 42
+      "id": 44
+    },
+    {
+      "type": "asyndeton_cluster",
+      "object_type": "clause",
+      "feature": "keten clauses zonder kop-voegwoord",
+      "value": "asyndeton ×7",
+      "effect": "sequence",
+      "observed": 7,
+      "span": "1_Samuel 15:22",
+      "examples": [
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "הַחֵ֤פֶץלַֽיהוָה֙בְּעֹלֹ֣ותוּזְבָחִ֔ים"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "כִּשְׁמֹ֖עַבְּקֹ֣וליְהוָ֑ה"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "הִנֵּ֤ה"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "שְׁמֹ֨עַ֙"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "מִזֶּ֣בַחטֹ֔וב"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "לְהַקְשִׁ֖יב"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "מֵחֵ֥לֶבאֵילִֽים"
+        }
+      ],
+      "tf_query": "% ≥3 opeenvolgende clauses zonder nevenschikkend kop-voegwoord (asyndeton/staccato)",
+      "surprise": 19.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Reeks clauses zonder verbindend voegwoord (asyndeton) — staccato-ritme, schok of urgentie. De afwezigheid van de connector is formeel; het ritme-effect duiding.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 19.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 45
     },
     {
       "query_name": "voice_pun_obey_versus_sound",
@@ -3738,10 +4081,10 @@
       "min_n_warning": false,
       "small_sample_penalty": 0.0,
       "empirical": null,
-      "q_value": 8.186174730052221e-05,
+      "q_value": 0.00019101074370121848,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 43
+      "id": 46
     },
     {
       "type": "categorical",
@@ -3839,7 +4182,7 @@
       "q_value": 3.0024004220277125e-05,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 44
+      "id": 47
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -3889,7 +4232,7 @@
       "q_value": 3.313574549787816e-05,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 45
+      "id": 48
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -3939,7 +4282,7 @@
       "q_value": 3.313574549787816e-05,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 46
+      "id": 49
     },
     {
       "type": "divine_names",
@@ -4099,7 +4442,7 @@
       "q_value": 2.4524420574791967e-05,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 47
+      "id": 50
     },
     {
       "type": "collexeme_anomaly",
@@ -4158,7 +4501,7 @@
       "q_value": 3.1419024168898875e-05,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 48
+      "id": 51
     },
     {
       "type": "categorical",
@@ -4256,7 +4599,167 @@
       "q_value": 6.123232017575647e-05,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 49
+      "id": 52
+    },
+    {
+      "type": "instrumental_b_focus",
+      "object_type": "phrase",
+      "feature": "prep B in Adju/Cmpl (middel/instrument)",
+      "value": "instrumentele beth ×10",
+      "effect": "present",
+      "observed": 10,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:17",
+          "surface": "בְּעֵינֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": "בְּדָ֑רֶךְ"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": "בֹ֔ו"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": "בְּקֹ֣וליְהוָ֑ה"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": "בְּעֵינֵ֥ייְהוָֽה"
+        },
+        {
+          "ref": "1_Samuel 15:20",
+          "surface": "בְּקֹ֣וליְהוָ֔ה"
+        },
+        {
+          "ref": "1_Samuel 15:20",
+          "surface": "בַּדֶּ֖רֶךְ"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": "בְּקֹ֣וליְהוָ֑ה"
+        }
+      ],
+      "tf_query": "% phrase function=Adju/Cmpl met kop-prepositie lex=B (instrumentele/middel-beth)",
+      "surprise": 16.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Beth-frasen als bijwoordelijk middel — de nadruk op de METHODE (vaak geweld, techniek of vaardigheid) i.p.v. alleen de handeling. De syntactische slot is formeel; de instrument-lezing semantisch (beth heeft ook locatieve/temporele functies).",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 16.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 53
+    },
+    {
+      "type": "clause_ellipsis_pressure",
+      "object_type": "clause",
+      "feature": "verbale clause ≤2 woorden zonder Subj/Objc",
+      "value": "elliptische clauses ×9",
+      "effect": "present",
+      "observed": 9,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": "הֶ֚רֶף"
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": "דַּבֵּֽר"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": "וַיֹּ֗אמֶר"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": "לֵ֣ךְ"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": "וַתַּ֥עַשׂ"
+        },
+        {
+          "ref": "1_Samuel 15:24",
+          "surface": "חָטָ֔אתִי"
+        },
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": "וַיִּקָּרַֽע"
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "surface": "וַיֹּ֣אמֶר"
+        }
+      ],
+      "tf_query": "% extreem korte verbale clause (≤2 woorden) zonder Subj- en zonder Objc-frase (verplichte argumenten ontbreken / ellips)",
+      "surprise": 15.7,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Hoge dichtheid van extreem korte clauses zonder verplichte argumenten — poëtische compressie, haast of woede (stotterende grammatica). De ellips is formeel; het affect-effect interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": 61,
+      "baselines": {
+        "global": {
+          "expected": 9.634,
+          "G2": 0.05,
+          "p_value": 0.8221767215645164,
+          "effect": "under"
+        },
+        "same_book": {
+          "expected": 10.379,
+          "G2": 0.23,
+          "p_value": 0.6320835109276566,
+          "effect": "under"
+        },
+        "same_genre": {
+          "expected": 9.782,
+          "G2": 0.08,
+          "p_value": 0.7826034719729408,
+          "effect": "under"
+        },
+        "same_language": {
+          "expected": 9.634,
+          "G2": 0.05,
+          "p_value": 0.8221767215645164,
+          "effect": "under"
+        },
+        "same_period": {
+          "expected": 9.936,
+          "G2": 0.11,
+          "p_value": 0.7422937191981369,
+          "effect": "under"
+        }
+      },
+      "expected": 9.634,
+      "G2": 0.05,
+      "p_value": 0.8221767215645164,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.7422937191981369,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 0.05,
+      "effect_size": -0.098,
+      "rank_score": 15.7,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.8221767215645164,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 54
     },
     {
       "type": "categorical",
@@ -4354,7 +4857,129 @@
       "q_value": 0.00012405292720209568,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 50
+      "id": 55
+    },
+    {
+      "type": "speech_action_misalignment",
+      "object_type": "clause",
+      "feature": "imperatief-in-rede + responsvenster",
+      "value": "compliant:2,delayed:1,transferred:2",
+      "effect": "configuration",
+      "observed": 3,
+      "n_commands": 5,
+      "alignment_counts": {
+        "transferred": 2,
+        "delayed": 1,
+        "compliant": 2
+      },
+      "examples": [
+        {
+          "command_ref": "1_Samuel 15:16",
+          "response_ref": "1_Samuel 15:16",
+          "alignment": "transferred",
+          "command_roots": [
+            "RPH"
+          ],
+          "response_roots": [
+            "NGD",
+            "DBR",
+            ">MR",
+            "DBR",
+            ">MR"
+          ],
+          "response_subject": "p1",
+          "command_surface": "הֶ֚רֶף",
+          "response_surface": "וְאַגִּ֣ידָהלְּךָ֔"
+        },
+        {
+          "command_ref": "1_Samuel 15:16",
+          "response_ref": "1_Samuel 15:17",
+          "alignment": "transferred",
+          "command_roots": [
+            "DBR"
+          ],
+          "response_roots": [
+            ">MR",
+            "MCX",
+            "CLX"
+          ],
+          "response_subject": "CMW>L/",
+          "command_surface": "דַּבֵּֽר",
+          "response_surface": "וַיֹּ֣אמֶרשְׁמוּאֵ֔ל"
+        },
+        {
+          "command_ref": "1_Samuel 15:18",
+          "response_ref": "1_Samuel 15:18",
+          "alignment": "delayed",
+          "command_roots": [
+            "HLK"
+          ],
+          "response_roots": [
+            "XRM",
+            "LXM",
+            "KLH",
+            "CM<",
+            "<JV"
+          ],
+          "response_subject": "p2",
+          "command_surface": "לֵ֣ךְ",
+          "response_surface": "וְהַחֲרַמְתָּ֞האֶתהַֽחַטָּאִים֙אֶתעֲמָלֵ֔ק"
+        },
+        {
+          "command_ref": "1_Samuel 15:25",
+          "response_ref": "1_Samuel 15:26",
+          "alignment": "compliant",
+          "command_roots": [
+            "NF>",
+            "CWB"
+          ],
+          "response_roots": [
+            "XWH",
+            ">MR",
+            "CWB",
+            "M>S",
+            "M>S"
+          ],
+          "response_subject": "p1",
+          "command_surface": "שָׂ֥אנָ֖אאֶתחַטָּאתִ֑י וְשׁ֣וּבעִמִּ֔י",
+          "response_surface": "לֹ֥אאָשׁ֖וּבעִמָּ֑ךְ"
+        },
+        {
+          "command_ref": "1_Samuel 15:30",
+          "response_ref": "1_Samuel 15:31",
+          "alignment": "compliant",
+          "command_roots": [
+            "KBD",
+            "CWB"
+          ],
+          "response_roots": [
+            "XWH",
+            "CWB",
+            "XWH"
+          ],
+          "response_subject": "CMW>L/",
+          "command_surface": "עַתָּ֗הכַּבְּדֵ֥נִינָ֛אנֶ֥גֶדזִקְנֵֽיעַמִּ֖יוְנֶ֣גֶדיִשְׂרָאֵ֑ל וְשׁ֣וּבעִמִּ֔י",
+          "response_surface": "וַיָּ֥שָׁבשְׁמוּאֵ֖לאַחֲרֵ֣ישָׁא֑וּל"
+        }
+      ],
+      "tf_query": "% clause txt~Q met word vt=impv; scan volgende clauses op finiet predicaat, subject en motion/command roots",
+      "surprise": 14.75,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Meet of een bevel in directe rede lokaal wordt opgevolgd, uitgesteld, omgekeerd of naar een andere actor verschuift. De morfologie is formeel; het responslabel is een discourse-heuristiek.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 14.75,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 56
     },
     {
       "type": "categorical",
@@ -4424,7 +5049,7 @@
       "q_value": 0.00019694033870865715,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 51
+      "id": 57
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -4469,7 +5094,7 @@
       "q_value": 0.0002862761448344517,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 52
+      "id": 58
     },
     {
       "type": "actant_obfuscation",
@@ -4562,7 +5187,97 @@
       "q_value": 0.12476495489776193,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 53
+      "id": 59
+    },
+    {
+      "type": "composite_structure",
+      "object_type": "verse",
+      "feature": "inclusio",
+      "value": "inclusio: C>WL=/, CMW>L/, JHWH/",
+      "effect": "structure",
+      "observed": 1,
+      "statistic": 13.0,
+      "surprise": 13.0,
+      "claim_type": "compositional_structure",
+      "pattern": "inclusio",
+      "rationale": "Een inhoudslexeem dat de eenheid zowel opent als sluit, omlijst en markeert de perikoopgrens (raamwerk/inclusio).",
+      "examples": [
+        {
+          "ref": "1_Samuel 15:13"
+        },
+        {
+          "ref": "1_Samuel 15:31"
+        }
+      ],
+      "tf_query": "% inhoudslexeem dat zowel het eerste als het laatste vers van de perikoop opent/sluit (inclusio/raamwerk)",
+      "note": "Lexicale omlijsting (inclusio): hetzelfde inhoudswoord opent en sluit de eenheid — markeert de perikoopgrens.",
+      "boundary_lexemes": [
+        "C>WL=/",
+        "CMW>L/",
+        "JHWH/"
+      ],
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 13.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 60
+    },
+    {
+      "type": "nested_speech",
+      "object_type": "clause",
+      "feature": "txt-Q-diepte ≥2 (rede-in-rede)",
+      "value": "nesting≤2",
+      "effect": "present",
+      "observed": 4,
+      "max_depth": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:18",
+          "diepte": 2,
+          "surface": "לֵ֣ךְ"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "diepte": 2,
+          "surface": "וְהַחֲרַמְתָּ֞האֶתהַֽחַטָּאִים֙אֶתעֲמָלֵ֔ק"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "diepte": 2,
+          "surface": "וְנִלְחַמְתָּ֣בֹ֔ו"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "diepte": 2,
+          "surface": "עַ֥דכַּלֹּותָ֖םאֹתָֽם"
+        }
+      ],
+      "tf_query": "% clause met ≥2 'Q' in txt (geneste directe rede, bv. NQQ)",
+      "surprise": 13.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Geneste directe rede (stem-binnen-stem) — wie spreekt er in wiens mond? Vaak God geciteerd binnen mensenrede of een eed die andermans woorden aanhaalt. De txt-diepte is formeel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 13.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 61
     },
     {
       "type": "rare_lexeme",
@@ -4596,7 +5311,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 54
+      "id": 62
     },
     {
       "type": "entity_copresence",
@@ -4645,7 +5360,95 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 55
+      "id": 63
+    },
+    {
+      "type": "tail_modification_pressure",
+      "object_type": "clause",
+      "feature": "predicaat met objectsuffix + late nominale explicitering",
+      "value": "right-dislocation/staartmodificatie",
+      "effect": "over",
+      "observed": 5,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:17",
+          "surface": "וַיִּמְשָׁחֲךָ֧יְהוָ֛הלְמֶ֖לֶךְעַליִשְׂרָאֵֽל"
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": "וַיִּשְׁלָחֲךָ֥יְהוָ֖הבְּדָ֑רֶךְ"
+        },
+        {
+          "ref": "1_Samuel 15:23",
+          "surface": "וַיִּמְאָסְךָ֖מִמֶּֽלֶךְ"
+        },
+        {
+          "ref": "1_Samuel 15:28",
+          "surface": "וּנְתָנָ֕הּלְרֵעֲךָ֖"
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "surface": "עַתָּ֗הכַּבְּדֵ֥נִינָ֛אנֶ֥גֶדזִקְנֵֽיעַמִּ֖יוְנֶ֣גֶדיִשְׂרָאֵ֑ל"
+        }
+      ],
+      "tf_query": "% clause met pronominaal objectsuffix op predicaat en later Objc/Cmpl met nomen",
+      "surprise": 12.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Pronominale objectmarkering wordt laat nog nominaal uitgewerkt — kandidaat voor afterthought/right dislocation. De late nominale explicitering is formeel; coreferentie en pragmatische waarde blijven interpretatief.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": 73,
+      "baselines": {
+        "global": {
+          "expected": 1.965,
+          "G2": 3.4,
+          "p_value": 0.06513708996111069,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 2.106,
+          "G2": 2.98,
+          "p_value": 0.08438672340939983,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 2.049,
+          "G2": 3.14,
+          "p_value": 0.07624578192863261,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 1.965,
+          "G2": 3.4,
+          "p_value": 0.06513708996111069,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 1.88,
+          "G2": 3.68,
+          "p_value": 0.055104787805541566,
+          "effect": "over"
+        }
+      },
+      "expected": 1.965,
+      "G2": 3.4,
+      "p_value": 0.06513708996111069,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.055104787805541566,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 3.4,
+      "effect_size": 1.347,
+      "rank_score": 12.5,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.06513708996111069,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 64
     },
     {
       "type": "leitwort",
@@ -4698,7 +5501,7 @@
       "q_value": 0.0006203279851486324,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 56
+      "id": 65
     },
     {
       "type": "categorical",
@@ -4776,7 +5579,7 @@
       "q_value": 0.000450030417097893,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 57
+      "id": 66
     },
     {
       "type": "person_shift",
@@ -4842,7 +5645,57 @@
       "q_value": 0.0009865251483859381,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 58
+      "id": 67
+    },
+    {
+      "type": "petucha_setuma_pivot",
+      "object_type": "verse",
+      "feature": "petucha/setuma vs inhoudelijke naden",
+      "value": "naad-mismatches ×4",
+      "effect": "present",
+      "observed": 4,
+      "marks_in_speech": 4,
+      "pivots_far_from_mark": 0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:15",
+          "kind": "mark_in_speech",
+          "mark": "ס"
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "kind": "mark_in_speech",
+          "mark": "ס"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "kind": "mark_in_speech",
+          "mark": "ס"
+        },
+        {
+          "ref": "1_Samuel 15:23",
+          "kind": "mark_in_speech",
+          "mark": "ס"
+        }
+      ],
+      "tf_query": "petucha/setuma (ס/פ na sof pasuq in trailer) midden in doorlopende rede, of domain-pivot >3 verzen van elke markering",
+      "surprise": 12.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Masoretische paragraafgrenzen die de retorische naden van de tekst kruisen: een paragraaf midden in een rede, of een pivot ver van elke markering — leestraditie vs retoriek (perikoopkeuze).",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 12.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 68
     },
     {
       "type": "leitwort",
@@ -4895,7 +5748,7 @@
       "q_value": 0.0006797494854496664,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 59
+      "id": 69
     },
     {
       "type": "topological_hapax",
@@ -4938,7 +5791,7 @@
       "q_value": 0.0011359772877266648,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 60
+      "id": 70
     },
     {
       "type": "topological_hapax",
@@ -4981,7 +5834,7 @@
       "q_value": 0.0011359772877266648,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 61
+      "id": 71
     },
     {
       "type": "topological_hapax",
@@ -5024,7 +5877,7 @@
       "q_value": 0.0011359772877266648,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 62
+      "id": 72
     },
     {
       "type": "rare_lexeme",
@@ -5058,7 +5911,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 63
+      "id": 73
     },
     {
       "type": "rare_lexeme",
@@ -5092,7 +5945,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 64
+      "id": 74
     },
     {
       "type": "rare_lexeme",
@@ -5126,7 +5979,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 65
+      "id": 75
     },
     {
       "type": "rare_lexeme",
@@ -5160,7 +6013,184 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 66
+      "id": 76
+    },
+    {
+      "type": "circumstantial_slowdown",
+      "object_type": "clause",
+      "feature": "WayX/wayq-keten onderbroken door NmCl/Ptcp-circumstantials",
+      "value": "narratieve vertraging",
+      "effect": "sequence",
+      "observed": 3,
+      "n_clusters": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:17",
+          "span": "1_Samuel 15:17-1_Samuel 15:17",
+          "circumstantial_clauses": 2,
+          "surface": "הֲלֹ֗וארֹ֛אשׁשִׁבְטֵ֥ייִשְׂרָאֵ֖לאָ֑תָּה | אִםקָטֹ֤ןאַתָּה֙בְּעֵינֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "span": "1_Samuel 15:19-1_Samuel 15:20",
+          "circumstantial_clauses": 1,
+          "surface": "הָרַ֖עבְּעֵינֵ֥ייְהוָֽה"
+        }
+      ],
+      "tf_query": "% narratieve wayq-clause + 1-4 nominale/participiale clauses + narratieve wayq-clause",
+      "surprise": 11.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Narratieve wayyiqtol-stroom wordt tijdelijk onderbroken door nominale/participiale circumstantiële clauses — verhaaltijd vertraagt. De configuratie is formeel; spanningsopbouw is duiding.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": 29,
+      "baselines": {
+        "global": {
+          "expected": 2.826,
+          "G2": 0.01,
+          "p_value": 0.9138279999983793,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 2.794,
+          "G2": 0.02,
+          "p_value": 0.8981337702016016,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 2.96,
+          "G2": 0.0,
+          "p_value": 0.9806909178914001,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 2.826,
+          "G2": 0.01,
+          "p_value": 0.9138279999983793,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 2.721,
+          "G2": 0.03,
+          "p_value": 0.8608003649885113,
+          "effect": "over"
+        }
+      },
+      "expected": 2.826,
+      "G2": 0.01,
+      "p_value": 0.9138279999983793,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.8608003649885113,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 0.01,
+      "effect_size": 0.086,
+      "rank_score": 11.5,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.9138279999983793,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 77
+    },
+    {
+      "type": "ki_profile",
+      "object_type": "clause",
+      "feature": "KJ-functieprofiel",
+      "value": "causaal/grond ('want/omdat')",
+      "effect": "present",
+      "observed": 5,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:23",
+          "surface": "כִּ֤יחַטַּאתקֶ֨סֶם֙מֶ֔רִיוְאָ֥וֶן"
+        },
+        {
+          "ref": "1_Samuel 15:24",
+          "surface": "כִּֽיעָבַ֥רְתִּיאֶתפִּֽייְהוָ֖הוְאֶתדְּבָרֶ֑יךָ"
+        },
+        {
+          "ref": "1_Samuel 15:24",
+          "surface": "כִּ֤ייָרֵ֨אתִי֙אֶתהָעָ֔ם"
+        },
+        {
+          "ref": "1_Samuel 15:26",
+          "surface": "כִּ֤ימָאַ֨סְתָּה֙אֶתדְּבַ֣ריְהוָ֔ה"
+        },
+        {
+          "ref": "1_Samuel 15:29",
+          "surface": "כִּ֣ילֹ֥אאָדָ֛םה֖וּא"
+        }
+      ],
+      "tf_query": "% KJ-clause in context: causaal/grond ('want/omdat')",
+      "surprise": 11.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "כִּי (KJ) in functie 'causaal/grond ('want/omdat')'. Het lexeem is enkelvoudig gedekt; de syntactische functie (grond/recitatief/temporeel) is de toegevoegde laag — homiletisch raakt de causale 'want' de grond van het betoog.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 11.5,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 78
+    },
+    {
+      "type": "nominal_clause_order",
+      "object_type": "clause",
+      "feature": "NmCl interne volgorde",
+      "value": "predicaat-vooraan",
+      "effect": "present",
+      "observed": 5,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:14",
+          "surface": "וּמֶ֛הקֹֽולהַצֹּ֥אןהַזֶּ֖הבְּאָזְנָ֑י"
+        },
+        {
+          "ref": "1_Samuel 15:17",
+          "surface": "הֲלֹ֗וארֹ֛אשׁשִׁבְטֵ֥ייִשְׂרָאֵ֖לאָ֑תָּה"
+        },
+        {
+          "ref": "1_Samuel 15:17",
+          "surface": "אִםקָטֹ֤ןאַתָּה֙בְּעֵינֶ֔יךָ"
+        },
+        {
+          "ref": "1_Samuel 15:23",
+          "surface": "כִּ֤יחַטַּאתקֶ֨סֶם֙מֶ֔רִיוְאָ֥וֶן"
+        },
+        {
+          "ref": "1_Samuel 15:29",
+          "surface": "כִּ֣ילֹ֥אאָדָ֛םה֖וּא"
+        }
+      ],
+      "tf_query": "% nominale clause (NmCl/AjCl) met PreC<Subj (identificerend)",
+      "surprise": 11.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Verbloze clause met PreC<Subj (identificerend) — identiteitsuitspraak ('X is JHWH'/'JHWH is God'). De volgorde is formeel; het onderscheid identiteit↔classificatie is interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 11.5,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 79
     },
     {
       "type": "remote_continuation",
@@ -5257,7 +6287,7 @@
       "q_value": 0.7489787144245569,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 67
+      "id": 80
     },
     {
       "type": "leitwort",
@@ -5322,7 +6352,125 @@
       "q_value": 0.0007776831150288108,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 68
+      "id": 81
+    },
+    {
+      "type": "referent_chain_anomaly",
+      "object_type": "word",
+      "feature": "definietheid per referent-keten (lex)",
+      "value": "keten-anomalieën ×6 (eerste-vermelding-definiet ×4, her-indefiniet ×2)",
+      "effect": "present",
+      "observed": 6,
+      "first_mention_definite": 4,
+      "re_indefinitisation": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:14",
+          "kind": "first_mention_definite",
+          "lex": "Y>N/",
+          "surface": "צֹּ֥אן"
+        },
+        {
+          "ref": "1_Samuel 15:14",
+          "kind": "first_mention_definite",
+          "lex": "BQR/",
+          "surface": "בָּקָ֔ר"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "kind": "first_mention_definite",
+          "lex": "CLL/",
+          "surface": "שָּׁלָ֔ל"
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "kind": "first_mention_definite",
+          "lex": "NGD/",
+          "surface": "נֶ֥גֶד"
+        },
+        {
+          "ref": "1_Samuel 15:21",
+          "kind": "re_indefinitisation",
+          "lex": "Y>N/",
+          "surface": "צֹ֥אן"
+        },
+        {
+          "ref": "1_Samuel 15:21",
+          "kind": "re_indefinitisation",
+          "lex": "BQR/",
+          "surface": "בָקָ֖ר"
+        }
+      ],
+      "tf_query": "per lex (sp=subs, freq_lex<=400, geen godsnaam) de det-keten van phrase_atoms langs de passage: eerste vermelding det, of det gevolgd door und",
+      "surprise": 11.2,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Referent-ketens die tegen de gegeven-nieuw-orde ingaan: een referent die al bekend binnenkomt (vooronderstelde vertrouwdheid) of zijn identiteit weer verliest. Lex-gelijkheid als referent-identiteit is een aanname; anders dan arthrous_anarthrous_contrast (geaggregeerde vensterrate) volgt dit de keten per referent.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 11.2,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 82
+    },
+    {
+      "type": "speech_safety_zone",
+      "object_type": "clause",
+      "feature": "rede met 2e-persoons aanspraak + zegen/verbod-lexeem",
+      "value": "beschermende rede",
+      "effect": "present",
+      "observed": 6,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:13",
+          "surface": "בָּר֤וּךְאַתָּה֙לַֽיהוָ֔ה"
+        },
+        {
+          "ref": "1_Samuel 15:17",
+          "surface": "הֲלֹ֗וארֹ֛אשׁשִׁבְטֵ֥ייִשְׂרָאֵ֖לאָ֑תָּה"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": "וְלָ֥מָּהלֹאשָׁמַ֖עְתָּבְּקֹ֣וליְהוָ֑ה"
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": "וַתַּ֨עַט֙אֶלהַשָּׁלָ֔ל"
+        },
+        {
+          "ref": "1_Samuel 15:26",
+          "surface": "לֹ֥אאָשׁ֖וּבעִמָּ֑ךְ"
+        },
+        {
+          "ref": "1_Samuel 15:28",
+          "surface": "הַטֹּ֥ובמִמֶּֽךָּ"
+        }
+      ],
+      "tf_query": "% clause in txt~Q met 2e-persoons aanspraak (ps/prs_ps=p2) én een zegen- of verbod/negatie-lexeem (beschermende rede)",
+      "surprise": 11.2,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Aansprekende rede die zegen en/of verbod combineert — een beschermende/gastvrije zone (Ruth 2). Aanspraak en lexemen zijn formeel; de 'veilige zone'-lezing is semantisch.",
+      "feature_reliability": "semantic_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 11.2,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Laag",
+      "id": 83
     },
     {
       "type": "semantic_compression_ratio",
@@ -5414,7 +6562,48 @@
       "q_value": 0.015533008340582051,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 69
+      "id": 84
+    },
+    {
+      "type": "volitive_chain",
+      "object_type": "clause",
+      "feature": "keten volitieve predicaten (impv/jussief/cohort.)",
+      "value": "volitief-keten ×3",
+      "effect": "sequence",
+      "observed": 3,
+      "span": "1_Samuel 15:25",
+      "examples": [
+        {
+          "ref": "1_Samuel 15:25",
+          "surface": "שָׂ֥אנָ֖אאֶתחַטָּאתִ֑י"
+        },
+        {
+          "ref": "1_Samuel 15:25",
+          "surface": "וְשׁ֣וּבעִמִּ֔י"
+        },
+        {
+          "ref": "1_Samuel 15:25",
+          "surface": "וְאֶֽשְׁתַּחֲוֶ֖הלַֽיהוָֽה"
+        }
+      ],
+      "tf_query": "% ≥3 opeenvolgende clauses met volitief predicaat (impv, of impf p1/p3 als cohortatief/jussief)",
+      "surprise": 11.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Aaneengesloten volitieve vormen — escalerend appel/summons. De impf-p1/p3-lezing als cohortatief/jussief is morfologisch niet hard getagd (BHSA), dus deels interpretatief; de imperatieven zijn formeel.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 11.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 85
     },
     {
       "type": "transition_anomaly",
@@ -5490,7 +6679,7 @@
       "q_value": 0.001181422079260341,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 70
+      "id": 86
     },
     {
       "type": "topological_hapax",
@@ -5533,7 +6722,7 @@
       "q_value": 0.0011978216668790181,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 71
+      "id": 87
     },
     {
       "type": "topological_hapax",
@@ -5576,7 +6765,7 @@
       "q_value": 0.0011978216668790181,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 72
+      "id": 88
     },
     {
       "type": "topological_hapax",
@@ -5619,7 +6808,7 @@
       "q_value": 0.0011978216668790181,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 73
+      "id": 89
     },
     {
       "type": "leitwort",
@@ -5705,7 +6894,7 @@
       "q_value": 0.0012958945411524166,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 74
+      "id": 90
     },
     {
       "query_name": "reciprocal_rejection_maas",
@@ -5786,10 +6975,10 @@
       "min_n_warning": true,
       "small_sample_penalty": 0.3,
       "empirical": null,
-      "q_value": 0.004022542281730906,
+      "q_value": 0.009385931990705447,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 75
+      "id": 91
     },
     {
       "type": "deictic_shift_here_now",
@@ -5869,7 +7058,762 @@
       "q_value": 0.6911144094471947,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 76
+      "id": 92
+    },
+    {
+      "type": "colometric_parallelism",
+      "object_type": "half_verse",
+      "feature": "function-skelet vershelft A vs B",
+      "value": "parallelle cola ×3 (gegapt ×2)",
+      "effect": "over",
+      "observed": 3,
+      "colon_pairs": 19,
+      "mirrored": 0,
+      "gapped": 2,
+      "shared_root_pairs": 3,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:13",
+          "skeleton": "Conj+Pred+Subj+Cmpl",
+          "match": "gapped",
+          "shared_roots": 2
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "skeleton": "Conj+Pred+Subj+Cmpl+Pred+Conj+Pred+Cmpl+Rela+Pred+Subj+Cmpl+Time",
+          "match": "gapped",
+          "shared_roots": 4
+        },
+        {
+          "ref": "1_Samuel 15:31",
+          "skeleton": "Conj+Pred+Subj+Cmpl",
+          "match": "ordered",
+          "shared_roots": 2
+        }
+      ],
+      "tf_query": "vershelften (half_verse A/B) met gelijk, gespiegeld of gegapt (B = A minus geëlideerde slots) functie-skelet, gewogen op gedeelde wortels",
+      "surprise": 10.0,
+      "note": "Parallellisme tussen de twee vershelften over de atnach — synoniem (A//A'), chiastisch (A-B//B-A) of elliptisch met verb gapping (Pred+Subj+Cmpl // Subj+Cmpl). In poëzie de norm, in proza gemarkeerd; het genre-stratum verdisconteert dat.",
+      "feature_reliability": "formal_proxy",
+      "n_context": 19,
+      "baselines": {
+        "global": {
+          "expected": 2.537,
+          "G2": 0.09,
+          "p_value": 0.7607205362247528,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 3.004,
+          "G2": 0.0,
+          "p_value": 0.9981110899155985,
+          "effect": "under"
+        },
+        "same_genre": {
+          "expected": 2.927,
+          "G2": 0.0,
+          "p_value": 0.9632161484777579,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 2.537,
+          "G2": 0.09,
+          "p_value": 0.7607205362247528,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 2.579,
+          "G2": 0.08,
+          "p_value": 0.7823224603694879,
+          "effect": "over"
+        }
+      },
+      "expected": 2.537,
+      "G2": 0.09,
+      "p_value": 0.7607205362247528,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.7823224603694879,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 0.09,
+      "effect_size": 0.242,
+      "rank_score": 10.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.7607205362247528,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 93
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:13 ↔ 1_Samuel 15:31",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.33,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:13",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:31",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 94
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:15 ↔ 1_Samuel 15:27",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:15",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 95
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:16 ↔ 1_Samuel 15:16",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 96
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:16 ↔ 1_Samuel 15:18",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 97
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:16 ↔ 1_Samuel 15:18",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 98
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:16 ↔ 1_Samuel 15:31",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.33,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:31",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 99
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:18 ↔ 1_Samuel 15:19",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 100
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:18 ↔ 1_Samuel 15:27",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:18",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 101
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:19 ↔ 1_Samuel 15:20",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:20",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 102
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:19 ↔ 1_Samuel 15:27",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 103
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:19 ↔ 1_Samuel 15:30",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:19",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 104
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:20 ↔ 1_Samuel 15:31",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.33,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:20",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:31",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 105
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:22 ↔ 1_Samuel 15:27",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 106
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:22 ↔ 1_Samuel 15:29",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:22",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:29",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 107
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:24 ↔ 1_Samuel 15:31",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.33,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:24",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:31",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 108
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:26 ↔ 1_Samuel 15:31",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.33,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:26",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:31",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 109
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:27 ↔ 1_Samuel 15:29",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:29",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 110
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "1_Samuel 15:27 ↔ 1_Samuel 15:30",
+      "effect": "mirror",
+      "observed": 0,
+      "ast_ted_distance": 0,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:27",
+          "surface": null
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 10.0,
+      "note": "Bijna identieke clausestructuur (TED=0) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 10.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 111
     },
     {
       "type": "phonological_cluster",
@@ -5921,7 +7865,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 77
+      "id": 112
     },
     {
       "type": "phonological_cluster",
@@ -5973,309 +7917,88 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 78
+      "id": 113
     },
     {
-      "type": "phonological_cluster",
+      "type": "infc_purpose_chains",
       "object_type": "word",
-      "feature": "root-initiaal",
-      "value": "beginklank 'C'",
+      "feature": "cluster vt=infc (i.h.b. met l = 'om te')",
+      "value": "infc-keten ×4, l+infc×2",
       "effect": "cluster",
-      "observed": 5,
-      "span": "1_Samuel 15:24-1_Samuel 15:26",
+      "observed": 4,
+      "l_purpose": 2,
+      "span": "1_Samuel 15:21-1_Samuel 15:22",
       "examples": [
         {
-          "ref": "1_Samuel 15:24",
-          "surface": "אֶשְׁמַ֖ע"
+          "ref": "1_Samuel 15:21",
+          "l_purpose": true,
+          "surface": "זְבֹּ֛חַ"
         },
         {
-          "ref": "1_Samuel 15:25",
-          "surface": "שׁ֣וּב"
+          "ref": "1_Samuel 15:22",
+          "l_purpose": false,
+          "surface": "שְׁמֹ֖עַ"
         },
         {
-          "ref": "1_Samuel 15:26",
-          "surface": "שְׁמוּאֵל֙"
+          "ref": "1_Samuel 15:22",
+          "l_purpose": false,
+          "surface": "שְׁמֹ֨עַ֙"
         },
         {
-          "ref": "1_Samuel 15:26",
-          "surface": "שָׁא֔וּל"
-        },
-        {
-          "ref": "1_Samuel 15:26",
-          "surface": "אָשׁ֖וּב"
+          "ref": "1_Samuel 15:22",
+          "l_purpose": true,
+          "surface": "הַקְשִׁ֖יב"
         }
       ],
-      "tf_query": "% 5 inhoudswoorden met wortel-beginconsonant 'C' binnen een nauw venster (alliteratie)",
-      "surprise": 9.0,
-      "note": "Opvallende opeenhoping van woorden die met 'C' beginnen — mogelijke alliteratie/klankwerking, geen lexicaal patroon.",
-      "feature_reliability": "semantic_proxy",
+      "tf_query": "% dichte cluster van infinitivus constructus (vt=infc), i.h.b. voorafgegaan door prep L ('om te…')",
+      "surprise": 9.6,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Opeenhoping van infinitivi constructi (vaak l+infc, 'om te') — uiterst intentioneel, doelgericht, teleologisch handelen en een hoog-complexe zinsarchitectuur. De clustering is formeel; de teleologie-lezing interpretatief.",
+      "feature_reliability": "formal_proxy",
       "n_context": null,
       "statistic": null,
       "effect_size": null,
-      "rank_score": 9.0,
+      "rank_score": 9.6,
       "robustness": "global_only",
       "p_value": 1.0,
-      "min_n_warning": false,
-      "small_sample_penalty": 0.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
       "empirical": null,
       "q_value": 1.0,
       "q_significant": false,
-      "confidence_ceiling": "Laag",
-      "id": 79
+      "confidence_ceiling": "Middel",
+      "id": 114
     },
     {
-      "type": "phonological_cluster",
-      "object_type": "word",
-      "feature": "root-initiaal",
-      "value": "beginklank 'C'",
-      "effect": "cluster",
-      "observed": 5,
-      "span": "1_Samuel 15:30-1_Samuel 15:31",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:30",
-          "surface": "שׁ֣וּב"
-        },
-        {
-          "ref": "1_Samuel 15:31",
-          "surface": "יָּ֥שָׁב"
-        },
-        {
-          "ref": "1_Samuel 15:31",
-          "surface": "שְׁמוּאֵ֖ל"
-        },
-        {
-          "ref": "1_Samuel 15:31",
-          "surface": "שָׁא֑וּל"
-        },
-        {
-          "ref": "1_Samuel 15:31",
-          "surface": "שָׁא֖וּל"
-        }
-      ],
-      "tf_query": "% 5 inhoudswoorden met wortel-beginconsonant 'C' binnen een nauw venster (alliteratie)",
-      "surprise": 9.0,
-      "note": "Opvallende opeenhoping van woorden die met 'C' beginnen — mogelijke alliteratie/klankwerking, geen lexicaal patroon.",
-      "feature_reliability": "semantic_proxy",
-      "n_context": null,
-      "statistic": null,
-      "effect_size": null,
-      "rank_score": 9.0,
-      "robustness": "global_only",
-      "p_value": 1.0,
-      "min_n_warning": false,
-      "small_sample_penalty": 0.0,
-      "empirical": null,
-      "q_value": 1.0,
-      "q_significant": false,
-      "confidence_ceiling": "Laag",
-      "id": 80
-    },
-    {
-      "type": "phonological_cluster",
-      "object_type": "word",
-      "feature": "root-initiaal",
-      "value": "beginklank 'M'",
-      "effect": "cluster",
-      "observed": 5,
-      "span": "1_Samuel 15:26-1_Samuel 15:28",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:26",
-          "surface": "מָאַ֨סְתָּה֙"
-        },
-        {
-          "ref": "1_Samuel 15:26",
-          "surface": "יִּמְאָסְךָ֣"
-        },
-        {
-          "ref": "1_Samuel 15:26",
-          "surface": "מֶ֖לֶךְ"
-        },
-        {
-          "ref": "1_Samuel 15:27",
-          "surface": "מְעִילֹ֖ו"
-        },
-        {
-          "ref": "1_Samuel 15:28",
-          "surface": "מַמְלְכ֧וּת"
-        }
-      ],
-      "tf_query": "% 5 inhoudswoorden met wortel-beginconsonant 'M' binnen een nauw venster (alliteratie)",
-      "surprise": 9.0,
-      "note": "Opvallende opeenhoping van woorden die met 'M' beginnen — mogelijke alliteratie/klankwerking, geen lexicaal patroon.",
-      "feature_reliability": "semantic_proxy",
-      "n_context": null,
-      "statistic": null,
-      "effect_size": null,
-      "rank_score": 9.0,
-      "robustness": "global_only",
-      "p_value": 1.0,
-      "min_n_warning": false,
-      "small_sample_penalty": 0.0,
-      "empirical": null,
-      "q_value": 1.0,
-      "q_significant": false,
-      "confidence_ceiling": "Laag",
-      "id": 81
-    },
-    {
-      "type": "verb_frame_slot_pressure",
+      "type": "agentless_niphal",
       "object_type": "clause",
-      "feature": "verb_root_argument_frames",
-      "value": "HLK: bare_predicate=2, Cmpl+Conj=1",
-      "effect": "over",
+      "feature": "vs=nif + finiet, geen Subj-frase",
+      "value": "agensloze niphal",
+      "effect": "present",
       "observed": 3,
-      "expected": 1.0,
-      "G2": 9.0,
-      "statistic": 9.0,
-      "surprise": 9.0,
       "examples": [
         {
           "ref": "1_Samuel 15:18",
-          "frame": "bare_predicate",
-          "surface": "לֵ֣ךְ"
-        },
-        {
-          "ref": "1_Samuel 15:20",
-          "frame": "Cmpl+Conj",
-          "surface": "וָאֵלֵ֕ךְבַּדֶּ֖רֶךְ"
+          "surface": "וְנִלְחַמְתָּ֣בֹ֔ו"
         },
         {
           "ref": "1_Samuel 15:27",
-          "frame": "bare_predicate",
-          "surface": "לָלֶ֑כֶת"
+          "surface": "וַיִּקָּרַֽע"
+        },
+        {
+          "ref": "1_Samuel 15:29",
+          "surface": "וְלֹ֣איִנָּחֵ֑ם"
         }
       ],
-      "tf_query": "clause\n  phrase function=Pred\n    word sp=verb\n  phrase function=Subj|Objc|Cmpl|Loca|Adju",
-      "note": "Eenzelfde verbale wortel wordt lokaal in meerdere argumentframes gerealiseerd. De framevariatie is formeel; de rolsemantiek niet.",
-      "provenance": "deterministic_bhsa_tf",
+      "tf_query": "% clause met finiete niphal-predicaat en GEEN phrase function=Subj (agensloze/'goddelijke' passief-medium)",
+      "surprise": 9.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Finiete niphal zonder uitgedrukt subject — de handeling staat er zonder genoemde dader ('het werd gedaan'); kandidaat voor verborgen/goddelijke agency (medium). Het ontbreken van de dader is formeel; de agency-lezing is interpretatief.",
       "feature_reliability": "formal_proxy",
-      "n_context": null,
-      "effect_size": 1.585,
-      "rank_score": 9.0,
-      "robustness": "global_only",
-      "p_value": 0.0026997960632601913,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 0.0026997960632601913,
-      "q_significant": true,
-      "confidence_ceiling": "Middel",
-      "id": 82
-    },
-    {
-      "type": "polysyndetic_slowdown",
-      "object_type": "clause",
-      "feature": "dense_conjunctions",
-      "value": "many conjunctions per clause",
-      "effect": "under",
-      "observed": 2,
-      "expected": 1.0,
-      "G2": 1.02,
-      "statistic": 1.02,
-      "surprise": 8.4,
-      "examples": [
-        {
-          "ref": "1_Samuel 15:23",
-          "conjunctions": 2,
-          "surface": "כִּ֤יחַטַּאתקֶ֨סֶם֙מֶ֔רִיוְאָ֥וֶן"
-        },
-        {
-          "ref": "1_Samuel 15:24",
-          "conjunctions": 2,
-          "surface": "כִּֽיעָבַ֥רְתִּיאֶתפִּֽייְהוָ֖הוְאֶתדְּבָרֶ֑יךָ"
-        }
-      ],
-      "tf_query": "count sp=conj per clause and phrase count",
-      "note": "Polysyndetic slowdown proxy: connectors multiply inside the clause.",
-      "provenance": "deterministic_bhsa_tf",
-      "feature_reliability": "formal_proxy",
-      "n_context": 86,
-      "baselines": {
-        "global": {
-          "expected": 3.749,
-          "G2": 1.02,
-          "p_value": 0.31212541326831866,
-          "effect": "under"
-        },
-        "same_book": {
-          "expected": 3.022,
-          "G2": 0.41,
-          "p_value": 0.5244032308833406,
-          "effect": "under"
-        },
-        "same_genre": {
-          "expected": 5.181,
-          "G2": 2.68,
-          "p_value": 0.10174211731943021,
-          "effect": "under"
-        },
-        "same_language": {
-          "expected": 3.749,
-          "G2": 1.02,
-          "p_value": 0.31212541326831866,
-          "effect": "under"
-        },
-        "same_period": {
-          "expected": 3.231,
-          "G2": 0.56,
-          "p_value": 0.453525682117002,
-          "effect": "under"
-        }
-      },
-      "p_value": 0.31212541326831866,
-      "robustness": "genre_sensitive",
-      "diachronic_anomaly_adjustment": {
-        "period": "EBH",
-        "verdict": "period_normal",
-        "period_p": 0.453525682117002,
-        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
-      },
-      "effect_size": 1.0,
-      "rank_score": 8.4,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 0.31212541326831866,
-      "q_significant": false,
-      "confidence_ceiling": "Middel",
-      "id": 83
-    },
-    {
-      "type": "phonological_cluster",
-      "object_type": "word",
-      "feature": "root-initiaal",
-      "value": "beginklank 'C'",
-      "effect": "cluster",
-      "observed": 4,
-      "span": "1_Samuel 15:13-1_Samuel 15:14",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:13",
-          "surface": "שְׁמוּאֵ֖ל"
-        },
-        {
-          "ref": "1_Samuel 15:13",
-          "surface": "שָׁא֑וּל"
-        },
-        {
-          "ref": "1_Samuel 15:13",
-          "surface": "שָׁא֗וּל"
-        },
-        {
-          "ref": "1_Samuel 15:14",
-          "surface": "שְׁמוּאֵ֔ל"
-        }
-      ],
-      "tf_query": "% 4 inhoudswoorden met wortel-beginconsonant 'C' binnen een nauw venster (alliteratie)",
-      "surprise": 8.0,
-      "note": "Opvallende opeenhoping van woorden die met 'C' beginnen — mogelijke alliteratie/klankwerking, geen lexicaal patroon.",
-      "feature_reliability": "semantic_proxy",
       "n_context": null,
       "statistic": null,
       "effect_size": null,
-      "rank_score": 8.0,
+      "rank_score": 9.5,
       "robustness": "global_only",
       "p_value": 1.0,
       "min_n_warning": true,
@@ -6283,8 +8006,172 @@
       "empirical": null,
       "q_value": 1.0,
       "q_significant": false,
-      "confidence_ceiling": "Laag",
-      "id": 84
+      "confidence_ceiling": "Middel",
+      "id": 115
+    },
+    {
+      "type": "disputation_QA",
+      "object_type": "clause",
+      "feature": "geciteerde spreek-onset + vraagmarker binnen rede",
+      "value": "disputatie (vraag+tegenstem)",
+      "effect": "pair",
+      "observed": 2,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:13",
+          "surface": "בָּר֤וּךְאַתָּה֙לַֽיהוָ֔ה … וּמֶ֛הקֹֽולהַצֹּ֥אןהַזֶּ֖הבְּאָזְנָ֑י"
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": "דַּבֵּֽר … הֲלֹ֗וארֹ֛אשׁשִׁבְטֵ֥ייִשְׂרָאֵ֖לאָ֑תָּה"
+        }
+      ],
+      "tf_query": "% clause met SPEECH_LEX-spreekwerkwoord in txt~Q gevolgd binnen ≤3 clauses door een interrogatief (ls=ques of vraaglexeem), ook in rede (disputatieformule)",
+      "surprise": 9.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Geciteerde aanklacht ('jullie zeggen…') beantwoord door een tegenvraag binnen de rede — de Maleachi-disputatieconfiguratie. Spreekwerkwoord en vraagmarker zijn formeel; de paring tot twistgesprek is interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 9.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 116
+    },
+    {
+      "type": "imperative_promise_pair",
+      "object_type": "clause",
+      "feature": "impv-clause direct gevolgd door impf/wayq (p1/p3)",
+      "value": "bevel→belofte-paar",
+      "effect": "pair",
+      "observed": 3,
+      "examples": [
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": "הֶ֚רֶף → וְאַגִּ֣ידָהלְּךָ֔"
+        },
+        {
+          "ref": "1_Samuel 15:16",
+          "surface": "דַּבֵּֽר → וַיֹּ֣אמֶרשְׁמוּאֵ֔ל"
+        },
+        {
+          "ref": "1_Samuel 15:25",
+          "surface": "וְשׁ֣וּבעִמִּ֔י → וְאֶֽשְׁתַּחֲוֶ֖הלַֽיהוָֽה"
+        }
+      ],
+      "tf_query": "% imperatief-clause direct gevolgd door een 1e/3e-persoons yiqtol/wayyiqtol-clause (bevel→belofte/respons)",
+      "surprise": 9.0,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Bevel onmiddellijk gevolgd door een 1e/3e-persoons belofte- of responsvorm — de 'doe X, dan Y'-configuratie. De adjacentie en vormen zijn formeel; de belofte-lezing interpretatief.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 9.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 117
+    },
+    {
+      "type": "adjunct_fronting_pressure",
+      "object_type": "phrase",
+      "feature": "Adju/Cmpl/Time/Loca/Modi vóór predicaat",
+      "value": "prepositionele/adjunct-fronting",
+      "effect": "under",
+      "observed": 3,
+      "subtypes": {
+        "Cmpl": 1,
+        "Adju": 1,
+        "Time": 1
+      },
+      "examples": [
+        {
+          "ref": "1_Samuel 15:15",
+          "function": "Cmpl",
+          "surface": "מֵעֲמָלֵקִ֣י"
+        },
+        {
+          "ref": "1_Samuel 15:22",
+          "function": "Adju",
+          "surface": "מִזֶּ֣בַח"
+        },
+        {
+          "ref": "1_Samuel 15:30",
+          "function": "Time",
+          "surface": "עַתָּ֗ה"
+        }
+      ],
+      "tf_query": "% clause waarin Adju/Cmpl/Time/Loca/Modi vóór de Pred-phrase staat",
+      "surprise": 8.5,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Bepalingen of complementen staan vóór het predicaat — setting/middel/plaats krijgt grammaticale druk vóór de handeling. De woordvolgorde is formeel; de focuslezing is interpretatief.",
+      "feature_reliability": "formal_proxy",
+      "n_context": 73,
+      "baselines": {
+        "global": {
+          "expected": 8.427,
+          "G2": 5.1,
+          "p_value": 0.02391222548759178,
+          "effect": "under"
+        },
+        "same_book": {
+          "expected": 4.577,
+          "G2": 0.66,
+          "p_value": 0.4180881587774777,
+          "effect": "under"
+        },
+        "same_genre": {
+          "expected": 5.515,
+          "G2": 1.47,
+          "p_value": 0.2254546817395881,
+          "effect": "under"
+        },
+        "same_language": {
+          "expected": 8.427,
+          "G2": 5.1,
+          "p_value": 0.02391222548759178,
+          "effect": "under"
+        },
+        "same_period": {
+          "expected": 7.893,
+          "G2": 4.34,
+          "p_value": 0.03720156229919351,
+          "effect": "under"
+        }
+      },
+      "expected": 8.427,
+      "G2": 5.1,
+      "p_value": 0.02391222548759178,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.03720156229919351,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 5.1,
+      "effect_size": -1.49,
+      "rank_score": 8.5,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.02391222548759178,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 118
     },
     {
       "type": "valence",
@@ -6350,448 +8237,83 @@
       "q_value": 0.007832006013861512,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 85
+      "id": 119
     },
     {
-      "type": "inanimate_subject_fronting",
+      "type": "disjunctive_waw_x_onset",
       "object_type": "clause",
-      "feature": "fronted_nonhuman_subject",
-      "value": "non-name nominal subject before finite predicate",
+      "feature": "clause-initiële conjunctie + Subj vóór Pred (waw-X)",
+      "value": "disjunctieve waw-X-opening",
       "effect": "under",
-      "observed": 1,
-      "expected": 1.0,
-      "G2": 1.92,
-      "statistic": 1.92,
-      "surprise": 7.0,
+      "observed": 2,
       "examples": [
         {
+          "ref": "1_Samuel 15:14",
+          "surface": "אָנֹכִ֖י"
+        },
+        {
           "ref": "1_Samuel 15:29",
-          "subject_lex": "NYX/",
-          "surface": "וְגַם֙נֵ֣צַחיִשְׂרָאֵ֔ללֹ֥איְשַׁקֵּ֖ר"
+          "surface": "גַם֙נֵ֣צַחיִשְׂרָאֵ֔ל"
         }
       ],
-      "tf_query": "Subj subs before Pred verb; exclude personal names/pronouns",
-      "note": "Ontological breach proxy: non-personal nominals take syntactic actor position.",
-      "provenance": "deterministic_bhsa_tf",
-      "feature_reliability": "semantic_proxy",
+      "tf_query": "clause\n  phrase function=Subj\n  < phrase function=Pred\n(eerste woord sp=conj)",
+      "surprise": 6.4,
+      "claim_type": "interpretive_hypothesis",
+      "note": "Waw-X-volgorde: het subject schuift vóór het predicaat na een openende conjunctie — de klassieke onderbreking van de narratieve keten. De volgorde is formeel; contrast- of achtergrondlezing is interpretatief.",
+      "feature_reliability": "formal_proxy",
       "n_context": 73,
       "baselines": {
         "global": {
-          "expected": 3.041,
-          "G2": 1.92,
-          "p_value": 0.16617611628426154,
+          "expected": 6.983,
+          "G2": 5.33,
+          "p_value": 0.020948529517175508,
           "effect": "under"
         },
         "same_book": {
-          "expected": 1.504,
-          "G2": 0.2,
-          "p_value": 0.658400934748788,
+          "expected": 7.006,
+          "G2": 5.37,
+          "p_value": 0.02051704577912293,
           "effect": "under"
         },
         "same_genre": {
-          "expected": 1.808,
-          "G2": 0.44,
-          "p_value": 0.5069275861577374,
+          "expected": 7.207,
+          "G2": 5.69,
+          "p_value": 0.017079286222145,
           "effect": "under"
         },
         "same_language": {
-          "expected": 3.041,
-          "G2": 1.92,
-          "p_value": 0.16617611628426154,
+          "expected": 6.983,
+          "G2": 5.33,
+          "p_value": 0.020948529517175508,
           "effect": "under"
         },
         "same_period": {
-          "expected": 2.999,
-          "G2": 1.86,
-          "p_value": 0.17284152748390197,
+          "expected": 6.264,
+          "G2": 4.23,
+          "p_value": 0.039762839703402414,
           "effect": "under"
         }
       },
-      "p_value": 0.16617611628426154,
-      "robustness": "genre_sensitive",
-      "diachronic_anomaly_adjustment": {
-        "period": "EBH",
-        "verdict": "period_normal",
-        "period_p": 0.17284152748390197,
-        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
-      },
-      "effect_size": 0.0,
-      "rank_score": 7.0,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 0.16617611628426154,
-      "q_significant": false,
-      "confidence_ceiling": "Laag",
-      "id": 86
-    },
-    {
-      "type": "root_play",
-      "object_type": "word",
-      "feature": "root (consonanten)",
-      "value": "XRM",
-      "effect": "cluster",
-      "observed": 2,
-      "distinct_lexemes": [
-        "XRM/",
-        "XRM["
-      ],
-      "span": "1_Samuel 15:20-1_Samuel 15:21",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:20",
-          "surface": "הֶחֱרַֽמְתִּי"
-        },
-        {
-          "ref": "1_Samuel 15:21",
-          "surface": "חֵ֑רֶם"
-        }
-      ],
-      "tf_query": "% ≥2 verschillende lexemen met root 'XRM' dicht bij elkaar (woordspel/paronomasie)",
-      "surprise": 7.0,
-      "note": "Verschillende woorden van dezelfde stam 'XRM' staan dicht bijeen — kandidaat voor woordspel (paronomasie).",
-      "feature_reliability": "semantic_proxy",
-      "n_context": null,
-      "statistic": null,
-      "effect_size": null,
-      "rank_score": 7.0,
-      "robustness": "global_only",
-      "p_value": 1.0,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 1.0,
-      "q_significant": false,
-      "confidence_ceiling": "Laag",
-      "id": 87
-    },
-    {
-      "query_name": "torn_kingdom_enacted_sign",
-      "anchor_otype": "clause",
-      "observed": 1,
-      "effect": "over",
-      "expected_direction": "over",
-      "rationale": "Directe-rede-clause met QR< ('scheuren'): het uitgevoerde teken waarin het scheuren van de mantel het scheuren van het koningschap belichaamt - 'qara YHWH et-mamlekhut yisra'el me'aleykha' (YHWH heeft het koningschap van Israël van je afgescheurd, v28), uitgesproken nadat Saul Samuëls mantelzoom scheurt (v27). Het werkwoord verbindt het fysieke scheuren met het dynastieke vonnis: de mantel-scheur ís de troon-scheur. Geen vaste detector koppelt het scheur-werkwoord in directe rede aan het onttronings-teken op de machts-as.",
-      "tf_query": "clause domain=Q\n  word lex=QR<[",
-      "corpus_matches": 20,
-      "type": "dynamic_query",
-      "object_type": "clause",
-      "feature": "torn_kingdom_enacted_sign",
-      "value": "clause",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:28",
-          "surface": null
-        }
-      ],
-      "provenance": "llm_hypothesis",
-      "exploratory": true,
-      "feature_tier": "discourse_uncertain",
-      "n_queries_tried": 6,
-      "note": "Hypothese-gegenereerde query (6 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). Directe-rede-clause met QR< ('scheuren'): het uitgevoerde teken waarin het scheuren van de mantel het scheuren van het koningschap belichaamt - 'qara YHWH et-mamlekhut yisra'el me'aleykha' (YHWH heeft het koningschap van Israël van je afgescheurd, v28), uitgesproken nadat Saul Samuëls mantelzoom scheurt (v27). Het werkwoord verbindt het fysieke scheuren met het dynastieke vonnis: de mantel-scheur ís de troon-scheur. Geen vaste detector koppelt het scheur-werkwoord in directe rede aan het onttronings-teken op de machts-as.",
-      "feature_reliability": "hypothesis_generated",
-      "n_context": 86,
-      "baselines": {
-        "global": {
-          "expected": 0.02,
-          "G2": 5.92,
-          "p_value": 0.014942314836886674,
-          "effect": "over"
-        },
-        "same_book": {
-          "expected": 0.021,
-          "G2": 5.74,
-          "p_value": 0.016583406313023137,
-          "effect": "over"
-        },
-        "same_genre": {
-          "expected": 0.025,
-          "G2": 5.46,
-          "p_value": 0.019455919396366865,
-          "effect": "over"
-        },
-        "same_language": {
-          "expected": 0.02,
-          "G2": 5.89,
-          "p_value": 0.015190214605510356,
-          "effect": "over"
-        },
-        "same_period": {
-          "expected": 0.019,
-          "G2": 5.93,
-          "p_value": 0.014884480146502952,
-          "effect": "over"
-        }
-      },
-      "expected": 0.02,
-      "G2": 5.92,
-      "p_value": 0.014942314836886674,
+      "expected": 6.983,
+      "G2": 5.33,
+      "p_value": 0.020948529517175508,
       "robustness": "robust",
       "diachronic_anomaly_adjustment": {
         "period": "EBH",
         "verdict": "period_deviant",
-        "period_p": 0.014884480146502952,
+        "period_p": 0.039762839703402414,
         "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
       },
-      "statistic": 5.92,
-      "effect_size": 5.644,
-      "surprise": 5.92,
-      "rank_score": 5.92,
+      "statistic": 5.33,
+      "effect_size": -1.804,
+      "rank_score": 6.4,
       "min_n_warning": true,
       "small_sample_penalty": 0.3,
       "empirical": null,
-      "q_value": 0.02988462967377335,
+      "q_value": 0.020948529517175508,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 88
-    },
-    {
-      "query_name": "cultic_excuse_sacrifice_verb",
-      "anchor_otype": "clause",
-      "observed": 1,
-      "effect": "over",
-      "expected_direction": "over",
-      "rationale": "Directe-rede-clause met ZBX ('offeren'): het cultische excuus waarmee Saul de overtreding herframet als vroomheid - 'lizboach la-YHWH eloheykha' (om te offeren aan YHWH jouw God, v15.21). De offerterm is Sauls ontwijkings-instrument: niet ongehoorzaamheid maar eredienst. Samuël keert exact die term om in het vonnis 'shemoa mizevach tov' (gehoorzamen is beter dan offer, v22). Geen vaste detector koppelt het offer-werkwoord aan het directe-rede-domein als excuus-herkadering op de ontwijkings-as.",
-      "tf_query": "clause domain=Q\n  word lex=ZBX[",
-      "corpus_matches": 67,
-      "type": "dynamic_query",
-      "object_type": "clause",
-      "feature": "cultic_excuse_sacrifice_verb",
-      "value": "clause",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:15",
-          "surface": null
-        }
-      ],
-      "provenance": "llm_hypothesis",
-      "exploratory": true,
-      "feature_tier": "discourse_uncertain",
-      "n_queries_tried": 6,
-      "note": "Hypothese-gegenereerde query (6 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). Directe-rede-clause met ZBX ('offeren'): het cultische excuus waarmee Saul de overtreding herframet als vroomheid - 'lizboach la-YHWH eloheykha' (om te offeren aan YHWH jouw God, v15.21). De offerterm is Sauls ontwijkings-instrument: niet ongehoorzaamheid maar eredienst. Samuël keert exact die term om in het vonnis 'shemoa mizevach tov' (gehoorzamen is beter dan offer, v22). Geen vaste detector koppelt het offer-werkwoord aan het directe-rede-domein als excuus-herkadering op de ontwijkings-as.",
-      "feature_reliability": "hypothesis_generated",
-      "n_context": 86,
-      "baselines": {
-        "global": {
-          "expected": 0.065,
-          "G2": 3.6,
-          "p_value": 0.05791733584696264,
-          "effect": "over"
-        },
-        "same_book": {
-          "expected": 0.086,
-          "G2": 3.09,
-          "p_value": 0.07855668026259802,
-          "effect": "over"
-        },
-        "same_genre": {
-          "expected": 0.027,
-          "G2": 5.27,
-          "p_value": 0.02164205474843379,
-          "effect": "over"
-        },
-        "same_language": {
-          "expected": 0.066,
-          "G2": 3.57,
-          "p_value": 0.058888778723698416,
-          "effect": "over"
-        },
-        "same_period": {
-          "expected": 0.076,
-          "G2": 3.31,
-          "p_value": 0.06901935997292039,
-          "effect": "over"
-        }
-      },
-      "expected": 0.065,
-      "G2": 3.6,
-      "p_value": 0.05791733584696264,
-      "robustness": "partially_robust",
-      "diachronic_anomaly_adjustment": {
-        "period": "EBH",
-        "verdict": "period_normal",
-        "period_p": 0.06901935997292039,
-        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
-      },
-      "statistic": 3.6,
-      "effect_size": 3.943,
-      "surprise": 3.6,
-      "rank_score": 3.6,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 0.08604581310965505,
-      "q_significant": false,
-      "confidence_ceiling": "Middel",
-      "id": 89
-    },
-    {
-      "query_name": "bowing_plea_hishtaphel_honor",
-      "anchor_otype": "clause",
-      "observed": 1,
-      "effect": "over",
-      "expected_direction": "over",
-      "rationale": "Directe-rede-clause met KBD ('eren/zwaar maken'): de eer-bede waarmee de afgezette koning zich vastklampt aan status - 'kabbedeni na neged ziqney ammi' (eer mij toch tegenover de oudsten van mijn volk, v30). De bede om eer staat naast de drievoudige hishtaphel-buiging (v25.30.31): Saul buigt fysiek en smeekt om eer terwijl zijn mondelinge gehoorzaamheid vals bleek - de omkering waarin de hoogste spreker-autoriteit zich onderwerpt aan de profeet die hem verwierp. Geen vaste detector koppelt het eer-werkwoord aan de buigings-bede als onderwerpings-configuratie op de machts-as.",
-      "tf_query": "clause domain=Q\n  word lex=KBD[",
-      "corpus_matches": 81,
-      "type": "dynamic_query",
-      "object_type": "clause",
-      "feature": "bowing_plea_hishtaphel_honor",
-      "value": "clause",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:30",
-          "surface": null
-        }
-      ],
-      "provenance": "llm_hypothesis",
-      "exploratory": true,
-      "feature_tier": "discourse_uncertain",
-      "n_queries_tried": 6,
-      "note": "Hypothese-gegenereerde query (6 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). Directe-rede-clause met KBD ('eren/zwaar maken'): de eer-bede waarmee de afgezette koning zich vastklampt aan status - 'kabbedeni na neged ziqney ammi' (eer mij toch tegenover de oudsten van mijn volk, v30). De bede om eer staat naast de drievoudige hishtaphel-buiging (v25.30.31): Saul buigt fysiek en smeekt om eer terwijl zijn mondelinge gehoorzaamheid vals bleek - de omkering waarin de hoogste spreker-autoriteit zich onderwerpt aan de profeet die hem verwierp. Geen vaste detector koppelt het eer-werkwoord aan de buigings-bede als onderwerpings-configuratie op de machts-as.",
-      "feature_reliability": "hypothesis_generated",
-      "n_context": 86,
-      "baselines": {
-        "global": {
-          "expected": 0.079,
-          "G2": 3.24,
-          "p_value": 0.07170484425804587,
-          "effect": "over"
-        },
-        "same_book": {
-          "expected": 0.129,
-          "G2": 2.37,
-          "p_value": 0.1238128953153268,
-          "effect": "over"
-        },
-        "same_genre": {
-          "expected": 0.049,
-          "G2": 4.12,
-          "p_value": 0.0423120904859626,
-          "effect": "over"
-        },
-        "same_language": {
-          "expected": 0.08,
-          "G2": 3.22,
-          "p_value": 0.07290715679725442,
-          "effect": "over"
-        },
-        "same_period": {
-          "expected": 0.096,
-          "G2": 2.89,
-          "p_value": 0.08906864705462866,
-          "effect": "over"
-        }
-      },
-      "expected": 0.079,
-      "G2": 3.24,
-      "p_value": 0.07170484425804587,
-      "robustness": "partially_robust",
-      "diachronic_anomaly_adjustment": {
-        "period": "EBH",
-        "verdict": "period_normal",
-        "period_p": 0.08906864705462866,
-        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
-      },
-      "statistic": 3.24,
-      "effect_size": 3.662,
-      "surprise": 3.24,
-      "rank_score": 3.24,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 0.08604581310965505,
-      "q_significant": false,
-      "confidence_ceiling": "Middel",
-      "id": 90
-    },
-    {
-      "query_name": "blame_shift_people_as_agent",
-      "anchor_otype": "clause",
-      "observed": 3,
-      "effect": "over",
-      "expected_direction": "over",
-      "rationale": "Directe-rede-clause met <M ('volk'): Sauls blaam-schuivende deflectie 'chamal ha'am al-meytav hatso'n' (het volk spaarde het beste van het kleinvee, v15) en 'wayyiqqach ha'am ... lizboach' (het volk nam ... om te offeren, v21). Saul maakt het VOLK tot grammaticaal subject van de overtreding om zichzelf als koning uit de handelingslijn te halen - de ontwijkings-signatuur van het verschoven agens. Geen vaste detector koppelt 'het volk-als-subject' aan het directe-rede-domein als deflectie-configuratie op de machts-as.",
-      "tf_query": "clause domain=Q\n  word lex=<M/",
-      "corpus_matches": 1058,
-      "type": "dynamic_query",
-      "object_type": "clause",
-      "feature": "blame_shift_people_as_agent",
-      "value": "clause",
-      "examples": [
-        {
-          "ref": "1_Samuel 15:15",
-          "surface": null
-        },
-        {
-          "ref": "1_Samuel 15:24",
-          "surface": null
-        },
-        {
-          "ref": "1_Samuel 15:30",
-          "surface": null
-        }
-      ],
-      "provenance": "llm_hypothesis",
-      "exploratory": true,
-      "feature_tier": "discourse_uncertain",
-      "n_queries_tried": 6,
-      "note": "Hypothese-gegenereerde query (6 geprobeerd); exploratief (meet-plafond volgt feature_tier 'discourse_uncertain'). Directe-rede-clause met <M ('volk'): Sauls blaam-schuivende deflectie 'chamal ha'am al-meytav hatso'n' (het volk spaarde het beste van het kleinvee, v15) en 'wayyiqqach ha'am ... lizboach' (het volk nam ... om te offeren, v21). Saul maakt het VOLK tot grammaticaal subject van de overtreding om zichzelf als koning uit de handelingslijn te halen - de ontwijkings-signatuur van het verschoven agens. Geen vaste detector koppelt 'het volk-als-subject' aan het directe-rede-domein als deflectie-configuratie op de machts-as.",
-      "feature_reliability": "hypothesis_generated",
-      "n_context": 86,
-      "baselines": {
-        "global": {
-          "expected": 1.032,
-          "G2": 2.51,
-          "p_value": 0.11305358533773859,
-          "effect": "over"
-        },
-        "same_book": {
-          "expected": 0.621,
-          "G2": 4.76,
-          "p_value": 0.02920603422122613,
-          "effect": "over"
-        },
-        "same_genre": {
-          "expected": 0.663,
-          "G2": 4.45,
-          "p_value": 0.03490365244012466,
-          "effect": "over"
-        },
-        "same_language": {
-          "expected": 1.037,
-          "G2": 2.49,
-          "p_value": 0.11429644463237017,
-          "effect": "over"
-        },
-        "same_period": {
-          "expected": 0.992,
-          "G2": 2.67,
-          "p_value": 0.10211550854627933,
-          "effect": "over"
-        }
-      },
-      "expected": 1.032,
-      "G2": 2.51,
-      "p_value": 0.11305358533773859,
-      "robustness": "robust",
-      "diachronic_anomaly_adjustment": {
-        "period": "EBH",
-        "verdict": "period_normal",
-        "period_p": 0.10211550854627933,
-        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
-      },
-      "statistic": 2.51,
-      "effect_size": 1.54,
-      "surprise": 2.51,
-      "rank_score": 2.51,
-      "min_n_warning": true,
-      "small_sample_penalty": 0.3,
-      "empirical": null,
-      "q_value": 0.11305358533773859,
-      "q_significant": false,
-      "confidence_ceiling": "Middel",
-      "id": 91
+      "id": 120
     }
   ]
 }

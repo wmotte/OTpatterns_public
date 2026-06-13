@@ -18,12 +18,12 @@ Alleen de naam-naar-pronomen/nulreferentie rond David in 11:13 is
 
 | finding_id | Oordeel | Publiek-safe samenvatting |
 | --- | --- | --- |
-| 2 | `standard` | Het refrein dat Uria niet naar huis afdaalt wordt expliciet besproken; BHSA objectiveert de negatieketen. Bronnen: Brueggemann, Davis, Auld, Greger Andersson. |
-| 22 | `standard` | Davids bevel om naar huis af te dalen is bekend als start van zijn manipulatie. Bronnen: Auld, Alter, Andersson, Arnold. |
-| 5 | `standard` | Het staccato tempo en Davids regie zijn bekend; BHSA kwantificeert de WayX-overmaat. Bronnen: Alter, Auld, Van Wijk-Bos, Arnold. |
-| 13 | `standard` | De breukpunten waar Davids regie hapert zijn inhoudelijk bekend; BHSA meet de lokale clause-overgangen. Bronnen: Brueggemann, Davis, Halbertal & Holmes, Alter. |
-| 14 | `standard` | Uria als actieve tegenactor is bekend; BHSA onderbouwt zijn handelingsstatus. Bronnen: V. Philips Long, Davis, Brueggemann, Alter. |
-| 16 | `standard` | Uria's contrast tussen ark/leger/veld en huis/vrouw wordt breed besproken. Bronnen: Van Wijk-Bos, Keil & Delitzsch, Auld, Davis. |
-| 15 | `standard` | Uria's weigering van eten, drinken en liggen met zijn vrouw is bekend, vaak als contrast met David. Bronnen: Van Wijk-Bos, Keil & Delitzsch, Alter, Brueggemann. |
-| 17 | `standard` | Davids poging om Uria dronken te voeren en de mislukking daarvan worden besproken. Bronnen: Keil & Delitzsch, Auld, Brueggemann, Davis. |
-| 20 | `partially_covered` | Character tracking is algemeen bekend; het specifieke referentiepatroon rond David in 11:13 is BHSA-formalisering. Bronnen: Tsumura, Auld. |
+| 14 | `standard` | Het refrein dat Uria niet naar huis afdaalt wordt expliciet besproken; BHSA objectiveert de negatieketen. Bronnen: Brueggemann, Davis, Auld, Greger Andersson. |
+| 54 | `standard` | Davids bevel om naar huis af te dalen is bekend als start van zijn manipulatie. Bronnen: Auld, Alter, Andersson, Arnold. |
+| 22 | `standard` | Het staccato tempo en Davids regie zijn bekend; BHSA kwantificeert de WayX-overmaat. Bronnen: Alter, Auld, Van Wijk-Bos, Arnold. |
+| 33 | `standard` | De breukpunten waar Davids regie hapert zijn inhoudelijk bekend; BHSA meet de lokale clause-overgangen. Bronnen: Brueggemann, Davis, Halbertal & Holmes, Alter. |
+| 35 | `standard` | Uria als actieve tegenactor is bekend; BHSA onderbouwt zijn handelingsstatus. Bronnen: V. Philips Long, Davis, Brueggemann, Alter. |
+| 42 | `standard` | Uria's contrast tussen ark/leger/veld en huis/vrouw wordt breed besproken. Bronnen: Van Wijk-Bos, Keil & Delitzsch, Auld, Davis. |
+| 41 | `standard` | Uria's weigering van eten, drinken en liggen met zijn vrouw is bekend, vaak als contrast met David. Bronnen: Van Wijk-Bos, Keil & Delitzsch, Alter, Brueggemann. |
+| 44 | `standard` | Davids poging om Uria dronken te voeren en de mislukking daarvan worden besproken. Bronnen: Keil & Delitzsch, Auld, Brueggemann, Davis. |
+| 52 | `partially_covered` | Character tracking is algemeen bekend; het specifieke referentiepatroon rond David in 11:13 is BHSA-formalisering. Bronnen: Tsumura, Auld. |

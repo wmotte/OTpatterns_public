@@ -3,7 +3,7 @@
 *Passage: 1 Samuël 17:28-37 (10 verzen, 246 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v9; run van 2 juni 2026, 35 bevindingen (`evidence.json` in deze map).
+v9; run van 13 juni 2026, 120 bevindingen (`evidence.json` in deze map).
 Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
 (partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
 of Laag. Zoekregels zijn na te lopen in de
@@ -80,12 +80,12 @@ naam-herhalingslezing in.
 ### IJk: wat de commentaren al volledig dekken
 
 De drie sterkste signalen op de as liggen in de ijk: ze bevestigen wat de
-literatuur uitwerkt, ze dragen niet. Alle drie scoren novelty standard
-(bekend). Dat juist de meest as-relevante metingen hier in de ijk vallen, is
+literatuur uitwerkt, ze dragen niet. Alle drie hebben het nieuwheidsoordeel
+bekend (`standard`). Dat juist de meest as-relevante metingen hier in de ijk vallen, is
 het kenmerk van een hoog-verzadigde scène: de commentaren hebben Davids
 zelfpresentatie tegenover Saul al woord voor woord ontleed.
 
-1. **Het dienaar-register** (finding_id 23, dynamic_query
+1. **Het dienaar-register** (bevinding 23, dynamische query
 `servant_self_designation_to_superior`, exploratief). Het zelfstandig
 naamwoord עֶבֶד ("dienaar") met 2e-persoons suffix (*avdeka*, "uw dienaar")
 staat driemaal in de directe rede (vv32, 34, 36), observed 3 tegen verwacht
@@ -102,7 +102,7 @@ register. De deferentie-zelfaanduiding is dus geen onontgonnen terrein.
 Text-Fabric-query: `clause domain=Q` met daaronder `word lex=<BD/ prs_ps=p2`.
 *In de zoekbrowser na te tellen: 3 treffers in deze passage.*
 
-2. **De actantiële dominantie** (finding_id 17, `actant_centrality`,
+2. **De actantiële dominantie** (bevinding 17, `actant_centrality`,
 discourse_uncertain). Eén actant (David, sleutel DWD==/) domineert de
 subject- en objectgraden van de scène, observed 5 tegen verwacht ongeveer 1,7
 (G² = 4,4), robuust (same_book G² = 7,4). Dit is de inhoudelijke tegenhanger
@@ -116,7 +116,7 @@ Text-Fabric-query: `count subject vs object mentions by lexical/person key`.
 *Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
 reproduceerbaar.*
 
-3. **De ingebedde deed-vertelling** (finding_id 18, `weqatal_procedural_chain`,
+3. **De ingebedde deed-vertelling** (bevinding 18, `weqatal_procedural_chain`,
 formal_proxy). Een keten van vijf weqatal/perfectum-consecutivum-vormen binnen
 Davids rede (v34-35: וּבָא … וְנָשָׂא … וְיָצָאתִי … וְהִכִּתִיו …
 וְהִצַּלְתִּי), observed 5 tegen verwacht ongeveer 1,4 (G² = 5,6, plafond
@@ -141,25 +141,63 @@ de referentiële signatuur waarmee de tekst David, ondanks de kleinering, tot
 het zwaartepunt maakt waar alle verwijzing naar terugvalt. Dat hij zich als
 dienaar presenteert en zijn daden opsomt, valt volledig in de ijk. In de reeks
 bevestigt deze dialoog het verwachte patroon van een hoog-verzadigd fragment:
-de meest as-dragende metingen vallen in de ijk, en de enige novelty zit in een
+de meest as-dragende metingen vallen in de ijk, en de enige nieuwheid zit in een
 formele, gemeten structuur die de commentaren (gericht op retoriek, theologie
 en woordbetekenis) niet tellen.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 12, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 12, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 12, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 23, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 23, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 17, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 17, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 18, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 18, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 29,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 29,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 29,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 49,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 49,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 38,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 38,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 40,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 40,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

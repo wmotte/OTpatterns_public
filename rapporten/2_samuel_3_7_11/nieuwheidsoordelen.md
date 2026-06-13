@@ -11,12 +11,12 @@ citaten uit auteursrechtelijk beschermde commentaren bevatten.
 
 | Id | Bevinding | Verdict | Kern van het commentaaroordeel |
 |---|---|---|---|
-| 5 | huis van Saul in Abners directe rede | standard | commentaren lezen Abners beroep op het huis van Saul als expliciete politieke herframing van de Rizpa-beschuldiging; dient als ijkpunt |
-| 8 | lage dichtheid van meervoudsvormen | partially_covered | de versmalling naar Abner en Isboset is literair herkend; de telling van `nu=pl` voegt de formele onderbouwing toe |
-| 10 | hoge dichtheid van infinitiefconstructies | partially_covered | commentaren bespreken de procedurele machtstaal; de totale concentratie van `typ=InfC` wordt niet als corpusmeting uitgewerkt |
-| 7 | doelinfinitieven bij overbrengen en oprichten | standard | commentaren behandelen "overbrengen" en "oprichten" als kern van Abners politieke eed; dient als ijkpunt |
-| 11 | God en Abner in de eedformule | standard | de zelfimprecatie en eedformule worden expliciet besproken; de query geeft alleen een formele markering |
-| 41 | derde-persoons volitieve vormen in Abners eed | standard | commentaren lezen de formule als performatieve vloek en verklaring; de BHSA-proxy blijft ondersteunend |
-| 42 | hoge inbeddingsdiepte in Abners rede | partially_covered | de woordmassa en retorische zwaarte zijn bekend; de exacte inbeddingsmeting is een technische toevoeging |
-| 31 | lokaal onverwachte clause-overgangen | partially_covered | de abrupte overgang naar Abners uitbarsting en eed is herkend; de overgangsmeting kwantificeert dat patroon |
-| 30 | vrouwelijk cluster rond Rizpa in 3:7 | partially_covered | Rizpa's politieke functie is breed besproken; de grammaticale cluster zelf wordt niet als meting behandeld |
+| 20 | huis van Saul in Abners directe rede | standard | commentaren lezen Abners beroep op het huis van Saul als expliciete politieke herframing van de Rizpa-beschuldiging; dient als ijkpunt |
+| 23 | lage dichtheid van meervoudsvormen | partially_covered | de versmalling naar Abner en Isboset is literair herkend; de telling van `nu=pl` voegt de formele onderbouwing toe |
+| 39 | infc-purpose-chain in Abners dreiging | partially_covered | commentaren bespreken de procedurele machtstaal; de formele clustering van doelinfinitieven wordt niet als meting uitgewerkt |
+| 22 | doelinfinitieven bij overbrengen en oprichten | standard | commentaren behandelen "overbrengen" en "oprichten" als kern van Abners politieke eed; dient als ijkpunt |
+| 26 | God en Abner in de eedformule | standard | de zelfimprecatie en eedformule worden expliciet besproken; de query geeft alleen een formele markering |
+| 59 | derde-persoons volitieve vormen in Abners eed | standard | commentaren lezen de formule als performatieve vloek en verklaring; de BHSA-proxy blijft ondersteunend |
+| 21 | quote-topology van Abners repliek | partially_covered | de woordmassa en retorische zwaarte zijn bekend; de spreekarchitectuur met vragen en diepteverschuivingen is een technische toevoeging |
+| 47 | lokaal onverwachte clause-overgangen | partially_covered | de abrupte overgang naar Abners uitbarsting en eed is herkend; de overgangsmeting kwantificeert dat patroon |
+| 46 | vrouwelijk cluster rond Rizpa in 3:7 | partially_covered | Rizpa's politieke functie is breed besproken; de grammaticale cluster zelf wordt niet als meting behandeld |

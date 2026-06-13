@@ -2,8 +2,7 @@
 
 *Passage: 2 Samuël 13:10-16 (7 verzen, 151 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
-OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 12 juni
-2026, 30 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
+OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
 voorspellende families, tekstdynamiek en negen passagespecifieke dynamische
 queries. Dynamische queries zijn exploratief en krijgen hoogstens confidence
 Middel. De commentaar- en nieuwheidstoets is uitgevoerd op 13 juni 2026; zie
@@ -192,24 +191,98 @@ Amnons handelingen is inhoudelijk bekend en door BHSA gekwantificeerd.
 robustness: robust · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":15,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":15,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":5,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":5,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":12,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":12,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":25,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":25,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":19,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":19,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":27,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":27,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":24,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":24,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":26,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":26,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":4,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":4,"evidence_field":"examples","claim_type":"interpretive_hypothesis"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 28,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 11,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 11,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 23,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 23,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 68,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 68,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 77,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 77,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 52,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 52,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 73,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 73,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 9,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 9,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    }
+  ]
+}
 ```

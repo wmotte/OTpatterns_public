@@ -3,7 +3,7 @@
 *Passage: 1 Samuël 1:12-18 (7 verzen, 124 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v19; run van 11 juni 2026, 60 bevindingen (`evidence.json` in deze map).
+v19; run van 13 juni 2026, 83 bevindingen (`evidence.json` in deze map).
 Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
 (partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
 of Laag. Zoekregels zijn na te lopen in de
@@ -195,10 +195,10 @@ persoon komt er niet in voor.
 
 *In de zoekbrowser na te tellen: 2 treffers in deze passage.*
 
-**Duiding:** Hanna's verzoek demoteert haarzelf grammaticaal: de wens hangt aan
-"uw dienstmaagd", de eerste persoon ontbreekt. De zelfvernedering zit daarmee
-ook in de zinsbouw van de bede: de spreker maakt zich tot derde-persoons object
-van haar eigen verzoek aan de meerdere.
+**Duiding:** Hanna's verzoek verlaagt haar grammaticale positie: de wens hangt
+aan "uw dienstmaagd", de eerste persoon ontbreekt. De zelfvernedering zit
+daarmee ook in de zinsbouw van de bede: de spreker maakt zich tot
+derde-persoons object van haar eigen verzoek aan de meerdere.
 
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Bodner, Tsumura en Keil
@@ -298,39 +298,157 @@ robustness: robust · versie 2023
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 31, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 31, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 31, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 33, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 33, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 11, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 11, "evidence_field": "examples", "claim_type": "annotation_fact"},
-  {"finding_id": 18, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 18, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 21, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 21, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 21, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 16, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 16, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 16, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 56, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 56, "evidence_field": "tf_query", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 56, "evidence_field": "tf_query", "claim_type": "commentary_novelty"},
-  {"finding_id": 22, "evidence_field": "tf_query", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 22, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 22, "evidence_field": "tf_query", "claim_type": "commentary_novelty"},
-  {"finding_id": 28, "evidence_field": "tf_query", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 28, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 28, "evidence_field": "tf_query", "claim_type": "commentary_novelty"},
-  {"finding_id": 48, "evidence_field": "examples", "claim_type": "statistical_finding"},
-  {"finding_id": 5, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 55, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 55, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 55, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 31,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 31,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 31,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 11,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 11,
+      "evidence_field": "examples",
+      "claim_type": "annotation_fact"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 21,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 21,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 21,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 16,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 16,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 16,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 56,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 56,
+      "evidence_field": "tf_query",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 56,
+      "evidence_field": "tf_query",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "tf_query",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "tf_query",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "tf_query",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "tf_query",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 48,
+      "evidence_field": "examples",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 5,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 55,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 55,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 55,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

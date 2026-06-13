@@ -3,7 +3,7 @@
 *Passage: 1 Samuël 8:4-22 (19 verzen, 353 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v9; run van 1 juni 2026, 30 bevindingen (`evidence.json` in deze map).
+v9; run van 13 juni 2026, 120 bevindingen (`evidence.json` in deze map).
 Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
 (partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
 of Laag. Zoekregels zijn na te lopen in de
@@ -18,7 +18,7 @@ bewijs gedragen hypothesen.*
 > maar het volk eerst te waarschuwen met het *mishpat hammelekh*, het "recht van
 > de koning": die zal hun zonen, dochters, akkers en dienaren nemen. Het volk
 > weigert te horen en herhaalt de eis. Dit hoofdstuk is zwaar becommentarieerd:
-> de beroemde "nemen"-spine en de mishpat-woordspeling zijn in de literatuur
+> de beroemde "nemen"-ruggengraat en de mishpat-woordspeling zijn in de literatuur
 > uitgewerkt en dienen hier als ijk; de dragende vragen liggen bij vijf
 > minder-belichte, gemeten patronen.
 
@@ -230,10 +230,12 @@ robustness: robust · versie 2023
 ### IJk: wat de commentaren al volledig dekken
 
 De volgende drie metingen bevestigen wat de literatuur uitwerkt. Ze dienen als
-ijkpunt; alle drie scoren novelty standard. Twee ervan komen uit exploratieve
-dynamic_queries (provenance `llm_hypothesis`), wat ik hier expliciet vermeld.
+ijkpunt; alle drie hebben het nieuwheidsoordeel bekend (`standard`). Twee ervan
+komen uit exploratieve dynamische query's (herkomst `llm_hypothesis`), wat ik
+hier expliciet vermeld.
 
-1. **De "nemen"-spine** (finding_id 15, dynamic_query `royal_seizure_yiqtol`,
+1. **De "nemen"-ruggengraat** (bevinding 15, dynamische query
+`royal_seizure_yiqtol`,
 exploratief). Het qal-imperfectum יִקָּח ("hij zal nemen") komt viermaal voor,
 in vv11, 13, 14 en 16: 4 treffers (G² = 20,5), robuust. Chisholm telt exact deze
 vier. Long noemt het de hoogste dichtheid van לקח in het boek Samuël, Alter
@@ -242,7 +244,7 @@ verb" van de waarschuwing. TF:
 `clause domain=Q / word lex=LQX[ vs=qal vt=impf`.
 *In de zoekbrowser na te tellen: 4 treffers in deze passage.*
 
-2. **De onteigening gericht op "jullie"** (finding_id 11, dynamic_query
+2. **De onteigening gericht op "jullie"** (bevinding 11, dynamische query
 `seizure_directed_at_you_2mp`, exploratief). LQX qal naast een
 tweede-persoon-meervoud-suffix-substantief, 4 treffers (G² = 26,4), bijvoorbeeld
 בְּנֵיכֶם...יִקָּח (v11) en עַבְדֵיכֶם...יִקָּח (v16). Chisholm noemt het
@@ -251,7 +253,7 @@ Alter wijst op de objecten die met nadruk aan het begin van elke zin staan. TF:
 `clause domain=Q / word lex=LQX[ vs=qal / word sp=subs prs_ps=p2`.
 *In de zoekbrowser na te tellen: 4 treffers in deze passage.*
 
-3. **De mishpat-woordspeling** (finding_id 13, dynamic_query
+3. **De mishpat-woordspeling** (bevinding 13, dynamische query
 `king_manner_mishpat_title`). מִשְׁפַּט naast מֶלֶךְ, 2 treffers, in vv9 en 11
 (G² = 21,8). Alter spreekt van een "untranslatable pun", waarin mishpat
 tegelijk "gerechtigheid" en "praktijk/gewoonte" betekent. Chisholm, Woodhouse
@@ -261,39 +263,125 @@ formeel-juridische titel, vergelijkbaar met die in het tiende hoofdstuk. TF:
 `clause domain=Q / word lex=MCPV/ / word lex=MLK/`.
 *In de zoekbrowser na te tellen: 2 treffers in deze passage.*
 
-In deze reeks daalt de novelty-opbrengst: de eerste dialoog gaf vier novel
-findings, de tweede één, deze derde geen enkele. 1 Samuël 8 is een verzadigd
+In deze reeks daalt de nieuwheidsopbrengst: de eerste dialoog gaf vijf nieuwe
+bevindingen, de tweede één, deze derde geen enkele. 1 Samuël 8 is een verzadigd
 hoofdstuk waar BHSA vooral kwantificering toevoegt boven op een bestaande
 lezing. Het bruikbare signaal zit in de minder-belichte vragen 1 tot en met 5,
 en in de saturatie zelf als vergelijkend datapunt.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 23, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 23, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 23, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 25, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 25, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 25, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 6, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 6, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 6, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 7, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 7, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 7, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 16, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 16, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 16, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 15, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 15, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 11, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 11, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 13, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 13, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 57,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 57,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 57,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 74,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 74,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 74,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 40,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 40,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 40,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 39,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 39,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 37,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 37,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

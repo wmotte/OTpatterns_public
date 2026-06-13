@@ -11,13 +11,13 @@ citaten uit auteursrechtelijk beschermde commentaren bevatten.
 
 | Id | Bevinding | Verdict | Kern van het commentaaroordeel |
 |---|---|---|---|
-| 30 | hoge dichtheid van nominale clauses | partially_covered | de vertraging rond gift, vragen en overdracht is bekend; de `NmCl`-dichtheid is de formele meting |
-| 13 | onderbroken wayyiqtol-keten | partially_covered | de strategische opeenvolging is bekend; de circumstantial-slowdown proxy kwantificeert het |
-| 17 | Ziba en Mefiboset in dezelfde clause | standard | Ziba's status als knecht/beheerder van Mefiboset is standaardmateriaal |
-| 10 | Davids vraag naar de zoon van Ziba's heer | standard | de vraag wordt expliciet gelezen als loyaliteitstest rond de afwezige Mefiboset |
-| 11 | gift voor het koninklijk huis | standard | commentaren behandelen Ziba's goederen als strategische noodvoorraad en loyaliteitssignaal |
-| 26 | herhaling van "honderd" (`M>H/`) | partially_covered | de overvloed van de gift is bekend; de afzonderlijke lexeemherhaling is ondersteunend |
-| 50 | regelmatige honderd-echo | partially_covered | de geordende inventaris is bekend; de gelijke tussenafstand van `M>H/` is een technische toevoeging |
-| 23 | palindromische clause-typevensters | partially_covered | de compacte dialoogstructuur is bekend; de spiegelingsmeting blijft voorzichtig ondersteunend |
-| 16 | lokaal onverwachte clause-overgangen | partially_covered | de gespannen vraag-antwoordstructuur is bekend; de overgangsmeting kwantificeert haar |
-| 44 | gunstformule na overdracht | standard | Ziba's winst, Davids overhaaste overdracht en de gunstformule worden expliciet besproken |
+| 48 | hoge dichtheid van nominale clauses | partially_covered | de vertraging rond gift, vragen en overdracht is bekend; de `NmCl`-dichtheid is de formele meting |
+| 27 | onderbroken wayyiqtol-keten | partially_covered | de strategische opeenvolging is bekend; de circumstantial-slowdown proxy kwantificeert het |
+| 31 | Ziba en Mefiboset in dezelfde clause | standard | Ziba's status als knecht/beheerder van Mefiboset is standaardmateriaal |
+| 24 | Davids vraag naar de zoon van Ziba's heer | standard | de vraag wordt expliciet gelezen als loyaliteitstest rond de afwezige Mefiboset |
+| 25 | gift voor het koninklijk huis | standard | commentaren behandelen Ziba's goederen als strategische noodvoorraad en loyaliteitssignaal |
+| 41 | herhaling van "honderd" (`M>H/`) | partially_covered | de overvloed van de gift is bekend; de afzonderlijke lexeemherhaling is ondersteunend |
+| 70 | regelmatige honderd-echo | partially_covered | de geordende inventaris is bekend; de gelijke tussenafstand van `M>H/` is een technische toevoeging |
+| 37 | palindromische clause-typevensters | partially_covered | de compacte dialoogstructuur is bekend; de spiegelingsmeting blijft voorzichtig ondersteunend |
+| 30 | lokaal onverwachte clause-overgangen | partially_covered | de gespannen vraag-antwoordstructuur is bekend; de overgangsmeting kwantificeert haar |
+| 64 | gunstformule na overdracht | standard | Ziba's winst, Davids overhaaste overdracht en de gunstformule worden expliciet besproken |

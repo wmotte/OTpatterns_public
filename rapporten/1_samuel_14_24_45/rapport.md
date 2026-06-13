@@ -3,8 +3,7 @@
 *Passage: 1 Samuël 14:24-30 en 14:43-45 (10 verzen, 265 woorden, twee
 segmenten; genre narratief, periode EBH). Bron: ETCBC/BHSA versie 2023 via
 Text-Fabric. Anomalie-engine tegen het OT-corpus, gestratificeerd
-(global/boek/genre/taal/periode), baseline-schema v9; run van 2 juni 2026,
-35 bevindingen (`evidence.json` in deze map). Robuustheidslabels in dit
+(global/boek/genre/taal/periode), baseline-schema v19; run van 13 juni 2026, 120 bevindingen (`evidence.json` in deze map). Robuustheidslabels in dit
 rapport: robuust (robust), gedeeltelijk robuust (partially_robust),
 alleen-globaal (global_only); betrouwbaarheid Hoog, Middel of Laag.
 Zoekregels zijn na te lopen in de
@@ -19,10 +18,10 @@ bewijs gedragen hypothesen.*
 > (v24). Jonatan, die de eed niet hoorde, proeft onderweg honing. Bij de
 > ontdekking opent Saul met "vertel mij wat je gedaan hebt" (v43); Jonatan
 > minimaliseert ("ik proefde slechts een beetje honing... hier ben ik, ik zal
-> sterven"); Saul escaleert tot een zelfvervloekende doods-eed (v44); het volk
-> keert de eed om met een tegen-eed en koopt Jonatan vrij (v45). De beroemde
+> sterven"); Saul escaleert tot een zelfvervloekende doodseed (v44); het volk
+> keert de eed om met een tegeneed en koopt Jonatan vrij (v45). De beroemde
 > laag (de overhaaste eed, de doodsformule מוֹת תָּמוּת, Jonatans
-> litotes-verweer, de eed-tegen-eed-inversie waarin het volk de koning
+> litotes-verweer, de eed-tegen-eed-omkering waarin het volk de koning
 > overrulet) is in de literatuur volledig uitgewerkt en dient hier als ijk.
 > Drie dragende vragen liggen een laag dieper: het gemeten verloop van de
 > zinstypen in de ondervraging, de grammaticale individualisering van het
@@ -33,18 +32,15 @@ bewijs gedragen hypothesen.*
 **Vraag:** Lezers en commentatoren ervaren deze scène als kortaf en stroef. Is
 die schokkerigheid ook meetbaar in de zinstype-overgangen?
 
-**Wat de data toont:** De engine telt twaalf lokaal-onverwachte
-zinstype-overgangen (een clausetype dat in het directe voorvenster afwezig of
-zeldzaam is), waar het corpus er voor een stuk van deze lengte ongeveer 19,9
-verwacht (G² = 5,2): een ondervertegenwoordiging. De afwijking is robuust
-(robust) en houdt in elk stratum dezelfde richting aan: same_book G² = 5,9,
-same_genre G² = 5,8 (p ≈ 0,016), same_period G² = 5,4. De passage wisselt dus
-minder onverwacht van zinstype dan vergelijkbaar proza. De overgangen die wél
-lokaal onverwacht zijn, liggen op de naden van het toneel: v28, waar het volk
-Jonatan inlicht over de eed (וַיֹּאמֶר → הַשְׁבֵּעַ הִשְׁבִּיעַ אָבִיךָ); v29,
-Jonatans protest (עָכַר אָבִי אֶת הָאָרֶץ); en v43, de ondervraging zelf, waar
-Sauls verhalende inleiding omslaat in de imperatief הַגִּידָה לִּי ("vertel
-mij!").
+**Wat de data toont:** De full-run telt 33 lokaal-onverwachte
+zinstype-overgangen: clausetypen die in het directe voorvenster afwezig of
+zeldzaam zijn. Tegen de globale baseline ligt dat lager dan verwacht
+(verwacht 43,25; G² = 3,90; q ≈ 0,048), en dezelfde richting blijft zichtbaar
+in boek, genre en periode. De afwijking is dus robuust, maar minder sterk dan
+de andere kernmetingen in dit rapport. De voorbeelden liggen vooral op de
+naden van het toneel: v28, waar het volk Jonatan inlicht over de eed
+(WayX→Way0 en Way0→xQtX), v29, Jonatans protest (WayX→ZQtX), en daarna de
+overgangen rond de voortzetting van het verhaal en het verhoor.
 
 **Text-Fabric-query:**
 
@@ -53,18 +49,15 @@ mij!").
 *Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
 reproduceerbaar.*
 
-**Duiding:** De ervaren ruwheid van het verhoor vindt in deze maat geen steun;
-de keten van zinstypen verloopt juist regelmatiger dan het corpusgemiddelde.
-De confrontatie wordt in opvallend geordende vorm gevoerd, met lange
-voorspelbare reeksen en schaarse sprongen die precies op de gespreksnaden
-vallen: het volk dat Jonatan waarschuwt, Jonatan die zijn vader aanklaagt,
-Saul die rekenschap eist. Wat lezers als abrupt ervaren zit dan vermoedelijk
-in de inhoud van eed en vonnis en in de tekstuele moeilijkheden die de
-commentaren signaleren, terwijl de opeenvolging van zinstypen strak in het
-spoor blijft.
+**Duiding:** De ervaren ruwheid van het verhoor wordt door deze meting
+genuanceerd. De full-run ziet wel veel lokale sprongen, maar tegen vergelijkbaar
+proza zijn het er juist minder dan verwacht. Wat lezers als abrupt ervaren zit
+dan vermoedelijk in de inhoud van eed en vonnis, in tekstuele moeilijkheden en
+in de plaatsing van enkele gespreksnaden, niet in een algemene overmaat aan
+zinstypewisselingen.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk (partially_covered).
+**Staat dit al in de commentaren?:** gedeeltelijk gedekt (`partially_covered`).
 Campbell noemt het Michmas-verhaal een van de "most perplexing texts",
 geschreven in "terse and allusive Hebrew" met grote tekstuele moeilijkheden.
 Tsumura noemt de syntaxis van v43 expliciet "strange" (een VSO-bouw met een
@@ -84,29 +77,27 @@ het corpus gemeten is de keten gelijkmatiger dan gemiddeld.
 Spreekt de grammatica die collectieven ook als groep aan, of kantelt ze naar
 het enkelvoud, naar losse figuren?
 
-**Wat de data toont:** Het meervoud is sterk ondervertegenwoordigd: elf
-meervoudsvormen waar het corpus er ongeveer 34 verwacht (G² = 23,6). De
-afwijking is robuust (robust) en zwaar significant in elk stratum: same_genre
-G² = 20,9 (p ≈ 0,000005), same_book G² = 14,5, same_period G² = 21,3. Het is
-geen artefact van weinig tekst: de noemer omvat alle 265 woorden. In een
-passage waarin הָעָם ("het volk"), de Filistijnen en "de vijanden" telkens
-terugkeren, blijft de grammaticale telling enkelvoudig.
+**Wat de data toont:** De actuele top-120 drager is smaller dan de oude
+breedteclaim: pluralis-suffixen (`prs_nu=pl`) zijn robuust
+ondervertegenwoordigd. De engine telt vier pluralissuffixen waar ongeveer 15,3
+verwacht zijn (G² = 12,11; q ≈ 0,00060), met dezelfde richting in boek, genre,
+taal en periode. In een passage waarin הָעָם ("het volk"), de Filistijnen en
+"de vijanden" telkens terugkeren, blijft juist de suffixale verwijzing naar
+groepen schaars.
 
 **Text-Fabric-query:**
 
-    word nu=pl
+    word prs_nu=pl
 
-*In de zoekbrowser na te tellen: 11 treffers in deze passage.*
+*In de zoekbrowser na te tellen: 4 treffers in deze passage.*
 
 **Duiding:** Het collectief wordt grammaticaal uit elkaar gehaald. Het leger
-heet "het volk", het Hebreeuws behandelt dat als een enkelvoudige eenheid, en
-de aandacht verschuift intussen naar twee individuen, Saul en Jonatan, die het
-meervoud verder verdringen. De scène spitst zich toe op een vader en een zoon
-die tegenover elkaar komen te staan, terwijl het volk eromheen tot een
-enkelvoudig decor verdicht, tot het aan het slot als handelend meervoud
-terugkeert om Jonatan te redden. Op de as macht-asymmetrie is de
-individualisering de grammaticale voorbereiding van het duel: het toneel wordt
-leeggemaakt tot twee personen en een eed.
+heet "het volk", het Hebreeuws behandelt dat vaak als een enkelvoudige eenheid,
+en de suffixale verwijzing naar groepen blijft laag. De scène spitst zich toe
+op een vader en een zoon die tegenover elkaar komen te staan, terwijl het volk
+eromheen grammaticaal minder als pluralis-referent aanwezig is. Op de as
+macht-asymmetrie is die individualisering de grammaticale voorbereiding van
+het duel: het toneel wordt leeggemaakt tot twee personen en een eed.
 
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Tsumura wijst er
@@ -115,12 +106,12 @@ congruentie, als grammaticafeit zonder corpusvergelijking. McCarter bespreekt
 de enkelvoudsvormen van de Masoretische tekst tekstkritisch. Bodner leest de
 scène als een toespitsing op Saul en Jonatan als "tegenpolen", zonder die
 individualisering aan een gemeten gebrek aan meervoud te verbinden. De
-thematische focus op de twee mannen is dus bekend; BHSA voegt toe dat het
-meervoud tegen het corpus meetbaar wegvalt en die focus grammaticaal
-ondersteunt.
+thematische focus op de twee mannen is dus bekend; BHSA voegt toe dat
+pluralissuffixen tegen het corpus meetbaar wegvallen en die focus grammaticaal
+ondersteunen.
 
-**Confidence:** Hoog (≤ plafond Hoog) · feature(s): categorical (nu=pl,
-onder) · robustness: robust · versie 2023
+**Confidence:** Middel (≤ plafond Middel) · feature(s): categorical
+(`prs_nu=pl`, onder) · robustness: robust · versie 2023
 
 ## Vraag 3 — de confrontatie die langs de tweede persoon heen gaat
 
@@ -128,35 +119,32 @@ onder) · robustness: robust · versie 2023
 Staat de directe tweede-persoons-aanspraak hier inderdaad voorop, of wordt de
 confrontatie op afstand, in de derde persoon gevoerd?
 
-**Wat de data toont:** De tweede persoon is ondervertegenwoordigd: vijf vormen
-in de tweede persoon (vier werkwoordsvormen en één pronominaal suffix) waar
-het corpus er ongeveer 14 verwacht (G² = 9,3), robuust (robust) in elk stratum
-(same_book G² = 6,7, same_genre G² = 4,6 met p ≈ 0,032, same_period G² =
-10,0). De weinige directe "jij"-momenten clusteren in de kern van de
-ondervraging: v43 הַגִּידָה לִּי ("vertel mij!") en מֶה עָשִׂיתָה ("wat heb je
-gedaan?"), v44 תָּמוּת ("je zult sterven"). Het omhullende dispuut verloopt
-grotendeels in de derde persoon: de vloek-eed treft "de man die eet" (v24),
-het volk vraagt "zal Jonatan sterven?" (v45). Deze meting covarieert met
-Vraag 2: twee onafhankelijke tellingen, numerus en persoon, wijzen dezelfde
-kant op, weg van groep en aanspraak, naar afstand.
+**Wat de data toont:** De actuele top-120 drager is de
+tweede-persoonssuffixdichtheid. De engine telt drie pronominale
+tweede-persoonssuffixen waar ongeveer 14,5 verwacht zijn (G² = 13,84; q ≈
+0,00041), robuust in elk stratum. De voorbeelden zijn "uw vader" (v28) en
+"uw ogen" (v36, v40). Het omhullende dispuut verloopt intussen vaak zonder
+bezittelijke of relationele "jouw"-markering: de vloek-eed treft "de man die
+eet" (v24), het volk vraagt "zal Jonatan sterven?" (v45). Deze meting loopt
+samen met Vraag 2: suffixale numerus en suffixale persoon wijzen dezelfde kant
+op, weg van groeps- en jij-markering, naar afstand.
 
 **Text-Fabric-query:**
 
-    word ps=p2
+    word prs_ps=p2
 
-*In de zoekbrowser na te tellen: 4 treffers in deze passage; het
-tweede-persoonssuffix via `word prs_ps=p2` (1 treffer); samen de vijf vormen
-van de meting.*
+*In de zoekbrowser na te tellen: 3 treffers in deze passage.*
 
 **Duiding:** De confrontatie wordt op afstand gevoerd. Sauls vloek richt zich
 in de derde persoon op "de man die eet"; ook het volk spreekt over Jonatan in
 de derde persoon wanneer het zijn leven verdedigt ("zal Jonatan sterven?").
-Zelfs waar de macht het scherpst is, bij het doodvonnis, blijft de directe
-aanspraak schaars, alsof de sprekers liever over elkaar dan tot elkaar praten.
-De enkele "jij"-momenten vallen samen met de scherpste beten: de eis om
-rekenschap en het vonnis. Op de as ontwijking is de lage tweede persoon de
-grammaticale vorm van een gesprek dat de rechtstreekse ontmoeting vermijdt en
-de breuk in de derde persoon afhandelt.
+Zelfs waar de macht het scherpst is, bij het doodvonnis, spreken de personages
+vaak over elkaar in de derde persoon. De enkele directe "jij"-momenten in het
+verhaal blijven inhoudelijk scherp, maar de gemeten afwijking zit nu
+specifieker in de suffixen. Op de as ontwijking is de lage
+tweede-persoonssuffixdichtheid een vorm van relationele afstand: het gesprek
+vermijdt herhaald bezit of aanspreekrelatie en handelt de breuk vaak in de
+derde persoon af.
 
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Alter merkt op dat Sauls
@@ -165,25 +153,26 @@ directe instructie aan de troepen voor de hand lag, en leest dat als zijn
 onvermogen rechtstreeks te communiceren. Woodhouse benadrukt Sauls "totale
 isolatie" en het langs-elkaar-heen-praten van koning en volk. De
 afstandelijkheid is thematisch dus goed in beeld; de ondervertegenwoordiging
-van de tweede persoon tegen het corpus, en de samenloop met het wegvallende
-meervoud, benoemt geen van de commentaren.
+van tweede-persoonssuffixen tegen het corpus, en de samenloop met de schaarse
+pluralissuffixen, benoemt geen van de commentaren.
 
-**Confidence:** Middel (≤ plafond Middel) · feature(s): person_shift (p2,
-onder) · robustness: robust · versie 2023
+**Confidence:** Middel (≤ plafond Middel) · feature(s): categorical
+(`prs_ps=p2`, onder) · robustness: robust · versie 2023
 
 ### IJk: wat de commentaren al volledig dekken
 
 De volgende metingen bevestigen wat de literatuur uitwerkt; ze dienen als ijk
-en scoren alle novelty bekend (standard). De eed-metingen komen uit
-exploratieve dynamische queries (provenance llm_hypothesis); enkele hebben een
-klein monster.
+en hebben alle het nieuwheidsoordeel bekend (`standard`). De eed-metingen komen
+uit exploratieve dynamische query's (herkomst `llm_hypothesis`); enkele hebben een
+kleine steekproef.
 
-1. **De infinitivus-absolutus-opeenhoping** (finding-id 22,
-   infabs_climax_overkill, deterministisch, 4 treffers). Vier tautologische
+1. **De infinitivus-absolutus-opeenhoping** (bevinding-id 65,
+   infabs_climax_overkill, deterministisch, 5 treffers). Vijf tautologische
    wortelverdubbelingen door de scène: הַשְׁבֵּעַ הִשְׁבִּיעַ (Saul "bezwoer
    nadrukkelijk", v28), אָכֹל אָכַל ("had het volk maar gegeten", v30), טָעֹם
-   טָעַמְתִּי ("ik proefde wel degelijk", v43), מוֹת תָּמוּת ("je zult zeker
-   sterven", v44). Eed, wens, verweer en vonnis staan in dezelfde
+   טָעַמְתִּי ("ik proefde wel degelijk", v43), כִּי מוֹת יָמוּת (v39) en
+   מוֹת תָּמוּת ("je zult zeker sterven", v44). Eed, wens, verweer en vonnis
+   staan in dezelfde
    absolute-dubbeling-grammatica. Alter leest טָעֹם טָעַמְתִּי als
    nadrukkelijke erkenning van verantwoordelijkheid; Tsumura analyseert מוֹת
    תָּמוּת als juridische eedformule; Long ziet de vormen als onderstreping
@@ -194,7 +183,7 @@ klein monster.
    finiete dichtheid`. *Samengestelde meting; alleen in een volledige
    Text-Fabric-omgeving reproduceerbaar.*
 
-2. **Jonatans minimaliserende verweer** (finding-id 9, dynamische query
+2. **Jonatans minimaliserende verweer** (bevinding-id 46, dynamische query
    minimizing_taste_defense_diminutive, exploratief, 2 treffers). De koppeling
    van het proef-werkwoord טעם en het diminutief מְעַט ("weinig"): "ik proefde
    slechts een beetje honing" (v43). Alter prijst de precisie: het minimale
@@ -209,8 +198,8 @@ klein monster.
 
    *In de zoekbrowser na te tellen: 2 treffers in deze passage.*
 
-3. **De hier-en-nu-deixis** (finding-id 15, deictic_shift_here_now,
-   deterministisch, 6 treffers). Proximale markers הִנֵּה/עַתָּה/הִנְנִי die
+3. **De hier-en-nu-deixis** (bevinding-id 49, `deictic_shift_here_now`,
+   deterministisch, 9 treffers). Proximale markers הִנֵּה/עַתָּה/זֶה die
    de verteltijd binnendringen: v26 וְהִנֵּה הֵלֶךְ דְּבָשׁ ("zie, vloeiende
    honing"), v43 הִנְנִי אָמוּת ("hier ben ik, ik zal sterven"). Van Wijk-Bos
    leest הִנֵּה als strategisch aandacht-sturend; Auld noemt הִנְנִי אָמוּת
@@ -219,12 +208,12 @@ klein monster.
    *Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
    reproduceerbaar.*
 
-4. **De eed-munt: vloek, doods-eed, tegen-eed** (finding-ids 27
-   self_maledictory_curse_oath_arur, 30 death_word_contested_in_speech, 35
+4. **De eedmunt: vloek, doodseed, tegeneed** (bevindingen 115
+   self_maledictory_curse_oath_arur, 116 death_word_contested_in_speech, 114
    counter_oath_hay_yhwh_override; alle exploratief). Drie
    eed-spraakhandelingen: Sauls bindende vloek אָרוּר ("vervloekt", v24/v28),
    het sterf-woord מוֹת dat tussen drie sprekers circuleert (v43-45), en de
-   tegen-eed חַי יְהוָה ("zo waar JHWH leeft", v45) waarmee het volk Jonatan
+   tegeneed חַי יְהוָה ("zo waar JHWH leeft", v45) waarmee het volk Jonatan
    vrijkoopt. Dit is de zwaarst becommentarieerde laag van de scène. Bergen:
    de eed van het volk verbrijzelt de koninklijke eed en legt bloot dat Sauls
    vervloeking zonder handhavingsmacht blijft. Brueggemann: het volk oefent
@@ -232,51 +221,121 @@ klein monster.
    dat vooruitblikt op Gilboa. Chisholm: door de vrijkoping (padah) komt de
    doodsvloek boven Saul zelf te hangen. Alter: een ironische omkering van
    1 Samuël 11, waar Saul het volk redde en het volk nu zijn zoon redt. De
-   eed-tegen-eed-inversie, het hart van het toneel, is geheel in beeld.
+   eed-tegen-eed-omkering, het hart van het toneel, is geheel in beeld.
    Text-Fabric: anker `clause domain=Q` met respectievelijk `word lex=>RR[`,
    `word lex=MWT[` en `word lex=XJ/` plus `word lex=JHWH/`. *In de
    zoekbrowser na te tellen: respectievelijk 2, 3 en 1 treffers in deze
    passage.*
 
 De beroemde laag van deze scène (de overhaaste eed, de doodsformule, het
-minimaliserende verweer, de eed-tegen-eed-inversie) is in de literatuur
+minimaliserende verweer, de eed-tegen-eed-omkering) is in de literatuur
 grondig uitgewerkt. De BHSA-meting voegt een laag daaronder toe. De
 commentaren beschrijven de toespitsing op Saul en Jonatan thematisch; de
-metingen onderbouwen die toespitsing grammaticaal, met een meervoud dat
-wegvalt en een tweede persoon die schaars wordt, twee tellingen die
-samenlopen. Het stijloordeel "abrupt" uit de literatuur vindt in de telling
-van de zinstype-overgangen geen steun: tegen het corpus gemeten verloopt de
-keten van zinstypen gelijkmatig, met schaarse sprongen op de gespreksnaden.
-De winst van de analyse ligt in deze vormlaag, die de commentaren, gericht op
-eed en theologie, niet tellen.
+metingen onderbouwen die toespitsing grammaticaal met schaarse
+pluralissuffixen en schaarse tweede-persoonssuffixen. Het stijloordeel
+"abrupt" uit de literatuur wordt door de zinstype-meting genuanceerd: de
+engine vindt lokale sprongen op gespreksnaden, maar tegen het corpus gemeten
+ligt het aantal lager dan verwacht. De winst van de analyse ligt in deze
+vormlaag, die de commentaren, gericht op eed en theologie, niet tellen.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 8, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 8, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 8, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 10, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 10, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 10, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 29, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 29, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 29, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 22, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 22, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 9, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 9, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 15, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 15, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 27, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 27, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 30, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 30, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 35, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 35, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 19,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 19,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 87,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 87,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 72,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 72,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 65,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 65,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 46,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 46,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 49,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 49,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 115,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 115,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 116,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 116,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 114,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 114,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

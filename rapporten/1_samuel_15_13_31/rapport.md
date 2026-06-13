@@ -3,7 +3,7 @@
 *Passage: 1 Samuël 15:13-31 (19 verzen, 371 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v11; run van 10 juni 2026, 91 bevindingen (`evidence.json` in deze map).
+v11; run van 13 juni 2026, 120 bevindingen (`evidence.json` in deze map).
 Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
 (partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
 of Laag. Zoekregels zijn na te lopen in de
@@ -300,14 +300,15 @@ robust · versie 2023
 ### IJkmetingen: wat de commentaren al volledig dekken
 
 De volgende metingen bevestigen wat de literatuur uitwerkt; ze dienen als ijk
-en scoren alle novelty standard ("bekend"). Twee komen uit exploratieve
-dynamic queries (provenance `llm_hypothesis`), wat per geval vermeld is. Dit
+en hebben alle het nieuwheidsoordeel bekend (`standard`). Twee komen uit
+exploratieve dynamische query's (herkomst `llm_hypothesis`), wat per geval
+vermeld is. Dit
 hoofdstuk is bewust als hoog-verzadigde testcase gekozen, en de ijklaag
 bevestigt die keuze: de beroemde verschijnselen zijn alle al grondig
 becommentarieerd.
 
-1.  **De woordspeling op קוֹל, stem én geluid** (finding-id 43,
-    `voice_pun_obey_versus_sound`, exploratief, obs 5; en finding-id 41,
+1.  **De woordspeling op קוֹל, stem én geluid** (bevinding-id 43,
+    `voice_pun_obey_versus_sound`, exploratief, obs 5; en bevinding-id 41,
     leitwort `QWL/`, deterministisch, obs 6). Vijf directe-rede-clauses
     waarin קוֹל draait tussen "stem" en "geluid": Saul beweert de stem van
     JHWH te gehoorzamen (v20), Samuël hoort het geluid van het kleinvee (v14)
@@ -321,8 +322,8 @@ becommentarieerd.
     met daaronder `word lex=QWL/` (in de zoekbrowser na te tellen:
     5 treffers); de losse woordtelling `word lex=QWL/` geeft 6 treffers.
 
-2.  **De drievoudige buiging van de afgezette koning** (finding-id 57,
-    categorical vs=hsht, deterministisch, obs 3). Drie hishtaphel-vormen aan
+2.  **De drievoudige buiging van de afgezette koning** (bevinding-id 57,
+    `categorical vs=hsht`, deterministisch, obs 3). Drie hishtaphel-vormen aan
     het slot: אֶשְׁתַּחֲוֶה ("ik wil mij neerbuigen", v25),
     הִשְׁתַּחֲוֵיתִי (v30) en וַיִּשְׁתַּחוּ ("hij boog zich neer", v31). Dat
     de koning zich juist hier driemaal fysiek buigt terwijl zijn mondelinge
@@ -334,8 +335,8 @@ becommentarieerd.
     Sauls eer-verlangen draaien. Text-Fabric: `word vs=hsht` (in de
     zoekbrowser na te tellen: 3 treffers).
 
-3.  **De wederkerige verwerping, מָאַס tegen מָאַס** (finding-id 75,
-    `reciprocal_rejection_maas`, exploratief, obs 2; en finding-id 33,
+3.  **De wederkerige verwerping, מָאַס tegen מָאַס** (bevinding-id 75,
+    `reciprocal_rejection_maas`, exploratief, obs 2; en bevinding-id 33,
     leitwort `M>S[`, deterministisch, obs 4). Dezelfde wortel keert de
     verhouding om: Saul verwerpt het woord van JHWH (v23), JHWH verwerpt Saul
     als koning (v23, v26). Dit is een standaardlezing van het vonnis. Bergen
@@ -352,17 +353,17 @@ De beroemde laag van deze scène (het קוֹל-woordspel, de drievoudige buiging
 de מָאַס-spiegeling, het gescheurde koningschap) is in de literatuur grondig
 uitgewerkt, en de engine bevestigt elk ervan als robuuste maar standaard
 meting. Precies dat maakt 1 Samuël 15 tot een geslaagde testcase: waar de
-commentaren dicht zitten, vindt de methode geen valse novelty. Wat de
+commentaren dicht zitten, vindt de methode geen valse nieuwheid. Wat de
 BHSA-meting wél toevoegt, zit eronder, in de gemeten vorm die de commentaren
 (gericht op woordspel en theologie) ongeteld laten: de kale
 werkwoordsstructuur van een dispuut waarin alleen nog beweerd wordt, het
 meervoud dat tegen het corpus wegvalt, de derde persoon die terugtreedt voor
 het jij-tegen-jij, en de zinseenheden die breken op de momenten van verhoor
-en bevel. In de reeks blijft de opbrengst grillig: de eerste dialoog gaf vier
-novel findings, de tweede één, de derde geen, de vierde twee, de vijfde één,
-de zesde geen volledig novel met drie partially_covered, en deze zevende (een
-bewust hoog-verzadigd ijkpunt) één novel meting (de valentie) plus vier
-partially_covered. Twee daarvan, numerus en persoon, keren uit de zesde
+en bevel. In de reeks blijft de opbrengst grillig: de eerste dialoog gaf vijf
+nieuwe bevindingen, de tweede één, de derde geen, de vierde twee, de vijfde één,
+de zesde geen volledig nieuwe meting maar drie gedeeltelijk gedekte, en deze
+zevende (een bewust hoog-verzadigd ijkpunt) één nieuwe meting (de valentie)
+plus vier gedeeltelijk gedekte. Twee daarvan, numerus en persoon, keren uit de zesde
 dialoog terug en verdichten samen naar het enkelvoudige jij-tegen-jij. De
 derde, de gebroken clause-atomen, keert robuust terug in de andere
 Saul-confrontaties van de reeks (1 Samuël 13, 14 en 17), terwijl het signaal
@@ -374,35 +375,127 @@ vonnis van v28 via hun gedeelde, corpusbreed gebonden constructie.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 85, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 85, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 85, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 26, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 26, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 26, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 58, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 58, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 58, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 35, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 35, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 35, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 2, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 2, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 2, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 43, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 43, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 41, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 41, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 57, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 57, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 75, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 75, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 33, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 33, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 119,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 119,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 119,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 27,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 67,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 67,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 67,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 2,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 2,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 2,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 46,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 46,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 42,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 42,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 66,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 66,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 34,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 34,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

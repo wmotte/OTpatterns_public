@@ -3,8 +3,8 @@
 *Passage: 1 Samuël 10:14-16 (3 verzen, 59 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v9; run van 1 juni 2026, 30 bevindingen (`evidence.json` in deze map). Korte
-passage: het monster is klein en de betrouwbaarheidsplafonds zijn daardoor
+v9; run van 13 juni 2026, 59 bevindingen (`evidence.json` in deze map). Korte
+passage: de steekproef is klein en de betrouwbaarheidsplafonds zijn daardoor
 begrensd. Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk
 robuust (partially_robust), alleen-globaal (global_only); betrouwbaarheid
 Hoog, Middel of Laag. Zoekregels zijn na te lopen in de
@@ -18,9 +18,9 @@ bewijs gedragen hypothesen.*
 > wat Samuël zei. Saul vertelt over de gevonden ezelinnen, maar verzwijgt het
 > koningschap: "maar de zaak van het koningschap, waarvan Samuël gesproken had,
 > vertelde hij hem niet" (v16). De beroemde laag (het viervoudige "vertellen"
-> NGD, de nadrukkelijke decoy-infinitief, het koningschap dat alleen in de
+> NGD, de nadrukkelijke afleidingsinfinitief, het koningschap dat alleen in de
 > ontkenning klinkt) is in de literatuur uitgewerkt en dient hier als ijk. Twee
-> dragende vragen zijn nieuw (novel) tegen de commentaren: de gemeten
+> dragende vragen zijn nieuw (`novel`) tegen de commentaren: de gemeten
 > inbeddingsdiepte van Sauls antwoord en de recitatieve כִּי die juist de
 > afleidingsinhoud draagt.
 
@@ -176,7 +176,7 @@ is de syntactische functie.
 
 *In de zoekbrowser na te tellen: 2 treffers in deze passage.*
 
-**Duiding:** Het recitatieve partikel markeert in v16 precies de decoy. De
+**Duiding:** Het recitatieve partikel markeert in v16 precies de afleider. De
 כִּי introduceert "dat de ezelinnen gevonden zijn": de inhoud die Saul
 prijsgeeft, de ware maar onbelangrijke helft van wat Samuël zei. Het
 koningschap krijgt geen recitatieve כִּי, want het wordt niet verteld; het
@@ -193,7 +193,7 @@ als "noun clause indicator") zonder die toe te passen op 10:16 om de
 ironische nadruk op de ezelinnen te verklaren. Woodhouse concentreert zich op
 het herhaalde "higgid" en de nadrukkelijke infinitivus absolutus en bespreekt
 כִּי niet als drager van de misleiding. De recitatieve כִּי als markeerder
-van precies de decoy-inhoud is een nieuwe lezing, zij het, gezien de lichte
+van precies de afleidingsinhoud is een nieuwe lezing, zij het, gezien de lichte
 statistiek, een voorzichtige.
 
 **Confidence:** Middel (statistisch licht: global_only, niet q-significant) ·
@@ -202,11 +202,11 @@ feature: ki_profile (recitatief) · robustness: global_only · versie 2023
 ### IJk: wat de commentaren al volledig dekken
 
 De volgende drie metingen bevestigen wat de literatuur uitwerkt. Ze dienen
-als ijk; alle drie scoren nieuwheidsoordeel "bekend" (standard). Twee komen
-uit exploratieve dynamic_queries (provenance `llm_hypothesis`), wat ik hier
-expliciet vermeld; beide hebben bovendien een klein monster (1 treffer).
+als ijk; alle drie hebben het nieuwheidsoordeel bekend (`standard`). Twee komen
+uit exploratieve dynamische query's (herkomst `llm_hypothesis`), wat ik hier
+expliciet vermeld; beide hebben bovendien een kleine steekproef (1 treffer).
 
-**1. De "vertel"-spine** (finding-id 2, leitwort `NGD[`). Het werkwoord NGD
+**1. De "vertel"-ruggengraat** (bevinding-id 2, leitwort `NGD[`). Het werkwoord NGD
 ("higgid", vertellen/onthullen) komt viermaal voor in dit korte fragment:
 4 waargenomen tegen verwacht ongeveer 0,05 (G² = 27,2), alleen-globaal
 (global_only), plafond Laag. Long telt exact deze vier in de ondervraging
@@ -220,7 +220,7 @@ onthuld.
 
 *In de zoekbrowser na te tellen: 4 treffers in deze passage.*
 
-**2. Het koningschap alleen in de ontkenning** (finding-id 6, dynamic_query
+**2. Het koningschap alleen in de ontkenning** (bevinding-id 6, dynamische query
 `withheld_kingship_object`, exploratief). NGD samen met מְלוּכָה
 ("koningschap") in één clause, 1 treffer (G² = 15,4), namelijk v16, de clause
 die zegt dat Saul het juist níet vertelde. Bodner merkt op dat dit de eerste
@@ -236,7 +236,7 @@ doorgaf; het verzwegen object verschijnt als narratieve negatie.
 
 *In de zoekbrowser na te tellen: 1 treffer in deze passage.*
 
-**3. De nadrukkelijke decoy-onthulling** (finding-id 9, dynamic_query
+**3. De nadrukkelijke afleidingsonthulling** (bevinding-id 9, dynamische query
 `emphatic_decoy_disclosure_infabs`, exploratief). De paronomastische
 infinitief הַגֵּד הִגִּיד ("hij vertelde nadrukkelijk", infinitivus absolutus
 naast finiet perfectum van dezelfde wortel), 1 treffer (G² = 13,2), in v16.
@@ -251,37 +251,111 @@ in op de gevonden ezelinnen om de oom af te leiden. Bodner leest het als
 
 *In de zoekbrowser na te tellen: 1 treffer in deze passage.*
 
-In deze reeks loopt de novelty-opbrengst grillig. De eerste dialoog gaf vijf
+In deze reeks loopt de nieuwheidsopbrengst grillig. De eerste dialoog gaf vijf
 nieuwe bevindingen, de tweede één, de derde geen enkele; deze vierde, het
 minst becommentarieerde fragment van de vier, levert er weer twee. Dat
-bevestigt de werkhypothese achter de selectie: de novelty zit in de
+bevestigt de werkhypothese achter de selectie: de nieuwheid zit in de
 onderbelichte verzen. De literatuur richt zich op het "higgid"-woordspel en
 laat de gemeten inbeddingsdiepte en de recitatieve כִּי liggen.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 13, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 13, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 13, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 11, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 11, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 11, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 4, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 4, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 4, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 24, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 24, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 24, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 2, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 2, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 6, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 6, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 9, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 9, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 31,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 31,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 31,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 12,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 12,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 12,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 9,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 9,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

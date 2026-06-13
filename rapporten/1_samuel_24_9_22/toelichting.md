@@ -70,10 +70,19 @@ De tail-modificationproxy:
 
 ## JHWH als rechter
 
-De godsnaam:
+JHWH als subject in een gemarkeerde clauselaag:
 
 ```text
-word lex=JHWH/
+clause typ=xQtX
+  phrase function=Subj
+    word lex=JHWH/
+```
+
+De constructie "gezalfde van JHWH":
+
+```text
+word st=c lex=MCJX/
+< word lex=JHWH/
 ```
 
 De actantverdeling:

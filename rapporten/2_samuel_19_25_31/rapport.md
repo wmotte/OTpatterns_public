@@ -2,8 +2,7 @@
 
 *Passage: 2 Samuël 19:25-31 (7 verzen, 174 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
-OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 12 juni
-2026, 80 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
+OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 109 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
 voorspellende families, tekstdynamiek, NER, novelty-families, de
 querybibliotheek en acht passagespecifieke dynamische queries. Dynamische
 queries zijn exploratief en krijgen hoogstens confidence Middel. De
@@ -205,19 +204,73 @@ clausevorm waarin "jij" en "Ziba" naast elkaar worden gezet.
 `dynamic_query=you_and_ziba_divide_field` · robustness: robust · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":12,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":15,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":7,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":7,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":18,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":18,"evidence_field":"q_value","claim_type":"dynamic_hypothesis"},
-  {"finding_id":14,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":14,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":17,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":19,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":19,"evidence_field":"q_value","claim_type":"dynamic_hypothesis"},
-  {"finding_id":11,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":11,"evidence_field":"examples","claim_type":"interpretive_hypothesis"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 27,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 32,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 20,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 20,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 35,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 35,
+      "evidence_field": "q_value",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 31,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 31,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 34,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "q_value",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 26,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 26,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    }
+  ]
+}
 ```

@@ -19,12 +19,12 @@ vormclaims.
 
 | finding_id | Oordeel | Publiek-safe samenvatting |
 | --- | --- | --- |
-| 15 | `standard` | De binnenkamer als structureel punt van Amnons valstrik wordt besproken; BHSA markeert actoren, beweging en locatie in 13:10. Bronnen: Bergen, Alter, Halbertal & Holmes, Keil & Delitzsch. |
-| 5 | `partially_covered` | Tamars stem en aanwezigheid zijn bekend; de vrouwelijke suffixdichtheid is de BHSA-formalisering. Bronnen: Evans, Alter, Davis, Van Wijk-Bos. |
-| 12 | `partially_covered` | Tamar wordt als scherp aanwezige spreker gelezen; de overmaat aan vrouwelijk genus is aanvullend. Bronnen: Evans, Van Wijk-Bos, Tsumura. |
-| 25 | `standard` | Tamars herhaalde ontkenningen worden expliciet besproken; BHSA bevestigt het negatieregime. Bronnen: Bergen, Arnold, Evans. |
-| 19 | `standard` | Tamars beroep op de koning als mogelijke uitweg is standaardcommentaar; BHSA markeert het juridisch-volitieve cluster. Bronnen: Alter, Bergen, McCarter, Arnold. |
-| 27 | `partially_covered` | Het contrast tussen Tamars retoriek en Amnons bevelen is bekend; de volitiefdetector formaliseert het. Bronnen: Alter, Arnold. |
-| 24 | `novel` | Inbeddingsdiepte 9 wordt niet als syntactisch patroon besproken. |
-| 26 | `novel` | Inbeddingsdiepte 17 wordt niet als technische vormlaag besproken. |
-| 4 | `standard` | De intensiteit en suffixherhaling in Amnons handelingen worden opgemerkt; BHSA kwantificeert de morfologische zwaarte. Bronnen: Arnold, Alter. |
+| 28 | `standard` | De binnenkamer als structureel punt van Amnons valstrik wordt besproken; BHSA markeert actoren, beweging en locatie in 13:10. Bronnen: Bergen, Alter, Halbertal & Holmes, Keil & Delitzsch. |
+| 11 | `partially_covered` | Tamars stem en aanwezigheid zijn bekend; de vrouwelijke suffixdichtheid is de BHSA-formalisering. Bronnen: Evans, Alter, Davis, Van Wijk-Bos. |
+| 23 | `partially_covered` | Tamar wordt als scherp aanwezige spreker gelezen; de overmaat aan vrouwelijk genus is aanvullend. Bronnen: Evans, Van Wijk-Bos, Tsumura. |
+| 68 | `standard` | Tamars herhaalde ontkenningen worden expliciet besproken; BHSA bevestigt het negatieregime. Bronnen: Bergen, Arnold, Evans. |
+| 33 | `standard` | Tamars beroep op de koning als mogelijke uitweg is standaardcommentaar; BHSA markeert het juridisch-volitieve cluster. Bronnen: Alter, Bergen, McCarter, Arnold. |
+| 77 | `partially_covered` | Het contrast tussen Tamars retoriek en Amnons bevelen is bekend; de volitiefdetector formaliseert het. Bronnen: Alter, Arnold. |
+| 52 | `novel` | Inbeddingsdiepte 9 wordt niet als syntactisch patroon besproken. |
+| 73 | `novel` | Inbeddingsdiepte 17 wordt niet als technische vormlaag besproken. |
+| 9 | `standard` | De intensiteit en suffixherhaling in Amnons handelingen worden opgemerkt; BHSA kwantificeert de morfologische zwaarte. Bronnen: Arnold, Alter. |

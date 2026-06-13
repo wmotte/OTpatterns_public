@@ -19,15 +19,15 @@ personagevolging en compacte stijl, terwijl BHSA die vormlagen meetbaar maakt.
 
 | finding_id | Oordeel | Publiek-safe samenvatting |
 | --- | --- | --- |
-| 22 | `standard` | De zelfidentificatie als Amalekiet en Davids doorvragen naar afkomst worden expliciet besproken. BHSA markeert de koppeling van etniciteit en eerste persoon. Bronnen: McCarter, Alter, Bergen, Evans, Tsumura, Van Wijk-Bos. |
-| 29 | `partially_covered` | Personagevolging en ambigue pronomina zijn bekend; het naam-naar-pronomen/nulreferentiepatroon is de BHSA-meting. Bronnen: Tsumura, Bergen. |
-| 10 | `novel` | De dichte vertelling is herkenbaar, maar de overmaat aan narratieve clauses wordt niet getalsmatig besproken. Bronnen genoemd voor de bredere context: McCarter, Alter. |
-| 13 | `novel` | De scène geldt als levendige dialoog, maar de lage citaatdichtheid wordt niet als vormclaim besproken. Bronnen genoemd voor de bredere context: McCarter, Bodner. |
-| 12 | `standard` | Het staccato tempo en de opeenvolging van handelingen worden besproken; BHSA kwantificeert dit via wayyiqtol. Bronnen: Tsumura, Alter, Bergen, Sweeney. |
-| 25 | `standard` | De herhaling van dood/sterven is bekend als literaire techniek. Bronnen: Alter, Davis. |
-| 97 | `standard` | Sauls verzoek om gedood te worden is standaardcommentaar; BHSA markeert de grammaticale vorm. Bronnen: McCarter, Alter, Jensen, Bergen, Brueggemann. |
-| 24 | `standard` | De vertragende beschrijving rond objecten wordt herkend; BHSA markeert de onderbreking van de narratieve keten. Bronnen: Tsumura, McCarter. |
-| 49 | `standard` | Kroon en armband zijn breed besproken als bewijsstukken en machtssymbolen. Bronnen: McCarter, Alter, Bergen, Van Wijk-Bos, Arnold. |
-| 50 | `standard` | De eigen mond van de Amalekiet als grond van Davids vonnis is breed besproken. Bronnen: McCarter, Alter, Bergen, Evans, Davis. |
-| 15 | `partially_covered` | Compacte en elliptische stijl wordt herkend, maar de korte-clause-overmaat is BHSA-specifiek. Bronnen: Tsumura, Alter. |
-| 77 | `novel` | De directheid van Davids verhoor wordt besproken, maar de asyndetische druk rond 1:14 niet als kwantitatieve vormlaag. Bronnen genoemd voor de bredere context: Frolov, Tsumura. |
+| 40 | `standard` | De zelfidentificatie als Amalekiet en Davids doorvragen naar afkomst worden expliciet besproken. BHSA markeert de koppeling van etniciteit en eerste persoon. Bronnen: McCarter, Alter, Bergen, Evans, Tsumura, Van Wijk-Bos. |
+| 48 | `partially_covered` | Personagevolging en ambigue pronomina zijn bekend; het naam-naar-pronomen/nulreferentiepatroon is de BHSA-meting. Bronnen: Tsumura, Bergen. |
+| 26 | `novel` | De dichte vertelling is herkenbaar, maar de overmaat aan narratieve clauses wordt niet getalsmatig besproken. Bronnen genoemd voor de bredere context: McCarter, Alter. |
+| 29 | `novel` | De scène geldt als levendige dialoog, maar de lage citaatdichtheid wordt niet als vormclaim besproken. Bronnen genoemd voor de bredere context: McCarter, Bodner. |
+| 28 | `standard` | Het staccato tempo en de opeenvolging van handelingen worden besproken; BHSA kwantificeert dit via wayyiqtol. Bronnen: Tsumura, Alter, Bergen, Sweeney. |
+| 44 | `standard` | De herhaling van dood/sterven is bekend als literaire techniek. Bronnen: Alter, Davis. |
+| 45 | `standard` | Het verliesbericht over Saul en Jonatan en de doodstaal zijn standaardcommentaar; BHSA markeert de samenstand van Saul, Jonatan en sterven in het bericht. Bronnen: McCarter, Alter, Jensen, Bergen, Brueggemann. |
+| 43 | `standard` | De vertragende beschrijving rond objecten wordt herkend; BHSA markeert de onderbreking van de narratieve keten. Bronnen: Tsumura, McCarter. |
+| 68 | `standard` | Kroon en armband zijn breed besproken als bewijsstukken en machtssymbolen. Bronnen: McCarter, Alter, Bergen, Van Wijk-Bos, Arnold. |
+| 69 | `standard` | De eigen mond van de Amalekiet als grond van Davids vonnis is breed besproken. Bronnen: McCarter, Alter, Bergen, Evans, Davis. |
+| 32 | `partially_covered` | Compacte en elliptische stijl wordt herkend, maar de korte-clause-overmaat is BHSA-specifiek. Bronnen: Tsumura, Alter. |
+| 120 | `novel` | De directheid van Davids verhoor wordt besproken, maar de asyndetische druk rond 1:14 niet als kwantitatieve vormlaag. Bronnen genoemd voor de bredere context: Frolov, Tsumura. |

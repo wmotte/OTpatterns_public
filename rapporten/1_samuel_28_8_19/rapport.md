@@ -2,8 +2,7 @@
 
 *Passage: 1 Samuël 28:8-19 (12 verzen, 305 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
-OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 12 juni
-2026, 99 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
+OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
 voorspellende families, tekstdynamiek, NER, novelty-families, de
 querybibliotheek en zeven passagespecifieke dynamische queries. Dynamische
 queries zijn exploratief en krijgen hoogstens confidence Middel. De
@@ -198,16 +197,58 @@ in 28:14-15.
 `dynamic_query=samuel_raised_for_saul` · robustness: robust · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":39,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":27,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":32,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":38,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":20,"evidence_field":"examples","claim_type":"statistical_finding"},
-  {"finding_id":10,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":52,"evidence_field":"examples","claim_type":"statistical_finding"},
-  {"finding_id":16,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":11,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":23,"evidence_field":"observed","claim_type":"dynamic_hypothesis"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 57,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 49,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 56,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 34,
+      "evidence_field": "examples",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 71,
+      "evidence_field": "examples",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 30,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 23,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 39,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    }
+  ]
+}
 ```

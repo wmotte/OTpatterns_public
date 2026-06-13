@@ -20,13 +20,13 @@ kwantificeert.
 
 | finding_id | Oordeel | Publiek-safe samenvatting |
 | --- | --- | --- |
-| 39 | `standard` | Sauls vermomming en andere kleding zijn breed besproken; BHSA markeert de lexicale bundeling met Saul, vermommen en kleding. Bronnen: Keith Bodner, V. Philips Long, P. Kyle McCarter, Walter Brueggemann, Robert Alter. |
-| 27 | `partially_covered` | Het hoge tempo van de scène is bekend, maar de wayyiqtol-overmaat is de BHSA-formalisering. Bronnen: David Toshio Tsumura, A. Graeme Auld. |
-| 32 | `partially_covered` | Commentaren bespreken focusverschuivingen en expliciete actoren; de WayX-overmaat als corpusmaat is aanvullend. Bronnen: Tsumura, Bodner. |
-| 38 | `standard` | De ironie rond de angstige vrouw en Sauls geruststelling wordt besproken. BHSA markeert het syntactische kruispunt van vrouw, vrezen en Saul. Bronnen: Auld, Long, Brueggemann, Tsumura. |
-| 20 | `standard` | De veelheid aan actoren in de nachtelijke episode is bekend; BHSA kwantificeert de actantdruk. Bronnen: Bodner, Mary J. Evans, Auld. |
-| 10 | `novel` | De onrust van de scène is thematisch bekend, maar de snelle TAM-wisseling wordt niet als technische vormmaat besproken. |
-| 52 | `partially_covered` | De participia bij het opkomen van Samuël worden besproken; BHSA telt ze als opvallend cluster van participiale hoofdpredicaten. Bronnen: Auld, Alter, McCarter. |
-| 16 | `partially_covered` | Focusverschuivingen worden herkend; het naam-naar-pronomen/nulreferentiepatroon is de BHSA-toevoeging. Bronnen: Tsumura, Bodner. |
-| 11 | `novel` | Pronominale verwijzing vóór latere nominale explicitering is niet als syntactisch patroon aangetroffen. |
-| 23 | `standard` | Samuëls opkomen voor Saul is standaardcommentaar; BHSA formaliseert het lexicale cluster in 28:14-15. Bronnen: Alter, Brueggemann, Long. |
+| 57 | `standard` | Sauls vermomming en andere kleding zijn breed besproken; BHSA markeert de lexicale bundeling met Saul, vermommen en kleding. Bronnen: Keith Bodner, V. Philips Long, P. Kyle McCarter, Walter Brueggemann, Robert Alter. |
+| 43 | `partially_covered` | Het hoge tempo van de scène is bekend, maar de wayyiqtol-overmaat is de BHSA-formalisering. Bronnen: David Toshio Tsumura, A. Graeme Auld. |
+| 49 | `partially_covered` | Commentaren bespreken focusverschuivingen en expliciete actoren; de WayX-overmaat als corpusmaat is aanvullend. Bronnen: Tsumura, Bodner. |
+| 56 | `standard` | De ironie rond de angstige vrouw en Sauls geruststelling wordt besproken. BHSA markeert het syntactische kruispunt van vrouw, vrezen en Saul. Bronnen: Auld, Long, Brueggemann, Tsumura. |
+| 34 | `standard` | De veelheid aan actoren in de nachtelijke episode is bekend; BHSA kwantificeert de actantdruk. Bronnen: Bodner, Mary J. Evans, Auld. |
+| 22 | `novel` | De onrust van de scène is thematisch bekend, maar de snelle TAM-wisseling wordt niet als technische vormmaat besproken. |
+| 71 | `partially_covered` | De participia bij het opkomen van Samuël worden besproken; BHSA telt ze als opvallend cluster van participiale hoofdpredicaten. Bronnen: Auld, Alter, McCarter. |
+| 30 | `partially_covered` | Focusverschuivingen worden herkend; het naam-naar-pronomen/nulreferentiepatroon is de BHSA-toevoeging. Bronnen: Tsumura, Bodner. |
+| 23 | `novel` | Pronominale verwijzing vóór latere nominale explicitering is niet als syntactisch patroon aangetroffen. |
+| 39 | `standard` | Samuëls opkomen voor Saul is standaardcommentaar; BHSA formaliseert het lexicale cluster in 28:14-15. Bronnen: Alter, Brueggemann, Long. |

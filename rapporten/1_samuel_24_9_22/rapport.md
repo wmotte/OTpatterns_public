@@ -2,8 +2,7 @@
 
 *Passage: 1 Samuël 24:9-22 (14 verzen, 305 woorden; genre narratief,
 periode EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine
-tegen het OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van
-12 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis,
+tegen het OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 120 bevindingen. De run gebruikt morfosyntaxis,
 discours-pragmatiek, voorspellende families, tekstdynamiek, NER,
 novelty-families, de querybibliotheek en tien passagespecifieke dynamische
 queries. Dynamische queries zijn exploratief en krijgen hoogstens confidence
@@ -148,18 +147,27 @@ versie 2023
 **Vraag:** Neemt David zelf de rechterrol, of verplaatst hij het oordeel naar
 JHWH terwijl hij Saul aanspreekt?
 
-**Wat de data toont:** De dominante godsnaam is robuust `JHWH/`: acht
-voorkomens tegen ongeveer 5,3 verwacht binnen de godsnamen (G² = 6,61; q ≈
-0,020). De actantcentraliteit is robuust hoog: zeven dominante actanten waar
-ongeveer 2,3 verwacht zijn (G² = 6,42; q ≈ 0,011). In de voorbeelden staat
-ook JHWH als handelende actant. Een dynamische query naar JHWH, oordelen,
-"tussen", eerste-persoonssuffix en tweede-persoonssuffix levert één robuuste
-treffer op in 24:13 (G² = 10,80; q ≈ 0,0064). Die query is exploratief.
+**Wat de data toont:** De oude godsnaam-dichtheid is in de full-run geen
+actuele top-120 drager meer. De nieuwe evidence draagt deze vraag via
+formelere JHWH-configuraties. `JHWH/` staat tweemaal als subject in xQtX-clauses
+en is daarin robuust gemarkeerd; de constructie `MCJX/ × JHWH/` ("gezalfde van
+JHWH") is eveneens robuust. De actantcentraliteit is robuust hoog: zeven
+dominante actanten waar ongeveer één verwacht is (G² = 6,42; q ≈ 0,011). Een
+dynamische query naar JHWH, oordelen, "tussen", eerste-persoonssuffix en
+tweede-persoonssuffix levert één robuuste treffer op in 24:13 (G² = 10,80;
+q ≈ 0,0064). Die query is exploratief.
 
 **Text-Fabric-query:**
 
 ```text
-word lex=JHWH/
+clause typ=xQtX
+  phrase function=Subj
+    word lex=JHWH/
+```
+
+```text
+word st=c lex=MCJX/
+< word lex=JHWH/
 ```
 
 ```text
@@ -183,8 +191,8 @@ vonnis neer te zetten.
 
 **Staat dit al in de commentaren?:** standard. JHWH als rechter of arbiter
 tussen David en Saul, waardoor David eigenrichting afwijst, is standaard in de
-commentaren; BHSA formaliseert dit via JHWH-dichtheid, actantcentraliteit en
-de oordeel-tussen-query.
+commentaren; BHSA formaliseert dit via JHWH als subject, de
+"gezalfde-van-JHWH"-constructie, actantcentraliteit en de oordeel-tussen-query.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=jhwh_judge_between_me_and_you` · robustness: robust · versie 2023
@@ -229,21 +237,78 @@ inbeddingsdiepte en lage actantverhulling blijven formele BHSA-toevoegingen.
 `speech_survival_duration` · robustness: global_only · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":7,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":39,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":44,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":24,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":29,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":67,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":19,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":52,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":27,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":98,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":20,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":64,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":43,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":32,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":99,"evidence_field":"observed","claim_type":"statistical_finding"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 23,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 59,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 64,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 43,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 48,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 38,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 72,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 46,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 2,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 20,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 39,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 85,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 63,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 52,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    }
+  ]
+}
 ```

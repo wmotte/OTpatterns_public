@@ -19,10 +19,10 @@ commentaren aangetroffen.
 
 | finding_id | Oordeel | Publiek-safe samenvatting |
 | --- | --- | --- |
-| 5 | `novel` | De retorische kracht van parabel en aanklacht is bekend, maar snelle TAM-wisseling wordt niet als technische maat besproken. |
-| 14 | `standard` | De fictieve en echte rollen in de parabel/aanklacht worden uitvoerig besproken; BHSA kwantificeert de agency-verdeling. Bronnen: Van Wijk-Bos, McCarter, Auld, Cartledge. |
-| 7 | `partially_covered` | Het persoonlijke karakter van de confrontatie is bekend; de lage meervoudsdichtheid is de BHSA-vormmaat. Bronnen: Alter, Brueggemann, Bergen. |
-| 6 | `novel` | Structuurbreuken tussen parabel, Davids oordeel en Natans aanklacht zijn bekend, maar niet als lokale clause-transition-meting. Bronnen genoemd voor de bredere context: Auld, Alter. |
-| 30 | `standard` | "Jij bent de man" is de breed besproken climax van de scène. Bronnen: Alter, McCarter, Auld, Brueggemann, Davis. |
-| 29 | `partially_covered` | De nadruk op JHWH's ik-rede wordt besproken; de redundante-pronomenmeting is aanvullend. Bronnen: Auld, Davis, Kaiser. |
-| 24 | `standard` | Uria, zwaard, vrouw, nemen en doden in 12:9 zijn standaardonderdelen van de aanklacht. Bronnen: McCarter, Alter, Halbertal & Holmes, Bar-Efrat. |
+| 21 | `novel` | De retorische kracht van parabel en aanklacht is bekend, maar snelle TAM-wisseling wordt niet als technische maat besproken. |
+| 39 | `standard` | De fictieve en echte rollen in de parabel/aanklacht worden uitvoerig besproken; BHSA kwantificeert de agency-verdeling. Bronnen: Van Wijk-Bos, McCarter, Auld, Cartledge. |
+| 25 | `partially_covered` | Het persoonlijke karakter van de confrontatie is bekend; de lage meervoudsdichtheid is de BHSA-vormmaat. Bronnen: Alter, Brueggemann, Bergen. |
+| 24 | `novel` | Structuurbreuken tussen parabel, Davids oordeel en Natans aanklacht zijn bekend, maar niet als lokale clause-transition-meting. Bronnen genoemd voor de bredere context: Auld, Alter. |
+| 109 | `standard` | "Jij bent de man" is de breed besproken climax van de scène. Bronnen: Alter, McCarter, Auld, Brueggemann, Davis. |
+| 87 | `partially_covered` | De nadruk op JHWH's ik-rede wordt besproken; de redundante-pronomenmeting is aanvullend. Bronnen: Auld, Davis, Kaiser. |
+| 57 | `standard` | Uria, zwaard, vrouw, nemen en doden in 12:9 zijn standaardonderdelen van de aanklacht. Bronnen: McCarter, Alter, Halbertal & Holmes, Bar-Efrat. |

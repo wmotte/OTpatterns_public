@@ -1,14 +1,14 @@
 {
   "ok": true,
   "meta": {
-    "engine_git_commit": "0b8f86a",
+    "engine_git_commit": "5a27fbf",
     "tf_version": null,
     "bhsa_version": "2023",
     "bhsa_tf_data_version": "2021",
     "baseline_schema": 19,
     "baseline_checksum": "sha256:dcb9f400165eb25e08b38dfb4a88e6a4f8abc1471595fb62d9b3dbdcf74b9e08",
     "baseline_built_utc": "2026-06-10T23:50:22.127921+00:00",
-    "run_utc": "2026-06-12T19:31:26.819657+00:00",
+    "run_utc": "2026-06-13T07:54:55.360732+00:00",
     "strata_used": [
       "global",
       "same_book",
@@ -26,33 +26,57 @@
       "leitwort_min": 3,
       "struct_min_g2": 6.0,
       "min_robust": 4,
-      "dynamic": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/exegese/2_samuel_19_25_31/dynamic_queries.json",
+      "dynamic": ".agents/bhsa-exegese/exegese/2_samuel_19_25_31/dynamic_queries.json",
       "ner": true,
       "query_library": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/references/query_library.json",
+      "topology": true,
+      "meta": true,
+      "morphosyntax": true,
+      "relational": true,
       "novelty_families": true,
+      "discourse_pragmatics": true,
       "predictive_families": true,
       "text_dynamics": true,
-      "ellipsis": false,
-      "accent_syntax": false,
-      "referential_marking": false,
-      "form_rarity": false,
-      "orthography": false,
-      "pausal_forms": false,
-      "individuation": false,
-      "prosody_alignment": false,
-      "ellipsis_parallelism": false,
-      "subphrase": false,
-      "convergence": false
+      "connectivity": true,
+      "prosody_poetics": true,
+      "ellipsis": true,
+      "accent_syntax": true,
+      "referential_marking": true,
+      "form_rarity": true,
+      "orthography": true,
+      "pausal_forms": true,
+      "individuation": true,
+      "prosody_alignment": true,
+      "ellipsis_parallelism": true,
+      "subphrase": true,
+      "convergence": true,
+      "composite": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/references/patterns.json"
     },
     "robust_floor": {
       "bar": "robustness∈{robust,partially_robust} ∧ q_significant ∧ ceiling≥Middel ∧ niet-exploratief",
-      "n": 5,
+      "n": 21,
       "ids": [
-        12,
-        15,
-        17,
-        57,
-        64
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        13,
+        18,
+        22,
+        27,
+        30,
+        32,
+        34,
+        45,
+        50,
+        78,
+        86
       ],
       "min_robust": 4,
       "met": true
@@ -61,15 +85,15 @@
       "bar": "robuuste bar ∧ exploratief (provenance=llm_hypothesis|preregistered_library / type=dynamic_query)",
       "n": 3,
       "ids": [
-        7,
-        18,
-        19
+        20,
+        35,
+        36
       ]
     },
     "widening": {
       "requested": 4,
-      "floor_before": 5,
-      "floor_after": 5,
+      "floor_before": 21,
+      "floor_after": 21,
       "floor_met": true,
       "rounds": [],
       "n_detector_axes_expanded": 0,
@@ -77,9 +101,9 @@
       "search_space_n": 0
     },
     "dynamic": {
-      "query_file": "/Users/wmotte/Desktop/projects/OTpatterns/.agents/bhsa-exegese/exegese/2_samuel_19_25_31/dynamic_queries.json",
+      "query_file": ".agents/bhsa-exegese/exegese/2_samuel_19_25_31/dynamic_queries.json",
       "n_queries_tried": 9,
-      "n_queries_attempted": 308,
+      "n_queries_attempted": 851,
       "n_findings": 9,
       "errors": [],
       "note": "Exploratief: een geïnformeerde LLM stelde geneste TF-search-templates voor; de engine voerde ze deterministisch uit en scoorde ze tegen dezelfde gestratificeerde nulls. Plafond Middel; FDR over alle geprobeerde queries. Resultaten zijn post-hoc; zie dynamic_query_attempts_<versie>.jsonl."
@@ -327,8 +351,652 @@
     "n_clauses": 37,
     "small_passage": false
   },
-  "n_findings": 80,
+  "n_findings": 109,
   "findings": [
+    {
+      "type": "function_collexeme_anomaly",
+      "object_type": "phrase",
+      "feature": "lexeme × frasefunctie × clausetype",
+      "value": "JC/ als Exst in NmCl",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.1903,
+      "G2": 1707.34,
+      "p_value": 0.0,
+      "statistic": 1707.34,
+      "surprise": 1707.34,
+      "baselines": {
+        "global": {
+          "expected": 0.1903,
+          "G2": 1707.34,
+          "p_value": 0.0,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.0033,
+          "G2": 44.02,
+          "p_value": 3.254423723140023e-11,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.0987,
+          "G2": 784.94,
+          "p_value": 1.0130916081526252e-172,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.1777,
+          "G2": 1765.61,
+          "p_value": 0.0,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.1154,
+          "G2": 1171.23,
+          "p_value": 1.092367341944253e-256,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:29"
+        }
+      ],
+      "tf_query": "clause typ=NmCl\n  phrase function=Exst\n    word lex=JC/",
+      "note": "Drieweg-collostructie (2×2 G²): het lexeem in deze grammaticale sleuf binnen dit clausetype, corpusbreed. 'bound': de cel is sterk gebonden/afgestoten t.o.v. de marges. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 2.394,
+      "rank_score": 1707.34,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 1
+    },
+    {
+      "type": "function_collexeme_anomaly",
+      "object_type": "phrase",
+      "feature": "lexeme × frasefunctie × clausetype",
+      "value": "VWB/ als PreC in AjCl",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 4.6171,
+      "G2": 1392.14,
+      "p_value": 1.0716234075724735e-304,
+      "statistic": 1392.14,
+      "surprise": 1392.14,
+      "baselines": {
+        "global": {
+          "expected": 4.6171,
+          "G2": 1392.14,
+          "p_value": 1.0716234075724735e-304,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.2303,
+          "G2": 102.67,
+          "p_value": 3.956413004901533e-24,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 1.5173,
+          "G2": 719.51,
+          "p_value": 1.713947229998759e-158,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 4.5882,
+          "G2": 1395.53,
+          "p_value": 1.965098475001453e-305,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 3.1655,
+          "G2": 946.23,
+          "p_value": 8.763249033743895e-208,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:28"
+        }
+      ],
+      "tf_query": "clause typ=AjCl\n  phrase function=PreC\n    word lex=VWB/",
+      "note": "Drieweg-collostructie (2×2 G²): het lexeem in deze grammaticale sleuf binnen dit clausetype, corpusbreed. 'bound': de cel is sterk gebonden/afgestoten t.o.v. de marges. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": -2.207,
+      "rank_score": 1392.14,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 3.2148702227174204e-304,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 2
+    },
+    {
+      "type": "function_collexeme_anomaly",
+      "object_type": "phrase",
+      "feature": "lexeme × frasefunctie × clausetype",
+      "value": "<JN/ als Cmpl in AjCl",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 1.3986,
+      "G2": 567.22,
+      "p_value": 2.257748583380469e-125,
+      "statistic": 567.22,
+      "surprise": 567.22,
+      "baselines": {
+        "global": {
+          "expected": 1.3986,
+          "G2": 567.22,
+          "p_value": 2.257748583380469e-125,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.0703,
+          "G2": 50.54,
+          "p_value": 1.1649350631439824e-12,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.7779,
+          "G2": 514.4,
+          "p_value": 6.982963635286854e-114,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 1.3667,
+          "G2": 572.87,
+          "p_value": 1.335784282671984e-126,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 1.0008,
+          "G2": 575.79,
+          "p_value": 3.088853252760115e-127,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:28"
+        }
+      ],
+      "tf_query": "clause typ=AjCl\n  phrase function=Cmpl\n    word lex=<JN/",
+      "note": "Drieweg-collostructie (2×2 G²): het lexeem in deze grammaticale sleuf binnen dit clausetype, corpusbreed. 'bound': de cel is sterk gebonden/afgestoten t.o.v. de marges. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": -0.484,
+      "rank_score": 567.22,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 4.515497166760938e-125,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 3
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "cr-collocatie (nomen regens×rectum)",
+      "value": "BJT/ × >B/",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 13.7925,
+      "G2": 508.33,
+      "p_value": 1.4609395684542766e-112,
+      "statistic": 508.33,
+      "surprise": 508.33,
+      "baselines": {
+        "global": {
+          "expected": 13.7925,
+          "G2": 508.33,
+          "p_value": 1.4609395684542766e-112,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.6992,
+          "G2": 8.51,
+          "p_value": 0.003523549866812925,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 10.7404,
+          "G2": 277.14,
+          "p_value": 3.154197608876798e-62,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 13.576,
+          "G2": 513.54,
+          "p_value": 1.0779262025813845e-113,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 7.2064,
+          "G2": 458.14,
+          "p_value": 1.2211119293617778e-101,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "cr",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:29"
+        }
+      ],
+      "tf_query": "word st=c lex=BJT/\n< word lex=>B/",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": -3.786,
+      "rank_score": 508.33,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0226576979179935e-111,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 4
+    },
+    {
+      "type": "function_collexeme_anomaly",
+      "object_type": "phrase",
+      "feature": "lexeme × frasefunctie × clausetype",
+      "value": "<WD/ als Modi in xYq0",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.5589,
+      "G2": 466.54,
+      "p_value": 1.8145752475037716e-103,
+      "statistic": 466.54,
+      "surprise": 466.54,
+      "baselines": {
+        "global": {
+          "expected": 0.5589,
+          "G2": 466.54,
+          "p_value": 1.8145752475037716e-103,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.0284,
+          "G2": 28.22,
+          "p_value": 1.0813400438566145e-07,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.0577,
+          "G2": 69.76,
+          "p_value": 6.683261714624306e-17,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.5663,
+          "G2": 465.03,
+          "p_value": 3.8669040563454024e-103,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.3741,
+          "G2": 259.23,
+          "p_value": 2.530847839078594e-58,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:30"
+        }
+      ],
+      "tf_query": "clause typ=xYq0\n  phrase function=Modi\n    word lex=<WD/",
+      "note": "Drieweg-collostructie (2×2 G²): het lexeem in deze grammaticale sleuf binnen dit clausetype, corpusbreed. 'bound': de cel is sterk gebonden/afgestoten t.o.v. de marges. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 0.839,
+      "rank_score": 466.54,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 2.7218628712556575e-103,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 5
+    },
+    {
+      "type": "function_collexeme_anomaly",
+      "object_type": "phrase",
+      "feature": "lexeme × frasefunctie × clausetype",
+      "value": "MLK/ als Subj in WayX",
+      "effect": "bound",
+      "observed": 2,
+      "expected": 77.9543,
+      "G2": 409.15,
+      "p_value": 5.602953540797933e-91,
+      "statistic": 409.15,
+      "surprise": 409.15,
+      "baselines": {
+        "global": {
+          "expected": 77.9543,
+          "G2": 409.15,
+          "p_value": 5.602953540797933e-91,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 28.1299,
+          "G2": 54.3,
+          "p_value": 1.7236380993650502e-13,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 102.6831,
+          "G2": 220.09,
+          "p_value": 8.633350251190973e-50,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 73.3509,
+          "G2": 442.08,
+          "p_value": 3.825673962018485e-98,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 54.4095,
+          "G2": 264.39,
+          "p_value": 1.8916871194952264e-59,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:26"
+        },
+        {
+          "ref": "2_Samuel 19:30"
+        }
+      ],
+      "tf_query": "clause typ=WayX\n  phrase function=Subj\n    word lex=MLK/",
+      "note": "Drieweg-collostructie (2×2 G²): het lexeem in deze grammaticale sleuf binnen dit clausetype, corpusbreed. 'bound': de cel is sterk gebonden/afgestoten t.o.v. de marges. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": -5.285,
+      "rank_score": 409.15,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 6.723544248957519e-91,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 6
+    },
+    {
+      "type": "function_collexeme_anomaly",
+      "object_type": "phrase",
+      "feature": "lexeme × frasefunctie × clausetype",
+      "value": "<WD/ als Modi in NmCl",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.7305,
+      "G2": 376.54,
+      "p_value": 7.038728626467201e-84,
+      "statistic": 376.54,
+      "surprise": 376.54,
+      "baselines": {
+        "global": {
+          "expected": 0.7305,
+          "G2": 376.54,
+          "p_value": 7.038728626467201e-84,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.0948,
+          "G2": 33.57,
+          "p_value": 6.864641259862003e-09,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.1997,
+          "G2": 168.11,
+          "p_value": 1.909766536087988e-38,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.7352,
+          "G2": 366.41,
+          "p_value": 1.1308951404290156e-81,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.3471,
+          "G2": 265.82,
+          "p_value": 9.228185449903739e-60,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:29"
+        }
+      ],
+      "tf_query": "clause typ=NmCl\n  phrase function=Modi\n    word lex=<WD/",
+      "note": "Drieweg-collostructie (2×2 G²): het lexeem in deze grammaticale sleuf binnen dit clausetype, corpusbreed. 'bound': de cel is sterk gebonden/afgestoten t.o.v. de marges. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 0.453,
+      "rank_score": 376.54,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 7.038728626467201e-84,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 7
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "vo-collocatie (werkwoord×object)",
+      "value": "KBS[ × BGD/",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.2364,
+      "G2": 305.77,
+      "p_value": 1.82662975194731e-68,
+      "statistic": 305.77,
+      "surprise": 305.77,
+      "baselines": {
+        "global": {
+          "expected": 0.2364,
+          "G2": 305.77,
+          "p_value": 1.82662975194731e-68,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.2395,
+          "G2": 304.91,
+          "p_value": 2.802345427408675e-68,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.2535,
+          "G2": 306.81,
+          "p_value": 1.0829180458326982e-68,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "vo",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25"
+        }
+      ],
+      "tf_query": "clause kind=VC\n  phrase function=Pred\n    word lex=KBS[\n  phrase function=Objc\n    word lex=BGD/",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 2.081,
+      "rank_score": 305.77,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 6.393204131815585e-68,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 8
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "vo-collocatie (werkwoord×object)",
+      "value": "DBR[ × DBR/",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 4.2293,
+      "G2": 167.6,
+      "p_value": 2.4759438055993804e-38,
+      "statistic": 167.6,
+      "surprise": 167.6,
+      "baselines": {
+        "global": {
+          "expected": 4.2293,
+          "G2": 167.6,
+          "p_value": 2.4759438055993804e-38,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.3327,
+          "G2": 30.94,
+          "p_value": 2.654943511666403e-08,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 1.4717,
+          "G2": 96.46,
+          "p_value": 9.100088166149514e-23,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 4.286,
+          "G2": 166.37,
+          "p_value": 4.599311187907871e-38,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 2.7204,
+          "G2": 139.19,
+          "p_value": 3.9971016176414096e-32,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "vo",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:30"
+        }
+      ],
+      "tf_query": "clause kind=VC\n  phrase function=Pred\n    word lex=DBR[\n  phrase function=Objc\n    word lex=DBR/",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": -2.08,
+      "rank_score": 167.6,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 5.77720221306522e-38,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 9
+    },
+    {
+      "type": "distribution_shape",
+      "object_type": "word",
+      "feature": "werkwoordstijd-verdeling (vorm)",
+      "value": "werkwoordstijd: 6 cellen, H=0.84, G=0.4",
+      "effect": "shape",
+      "observed": 31,
+      "G2": 115.29,
+      "p_value": 3.097986207777318e-21,
+      "df": 8,
+      "statistic": 115.29,
+      "surprise": 115.29,
+      "baselines": {
+        "global": {
+          "expected": null,
+          "G2": 115.29,
+          "df": 8,
+          "p_value": 3.097986207777318e-21,
+          "effect": "shape"
+        },
+        "same_book": {
+          "expected": null,
+          "G2": 116.66,
+          "df": 8,
+          "p_value": 1.6174941813666332e-21,
+          "effect": "shape"
+        },
+        "same_genre": {
+          "expected": null,
+          "G2": 123.13,
+          "df": 8,
+          "p_value": 7.495583475895954e-23,
+          "effect": "shape"
+        },
+        "same_language": {
+          "expected": null,
+          "G2": 115.23,
+          "df": 8,
+          "p_value": 3.198218515123637e-21,
+          "effect": "shape"
+        },
+        "same_period": {
+          "expected": null,
+          "G2": 113.14,
+          "df": 8,
+          "p_value": 8.60605029762456e-21,
+          "effect": "shape"
+        }
+      },
+      "robustness": "robust",
+      "normalized_entropy": 0.841,
+      "gini": 0.403,
+      "distribution": {
+        "perf": 12,
+        "infc": 4,
+        "wayq": 7,
+        "impf": 6,
+        "impv": 1,
+        "ptca": 1
+      },
+      "tf_query": "word vt (volledige verdeling, multi-cel GOF)",
+      "note": "Goodness-of-fit van de volledige feature-verdeling vs corpus (df=k−1) — meet de VORM (vlak/geconcentreerd), niet één waarde. Normale categoricals kunnen leeg zijn terwijl de vorm afwijkt.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 115.29,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 9.293958623331955e-21,
+      "q_significant": true,
+      "confidence_ceiling": "Hoog",
+      "id": 10
+    },
     {
       "type": "deictic_participant_chain",
       "object_type": "clause",
@@ -387,7 +1055,7 @@
       "q_value": 1.1488347954122628e-22,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 1
+      "id": 11
     },
     {
       "type": "lexical_register_zone",
@@ -465,7 +1133,66 @@
       "q_value": 1.1488347954122628e-22,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 2
+      "id": 12
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "vo-collocatie (werkwoord×object)",
+      "value": "XBC[ × XMWR/",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.0155,
+      "G2": 93.1,
+      "p_value": 4.969011144563413e-22,
+      "statistic": 93.1,
+      "surprise": 93.1,
+      "baselines": {
+        "global": {
+          "expected": 0.0155,
+          "G2": 93.1,
+          "p_value": 4.969011144563413e-22,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.0172,
+          "G2": 100.29,
+          "p_value": 1.3194932918879729e-23,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.0157,
+          "G2": 92.89,
+          "p_value": 5.534110543370368e-22,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.0202,
+          "G2": 89.31,
+          "p_value": 3.3671170476757713e-21,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "vo",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:27"
+        }
+      ],
+      "tf_query": "clause kind=VC\n  phrase function=Pred\n    word lex=XBC[\n  phrase function=Objc\n    word lex=XMWR/",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 6.012,
+      "rank_score": 93.1,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 8.695769502985972e-22,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 13
     },
     {
       "type": "quote_topology",
@@ -551,7 +1278,7 @@
       "q_value": 5.4739864780051624e-11,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 3
+      "id": 14
     },
     {
       "type": "leitwort",
@@ -631,7 +1358,7 @@
       "q_value": 2.95592078164601e-10,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 4
+      "id": 15
     },
     {
       "type": "person_shift",
@@ -698,7 +1425,152 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 5
+      "id": 16
+    },
+    {
+      "type": "distribution_shape",
+      "object_type": "clause",
+      "feature": "clausetype-verdeling (vorm)",
+      "value": "clausetype: 18 cellen, H=0.96, G=0.26",
+      "effect": "shape",
+      "observed": 37,
+      "G2": 40.47,
+      "p_value": 0.4941000003093555,
+      "df": 41,
+      "statistic": 40.47,
+      "surprise": 40.47,
+      "baselines": {
+        "global": {
+          "expected": null,
+          "G2": 40.47,
+          "df": 41,
+          "p_value": 0.4941000003093555,
+          "effect": "shape"
+        },
+        "same_book": {
+          "expected": null,
+          "G2": 39.23,
+          "df": 37,
+          "p_value": 0.3703055471965607,
+          "effect": "shape"
+        },
+        "same_genre": {
+          "expected": null,
+          "G2": 42.13,
+          "df": 41,
+          "p_value": 0.42172499484104997,
+          "effect": "shape"
+        },
+        "same_language": {
+          "expected": null,
+          "G2": 40.55,
+          "df": 41,
+          "p_value": 0.4904870106675351,
+          "effect": "shape"
+        },
+        "same_period": {
+          "expected": null,
+          "G2": 41.52,
+          "df": 41,
+          "p_value": 0.4480807862329994,
+          "effect": "shape"
+        }
+      },
+      "robustness": "genre_sensitive",
+      "normalized_entropy": 0.961,
+      "gini": 0.257,
+      "distribution": {
+        "WXQt": 1,
+        "InfC": 4,
+        "WxQ0": 3,
+        "xQt0": 3,
+        "MSyn": 1,
+        "WayX": 3,
+        "Voct": 2,
+        "Way0": 3,
+        "XQtl": 1,
+        "xQtX": 3,
+        "ZYq0": 1,
+        "WYq0": 2,
+        "AjCl": 2,
+        "NmCl": 3,
+        "WIm0": 1,
+        "xYq0": 2,
+        "ZQt0": 1,
+        "XYqt": 1
+      },
+      "tf_query": "clause typ (volledige verdeling, multi-cel GOF)",
+      "note": "Goodness-of-fit van de volledige feature-verdeling vs corpus (df=k−1) — meet de VORM (vlak/geconcentreerd), niet één waarde. Normale categoricals kunnen leeg zijn terwijl de vorm afwijkt.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 40.47,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.6286482018517467,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 17
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "cr-collocatie (nomen regens×rectum)",
+      "value": ">XR/ × >CR",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.6999,
+      "G2": 36.27,
+      "p_value": 1.718991637456711e-09,
+      "statistic": 36.27,
+      "surprise": 36.27,
+      "baselines": {
+        "global": {
+          "expected": 0.6999,
+          "G2": 36.27,
+          "p_value": 1.718991637456711e-09,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.5867,
+          "G2": 28.91,
+          "p_value": 7.563184589555914e-08,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.7058,
+          "G2": 36.11,
+          "p_value": 1.863337097724204e-09,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.5046,
+          "G2": 30.93,
+          "p_value": 2.6722358841110037e-08,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "cr",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:31"
+        }
+      ],
+      "tf_query": "word st=c lex=>XR/\n< word lex=>CR",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 0.515,
+      "rank_score": 36.27,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 2.4065882924393954e-09,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 18
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -758,7 +1630,7 @@
       "q_value": 7.892701160301611e-09,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 6
+      "id": 19
     },
     {
       "query_name": "mephibosheth_addresses_my_lord_king",
@@ -850,7 +1722,7 @@
       "q_value": 2.891677100800327e-07,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 7
+      "id": 20
     },
     {
       "type": "leitwort",
@@ -903,7 +1775,60 @@
       "q_value": 5.7164648784653004e-08,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 8
+      "id": 21
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "cr-collocatie (nomen regens×rectum)",
+      "value": ">KL[ × CLXN/",
+      "effect": "bound",
+      "observed": 1,
+      "expected": 0.0011,
+      "G2": 27.25,
+      "p_value": 1.7880235513527612e-07,
+      "statistic": 27.25,
+      "surprise": 27.25,
+      "baselines": {
+        "global": {
+          "expected": 0.0011,
+          "G2": 27.25,
+          "p_value": 1.7880235513527612e-07,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.0012,
+          "G2": 27.2,
+          "p_value": 1.837993413495056e-07,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.001,
+          "G2": 28.44,
+          "p_value": 9.649422804055465e-08,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "cr",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:29"
+        }
+      ],
+      "tf_query": "word st=c lex=>KL[\n< word lex=CLXN/",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 9.828,
+      "rank_score": 27.25,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 2.0860274765782213e-07,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 22
     },
     {
       "type": "leitwort",
@@ -971,7 +1896,91 @@
       "q_value": 4.6043706770253565e-07,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 9
+      "id": 23
+    },
+    {
+      "type": "distribution_shape",
+      "object_type": "phrase",
+      "feature": "frasefunctie-verdeling (vorm)",
+      "value": "frasefunctie: 16 cellen, H=0.8, G=0.56",
+      "effect": "shape",
+      "observed": 116,
+      "G2": 24.99,
+      "p_value": 0.6286482018517467,
+      "df": 28,
+      "statistic": 24.99,
+      "surprise": 24.99,
+      "baselines": {
+        "global": {
+          "expected": null,
+          "G2": 24.99,
+          "df": 28,
+          "p_value": 0.6286482018517467,
+          "effect": "shape"
+        },
+        "same_book": {
+          "expected": null,
+          "G2": 23.85,
+          "df": 26,
+          "p_value": 0.5844893284247178,
+          "effect": "shape"
+        },
+        "same_genre": {
+          "expected": null,
+          "G2": 27.54,
+          "df": 28,
+          "p_value": 0.48877910285980797,
+          "effect": "shape"
+        },
+        "same_language": {
+          "expected": null,
+          "G2": 25.05,
+          "df": 28,
+          "p_value": 0.6251162592443682,
+          "effect": "shape"
+        },
+        "same_period": {
+          "expected": null,
+          "G2": 24.38,
+          "df": 28,
+          "p_value": 0.6612637425928193,
+          "effect": "shape"
+        }
+      },
+      "robustness": "genre_sensitive",
+      "normalized_entropy": 0.803,
+      "gini": 0.56,
+      "distribution": {
+        "Conj": 23,
+        "Subj": 13,
+        "Pred": 29,
+        "Objc": 10,
+        "Nega": 5,
+        "Time": 2,
+        "Rela": 2,
+        "Adju": 2,
+        "Cmpl": 15,
+        "Ques": 2,
+        "Voct": 2,
+        "PreO": 1,
+        "PreC": 5,
+        "Exst": 1,
+        "Modi": 3,
+        "PrAd": 1
+      },
+      "tf_query": "phrase function (volledige verdeling, multi-cel GOF)",
+      "note": "Goodness-of-fit van de volledige feature-verdeling vs corpus (df=k−1) — meet de VORM (vlak/geconcentreerd), niet één waarde. Normale categoricals kunnen leeg zijn terwijl de vorm afwijkt.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 24.99,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.6286482018517467,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 24
     },
     {
       "type": "morphological_weight",
@@ -1075,7 +2084,7 @@
       "q_value": 0.8741800050354287,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 10
+      "id": 25
     },
     {
       "type": "leitwort",
@@ -1143,7 +2152,7 @@
       "q_value": 2.6573953635374445e-05,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 11
+      "id": 26
     },
     {
       "type": "categorical",
@@ -1237,7 +2246,49 @@
       "q_value": 9.729334111827082e-05,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 12
+      "id": 27
+    },
+    {
+      "type": "composite_structure",
+      "object_type": "verse",
+      "feature": "inclusio",
+      "value": "inclusio: BW>[, CLWM/, MLK/, MPJBCT/",
+      "effect": "structure",
+      "observed": 1,
+      "statistic": 16.0,
+      "surprise": 16.0,
+      "claim_type": "compositional_structure",
+      "pattern": "inclusio",
+      "rationale": "Een inhoudslexeem dat de eenheid zowel opent als sluit, omlijst en markeert de perikoopgrens (raamwerk/inclusio).",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25"
+        },
+        {
+          "ref": "2_Samuel 19:31"
+        }
+      ],
+      "tf_query": "% inhoudslexeem dat zowel het eerste als het laatste vers van de perikoop opent/sluit (inclusio/raamwerk)",
+      "note": "Lexicale omlijsting (inclusio): hetzelfde inhoudswoord opent en sluit de eenheid — markeert de perikoopgrens.",
+      "boundary_lexemes": [
+        "BW>[",
+        "CLWM/",
+        "MLK/",
+        "MPJBCT/"
+      ],
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 16.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 28
     },
     {
       "type": "quotation_introducers",
@@ -1292,7 +2343,109 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 13
+      "id": 29
+    },
+    {
+      "type": "defective_clause_atom_density",
+      "object_type": "clause_atom",
+      "feature": "code=999 (defective clause atom)",
+      "value": "gebroken clause-atomen ×7",
+      "effect": "over",
+      "observed": 7,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:26",
+          "surface": "לָ֛מָּהלֹאהָלַ֥כְתָּעִמִּ֖י",
+          "mother": "2_Samuel 19:26"
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "surface": "אֲדֹנִ֥יהַמֶּ֖לֶךְ",
+          "mother": "2_Samuel 19:27"
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "surface": "אֶחְבְּשָׁהלִּי֩הַחֲמֹ֨ור",
+          "mother": "2_Samuel 19:27"
+        },
+        {
+          "ref": "2_Samuel 19:30",
+          "surface": "לָ֛מָּהתְּדַבֵּ֥רעֹ֖ודדְּבָרֶ֑יךָ",
+          "mother": "2_Samuel 19:30"
+        },
+        {
+          "ref": "2_Samuel 19:30",
+          "surface": "אָמַ֕רְתִּי",
+          "mother": "2_Samuel 19:30"
+        },
+        {
+          "ref": "2_Samuel 19:30",
+          "surface": "אַתָּ֣הוְצִיבָ֔אתַּחְלְק֖וּאֶתהַשָּׂדֶֽה",
+          "mother": "2_Samuel 19:30"
+        },
+        {
+          "ref": "2_Samuel 19:31",
+          "surface": "גַּ֥םאֶתהַכֹּ֖ליִקָּ֑ח",
+          "mother": "2_Samuel 19:31"
+        }
+      ],
+      "tf_query": "clause_atom code=999 (defectief / anakoloet)",
+      "surprise": 15.5,
+      "note": "Clause-atomen die de ETCBC-codering als 'defectief' markeert: afgebroken of nooit voltooide syntaxis (anakoloet). De tag is hard; opeenhoping suggereert stotterende, geëmotioneerde of verstoorde rede.",
+      "feature_reliability": "hard_formal",
+      "n_context": 38,
+      "baselines": {
+        "global": {
+          "expected": 2.095,
+          "G2": 7.78,
+          "p_value": 0.005273396438209013,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 3.738,
+          "G2": 2.58,
+          "p_value": 0.10823651160304669,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 2.9,
+          "G2": 4.63,
+          "p_value": 0.03132696968436467,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 2.095,
+          "G2": 7.78,
+          "p_value": 0.005273396438209013,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 2.14,
+          "G2": 7.56,
+          "p_value": 0.00595898855835305,
+          "effect": "over"
+        }
+      },
+      "expected": 2.095,
+      "G2": 7.78,
+      "p_value": 0.005273396438209013,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.00595898855835305,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 7.78,
+      "effect_size": 1.74,
+      "rank_score": 15.5,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.005273396438209013,
+      "q_significant": true,
+      "confidence_ceiling": "Hoog",
+      "id": 30
     },
     {
       "type": "nested_speech",
@@ -1346,7 +2499,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 14
+      "id": 31
     },
     {
       "type": "categorical",
@@ -1424,7 +2577,7 @@
       "q_value": 9.729334111827082e-05,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 15
+      "id": 32
     },
     {
       "type": "spatial_kinetic_axis",
@@ -1552,7 +2705,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 16
+      "id": 33
     },
     {
       "type": "actant_centrality",
@@ -1567,13 +2720,13 @@
       "surprise": 13.8,
       "examples": [
         {
-          "actant": "p1:sg:unknown",
-          "out_degree": 4,
+          "actant": "p3:sg:m",
+          "out_degree": 9,
           "in_degree": 0,
           "refs": [
-            "2_Samuel 19:27",
-            "2_Samuel 19:27",
-            "2_Samuel 19:27"
+            "2_Samuel 19:25",
+            "2_Samuel 19:25",
+            "2_Samuel 19:25"
           ]
         },
         {
@@ -1587,19 +2740,19 @@
           ]
         },
         {
-          "actant": "p3:sg:m",
-          "out_degree": 9,
-          "in_degree": 0,
-          "refs": [
-            "2_Samuel 19:25",
-            "2_Samuel 19:25",
-            "2_Samuel 19:25"
-          ]
-        },
-        {
           "actant": "<BD/",
           "out_degree": 3,
           "in_degree": 1,
+          "refs": [
+            "2_Samuel 19:27",
+            "2_Samuel 19:27",
+            "2_Samuel 19:27"
+          ]
+        },
+        {
+          "actant": "p1:sg:unknown",
+          "out_degree": 4,
+          "in_degree": 0,
           "refs": [
             "2_Samuel 19:27",
             "2_Samuel 19:27",
@@ -1660,7 +2813,7 @@
       "q_value": 0.028949309280974684,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 17
+      "id": 34
     },
     {
       "query_name": "servant_deceived_me",
@@ -1740,7 +2893,7 @@
       "q_value": 0.000971888231479076,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 18
+      "id": 35
     },
     {
       "query_name": "you_and_ziba_divide_field",
@@ -1820,7 +2973,7 @@
       "q_value": 0.000971888231479076,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 19
+      "id": 36
     },
     {
       "query_name": "king_like_messenger_of_god",
@@ -1900,7 +3053,7 @@
       "q_value": 0.000971888231479076,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 20
+      "id": 37
     },
     {
       "type": "topological_hapax",
@@ -1943,7 +3096,7 @@
       "q_value": 0.00022867958387742964,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 21
+      "id": 38
     },
     {
       "type": "topological_hapax",
@@ -1986,7 +3139,7 @@
       "q_value": 0.00022867958387742964,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 22
+      "id": 39
     },
     {
       "type": "topological_hapax",
@@ -2029,7 +3182,7 @@
       "q_value": 0.00022867958387742964,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 23
+      "id": 40
     },
     {
       "type": "topological_hapax",
@@ -2072,7 +3225,7 @@
       "q_value": 0.00022867958387742964,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 24
+      "id": 41
     },
     {
       "type": "tam_chaos",
@@ -2160,7 +3313,7 @@
       "q_value": 0.7481390576847288,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 25
+      "id": 42
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -2205,7 +3358,7 @@
       "q_value": 0.00031808460537161297,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 26
+      "id": 43
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -2250,7 +3403,75 @@
       "q_value": 0.00031808460537161297,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 27
+      "id": 44
+    },
+    {
+      "type": "collexeme_anomaly",
+      "object_type": "word",
+      "feature": "vo-collocatie (werkwoord×object)",
+      "value": "QR>=[ × MLK/",
+      "effect": "bound",
+      "observed": 2,
+      "expected": 0.3283,
+      "G2": 13.05,
+      "p_value": 0.0003034838886089335,
+      "statistic": 13.05,
+      "surprise": 13.05,
+      "baselines": {
+        "global": {
+          "expected": 0.3283,
+          "G2": 13.05,
+          "p_value": 0.0003034838886089335,
+          "effect": "bound"
+        },
+        "same_book": {
+          "expected": 0.3255,
+          "G2": 15.19,
+          "p_value": 9.744581162953173e-05,
+          "effect": "bound"
+        },
+        "same_genre": {
+          "expected": 0.4891,
+          "G2": 10.27,
+          "p_value": 0.001355674675738626,
+          "effect": "bound"
+        },
+        "same_language": {
+          "expected": 0.3191,
+          "G2": 13.27,
+          "p_value": 0.00027036820006147373,
+          "effect": "bound"
+        },
+        "same_period": {
+          "expected": 0.2954,
+          "G2": 13.91,
+          "p_value": 0.00019189690626004468,
+          "effect": "bound"
+        }
+      },
+      "robustness": "robust",
+      "slot": "vo",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25"
+        },
+        {
+          "ref": "2_Samuel 19:26"
+        }
+      ],
+      "tf_query": "clause kind=VC\n  phrase function=Pred\n    word lex=QR>=[\n  phrase function=Objc\n    word lex=MLK/",
+      "note": "Collostructionele associatie (2×2 G²) tussen de constructiesleuf en het lexeem, corpusbreed. 'bound': de collocatie is in het corpus sterk gebonden/afgestoten t.o.v. toeval. Vorm-meting; duiding blijft lezerswerk.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": 2.607,
+      "rank_score": 13.05,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0003034838886089335,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 45
     },
     {
       "type": "rare_lexeme",
@@ -2284,7 +3505,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 28
+      "id": 46
     },
     {
       "type": "rare_lexeme",
@@ -2318,7 +3539,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 29
+      "id": 47
     },
     {
       "type": "forward_predictive_scaffolding",
@@ -2406,7 +3627,7 @@
       "q_value": 0.4633897292358165,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 30
+      "id": 48
     },
     {
       "type": "prepositional_overloading",
@@ -2448,7 +3669,80 @@
       "q_value": 0.0008179733199943973,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 31
+      "id": 49
+    },
+    {
+      "type": "transition_anomaly",
+      "object_type": "clause",
+      "feature": "clausetype-overgang (Markov-bigram)",
+      "value": "WayX→xYq0",
+      "effect": "over",
+      "observed": 2,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:30"
+        },
+        {
+          "ref": "2_Samuel 19:31"
+        }
+      ],
+      "tf_query": "clause typ=WayX  <  clause typ=xYq0  (opeenvolgend)",
+      "note": "Overgangswaarschijnlijkheid tussen aangrenzende clause-typen vs corpus P(b|a) — discourse-ritme. Order-gevoelig: valt weg bij shuffle. Vorm-meting.",
+      "feature_reliability": "formal_proxy",
+      "n_context": 3,
+      "baselines": {
+        "global": {
+          "expected": 0.074,
+          "G2": 11.02,
+          "p_value": 0.0008993566175902702,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.088,
+          "G2": 10.37,
+          "p_value": 0.0012813720456134137,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.07,
+          "G2": 11.24,
+          "p_value": 0.0008016205418893232,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.074,
+          "G2": 11.02,
+          "p_value": 0.0008996817281760006,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.08,
+          "G2": 10.75,
+          "p_value": 0.0010444636625680532,
+          "effect": "over"
+        }
+      },
+      "expected": 0.074,
+      "G2": 11.02,
+      "p_value": 0.0008993566175902702,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_deviant",
+        "period_p": 0.0010444636625680532,
+        "note": "Wijkt ook af binnen EBH (contested) — eerder bewuste/literaire keuze dan taalveroudering; versterkt signaal."
+      },
+      "statistic": 11.02,
+      "effect_size": 4.756,
+      "surprise": 11.02,
+      "rank_score": 11.02,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.0008993566175902702,
+      "q_significant": true,
+      "confidence_ceiling": "Middel",
+      "id": 50
     },
     {
       "type": "asyndeton_cluster",
@@ -2489,7 +3783,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 32
+      "id": 51
     },
     {
       "type": "phonological_cluster",
@@ -2545,7 +3839,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 33
+      "id": 52
     },
     {
       "type": "volitive_chain",
@@ -2586,7 +3880,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 34
+      "id": 53
     },
     {
       "type": "weqatal_procedural_chain",
@@ -2667,7 +3961,7 @@
       "q_value": 0.11603527589018539,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 35
+      "id": 54
     },
     {
       "type": "leitwort",
@@ -2727,7 +4021,7 @@
       "q_value": 0.001072822928201528,
       "q_significant": true,
       "confidence_ceiling": "Laag",
-      "id": 36
+      "id": 55
     },
     {
       "type": "instrumental_b_focus",
@@ -2775,7 +4069,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 37
+      "id": 56
     },
     {
       "type": "ki_profile",
@@ -2819,7 +4113,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 38
+      "id": 57
     },
     {
       "type": "suffix_referent_shift",
@@ -2880,7 +4174,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 39
+      "id": 58
     },
     {
       "type": "syntactic_chiasm",
@@ -2956,7 +4250,7 @@
       "q_value": 0.3551983611397071,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 40
+      "id": 59
     },
     {
       "type": "entity_role_pressure",
@@ -3049,7 +4343,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 41
+      "id": 60
     },
     {
       "type": "clause_ellipsis_pressure",
@@ -3133,7 +4427,50 @@
       "q_value": 0.954197648457174,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 42
+      "id": 61
+    },
+    {
+      "type": "composite_structure",
+      "object_type": "verse",
+      "feature": "hendiadys",
+      "value": "hendiadys-kandidaten (3)",
+      "effect": "structure",
+      "observed": 1,
+      "statistic": 9.0,
+      "surprise": 9.0,
+      "claim_type": "compositional_structure",
+      "pattern": "hendiadys",
+      "rationale": "Twee nevengeschikte inhoudswoorden van gelijke woordsoort (X-en-Y) zijn kandidaten voor een hendiadys/woordpaar.",
+      "examples": [
+        {
+          "ref": "2_Samuel 19:26",
+          "paar": "HJH[+BW>[ (verb)"
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "paar": "RMH=[+>MR[ (verb)"
+        },
+        {
+          "ref": "2_Samuel 19:28",
+          "paar": "MLK/+>DWN/ (subs)"
+        }
+      ],
+      "tf_query": "% twee inhoudswoorden van gelijke woordsoort verbonden door een nevenschikkend voegwoord (X waw Y)",
+      "note": "Nevengeschikte woordparen van gelijke soort (X-en-Y) — kandidaten voor hendiadys/woordpaar; formeel patroon, betekenis interpretatief.",
+      "n_pairs": 3,
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "effect_size": null,
+      "rank_score": 9.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 62
     },
     {
       "type": "inanimate_subject_fronting",
@@ -3211,7 +4548,7 @@
       "q_value": 0.521268772968885,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 43
+      "id": 63
     },
     {
       "type": "phonological_cluster",
@@ -3259,7 +4596,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 44
+      "id": 64
     },
     {
       "type": "verb_frame_slot_pressure",
@@ -3304,7 +4641,7 @@
       "q_value": 0.0026997960632601913,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 45
+      "id": 65
     },
     {
       "type": "asyndetic_staccato_pressure",
@@ -3377,7 +4714,99 @@
       "q_value": 0.5851827627219444,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 46
+      "id": 66
+    },
+    {
+      "type": "dom_unmarked_definite",
+      "object_type": "phrase",
+      "feature": "definiet object zonder את",
+      "value": "ongemarkeerde definiete objecten ×6",
+      "effect": "over",
+      "observed": 6,
+      "rate_in_passage": 0.6,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25",
+          "surface": "הַמֶּ֑לֶךְ"
+        },
+        {
+          "ref": "2_Samuel 19:25",
+          "surface": "רַגְלָ֜יו"
+        },
+        {
+          "ref": "2_Samuel 19:25",
+          "surface": "שְׂפָמֹ֗ו"
+        },
+        {
+          "ref": "2_Samuel 19:26",
+          "surface": "הַמֶּ֑לֶךְ"
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "surface": "הַחֲמֹ֨ור"
+        },
+        {
+          "ref": "2_Samuel 19:30",
+          "surface": "דְּבָרֶ֑יךָ"
+        }
+      ],
+      "tf_query": "phrase function=Objc met det=det zonder woord lex='>T' (exacte match; PreO/PtcO-clauses uitgesloten) — aandeel vs corpus",
+      "surprise": 8.8,
+      "note": "Differential object marking (Bekins): definiete objecten dragen normaliter את; nul-codering tekent het object als laag geïndividueerd/achtergrond. In poëzie de norm — het genre-stratum verdisconteert dat.",
+      "feature_reliability": "formal_proxy",
+      "n_context": 10,
+      "baselines": {
+        "global": {
+          "expected": 3.745,
+          "G2": 2.08,
+          "p_value": 0.14926170168657746,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 2.362,
+          "G2": 6.01,
+          "p_value": 0.014219194213113873,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 2.401,
+          "G2": 5.86,
+          "p_value": 0.015525650549459563,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 3.745,
+          "G2": 2.08,
+          "p_value": 0.14926170168657746,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 3.755,
+          "G2": 2.06,
+          "p_value": 0.1512664731868106,
+          "effect": "over"
+        }
+      },
+      "expected": 3.745,
+      "G2": 2.08,
+      "p_value": 0.14926170168657746,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.1512664731868106,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 2.08,
+      "effect_size": 0.68,
+      "rank_score": 8.8,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.14926170168657746,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 67
     },
     {
       "type": "kinship_register_chain",
@@ -3421,7 +4850,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 47
+      "id": 68
     },
     {
       "type": "infc_purpose_chains",
@@ -3466,7 +4895,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 48
+      "id": 69
     },
     {
       "type": "phonological_cluster",
@@ -3510,7 +4939,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 49
+      "id": 70
     },
     {
       "type": "phonological_cluster",
@@ -3554,7 +4983,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 50
+      "id": 71
     },
     {
       "type": "phonological_cluster",
@@ -3598,7 +5027,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 51
+      "id": 72
     },
     {
       "type": "phonological_cluster",
@@ -3642,7 +5071,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 52
+      "id": 73
     },
     {
       "type": "semantic_compression_ratio",
@@ -3722,7 +5151,7 @@
       "q_value": 0.1595891023297541,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 53
+      "id": 74
     },
     {
       "type": "speech_action_misalignment",
@@ -3770,7 +5199,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 54
+      "id": 75
     },
     {
       "type": "disjunctive_waw_x_onset",
@@ -3850,7 +5279,7 @@
       "q_value": 0.9358965267277974,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 55
+      "id": 76
     },
     {
       "type": "speech_safety_zone",
@@ -3890,7 +5319,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 56
+      "id": 77
     },
     {
       "type": "clause_embedding",
@@ -3956,7 +5385,7 @@
       "q_value": 0.010261359694527957,
       "q_significant": true,
       "confidence_ceiling": "Middel",
-      "id": 57
+      "id": 78
     },
     {
       "type": "agreement_discord",
@@ -3990,7 +5419,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 58
+      "id": 79
     },
     {
       "type": "nominal_clause_order",
@@ -4026,7 +5455,86 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 59
+      "id": 80
+    },
+    {
+      "type": "remote_continuation",
+      "object_type": "clause_atom",
+      "feature": "|dist| >= 11 (dist_unit=clause_atoms)",
+      "value": "verre hervattingen ×2",
+      "effect": "over",
+      "observed": 2,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25",
+          "dist": 28,
+          "surface": "וּמְפִבֹ֨שֶׁת֙בֶּןשָׁא֔וּליָרַ֖ד",
+          "mother": "2_Samuel 19:19"
+        },
+        {
+          "ref": "2_Samuel 19:30",
+          "dist": 20,
+          "surface": "וַיֹּ֤אמֶרלֹו֙הַמֶּ֔לֶךְ",
+          "mother": "2_Samuel 19:26"
+        }
+      ],
+      "tf_query": "clause_atom met dist_unit=clause_atoms en |dist|>=11 (hervatting van een verre mother)",
+      "surprise": 7.0,
+      "note": "Clauses die een vér verwijderde moederclause hervatten: parenthese/uitweiding gevolgd door resumptie — het terzijde als retorisch middel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": 38,
+      "baselines": {
+        "global": {
+          "expected": 1.894,
+          "G2": 0.01,
+          "p_value": 0.9373421350778778,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 1.951,
+          "G2": 0.0,
+          "p_value": 0.971271909601561,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 1.933,
+          "G2": 0.0,
+          "p_value": 0.9608228821128086,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 1.894,
+          "G2": 0.01,
+          "p_value": 0.9373421350778778,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 1.869,
+          "G2": 0.01,
+          "p_value": 0.922398530553562,
+          "effect": "over"
+        }
+      },
+      "expected": 1.894,
+      "G2": 0.01,
+      "p_value": 0.9373421350778778,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.922398530553562,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 0.01,
+      "effect_size": 0.079,
+      "rank_score": 7.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.9373421350778778,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 81
     },
     {
       "type": "root_play",
@@ -4066,7 +5574,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 60
+      "id": 82
     },
     {
       "type": "vocative_isolation",
@@ -4142,7 +5650,7 @@
       "q_value": 0.2092417832297137,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 61
+      "id": 83
     },
     {
       "type": "numeric_discord",
@@ -4216,7 +5724,7 @@
       "q_value": 0.729486052070462,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 62
+      "id": 84
     },
     {
       "type": "polysyndetic_slowdown",
@@ -4289,7 +5797,7 @@
       "q_value": 0.5964688248181671,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 63
+      "id": 85
     },
     {
       "type": "clause_embedding",
@@ -4355,7 +5863,7 @@
       "q_value": 0.010261359694527957,
       "q_significant": true,
       "confidence_ceiling": "Hoog",
-      "id": 64
+      "id": 86
     },
     {
       "type": "heavy_quotation_formula",
@@ -4388,7 +5896,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 65
+      "id": 87
     },
     {
       "type": "ethical_dative_density",
@@ -4460,7 +5968,214 @@
       "q_value": 0.3242267920474883,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 66
+      "id": 88
+    },
+    {
+      "type": "maqef_compression_zone",
+      "object_type": "word",
+      "feature": "maqef (־) in trailer",
+      "value": "maqef ×25",
+      "effect": "over",
+      "observed": 25,
+      "rate_in_passage": 0.144,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25",
+          "maqef_words": 7
+        },
+        {
+          "ref": "2_Samuel 19:29",
+          "maqef_words": 7
+        },
+        {
+          "ref": "2_Samuel 19:31",
+          "maqef_words": 4
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "maqef_words": 3
+        },
+        {
+          "ref": "2_Samuel 19:26",
+          "maqef_words": 2
+        },
+        {
+          "ref": "2_Samuel 19:28",
+          "maqef_words": 1
+        },
+        {
+          "ref": "2_Samuel 19:30",
+          "maqef_words": 1
+        }
+      ],
+      "tf_query": "word met maqef (־) in trailer_utf8 — aandeel vs corpus",
+      "surprise": 5.44,
+      "note": "Hoge maqef-dichtheid: grafische woorden samengebonden tot één prosodisch woord — compressie, formule- of lijstdictie. Het teken is hard; het stratum levert de verwachte rate.",
+      "feature_reliability": "hard_formal",
+      "n_context": 174,
+      "baselines": {
+        "global": {
+          "expected": 17.243,
+          "G2": 3.45,
+          "p_value": 0.06327286554518027,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 19.025,
+          "G2": 1.94,
+          "p_value": 0.16372366668874272,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 17.627,
+          "G2": 3.08,
+          "p_value": 0.079269672169738,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 17.243,
+          "G2": 3.45,
+          "p_value": 0.06327286554518027,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 17.437,
+          "G2": 3.26,
+          "p_value": 0.07101654254351372,
+          "effect": "over"
+        }
+      },
+      "expected": 17.243,
+      "G2": 3.45,
+      "p_value": 0.06327286554518027,
+      "robustness": "genre_sensitive",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.07101654254351372,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 3.45,
+      "effect_size": 0.536,
+      "rank_score": 5.44,
+      "min_n_warning": false,
+      "small_sample_penalty": 0.0,
+      "empirical": null,
+      "q_value": 0.06327286554518027,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 89
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "2_Samuel 19:26 ↔ 2_Samuel 19:27",
+      "effect": "mirror",
+      "observed": 1,
+      "ast_ted_distance": 1,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:26",
+          "surface": null
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 5.0,
+      "note": "Bijna identieke clausestructuur (TED=1) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 5.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 90
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "2_Samuel 19:26 ↔ 2_Samuel 19:28",
+      "effect": "mirror",
+      "observed": 1,
+      "ast_ted_distance": 1,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:26",
+          "surface": null
+        },
+        {
+          "ref": "2_Samuel 19:28",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 5.0,
+      "note": "Bijna identieke clausestructuur (TED=1) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 5.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 91
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "2_Samuel 19:27 ↔ 2_Samuel 19:28",
+      "effect": "mirror",
+      "observed": 1,
+      "ast_ted_distance": 1,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:27",
+          "surface": null
+        },
+        {
+          "ref": "2_Samuel 19:28",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 5.0,
+      "note": "Bijna identieke clausestructuur (TED=1) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 5.0,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 92
     },
     {
       "type": "divine_names",
@@ -4542,7 +6257,165 @@
       "q_value": 0.05767048890624973,
       "q_significant": false,
       "confidence_ceiling": "Laag",
-      "id": 67
+      "id": 93
+    },
+    {
+      "type": "participant_individuation",
+      "object_type": "phrase",
+      "feature": "menselijke-klasse definiet object zonder את",
+      "value": "ge-de-individueerde menselijke objecten ×2",
+      "effect": "over",
+      "observed": 2,
+      "rate_in_passage": 0.667,
+      "consistent_participants": [
+        "MLK/"
+      ],
+      "examples": [
+        {
+          "ref": "2_Samuel 19:25",
+          "participant": "MLK/",
+          "surface": "הַמֶּ֑לֶךְ",
+          "mentions_unmarked": "2/2"
+        },
+        {
+          "ref": "2_Samuel 19:26",
+          "participant": "MLK/",
+          "surface": "הַמֶּ֑לֶךְ",
+          "mentions_unmarked": "2/2"
+        }
+      ],
+      "tf_query": "phrase function=Objc, det=det, hoofd = eerste subs/nmpr-woord: nmpr met nametype~pers of subs in de menselijke lexlijst, zonder woord lex='>T' — aandeel vs corpus-klasserate",
+      "claim_type": "interpretive_hypothesis",
+      "note": "Menselijke participanten (eigennaam of menselijk nomen, definiet) die als object ZONDER את verschijnen — tegen de klasserate van ~.81 markering in. Bekins koppelt nul-codering aan lage individuatie: een mens die als ding wordt gecodeerd is een perspectief-/empathiesignaal. De animacy-klasse is een gecureerde lexlijst; de lezing blijft interpretatief.",
+      "feature_reliability": "discourse_uncertain",
+      "n_context": 3,
+      "baselines": {
+        "global": {
+          "expected": 0.532,
+          "G2": 3.49,
+          "p_value": 0.061825175668121436,
+          "effect": "over"
+        },
+        "same_book": {
+          "expected": 0.279,
+          "G2": 5.88,
+          "p_value": 0.015350265904105428,
+          "effect": "over"
+        },
+        "same_genre": {
+          "expected": 0.401,
+          "G2": 4.52,
+          "p_value": 0.033498054956153246,
+          "effect": "over"
+        },
+        "same_language": {
+          "expected": 0.532,
+          "G2": 3.49,
+          "p_value": 0.061825175668121436,
+          "effect": "over"
+        },
+        "same_period": {
+          "expected": 0.533,
+          "G2": 3.48,
+          "p_value": 0.06207715126541769,
+          "effect": "over"
+        }
+      },
+      "expected": 0.532,
+      "G2": 3.49,
+      "p_value": 0.061825175668121436,
+      "robustness": "robust",
+      "diachronic_anomaly_adjustment": {
+        "period": "EBH",
+        "verdict": "period_normal",
+        "period_p": 0.06207715126541769,
+        "note": "Conform de EBH-norm (contested) — de globale afwijking is vermoedelijk periode-conventie, geen passage-eigenaardigheid."
+      },
+      "statistic": 3.49,
+      "effect_size": 1.911,
+      "surprise": 3.49,
+      "rank_score": 3.49,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 0.061825175668121436,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 94
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "2_Samuel 19:26 ↔ 2_Samuel 19:27",
+      "effect": "mirror",
+      "observed": 2,
+      "ast_ted_distance": 2,
+      "lex_overlap": 0.0,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:26",
+          "surface": null
+        },
+        {
+          "ref": "2_Samuel 19:27",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 3.33,
+      "note": "Bijna identieke clausestructuur (TED=2) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 3.33,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 95
+    },
+    {
+      "type": "deep_parallelism",
+      "object_type": "clause",
+      "feature": "ast_ted_distance",
+      "value": "2_Samuel 19:28 ↔ 2_Samuel 19:29",
+      "effect": "mirror",
+      "observed": 2,
+      "ast_ted_distance": 2,
+      "lex_overlap": 0.25,
+      "examples": [
+        {
+          "ref": "2_Samuel 19:28",
+          "surface": null
+        },
+        {
+          "ref": "2_Samuel 19:29",
+          "surface": null
+        }
+      ],
+      "tf_query": "% structural echo via Tree Edit Distance (ETCBC trees)",
+      "surprise": 3.33,
+      "note": "Bijna identieke clausestructuur (TED=2) bij sterk verschillende woordenschat — kandidaat chiasme/parallel.",
+      "feature_reliability": "formal_proxy",
+      "n_context": null,
+      "statistic": null,
+      "effect_size": null,
+      "rank_score": 3.33,
+      "robustness": "global_only",
+      "p_value": 1.0,
+      "min_n_warning": true,
+      "small_sample_penalty": 0.3,
+      "empirical": null,
+      "q_value": 1.0,
+      "q_significant": false,
+      "confidence_ceiling": "Middel",
+      "id": 96
     },
     {
       "query_name": "fronted_complement_focus",
@@ -4617,7 +6490,7 @@
       "q_value": 0.6585946798825169,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 68
+      "id": 97
     },
     {
       "query_name": "paronomastic_infinitive_absolute",
@@ -4692,7 +6565,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 69
+      "id": 98
     },
     {
       "query_name": "vocative_then_imperative",
@@ -4767,7 +6640,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 70
+      "id": 99
     },
     {
       "query_name": "divine_subject_hiphil_causer",
@@ -4842,7 +6715,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 71
+      "id": 100
     },
     {
       "query_name": "pleonastic_subject_pronoun",
@@ -4922,7 +6795,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 72
+      "id": 101
     },
     {
       "query_name": "divine_name_in_fronted_object",
@@ -4991,7 +6864,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 73
+      "id": 102
     },
     {
       "query_name": "disjunctive_waw_x_clause",
@@ -5071,7 +6944,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 74
+      "id": 103
     },
     {
       "query_name": "do_what_is_good_in_your_eyes",
@@ -5140,7 +7013,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 75
+      "id": 104
     },
     {
       "query_name": "servant_saddle_donkey_and_go",
@@ -5175,7 +7048,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 76
+      "id": 105
     },
     {
       "query_name": "why_speak_more_words",
@@ -5210,7 +7083,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 77
+      "id": 106
     },
     {
       "query_name": "king_questions_mephibosheth_absence",
@@ -5245,7 +7118,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 78
+      "id": 107
     },
     {
       "query_name": "servant_slandered_to_lord_king",
@@ -5280,7 +7153,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 79
+      "id": 108
     },
     {
       "query_name": "fronted_object_in_wayyiqtol",
@@ -5315,7 +7188,7 @@
       "q_value": 1.0,
       "q_significant": false,
       "confidence_ceiling": "Middel",
-      "id": 80
+      "id": 109
     }
   ]
 }

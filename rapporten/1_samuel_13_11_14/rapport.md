@@ -3,10 +3,10 @@
 *Passage: 1 Samuël 13:11-14 (4 verzen, 96 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v9; run van 2 juni 2026, 30 bevindingen (`evidence.json` in deze map).
+v9; run van 13 juni 2026, 86 bevindingen (`evidence.json` in deze map).
 Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
 (partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
-of Laag. De passage is kort (kleine-monster-regime, lage n_context); de
+of Laag. De passage is kort (kleine-steekproef-regime, lage `n_context`); de
 betrouwbaarheid is daardoor navenant begrensd. Zoekregels zijn na te lopen in
 de [zoekbrowser](https://wmotte.github.io/OTpatterns_public/); achtergrond bij
 BHSA en Text-Fabric staat in [ACHTERGROND.md](../../ACHTERGROND.md). BHSA legt
@@ -151,7 +151,7 @@ kwam. Samuël zet er een eigen grond-keten tegenover: omdat je niet gehoorzaamd
 hebt. Beide partijen spelen het spel van de redengeving, en juist daarin toont
 zich de asymmetrie: Sauls gronden zijn omstandig en concreet (de soldaten, de
 tijd, de vijand), Samuëls grond is één en absoluut (het gebod). De
-כִּי-stapeling maakt zichtbaar dat de mindere zich uitput in redenen terwijl
+De כִּי-stapeling toont hoe de mindere zich uitput in redenen terwijl
 de meerdere met één grond volstaat. Op de as zelfrechtvaardiging is het
 grond-voegwoord de syntactische drager van het hele dispuut.
 
@@ -172,11 +172,12 @@ van een argument-door-grond, benoemt niemand. Dat voegt BHSA toe.
 ### IJk: wat de commentaren al volledig dekken
 
 De volgende twee metingen bevestigen wat de literatuur uitwerkt. Ze dienen als
-ijk. Beide scoren novelty standard en komen uit exploratieve dynamic_queries
-(provenance llm_hypothesis), wat ik hier expliciet vermeld; beide hebben een
-klein monster (1 treffer).
+ijk. Beide hebben het nieuwheidsoordeel bekend (`standard`) en komen uit
+exploratieve dynamische query's (herkomst `llm_hypothesis`), wat ik hier
+expliciet vermeld; beide hebben een
+kleine steekproef (1 treffer).
 
-1. **De reflexieve zelfbeheersing** (finding_id 16, dynamic_query
+1. **De reflexieve zelfbeheersing** (bevinding 16, dynamische query
 `self_restraint_hitpael_excuse`, exploratief). De hitpael וָאֶתְאַפַּק ("ik
 bedwong mij", v12), 1 treffer (G² = 10,8). Dit werkwoord is uitvoerig
 becommentarieerd. Long betoogt dat Saul claimt zich onder druk "herpakt" te
@@ -188,7 +189,7 @@ excuus-functie van de hitpael (overtreding verpakt als moeizame zelfdwang) is
 precies wat de commentaren al uitwerken. TF: `clause / word lex=>PQ[ vs=hit`
 (*in de zoekbrowser na te tellen: 1 treffer in deze passage*).
 
-2. **De aanklacht-vraag** (finding_id 29, dynamic_query
+2. **De aanklacht-vraag** (bevinding 29, dynamische query
 `account_demand_meh_asita`, exploratief). מֶה עָשִׂיתָ ("wat heb je gedaan",
 v11), interrogatief naast een perfectum van עשה, 1 treffer (G² = 7,3).
 Woodhouse en Bergen bestempelen de vraag expliciet als aanklacht in plaats van
@@ -208,30 +209,92 @@ die niet tot rust komt) en het scharnier waarop Samuëls laatste woord draait
 (het עַתָּה dat van kant wisselt). Dit midden-verzadigde, zwaar
 becommentarieerde fragment levert zo één nieuwe bevinding en twee gedeeltelijk
 gedekte op. De beroemde laag (וָאֶתְאַפַּק, מֶה עָשִׂיתָ) valt zoals verwacht
-in de ijk; de novelty zit in de gemeten temporele structuur, die de
+in de ijk; de nieuwheid zit in de gemeten temporele structuur, die de
 commentaren, gericht op woordbetekenis en theologie, niet tellen.
 
 **Claim-ledger**
-Koppeling van de rapportclaims aan velden in `evidence.json`, per finding-id;
+Koppeling van de rapportclaims aan velden in `evidence.json`, per bevinding-id;
 de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 4, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 4, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 4, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 5, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 5, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 5, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 20, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 20, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 30, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 30, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 30, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 16, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 16, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 29, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 29, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 21,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 21,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 21,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 24,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 24,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 24,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 45,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 45,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 64,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 64,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 64,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 41,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 41,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 57,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 57,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

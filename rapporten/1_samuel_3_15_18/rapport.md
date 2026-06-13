@@ -3,7 +3,7 @@
 *Passage: 1 Samuël 3:15-18 (4 verzen, 85 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
 OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v9; run van 1 juni 2026, 30 bevindingen (`evidence.json` in deze map).
+v9; run van 13 juni 2026, 67 bevindingen (`evidence.json` in deze map).
 Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
 (partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
 of Laag. Zoekregels zijn na te lopen in de
@@ -27,25 +27,28 @@ bewijs gedragen hypothesen.*
 onthulling afdwingt, en valt die samen met de spanning tussen spreken en
 verhullen?
 
-**Wat de data toont:** Binnen het deelstuk v17-18 is de piel-stam sterk
-oververtegenwoordigd: vijf vormen waar er ongeveer 0,8 verwacht worden (G² =
-10,1; robuust (robust), ook same_genre G² = 13,2 bij p = 0,00028 en same_book
-G² = 13,5). De vijf piel-vormen zijn precies de spreek- en verhul-werkwoorden
-van de scène. Twee keer דִּבֶּר ("sprak", v17), twee keer de vorm van כחד in
-v17 (תְכַחֵד / תְּכַחֵד, "verhul" / "zou verhullen"), en כִחֵד ("verhulde",
-v18). De twee lexemen zijn דבר (spreken) en כחד (verhullen).
+**Wat de data toont:** De oude piel-concentratie is in de full-run geen
+actuele top-120 drager meer. De nieuwe evidence legt de nadruk smaller op
+`KXD[` ("verhullen"). Dat lexeem komt drie keer voor in v17-18 waar de globale
+baseline vrijwel nul verwacht (G² = 31,04; q ≈ 0,000000038; global-only,
+confidence Laag). Daarnaast vindt de engine drie argumentframes rond dezelfde
+wortel (G² = 13,50; q ≈ 0,00024; global-only) en een robuuste
+werkwoord-objectbinding `KXD[ × DBR/` in v17 (G² = 13,41; q ≈ 0,00025).
+Het conflict wordt dus niet meer als algemene stamconcentratie geclaimd, maar
+als herhaalde en formeel gebonden verhul-taal.
 
 **Text-Fabric-query:**
 
-    word vs=piel
+    word lex=KXD[
 
-*In de zoekbrowser na te tellen: 5 treffers in deze passage.*
+*In de zoekbrowser na te tellen: 3 treffers in deze passage.*
 
-**Duiding:** Het hele confrontatie-deelstuk rust grammaticaal op
-intensieve-stam-werkwoorden van spreken en verhullen. De tegenstelling tussen
-het ene en het andere zit geconcentreerd in de stam zelf: het conflict gaat
-over onthulling, en de morfologie loopt daarmee mee. Wie v17-18 voorleest,
-hoort vijf keer dezelfde stamklasse terwijl het twistpunt telkens hetzelfde is.
+**Duiding:** Het confrontatie-deelstuk rust grammaticaal op het verbod om te
+verhullen. De tegenstelling tussen vertellen en verbergen wordt niet gedragen
+door een zelfstandige stamclaim, maar door de herhaling van `KXD[`, de
+argumentframes rond die wortel en de binding van verhullen aan "woord". Wie
+v17-18 leest, ziet het twistpunt telkens terugkeren: niet achterhouden, niets
+verhullen, alles vertellen.
 
 
 **Staat dit al in de commentaren?:** gedeeltelijk. Tsumura bespreekt "did not
@@ -53,10 +56,11 @@ hide" (כחד) als ontkende antoniem van "told" en wijst op de Akkadische
 diviner-protocol-parallel *lu aqabbi la akattamu* ("ik zal vertellen en niet
 verhullen"); Auld noemt de "double insistence" op geen-geheimhouding. Het
 thema verhulling tegenover onthulling is gedekt. Wat BHSA toevoegt is de
-piel-concentratie als gemeten oververtegenwoordiging tegen het corpus.
+formele concentratie van `KXD[` en de binding tussen verhullen en "woord".
 
-**Confidence:** Middel (≤ plafond Middel) · feature(s): categorical vs=piel ·
-robustness: robust (subspan v17-18) · versie 2023
+**Confidence:** Laag/Middel · feature(s): `lex=KXD[`,
+`verb_root_argument_frames`, `KXD[ × DBR/` · robustness: global_only / robust ·
+versie 2023
 
 ## Vraag 2 — de vrees om te vertellen, het hifil dat haar omkadert
 
@@ -247,29 +251,107 @@ robustness: robust · versie 2023
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per
-finding-id; de nieuwheidsoordelen staan samengevat in
+bevinding-id; de nieuwheidsoordelen staan samengevat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).
 
 ```json
-{"claim_ledger": [
-  {"finding_id": 14, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 14, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 14, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 15, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 15, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 15, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 21, "evidence_field": "examples", "claim_type": "statistical_finding"},
-  {"finding_id": 13, "evidence_field": "tf_query", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 13, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 3, "evidence_field": "observed", "claim_type": "dynamic_hypothesis"},
-  {"finding_id": 3, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 11, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 11, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 4, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 4, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 4, "evidence_field": "examples", "claim_type": "commentary_novelty"},
-  {"finding_id": 27, "evidence_field": "observed", "claim_type": "statistical_finding"},
-  {"finding_id": 27, "evidence_field": "examples", "claim_type": "interpretive_hypothesis"},
-  {"finding_id": 27, "evidence_field": "examples", "claim_type": "commentary_novelty"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 14,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 28,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 29,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 38,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 38,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 38,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 44,
+      "evidence_field": "examples",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "tf_query",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 36,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 17,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 17,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 33,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 18,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    },
+    {
+      "finding_id": 52,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 52,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 52,
+      "evidence_field": "examples",
+      "claim_type": "commentary_novelty"
+    }
+  ]
+}
 ```

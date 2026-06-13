@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zoek mee in de Hebreeuwse tekst: bij de 1-2 Samuël-rapporten</title>
+<title>Zoek mee in de Hebreeuwse tekst — bij de 1 Samuël-toelichtingen</title>
 <style>
   :root { --ink:#1c1a17; --soft:#6b6660; --line:#e3ddd3; --bg:#faf7f1;
           --ok:#1f7a44; --bad:#a4282a; --warn:#8a6d1a; --accent:#3a5a78; }
@@ -50,9 +50,8 @@
 <body>
 <div class="wrap">
   <h1>Zoek mee in de Hebreeuwse tekst</h1>
-  <p class="lead">Bij de <a href="https://github.com/wmotte/OTpatterns_public/tree/main/rapporten">rapporten
-  en toelichtingen</a> over 23 dialogen uit 1-2 Samuël. Kies een passage, klik op een
-  zoekopdracht of typ er zelf een, en tel de aantallen.</p>
+  <p class="lead">Bij de 23 toelichtingen op passages uit 1-2 Samuël. Kies een passage, klik op een
+  zoekopdracht of typ er zelf een, en tel de treffers — net als in de toelichting.</p>
 
   <div class="panel">
     <label for="passage">Passage</label>
@@ -73,16 +72,18 @@
   </div>
 
   <h2>Wat is dit precies?</h2>
-  <p class="note">Dit is een <strong>afgebakende, statische</strong> versie om de output van de
-  Text-Fabric-browser (een Python-programma dat de hele bijbel doorzoekt) te demonstreren in
-  uw eigen browser, zonder server. Het is voldoende om de
-  tellingen na te lopen.</p>
+  <p class="note">Dit is een <strong>afgebakende, statische</strong> versie. Anders dan de echte
+  Text-Fabric-browser (een Python-programma dat de hele bijbel doorzoekt) draait dit volledig in
+  uw eigen browser, zonder server, over alleen de woorden van deze 23 passages. Genoeg om de
+  tellingen uit de toelichting na te lopen; niet de hele bijbel.</p>
   <p class="note">Ondersteunde syntaxis is een deel van Text-Fabric: één object
   (<code>word</code>, <code>clause</code>, <code>phrase</code>, <code>sentence</code>) met
   eventueel ingesprongen <code>word</code>-regels eronder, en <code>kenmerk=waarde</code>-filters
   (meerdere waarden met <code>|</code>, bijvoorbeeld <code>lex=&gt;MH/|CPXH/</code>). Operatoren als
   <code>&lt;</code>, <code>&lt;:</code> of <code>mother</code> worden hier niet ondersteund.</p>
-  <p class="note">De gegevens en de verwachte aantallen komen uit de ETCBC/BHSA-database (versie 2023). De volledige browser staat op
+  <p class="note">De gegevens en de verwachte aantallen zijn gegenereerd met
+  <code>scripts/export_tf_browser.py</code> uit de ETCBC/BHSA-database (versie 2021), dezelfde
+  bron als de essays. De volledige browser staat op
   <a href="https://annotation.github.io/text-fabric/tf/about/browser.html">de Text-Fabric-site</a>;
   online doorzoekbaar (met een andere zoektaal, MQL) via
   <a href="https://shebanq.ancient-data.org/hebrew/queries">SHEBANQ</a>.</p>

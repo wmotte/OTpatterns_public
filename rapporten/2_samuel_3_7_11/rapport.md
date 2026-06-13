@@ -2,8 +2,7 @@
 
 *Passage: 2 Samuël 3:7-11 (5 verzen, 118 woorden; genre narratief, periode
 EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
-OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 12 juni
-2026, 56 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
+OT-corpus, gestratificeerd (global/boek/genre/taal/periode), run van 13 juni 2026, 76 bevindingen. De run gebruikt morfosyntaxis, discours-pragmatiek,
 voorspellende families, tekstdynamiek, NER, novelty-families, de
 querybibliotheek en zes passagespecifieke dynamische queries. Dynamische
 queries zijn exploratief en krijgen hoogstens confidence Middel. De
@@ -69,18 +68,20 @@ kwantitatieve laag toe.
 **Vraag:** Is Abners dreiging alleen inhoudelijk fors, of verandert de syntaxis
 in een reeks doelconstructies?
 
-**Wat de data toont:** In het deelstuk 2 Samuël 3:10-11 zijn
-infinitief-constructies robuust oververtegenwoordigd: vier waargenomen tegen
-ongeveer 0,37 verwacht (G² = 15,98; q ≈ 0,000064). Een gerichte dynamische
-query naar infinitiefclauses in directe rede met `<BR[` ("overbrengen") of
-`QWM[` ("oprichten") levert twee robuuste treffers op in 3:10 (G² = 16,12;
-q ≈ 0,00042). De bredere detector vindt dezelfde concentratie als een
-doelketen: "overbrengen", "oprichten", "terugantwoorden" en "vrees".
+**Wat de data toont:** De oude brede `typ=InfC`-oververtegenwoordiging is in
+de full-run geen actuele top-120 drager meer. De nieuwe run bewaart de
+doeltaal via twee smallere bevindingen. Een gerichte dynamische query naar
+infinitiefclauses in directe rede met `<BR[` ("overbrengen") of `QWM[`
+("oprichten") levert twee robuuste treffers op in 3:10 (G² = 16,12; q ≈
+0,00042). Daarnaast beschrijft de purpose-chain-detector een global-only
+infc-keten van vier vormen in 3:10-11, waarvan drie met l+infc: "overbrengen",
+"oprichten", "terugantwoorden" en "vrees". Die tweede bevinding is
+ondersteunend en niet q-significant.
 
 **Text-Fabric-query:**
 
 ```text
-clause typ=InfC
+% dichte cluster van infinitivus constructus (vt=infc), vooral l+infc
 ```
 
 ```text
@@ -99,11 +100,13 @@ een toekomstig politiek programma.
 `<BR[`/`QWM[` is bekend: commentaren bespreken "overbrengen" en "oprichten" als
 inhoudelijke kern van Abners politieke eed. De bredere concentratie van
 infinitiefconstructies is gedeeltelijk gedekt. Commentaren zien de
-procedurele machtstaal; de corpusafwijking van `typ=InfC` maakt dat formeel
-meetbaar.
+procedurele machtstaal; de full-run maakt dat formeel meetbaar via de gerichte
+doelquery en een ondersteunende infc-keten, niet meer via een brede
+`typ=InfC`-claim.
 
-**Confidence:** Middel (≤ plafond Middel) · feature: `typ=InfC` · robustness:
-robust · versie 2023
+**Confidence:** Middel (≤ plafond Middel) · features:
+`dynamic_query=purpose_infinitive_transfer_and_establish`,
+`infc_purpose_chains` · robustness: robust / global_only · versie 2023
 
 ## Vraag 3 — Hoe zwaar is Abners eed?
 
@@ -149,17 +152,20 @@ dient hier als ijkpunt.
 
 **Vraag:** Wordt Isbosets zwijgen voorbereid door de vorm van Abners rede?
 
-**Wat de data toont:** In 2 Samuël 3:7-9 is inbeddingsdiepte 10 robuust
-oververtegenwoordigd: vier waargenomen tegen ongeveer 0,95 verwacht
-(G² = 6,06; q ≈ 0,014). De engine vindt bovendien twee lokaal onverwachte
-clause-overgangen (G² = 6,65; q ≈ 0,0099): de overgang naar Abners
-dienstclaim in 3:8 en de overgang naar de eedformule in 3:9. De vorm van de
-rede wordt dus niet vlakker na de vraag; zij wordt juist gelaagder en sprongsgewijs.
+**Wat de data toont:** De oude inbeddingsdiepte-10-claim is in de full-run
+geen actuele top-120 drager meer. De nieuwe evidence draagt deze vraag via de
+spreekarchitectuur en de lokale overgangen. De quote-topology-detector telt
+dertien quote- of vraaggerelateerde clauses, twee vragen en drie
+diepteverschuivingen (global-only, q-significant). Daarnaast vindt de engine
+twee lokaal onverwachte clause-overgangen (G² = 6,65; q ≈ 0,0099): de overgang
+naar Abners dienstclaim in 3:8 en de overgang naar de eedformule in 3:9. De
+vorm van de rede wordt dus niet vlakker na de vraag; zij wordt vraag- en
+spraakgestuurd en sprongsgewijs.
 
 **Text-Fabric-query:**
 
 ```text
-clause_atom tab=10
+clause txt~Q OR speech-verb Pred OR interrogative word/ls=ques
 ```
 
 ```text
@@ -178,11 +184,11 @@ vraag; daarna neemt Abners syntaxis de scène over.
 
 **Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren
 beschrijven de retorische zwaarte, abrupte wending en woordmassa van Abners
-rede; zij gebruiken niet de technische termen inbeddingsdiepte of lokale
+rede; zij gebruiken niet de technische termen quote-topology of lokale
 clause-overgang. De metingen kwantificeren dus een bekende literaire indruk.
 
-**Confidence:** Middel (≤ plafond Middel) · feature: `tab (inbeddingsdiepte)` ·
-robustness: robust · versie 2023
+**Confidence:** Middel (≤ plafond Middel) · features: `quote_topology`,
+`syntactic_surprise` · robustness: global_only / robust · versie 2023
 
 ## Vraag 5 — Wat doet Rizpa in de grammatica?
 
@@ -220,21 +226,78 @@ blijft zij ondersteunend en vraagt zij om sobere formulering.
 robustness: global_only · versie 2023
 
 ```json
-{"claim_ledger":[
-  {"finding_id":5,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":5,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":8,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":8,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":10,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":10,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":7,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":7,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":11,"evidence_field":"observed","claim_type":"dynamic_hypothesis"},
-  {"finding_id":11,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":41,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":42,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":31,"evidence_field":"observed","claim_type":"statistical_finding"},
-  {"finding_id":31,"evidence_field":"examples","claim_type":"interpretive_hypothesis"},
-  {"finding_id":30,"evidence_field":"examples","claim_type":"interpretive_hypothesis"}
-]}
+{
+  "claim_ledger": [
+    {
+      "finding_id": 20,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 20,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 23,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 23,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 22,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 39,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 26,
+      "evidence_field": "observed",
+      "claim_type": "dynamic_hypothesis"
+    },
+    {
+      "finding_id": 26,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 59,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 21,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 47,
+      "evidence_field": "observed",
+      "claim_type": "statistical_finding"
+    },
+    {
+      "finding_id": 47,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    },
+    {
+      "finding_id": 46,
+      "evidence_field": "examples",
+      "claim_type": "interpretive_hypothesis"
+    }
+  ]
+}
 ```

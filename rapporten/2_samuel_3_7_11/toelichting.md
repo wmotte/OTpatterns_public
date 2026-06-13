@@ -33,11 +33,12 @@ maakt het scherper.
 
 ## De doelketen in Abners dreiging
 
-In 2 Samuël 3:10-11 vallen de infinitiefconstructies op. De eenvoudige telling
-is:
+In 2 Samuël 3:10-11 vallen de doelinfinitieven op. De full-run gebruikt niet
+meer de brede `typ=InfC`-telling als hoofdclaim; de ondersteunende
+purpose-chain is:
 
 ```text
-clause typ=InfC
+% dichte cluster van infinitivus constructus (vt=infc), vooral l+infc
 ```
 
 De gerichte dynamische query zoekt de twee politieke doelwoorden in Abners rede:
@@ -54,8 +55,9 @@ Davids troon. Daardoor wordt zijn woede als programma geformuleerd.
 
 Ook dit is geen volledig nieuw terrein. De doelwoorden "overbrengen" en
 "oprichten" worden in de commentaren als kern van Abners politieke eed gelezen.
-Nieuw is vooral dat de BHSA-run de opeenhoping van infinitieven als patroon
-meet.
+Nieuw is vooral dat de BHSA-run de opeenhoping van doelinfinitieven als
+patroon beschrijft, terwijl de gerichte query de twee politieke doelwoorden
+robuust markeert.
 
 ## De eedformule
 
@@ -86,10 +88,10 @@ aanwijst.
 
 Het slot meldt dat Isboset Abner niets meer kon antwoorden, omdat hij hem
 vreesde. De meting bewijst die reden niet; de tekst geeft haar zelf. De engine
-laat wel zien dat Abners antwoord syntactisch zwaar is:
+laat wel zien dat Abners antwoord als spreekarchitectuur zwaar is:
 
 ```text
-clause_atom tab=10
+clause txt~Q OR speech-verb Pred OR interrogative word/ls=ques
 ```
 
 en dat twee clause-overgangen lokaal onverwacht zijn:
@@ -103,7 +105,8 @@ zoekregel in de browser na te doen.
 
 De commentaren beschrijven de retorische zwaarte en abrupte wending van Abners
 antwoord, maar niet met deze technische metingen. De cijfers kwantificeren dus
-een bekende literaire indruk.
+een bekende literaire indruk zonder de oude inbeddingsdiepte-claim nog als
+bewijsdrager te gebruiken.
 
 ## Rizpa's korte grammaticale aanwezigheid
 
