@@ -21,19 +21,21 @@ levert het bewijs erbij; de conclusie trekt de lezer.
 
 ## Wat hier te vinden is
 
-- **[De rapporten](rapporten/README.md)** (`rapporten/`): acht dialogen uit
-  1 Samuël, geanalyseerd op één as: machtsasymmetrie in spraak en de
+- **[De rapporten](rapporten/README.md)** (`rapporten/`): 23 dialogen uit
+  1-2 Samuël, geanalyseerd op één as: machtsasymmetrie in spraak en de
   ontwijking of mislukte communicatie die daarbij hoort. Van Eli die Hanna's
-  stille gebed voor dronkenschap aanziet (1:12-18) tot Eliab en Saul die David
-  als "maar een knaap" wegzetten (17:28-37). Per passage een rapport met
-  metingen en query's, een toelichting in gewone taal, samengevatte
+  stille gebed voor dronkenschap aanziet (1 Sam. 1:12-18) tot de wijze vrouw
+  van Abel die met Joab onderhandelt (2 Sam. 20:16-22). Per passage een rapport
+  met metingen en query's, een toelichting in gewone taal, samengevatte
   nieuwheidsoordelen tegen de commentaarliteratuur en de volledige
-  evidence-data.
+  evidence-data. In 11 van de 23 dialogen staat minstens één observatie die de
+  geraadpleegde commentaren niet bespreken; samen gaat het om 21 zulke
+  observaties.
 - **[De zoekbrowser](https://wmotte.github.io/OTpatterns_public/)** (`docs/`):
   een afgebakende, statische versie van de Text-Fabric-browser. Je kunt de
   zoekregels uit de toelichtingen zelf intypen en de treffers tellen, zonder
   iets te installeren. Alles draait client-side over een paar vooraf
-  geëxporteerde passages uit 1 Samuël. Zie [`docs/README.md`](docs/README.md)
+  geëxporteerde passages uit 1-2 Samuël. Zie [`docs/README.md`](docs/README.md)
   voor de ondersteunde zoeksyntaxis.
 - **[DETECTORS.md](DETECTORS.md)**: beschrijving van elke detector. Per detector
   staat welk BHSA/Text-Fabric-kenmerk hij afleest en welk vormsignaal hij

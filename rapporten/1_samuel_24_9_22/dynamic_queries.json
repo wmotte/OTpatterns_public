@@ -1,0 +1,85 @@
+{
+  "_comment": "Dynamische diepe-query-laag voor 1 Samueel 24:9-22. As: tijdelijke rolomkering. David spreekt Saul onderdanig aan, maar stuurt de interpretatie via zien, hand, JHWH-oordeel en retorische vragen; Saul antwoordt met erkenning en eed. Exploratief; FDR over alle geprobeerde queries.",
+  "queries": [
+    {
+      "name": "my_lord_the_king_vocative",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=>DWN/\n  word lex=MLK/",
+      "expected_direction": "over",
+      "rationale": "Directe rede met 'mijn heer de koning': David houdt de formele ondergeschiktheid hoorbaar terwijl hij Saul corrigeert."
+    },
+    {
+      "name": "why_hear_words_against_david",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=LMH/\n  word lex=CM<[\n  word lex=DBR/\n  word lex=DWD==/",
+      "expected_direction": "over",
+      "rationale": "Vraag waarin Saul wordt aangesproken op het horen van woorden tegen David: David opent zijn verdediging als correctie van Sauls informatiekanaal."
+    },
+    {
+      "name": "your_eyes_saw_jhwh_gave_you_in_my_hand",
+      "anchor_otype": "verse",
+      "feature_tier": "discourse_uncertain",
+      "template": "verse\n  word lex=<JN/\n  word prs_ps=p2\n  word lex=R>H[\n  word lex=JHWH/\n  word lex=NTN[\n  word lex=JD/",
+      "expected_direction": "over",
+      "rationale": "Vers waarin Sauls ogen, zien, JHWH, geven en hand samen staan: David maakt Sauls eigen waarneming tot bewijs."
+    },
+    {
+      "name": "i_will_not_send_hand_against_my_lord",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word sp=nega\n  word lex=CLX[\n  word lex=JD/\n  word lex=>DWN/",
+      "expected_direction": "over",
+      "rationale": "Directe rede met niet-uitstrekken van de hand tegen mijn heer: David verwoordt macht als geweigerde geweldshandeling."
+    },
+    {
+      "name": "father_see_robe_corner_in_my_hand",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>B/\n  word lex=R>H[\n  word lex=KNP/\n  word lex=M<JL/\n  word lex=JD/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin vader, zien, mantelzoom en hand samen staan: David zet fysiek bewijs in zonder geweld."
+    },
+    {
+      "name": "jhwh_judge_between_me_and_you",
+      "anchor_otype": "clause",
+      "feature_tier": "formal_proxy",
+      "template": "clause domain=Q\n  word lex=JHWH/\n  word lex=CPV[\n  word lex=BJN/\n  word prs_ps=p1\n  word prs_ps=p2",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin JHWH tussen mij en jou oordeelt: David verplaatst het vonnis boven Saul zonder zelf de hand uit te steken."
+    },
+    {
+      "name": "after_whom_king_of_israel_pursues",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>XR/\n  word lex=MLK/\n  word lex=JFR>L/\n  word lex=RDP[",
+      "expected_direction": "over",
+      "rationale": "Retorische vraag waarin de koning van Israel achter iemand aanjaagt: David verkleint zichzelf en vergroot Sauls disproportie."
+    },
+    {
+      "name": "saul_voice_my_son_david",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=QWL/\n  word lex=BN/\n  word lex=DWD==/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Saul Davids stem herkent als 'mijn zoon David': de aangesproken koning antwoordt relationeel."
+    },
+    {
+      "name": "you_rewarded_good_i_rewarded_evil",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=>TH\n  word lex=GML[\n  word lex=VWB/\n  word lex=R<H/",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Saul goed en kwaad in beloningswerkwoorden contrasteert: hij neemt Davids morele frame over."
+    },
+    {
+      "name": "now_i_know_you_will_reign",
+      "anchor_otype": "clause",
+      "feature_tier": "discourse_uncertain",
+      "template": "clause domain=Q\n  word lex=<TH\n  word lex=JD<[\n  word lex=MLK[",
+      "expected_direction": "over",
+      "rationale": "Directe rede waarin Saul nu weet dat David zal regeren: de tijdelijke rolomkering wordt expliciet naar koningschap vertaald."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-# Statische zoekbrowser bij de 1 Samuël-rapporten
+# Statische zoekbrowser bij de 1-2 Samuël-rapporten
 
 Een afgebakende, statische versie van de Text-Fabric-zoekbrowser, bedoeld voor GitHub Pages. De
 lezer kan de zoekregels uit de [rapporten en toelichtingen](../rapporten/README.md) zelf intypen
