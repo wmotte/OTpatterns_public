@@ -16,14 +16,14 @@ dieptemeting niet.
 
 ## Per finding
 
-| finding_id | Oordeel | Publiek-safe samenvatting |
-| --- | --- | --- |
-| 39 | `standard` | De roep van de wijze vrouw vanaf de stadsmuur wordt al als verhoogde, repetitieve en gezag vestigende spraak besproken. Bronnen: Robert Alter, Johanna W. H. van Wijk-Bos, P. Kyle McCarter, Tony W. Cartledge. |
-| 19 | `standard` | De spreek-hooropening in 20:16-17 is al expliciet geduid als formele dialoog waarin de vrouw Joab in een luisterpositie brengt. Bronnen: Alter, Van Wijk-Bos, McCarter, Robert D. Bergen, Walter Brueggemann, Cartledge. |
-| 45 | `standard` | De retorisch geconcentreerde en repetitieve rede van de vrouw in 20:19 is bekend; BHSA specificeert het als asyndetische clause-stapeling. Bronnen: Alter, Van Wijk-Bos. |
-| 41 | `standard` | Joabs vernauwing van het conflict tot de ene rebel Seba is breed besproken. BHSA markeert de precieze identificatieclause. Bronnen: Cartledge, Bergen, Brueggemann, C. F. Keil. |
-| 61 | `partially_covered` | Commentaren noemen de rede wel welsprekend, verhoogd en zorgvuldig geconstrueerd, maar niet de formele inbeddingsdiepte 12. Bronnen: Alter, Van Wijk-Bos, Cartledge. |
-| 62 | `partially_covered` | De algemene syntactische en retorische complexiteit is herkend, maar de extreme diepte 18 is een BHSA-specifieke bijdrage. Bronnen: Alter, Van Wijk-Bos, Cartledge. |
-| 70 | `standard` | De onderhandeling via imperatieven, luisteren, instemming en toezeggingen is al geduid als formele dialoog. Bronnen: Van Wijk-Bos, Cartledge, Bergen. |
-| 42 | `standard` | De belofte dat Seba's hoofd over de muur aan Joab wordt overgedragen is al bekend als beslissende tactische deal. BHSA specificeert de overdracht syntactisch. Bronnen: Cartledge, Eugene H. Peterson, Alter, Bergen. |
-| 60 | `standard` | Abel als bedreigde en geredde stad, moederstad en erfdeel van JHWH is een centraal commentaarthema. BHSA kwantificeert de stad als grammaticaal zwaartepunt. Bronnen: Brueggemann, Cartledge, Keil, Van Wijk-Bos. |
+| Id | Bevinding | Verdict | Kern van het commentaaroordeel |
+| --- | --- | --- | --- |
+| 39 | wijze vrouw roept Joab vanaf de stadsmuur (query) | standard | De roep van de wijze vrouw vanaf de stadsmuur wordt al als verhoogde, repetitieve en gezag vestigende spraak besproken. Bronnen: Robert Alter, Johanna W. H. van Wijk-Bos, P. Kyle McCarter, Tony W. Cartledge. |
+| 19 | horen-spreken-opening tussen Joab en de vrouw (query) | standard | De spreek-hooropening in 20:16-17 is al expliciet geduid als formele dialoog waarin de vrouw Joab in een luisterpositie brengt. Bronnen: Alter, Van Wijk-Bos, McCarter, Robert D. Bergen, Walter Brueggemann, Cartledge. |
+| 45 | asyndeton-cluster (×4) | standard | De retorisch geconcentreerde en repetitieve rede van de vrouw in 20:19 is bekend; BHSA specificeert het als asyndetische clause-stapeling. Bronnen: Alter, Van Wijk-Bos. |
+| 41 | 'man van Efraïm hief zijn hand' (Seba, query) | standard | Joabs vernauwing van het conflict tot de ene rebel Seba is breed besproken. BHSA markeert de precieze identificatieclause. Bronnen: Cartledge, Bergen, Brueggemann, C. F. Keil. |
+| 61 | inbeddingsdiepte 12 | partially_covered | Commentaren noemen de rede wel welsprekend, verhoogd en zorgvuldig geconstrueerd, maar niet de formele inbeddingsdiepte 12. Bronnen: Alter, Van Wijk-Bos, Cartledge. |
+| 62 | inbeddingsdiepte 18 | partially_covered | De algemene syntactische en retorische complexiteit is herkend, maar de extreme diepte 18 is een BHSA-specifieke bijdrage. Bronnen: Alter, Van Wijk-Bos, Cartledge. |
+| 70 | bevel-belofte-paar (imperatief gevolgd door belofte) | standard | De onderhandeling via imperatieven, luisteren, instemming en toezeggingen is al geduid als formele dialoog. Bronnen: Van Wijk-Bos, Cartledge, Bergen. |
+| 42 | 'het hoofd over de muur naar u' (query) | standard | De belofte dat Seba's hoofd over de muur aan Joab wordt overgedragen is al bekend als beslissende tactische deal. BHSA specificeert de overdracht syntactisch. Bronnen: Cartledge, Eugene H. Peterson, Alter, Bergen. |
+| 60 | Leitwort עִיר 'stad' oververtegenwoordigd | standard | Abel als bedreigde en geredde stad, moederstad en erfdeel van JHWH is een centraal commentaarthema. BHSA kwantificeert de stad als grammaticaal zwaartepunt. Bronnen: Brueggemann, Cartledge, Keil, Van Wijk-Bos. |

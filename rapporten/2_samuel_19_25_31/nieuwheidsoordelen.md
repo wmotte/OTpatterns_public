@@ -15,13 +15,13 @@ inbedding/actantdominantie en de precieze verdelingsclause.
 
 ## Per finding
 
-| finding_id | Oordeel | Publiek-safe samenvatting |
-| --- | --- | --- |
-| 27 | `partially_covered` | De persoonlijke, individuele aard van de ontmoeting wordt breed besproken, maar niet als lage meervoudsdichtheid. Bronnen: Walter Brueggemann, Robert D. Bergen, Tony W. Cartledge, David H. Jensen, C. F. Keil en Franz Delitzsch, A. Graeme Auld. |
-| 32 | `partially_covered` | De mannelijke politieke/juridische sfeer en beperkte zichtbaarheid van vrouwen zijn thematisch gedekt; de specifieke lage vrouwelijke vormdichtheid is een BHSA-meting. Bronnen: Suzie Park, Johanna W. H. van Wijk-Bos, Cartledge, Eugene H. Peterson, Jensen. |
-| 20 | `partially_covered` | Mefibosets herhaalde aanspreking van David als heer/koning en zijn zelfverlaging als knecht zijn bekend; de clause-query formaliseert de retorische dichtheid. Bronnen: Bergen, Brueggemann, Cartledge, Auld, Robert Alter. |
-| 35 | `standard` | De specifieke claim dat Ziba/Mefibosets knecht hem bedroog of belasterde wordt expliciet besproken. BHSA objectiveert de compacte koppeling van knecht en bedrog in 19:27. Bronnen: P. Kyle McCarter, Alter, Auld, Dale Ralph Davis, Bergen, Bill T. Arnold. |
-| 31 | `partially_covered` | Commentaren herkennen de nederige, breedsprakige verdediging en Davids abrupte reactie; de formele nestingmaat is aanvullend. Bronnen: Alter, Bergen, Brueggemann, Auld, Cartledge. |
-| 34 | `standard` | De retorische onbalans rond koning, heer en dienaar wordt expliciet herkend via titelherhaling, zelfverlaging en Davids rechterrol. Bronnen: Bergen, Brueggemann, Cartledge, Alter, Van Wijk-Bos. |
-| 36 | `standard` | Davids uitspraak dat Mefiboset en Ziba het veld moeten delen is standaardmateriaal als juridisch/politiek compromis. BHSA specificeert de gelijkstelling in één verdelingsclause. Bronnen: Bergen, Alter, Brueggemann, Davis, Van Wijk-Bos, Arnold, Marvin A. Sweeney. |
-| 26 | `standard` | De overdaad aan knecht-/dienaarstaal in Mefibosets verdediging is bekend en wordt door sommige commentaren geteld. Bronnen: Bergen, Cartledge, Alter, Brueggemann, Van Wijk-Bos, Auld. |
+| Id | Bevinding | Verdict | Kern van het commentaaroordeel |
+| --- | --- | --- | --- |
+| 27 | meervoud ondervertegenwoordigd (persoonlijke ontmoeting) | partially_covered | De persoonlijke, individuele aard van de ontmoeting wordt breed besproken, maar niet als lage meervoudsdichtheid. Bronnen: Walter Brueggemann, Robert D. Bergen, Tony W. Cartledge, David H. Jensen, C. F. Keil en Franz Delitzsch, A. Graeme Auld. |
+| 32 | vrouwelijk genus ondervertegenwoordigd | partially_covered | De mannelijke politieke/juridische sfeer en beperkte zichtbaarheid van vrouwen zijn thematisch gedekt; de specifieke lage vrouwelijke vormdichtheid is een BHSA-meting. Bronnen: Suzie Park, Johanna W. H. van Wijk-Bos, Cartledge, Eugene H. Peterson, Jensen. |
+| 20 | Mefiboset spreekt David aan als 'mijn heer de koning' (query) | partially_covered | Mefibosets herhaalde aanspreking van David als heer/koning en zijn zelfverlaging als knecht zijn bekend; de clause-query formaliseert de retorische dichtheid. Bronnen: Bergen, Brueggemann, Cartledge, Auld, Robert Alter. |
+| 35 | 'mijn knecht heeft mij bedrogen' (query) | standard | De specifieke claim dat Ziba/Mefibosets knecht hem bedroog of belasterde wordt expliciet besproken. BHSA objectiveert de compacte koppeling van knecht en bedrog in 19:27. Bronnen: P. Kyle McCarter, Alter, Auld, Dale Ralph Davis, Bergen, Bill T. Arnold. |
+| 31 | rede-in-rede (txt-Q-diepte ≥2) | partially_covered | Commentaren herkennen de nederige, breedsprakige verdediging en Davids abrupte reactie; de formele nestingmaat is aanvullend. Bronnen: Alter, Bergen, Brueggemann, Auld, Cartledge. |
+| 34 | actantcentraliteit (koning, heer, dienaar) | standard | De retorische onbalans rond koning, heer en dienaar wordt expliciet herkend via titelherhaling, zelfverlaging en Davids rechterrol. Bronnen: Bergen, Brueggemann, Cartledge, Alter, Van Wijk-Bos. |
+| 36 | 'u en Ziba delen het veld' (query) | standard | Davids uitspraak dat Mefiboset en Ziba het veld moeten delen is standaardmateriaal als juridisch/politiek compromis. BHSA specificeert de gelijkstelling in één verdelingsclause. Bronnen: Bergen, Alter, Brueggemann, Davis, Van Wijk-Bos, Arnold, Marvin A. Sweeney. |
+| 26 | Leitwort עֶבֶד 'knecht/dienaar' oververtegenwoordigd | standard | De overdaad aan knecht-/dienaarstaal in Mefibosets verdediging is bekend en wordt door sommige commentaren geteld. Bronnen: Bergen, Cartledge, Alter, Brueggemann, Van Wijk-Bos, Auld. |
