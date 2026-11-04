@@ -24,7 +24,7 @@ bewijs gedragen hypothesen.*
 > inbeddingsdiepte van Sauls antwoord en de recitatieve כִּי die juist de
 > afleidingsinhoud draagt.
 
-## Vraag 1 — hoe diep ligt het antwoord begraven
+## Vraag 1: hoe diep ligt het antwoord begraven
 
 **Vraag:** Is Sauls ontwijkende antwoord ook syntactisch dieper gelaagd dan
 gewoon verhaalproza, of voelt het alleen "stroef"?
@@ -46,16 +46,13 @@ kiest de gelaagde vorm.
 inbeddingsdiepte (`tab`) zit niet in de geëxporteerde featureset van de
 zoekbrowser.*
 
-**Duiding:** De ondervraging nestelt antwoorden onder vragen. De oom stelt
-twee vragen; Saul antwoordt met ingebedde constructies: "wij zagen dat (zij er
-niet waren)", "hij vertelde ons dat (de ezelinnen gevonden waren)". De
-hypotactische diepte is de syntactische tegenhanger van de ontwijking: een
-antwoord dat filtert en inkapselt, schuift zijn clauses in elkaar. Op de as
-ontwijking is de gemeten inbeddingsdiepte het structurele spoor van een
-antwoord dat omwegen neemt.
+**Duiding:** De oom stelt twee vragen. Saul antwoordt met ingebedde constructies: "wij zagen dat (zij er
+niet waren)", "hij vertelde ons dat (de ezelinnen gevonden waren)". De gemeten inbeddingsdiepte kan zo worden gelezen als een syntactische
+tegenhanger van Sauls ontwijking: hij geeft zijn antwoord in de vorm van
+indirecte, ingebedde uitspraken.
 
 
-**Staat dit al in de commentaren?:** nieuw. De commentaren karakteriseren de
+**Vergelijking met de commentaren:** nieuw. De commentaren karakteriseren de
 syntaxis wel, maar kwalitatief. Bodner noemt expliciet de "slightly awkward
 syntax of Saul's reply" in v14 en koppelt die aan aarzeling of omzichtigheid
 tegenover de oom, zonder gemeten dieptestructuur. Long signaleert vaker dat
@@ -68,7 +65,7 @@ diepte van dit fragment als gemarkeerd verschijnsel te benoemen. De stap van
 **Confidence:** Middel · feature: clause_embedding (tab=diepte 9) ·
 robustness: robust · versie 2023
 
-## Vraag 2 — de rede die als verslag is verpakt
+## Vraag 2: de rede die als verslag is verpakt
 
 **Vraag:** Wordt de directe rede in deze scène grammaticaal aangeboden als
 open uitwisseling, of als gerapporteerde inhoud onder een spreekwerkwoord?
@@ -87,17 +84,12 @@ vertellen.
 
 *In de zoekbrowser na te tellen: 3 treffers in deze passage.*
 
-**Duiding:** De uitwisseling is grammaticaal ingepakt. De lezer krijgt de
-inhoud als complement onder een vertel-werkwoord: "hij vertelde dat de
-ezelinnen gevonden zijn". Die verpakking is precies wat selectieve onthulling
-toelaat: wie onder een vertel-werkwoord rapporteert, kiest wat hij eronder
-hangt en wat hij weglaat. De object-clause is de syntactische plek waar Saul
-de ezelinnen onderbrengt en waar het koningschap ontbreekt. Op de as
-ontwijking is de objectszin-dichtheid het formele spoor van een rede die als
-gefilterd verslag wordt aangeboden.
+**Duiding:** De lezer krijgt de inhoud als complement onder een vertel-werkwoord: "hij vertelde dat de
+ezelinnen gevonden zijn". In zo’n verslag kan de spreker selecteren wat hij meedeelt en wat hij weglaat. De object-clause is de syntactische plek waar Saul
+de ezelinnen onderbrengt en waar het koningschap ontbreekt. De dichtheid van objectzinnen kwantificeert die verslagvorm.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De commentaren dekken het
+**Vergelijking met de commentaren:** gedeeltelijk. De commentaren dekken het
 thema; de meting komt erbij. Bodner leest Sauls antwoord als "selectief": hij
 vertelt dat de ezelinnen gevonden zijn en zwijgt over het koningschap, taal
 als schuilplaats, "just as Saul uses the baggage to hide". Van Wijk-Bos
@@ -109,7 +101,7 @@ als statistisch afwijkende verpakking; dat is de toevoeging.
 **Confidence:** Middel · feature: categorical (rela=Objc) · robustness:
 robust · versie 2023
 
-## Vraag 3 — aan wie wel, aan wie niet
+## Vraag 3: aan wie wel, aan wie niet
 
 **Vraag:** Is het vertellen in deze scène een neutrale handeling, of is het
 grammaticaal telkens op een ontvanger gericht, zodat de ontwijking om die
@@ -137,12 +129,11 @@ reproduceerbaar; in de zoekbrowser werkt de variant met als derde regel
 NGD draagt een ontvanger: aan mij, aan ons, aan hem niet. De ontwijking is
 dan precies het onthouden-aan-hem: de oom vraagt "vertel mij" (לִי), Saul
 vertelt "ons" de ezelinnen (לָנוּ), maar het koningschap vertelt hij "hem
-niet" (לוֹ). De lamed-ontvanger is grammaticaal de scharnier waarop wie-wel
-en wie-niet draait. Op de as ontwijking is de binding NGD+ontvanger de
-configuratie die het selectieve karakter zichtbaar maakt.
+niet" (לוֹ). De combinatie NGD+ontvanger maakt grammaticaal zichtbaar aan wie Saul
+wel en geen informatie geeft.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De afzonderlijke
+**Vergelijking met de commentaren:** gedeeltelijk. De afzonderlijke
 ontvangers worden gezien; de binding als signatuur blijft ongemeten. McCarter
 analyseert "haggidah-na li" (v15) en de scherpe ironie dat de werkelijke
 onthulling juist vóór Saul bestemd was, een thematische lezing van de
@@ -156,7 +147,7 @@ niet; dat voegt BHSA toe.
 (disclosure_bound_to_recipient_lamed) · robustness: robust, exploratief ·
 versie 2023
 
-## Vraag 4 — het partikel dat de afleiding draagt
+## Vraag 4: het partikel dat de afleiding draagt
 
 **Vraag:** Welke inhoud krijgt in v16 de grammaticale markering van "dit is
 wat ik vertel": de waarheid of de afleiding?
@@ -182,11 +173,11 @@ prijsgeeft, de ware maar onbelangrijke helft van wat Samuël zei. Het
 koningschap krijgt geen recitatieve כִּי, want het wordt niet verteld; het
 verschijnt alleen onder de ontkenning. Zo legt het partikel de grens tussen
 het meegedeelde en het verzwegene syntactisch vast: wat een כִּי-complement
-krijgt, is wat de oom te horen krijgt. Op de as ontwijking draagt het
-recitatieve partikel de afleidingsinhoud.
+krijgt, is wat de oom te horen krijgt. Het recitatieve partikel introduceert zo de informatie waarmee Saul de
+hoofdzaak ontwijkt.
 
 
-**Staat dit al in de commentaren?:** nieuw. De functies van כִּי zijn
+**Vergelijking met de commentaren:** nieuw. De functies van כִּי zijn
 taalkundig geanalyseerd; deze toepassing ontbreekt. Tsumura biedt een
 uitvoerige analyse van het partikel (causaal versus "speaker-oriented", en
 als "noun clause indicator") zonder die toe te passen op 10:16 om de
@@ -257,6 +248,16 @@ minst becommentarieerde fragment van de vier, levert er weer twee. Dat
 bevestigt de werkhypothese achter de selectie: de nieuwheid zit in de
 onderbelichte verzen. De literatuur richt zich op het "higgid"-woordspel en
 laat de gemeten inbeddingsdiepte en de recitatieve כִּי liggen.
+
+
+## Methodisch voorbehoud
+
+De aanvullende controles bij [Hanna en Eli](../1_samuel_1_12_18/controles.md)
+laten zien dat inbeddingsdiepte ook citaatinbedding meet en dat referentieel
+verval bij gewone scène-einden kan voorkomen. Voor deze dialoog zijn die
+register- en vergelijkingscontroles nog niet uitgevoerd. De betreffende
+interpretaties blijven daarom voorlopig, ook bij een robuustheidslabel in de
+oorspronkelijke meetrun.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per

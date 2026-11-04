@@ -15,7 +15,7 @@ laat vooral een botsing zien tussen koninklijke regie en grammaticale weigering:
 de scène loopt in een dichte wayyiqtol-keten, maar de woorden `afdalen` en
 `huis` keren telkens met negatie terug.
 
-## Vraag 1 — Waar loopt Davids bevel vast?
+## Vraag 1: Waar loopt Davids bevel vast?
 
 **Vraag:** Is Uria's weigering alleen inhoudelijk zichtbaar, of draagt de vorm
 zelf de blokkade?
@@ -45,12 +45,10 @@ clause domain=Q
 
 **Duiding:** David formuleert de gewenste beweging als bevel: ga naar beneden,
 naar je huis. De verteller en David zelf herhalen daarna de mislukking met
-dezelfde kernwoorden in negatieve vorm. Daardoor wordt Uria's weerstand niet
-alleen verteld. Zij wordt als tegenzin in het lexicale skelet van de scène
-ingeschreven.
+dezelfde kernwoorden in negatieve vorm. Uria's weerstand keert zo ook in dezelfde woorden met een ontkenning terug.
 
 
-**Staat dit al in de commentaren?:** standard. Uria's weigering en het
+**Vergelijking met de commentaren:** standard. Uria's weigering en het
 negatieve huisrefrein worden expliciet besproken; BHSA objectiveert de
 negatieketen en Davids bevelclause.
 
@@ -58,7 +56,7 @@ negatieketen en Davids bevelclause.
 `dynamic_query=negative_down_to_house_refrain` · robustness: robust · versie
 2023
 
-## Vraag 2 — Waarom klinkt het gesprek zo georkestreerd?
+## Vraag 2: Waarom klinkt het gesprek zo georkestreerd?
 
 **Vraag:** Draagt de clause-volgorde bij aan het gevoel dat David de scène
 regisseert?
@@ -87,14 +85,14 @@ regie hapert: Uria daalt niet af, David moet vragen stellen en het slot keert
 terug naar dezelfde mislukte beweging.
 
 
-**Staat dit al in de commentaren?:** standard. Davids regie, het staccato tempo
+**Vergelijking met de commentaren:** standard. Davids regie, het staccato tempo
 en de breukpunten van zijn plan zijn bekend; BHSA kwantificeert WayX en lokale
 clause-overgangen.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `typ=WayX` · robustness:
 robust · versie 2023
 
-## Vraag 3 — Wie krijgt syntactische macht?
+## Vraag 3: Wie krijgt syntactische macht?
 
 **Vraag:** Blijft David de enige actor, of verdeelt de grammatica het handelen
 anders?
@@ -111,20 +109,20 @@ handelingen: komen, liggen, spreken, blijven, uitgaan.
 count subject vs object mentions by lexical/person key
 ```
 
-**Duiding:** De machtsas is daardoor scherp. David bezit formele macht en
-stuurt via Joab, vragen en bevelen; later ook via maaltijd en roes. Uria bezit geen
+**Duiding:** De meting maakt de machtsverhouding zichtbaar. David bezit formele macht en stuurt via Joab, vragen en bevelen, later ook
+via maaltijd en roes. Uria bezit geen
 institutionele macht in de scène, maar de syntaxis geeft hem genoeg
 handelingsstatus om Davids plan te blokkeren. De weerstand is dus niet passief
 geformuleerd.
 
 
-**Staat dit al in de commentaren?:** standard. Uria als actieve tegenactor is
+**Vergelijking met de commentaren:** standard. Uria als actieve tegenactor is
 bekend; BHSA onderbouwt zijn handelingsstatus tegenover Davids formele macht.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `actant_in_out_degree` ·
 robustness: robust · versie 2023
 
-## Vraag 4 — Wat doet Uria's eed?
+## Vraag 4: Wat doet Uria's eed?
 
 **Vraag:** Hoe maakt Uria zijn weigering groter dan een persoonlijke keuze?
 
@@ -155,12 +153,11 @@ verse
 
 **Duiding:** Uria zet de private route naar huis naast de publieke oorlogssfeer.
 Zijn antwoord noemt ark, volk, legerleiding en veld, en benoemt daarna eten,
-drinken en liggen met zijn vrouw als juist dat wat hij weigert. De eed maakt
-Davids manipulatie hoorbaar door het beoogde scenario in Uria's eigen woorden
-te ontmaskeren.
+drinken en liggen met zijn vrouw als juist dat wat hij weigert. In zijn eed benoemt Uria zo het scenario waarop David aanstuurt en dat hij
+weigert uit te voeren.
 
 
-**Staat dit al in de commentaren?:** standard. Uria's eed, het contrast tussen
+**Vergelijking met de commentaren:** standard. Uria's eed, het contrast tussen
 leger/ark/veld en huis/vrouw, en de afwijzing van eten, drinken en liggen
 worden besproken; BHSA formaliseert de lexicale constellaties.
 
@@ -168,7 +165,7 @@ worden besproken; BHSA formaliseert de lexicale constellaties.
 `dynamic_query=uriah_oath_field_against_house` · robustness: robust · versie
 2023
 
-## Vraag 5 — Hoe mislukt de tweede poging?
+## Vraag 5: Hoe mislukt de tweede poging?
 
 **Vraag:** Verandert Davids maaltijdstrategie de grammaticale uitkomst?
 
@@ -201,7 +198,7 @@ resultaat blijft hetzelfde: Uria ligt bij de knechten van zijn heer en daalt
 niet af naar zijn huis.
 
 
-**Staat dit al in de commentaren?:** standard/partially_covered. Davids
+**Vergelijking met de commentaren:** standard/partially_covered. Davids
 maaltijd- en roespoging is bekend; de blijvende negatieve huisformule is
 standaard, terwijl Davids referentieafbouw gedeeltelijk gedekt is.
 

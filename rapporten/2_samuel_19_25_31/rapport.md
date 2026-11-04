@@ -17,7 +17,7 @@ vorm is dicht: weinig meervoud, weinig vrouwelijke vormen, veel konings- en
 knechttaal, diepe inbedding en enkele robuuste dynamische treffers rond
 deferentie, deceptie en verdeling.
 
-## Vraag 1 — Hoe klein wordt Mefibosets verdediging?
+## Vraag 1: Hoe klein wordt Mefibosets verdediging?
 
 **Vraag:** Wordt Mefibosets zaak als bredere familie- of hofkwestie verteld, of
 vernauwt de grammatica haar tot enkele enkelvoudige rollen?
@@ -39,20 +39,20 @@ word nu=pl
 word gn=f
 ```
 
-**Duiding:** Mefibosets verdediging is grammaticaal smal. Hij heeft geen groep
+**Duiding:** Mefibosets verdediging concentreert zich grammaticaal op enkele personen. Hij heeft geen groep
 die zijn verhaal draagt. Zelfs zijn fysieke verwaarlozing in 19:25 blijft
 voorbereiding op een enkelvoudige confrontatie: David vraagt, Mefiboset
 antwoordt, Ziba blijft als afwezige knecht aanwezig.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
+**Vergelijking met de commentaren:** gedeeltelijk. Commentaren bespreken de
 persoonlijke, individuele aard van de ontmoeting tussen David en Mefiboset; de
 lage meervoudsdichtheid en vrouwelijke vormdichtheid zijn de meettoevoeging.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `nu=pl` / `gn=f` · robustness:
 robust · versie 2023
 
-## Vraag 2 — Waarom klinkt Mefiboset zo onderdanig?
+## Vraag 2: Waarom klinkt Mefiboset zo onderdanig?
 
 **Vraag:** Spreekt Mefiboset David als aangeklaagde recht tegenover, of houdt
 zijn grammatica hem voortdurend onder de koning?
@@ -84,7 +84,7 @@ beschuldiging; Mefiboset antwoordt vanuit afhankelijkheid en krijgt geen
 volledig herstel.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De herhaling van "mijn heer
+**Vergelijking met de commentaren:** gedeeltelijk. De herhaling van "mijn heer
 de koning" en "uw knecht" is bekend en wordt soms geteld; de dynamische
 clause-query maakt de dichtheid als vormpatroon zichtbaar.
 
@@ -92,7 +92,7 @@ clause-query maakt de dichtheid als vormpatroon zichtbaar.
 `dynamic_query=mephibosheth_addresses_my_lord_king` · robustness: robust ·
 versie 2023
 
-## Vraag 3 — Waar zit de deceptie grammaticaal?
+## Vraag 3: Waar zit de deceptie grammaticaal?
 
 **Vraag:** Wordt Ziba's eerdere beschuldiging alleen narratief herroepen, of
 legt Mefiboset een formele bedrogformule op tafel?
@@ -122,7 +122,7 @@ maakt zijn verweer gelaagd: hij moet zowel Ziba's daad als zijn eigen
 voorgenomen beweging reconstrueren.
 
 
-**Staat dit al in de commentaren?:** grotendeels wel. De claim dat Ziba of
+**Vergelijking met de commentaren:** grotendeels wel. De claim dat Ziba of
 Mefibosets knecht hem bedroog of belasterde wordt expliciet besproken. De
 geneste-rede-meting blijft een aanvullende vormlaag.
 
@@ -130,7 +130,7 @@ geneste-rede-meting blijft een aanvullende vormlaag.
 `dynamic_query=servant_deceived_me` / `nested_speech` · robustness: robust ·
 versie 2023
 
-## Vraag 4 — Waarom is het antwoord zo diep ingebed?
+## Vraag 4: Waarom is het antwoord zo diep ingebed?
 
 **Vraag:** Maakt Mefiboset zijn zaak eenvoudig, of stapelt hij lagen van
 verklaring, citaat en onderwerping?
@@ -154,21 +154,21 @@ clause_atom tab=14
 count subject vs object mentions by lexical/person key
 ```
 
-**Duiding:** Mefibosets antwoord is niet vlak. De scène beweegt door lagen:
+**Duiding:** Mefibosets antwoord bevat meerdere lagen:
 Davids vraag, Mefibosets aanspreking, de bedrogclaim, de geciteerde intentie,
 het beroep op Davids oordeel en de herinnering aan het huis van zijn vader. De
 grammatica past bij een verdediging die veel moet herstellen met weinig formele
 macht.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Commentaren herkennen de
+**Vergelijking met de commentaren:** gedeeltelijk. Commentaren herkennen de
 uitvoerige onderwerping en Davids abrupte reactie; actantdominantie is bekend,
 maar de formele inbeddingsmaat blijft vooral BHSA-terminologie.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `tab` /
 `actant_in_out_degree` · robustness: robust · versie 2023
 
-## Vraag 5 — Hoe hard kapt David de zaak af?
+## Vraag 5: Hoe hard kapt David de zaak af?
 
 **Vraag:** Herstelt David Mefiboset volledig, of sluit de grammatica af met een
 compromis dat de beschuldiger naast de verdediger laat staan?
@@ -191,12 +191,12 @@ clause domain=Q
 ```
 
 **Duiding:** David behandelt de zaak niet als volledige vrijspraak. Zijn
-uitspraak zet "jij en Ziba" in één verdelingsclause. Dat is grammaticaal hard:
+uitspraak zet "jij en Ziba" in één verdelingsclause. De grammaticale nevenschikking legt de uitkomst vast:
 Mefibosets verdediging eindigt met een veld dat hij moet delen met de man die
 hem volgens zijn eigen woorden bedroog.
 
 
-**Staat dit al in de commentaren?:** ja. Davids verdelingsuitspraak wordt breed
+**Vergelijking met de commentaren:** ja. Davids verdelingsuitspraak wordt breed
 besproken als juridisch of politiek compromis. De query specificeert de
 clausevorm waarin "jij" en "Ziba" naast elkaar worden gezet.
 

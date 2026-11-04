@@ -1,7 +1,7 @@
 # Toelichting bij 2 Samuël 14:4-20: fictie als correctie van de koning
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
+commentaren is afgerond. Zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
 grammaticaal geannoteerd. De engine vergelijkt deze zeventien verzen met het
@@ -19,14 +19,13 @@ word sp=nmpr
 
 De passage heeft er zes, veel minder dan verwacht. Dat helpt om de vorm van de
 fictie te zien. De weduwe, haar man, haar zonen, de broer en de erfgenaam blijven
-naamloos. Joab krijgt pas aan het einde naamruimte, wanneer David de verborgen
-regisseur herkent. Commentaren bespreken deze naamloze parabelstrategie; de
+naamloos. Joab wordt pas aan het einde bij naam genoemd, wanneer David zijn
+betrokkenheid herkent. Commentaren bespreken deze naamloze parabelstrategie; de
 telling van de lage eigennaamdichtheid is de meetbare toevoeging.
 
 ## Meervoud dat krimpt
 
-De vrouw vertelt over een familie en een groep verwanten, maar de meervoudsvormen
-zijn laag:
+De vrouw vertelt over een familie en een groep verwanten, maar er zijn weinig meervoudsvormen:
 
 ```text
 word nu=pl

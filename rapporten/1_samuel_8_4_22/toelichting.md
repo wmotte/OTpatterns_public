@@ -3,13 +3,10 @@
 *Lekenuitleg bij [rapport.md](rapport.md) over 1 Samuël 8:4-22 (de oudsten
 eisen een koning; Samuël en JHWH).*
 
-Dit document laat zien waarop de analyse rust, in gewone taal, met de
-zoekopdrachten erbij zodat u de tellingen zelf kunt nalopen.
-
-Achter de waarnemingen zit de BHSA: een database waarin de hele Hebreeuwse
+De metingen gebruiken de BHSA: een database waarin de hele Hebreeuwse
 bijbel woord voor woord van grammaticale etiketten is voorzien (woordsoort,
 werkwoordsvorm, getal) door taalkundigen van het ETCBC in Amsterdam. Met een
-programma dat Text-Fabric heet kun je in die geannoteerde tekst zoeken: u
+programma dat Text-Fabric heet kunt u in die geannoteerde tekst zoeken: u
 beschrijft een patroon, en het geeft alle plaatsen waar dat patroon voorkomt.
 Een "vondst" is zo'n patroon dat in deze negentien verzen opvallend vaker of
 minder vaak voorkomt dan in een vergelijkbaar stuk bijbel. Onderaan staat hoe u
@@ -17,8 +14,7 @@ de zoekopdrachten zelf draait, en welke commentaren ik bij naam noem.
 
 ## De stem waarnaar de hoogste moet luisteren
 
-De ruggengraat van de analyse is een omkering in de richting van het
-gehoorzamen. Het Hebreeuwse "horen naar de stem van" betekent meer dan geluid
+De analyse begint bij een omkering in wie naar wie moet luisteren. Het Hebreeuwse "horen naar de stem van" betekent meer dan geluid
 opvangen; het betekent toegeven, je voegen. Drie keer in dit gesprek staan het
 werkwoord "horen" en het woord "stem" samen binnen de directe rede, en alle
 drie keren is het God die Samuël gelast zich te voegen naar het volk (vers 7, 9
@@ -26,7 +22,7 @@ en 22). Op de plaats waar diezelfde uitdrukking tegen de draad in keert, is het
 juist het volk dat weigert te horen naar de stem van Samuël (vers 19). Het
 bevel om te gehoorzamen loopt omhoog; de weigering loopt omlaag.
 
-**Wat je vindt als je telt.** Drie keer dat koppel van "horen" en "stem" in de
+**De telling.** Drie keer dat koppel van "horen" en "stem" in de
 directe rede, waar een stuk verhaal van deze lengte er bijna nooit één draagt.
 
 **De zoekopdracht.**
@@ -43,16 +39,15 @@ Hebreeuwse woorden noteert: `CM<[` is *sjama*, "horen/gehoorzamen", `QWL/` is
 *qol*, "stem". U hoeft ze niet te begrijpen, alleen letterlijk over te typen.
 `domain=Q` beperkt de zoektocht tot de directe rede.)
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). De
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). De
 ironie van de omkering is breed gezien: Woodhouse (*Looking for a Leader*)
 leest dat de weigering om naar Samuël te horen er juist toe leidt dat Samuël
 naar hún stem zal horen; Chisholm (*1 & 2 Samuel*) telt het driemaal "luister"
 tegen de ene weigering en glosseert "horen naar de stem van" als "toegeven
 aan"; Chapman (*1 Samuel as Christian Scripture*) noemt het verrassend dat God
 zijn profeet gebiedt te gehoorzamen; Brueggemann (*First and Second Samuel*)
-spreekt van een toestemming die wordt verleend en afgekeurd tegelijk. Wat hier
-bijkomt is dat dat ene koppel als telbaar bundeltje tegen de rest van de bijbel
-opvalt. De waarneming komt uit een gerichte, vooraf opgestelde zoekslag naar
+spreekt van een toestemming die wordt verleend en afgekeurd tegelijk. De meting voegt toe dat deze combinatie ten opzichte van de rest van de
+bijbel opvallend vaak voorkomt. De waarneming komt uit een gerichte, vooraf opgestelde zoekslag naar
 een vermoeden: exploratief, met een middelhoge betrouwbaarheid. Zij ondersteunt
 de lezing als aanwijzing.
 
@@ -65,7 +60,7 @@ gebiedende wijs neer, vlak naast het woord "koning": *stel* ons een koning aan
 (vers 5) en *geef* ons een koning (vers 6). Het bevel gaat omhoog, naar de
 profeet en daarmee naar God.
 
-**Wat je vindt als je telt.** Twee gebiedende wijzen naast "koning" in de
+**De telling.** Twee gebiedende wijzen naast "koning" in de
 directe rede, een combinatie die in een stuk van deze lengte vrijwel nooit
 voorkomt.
 
@@ -80,7 +75,7 @@ clause domain=Q
 *In de zoekbrowser na te tellen: 2 treffers in deze passage.* (`vt=impv` is de
 gebiedende wijs; `MLK/` is *melech*, "koning".)
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Het
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Het
 eis-register is gezien: Bergen (*1, 2 Samuel*) geeft de scherpste taalkundige
 opmerking, zij het bij een andere passage: een kale gebiedende wijs is een
 ongebruikelijke, weinig respectvolle vorm voor een mindere, waar je een wens
@@ -100,7 +95,7 @@ spoor na in de grammatica: de meervoudige achtervoegsels en voornaamwoorden
 de climax schakelt het blok van Samuëls "hij zal nemen" naar de eerste persoon
 meervoud, "ónze koning", "ónze oorlogen", en eigent zich zo de situatie toe.
 
-**Wat je vindt als je telt.** Vierendertig meervoudsvormen, waar een stuk van
+**De telling.** Vierendertig meervoudsvormen, waar een stuk van
 deze lengte er gemiddeld ongeveer tien draagt: ruim drie keer zoveel.
 
 **De zoekopdracht.**
@@ -111,15 +106,15 @@ word prs_nu=pl
 
 *In de zoekbrowser na te tellen: 34 treffers in deze passage.*
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Het
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Het
 collectieve register is gezien: Chisholm (*1 & 2 Samuel*) telt het bezittelijke
 "jullie" twaalf keer; Halbertal en Holmes (*The Beginning of Politics*) wijzen
 op de omslag naar de eerste persoon meervoud in vers 19-20; Chapman (*1 Samuel
 as Christian Scripture*) behandelt de groep als één "collective character". Wat
 bijkomt is dat de meervoudsvorm zo sterk oververtegenwoordigd is tegenover de
-rest van de bijbel. Dit is de stevigste van de drie vondsten: het getal is een
-ondubbelzinnig grammaticaal kenmerk, en het patroon houdt stand hoe je ook
-vergelijkt (met de hele bijbel, met hetzelfde boek, met hetzelfde genre). Het
+rest van de bijbel. Van de drie bevindingen heeft deze de duidelijkste annotatiebasis. Getal is
+een ondubbelzinnig grammaticaal kenmerk en het patroon houdt stand bij
+verschillende vergelijkingen (met de hele bijbel, met hetzelfde boek, met hetzelfde genre). Het
 label is "robuust" (robust), met een hoog betrouwbaarheidsplafond; dat de
 meervoudsdichtheid "collectieve agency" markeert, blijft een lezing boven het
 cijfer.

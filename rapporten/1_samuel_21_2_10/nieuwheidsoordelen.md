@@ -9,9 +9,8 @@ hier niet in.
 
 De toets levert geen volledig `novel` kernclaim op. Davids geheime
 koninklijke opdracht, de broodvoorwaarde, en de reinheidsclaim rond de
-knechten zijn `standard`: commentaren bespreken die lijnen al uitvoerig. De
-grammaticaal dunne knechten en de subjectieve betrokkenheid van brood en
-zwaard zijn `partially_covered`: de narratieve lezing is bekend, maar de lage
+knechten zijn `standard`: commentaren bespreken die lijnen al uitvoerig. De schaarse grammaticale verwijzingen naar de knechten en de subjectieve
+betrokkenheid van brood en zwaard zijn `partially_covered`: de narratieve lezing is bekend, maar de lage
 meervoudsdichtheid, ethische-lamedmeting en het imperatief-responsprofiel zijn
 BHSA-specifieke formaliseringen.
 

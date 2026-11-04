@@ -18,7 +18,7 @@ correctie werkt. De scène houdt eigennamen laag, vernauwt het meervoud,
 verdeelt handelingsrollen ongelijk, stapelt aanspreek- en diensttaal, en laat
 aan het einde Joabs hand achter de rede zichtbaar worden.
 
-## Vraag 1 — Waar blijven de namen?
+## Vraag 1: Waar blijven de namen?
 
 **Vraag:** Waarom voelt de vrouw haar zaak als algemeen recht aan, terwijl de
 scène tegelijk over Davids eigen huis gaat?
@@ -38,13 +38,12 @@ word sp=nmpr
 
 **Duiding:** De tekst houdt de fictie juridisch overdraagbaar. De vrouw laat
 David eerst oordelen over een anonieme weduwe en een anonieme overblijvende
-zoon; Absalom blijft daarbij nog ongenoemd. Pas wanneer David de verborgen hand
-herkent, krijgt Joab naamruimte. De lage naamdichtheid werkt zo als indirecte
+zoon; Absalom blijft daarbij nog ongenoemd. Pas wanneer David Joabs betrokkenheid herkent, wordt Joab bij naam genoemd. De lage naamdichtheid werkt zo als indirecte
 druk: de koning moet zichzelf herkennen in een zaak die nog niet als zijn zaak
 is gelabeld.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
+**Vergelijking met de commentaren:** gedeeltelijk. Commentaren bespreken de
 naamloze fictieve casus en de parabelachtige valstrik uitvoerig; de extreme
 ondervertegenwoordiging van eigennamen als corpusmeting is de toegevoegde
 laag.
@@ -52,7 +51,7 @@ laag.
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `sp=nmpr` · robustness:
 robust · versie 2023
 
-## Vraag 2 — Hoe klein wordt de familie?
+## Vraag 2: Hoe klein wordt de familie?
 
 **Vraag:** De fictie gaat over familie, erfopvolging en collectieve druk. Houdt
 de grammatica dat als groepsconflict vast?
@@ -74,22 +73,22 @@ word nu=pl
 word prs_nu=pl
 ```
 
-**Duiding:** De vrouw vertelt een familiegeschiedenis, maar de grammatica
-trekt het conflict naar enkelvoudige overleving toe. De groep is aanwezig als
+**Duiding:** De vrouw vertelt een familiegeschiedenis, maar de grammaticale verwijzingen
+concentreren zich op het overleven van één persoon. De groep is aanwezig als
 dreiging; de zaak draait om de ene zoon die overblijft en om de ene koning die
 moet oordelen. Dat maakt de brug naar Absalom mogelijk. David wordt niet met
 een abstracte clanpolitiek geconfronteerd, maar met het verlies van de laatste
 drager van een naam.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De laatste-zoonlogica en de
+**Vergelijking met de commentaren:** gedeeltelijk. De laatste-zoonlogica en de
 collectieve dreiging van de familie zijn bekend; de lage dichtheid van
 meervoudsvormen en meervoudige suffixen kwantificeert die versmalling.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `nu=pl` / `prs_nu=pl` ·
 robustness: robust · versie 2023
 
-## Vraag 3 — Hoe houdt de vrouw de onderpositie vast?
+## Vraag 3: Hoe houdt de vrouw de onderpositie vast?
 
 **Vraag:** Spreekt de vrouw David frontaal tegen, of bouwt zij haar correctie
 grammaticaal vanuit diensttaal op?
@@ -128,12 +127,11 @@ phrase function=Intj
 
 **Duiding:** De vrouw corrigeert David zonder haar sociale positie te verlaten.
 Zij blijft "uw dienstvrouw", spreekt de koning aan, vraagt toestemming om nog
-een woord te zeggen en laat het woord zelf het object van de scène worden. De
-machtsinversie zit dus niet in formele gelijkheid. Zij gebruikt de onderpositie
-als retorische vorm om David aan zijn eigen oordeel te binden.
+een woord te zeggen en laat het woord zelf het object van de scène worden. Zij gebruikt haar ondergeschikte positie als retorische vorm om David aan
+zijn eigen oordeel te binden.
 
 
-**Staat dit al in de commentaren?:** overwegend wel. Commentaren bespreken de
+**Vergelijking met de commentaren:** overwegend wel. Commentaren bespreken de
 dienstvrouwtaal, "mijn heer de koning"-herhaling, vleierij en diplomatieke
 berisping expliciet. De actantcentraliteit en de telling van
 interjectie-/aanspreekfuncties blijven vooral formele ondersteuning.
@@ -142,7 +140,7 @@ interjectie-/aanspreekfuncties blijven vooral formele ondersteuning.
 `actant_in_out_degree` / `dynamic_query=maidservant_petition_to_king` /
 `lex=>DWN/` · robustness: robust · versie 2023
 
-## Vraag 4 — Waar draait de fictie naar David?
+## Vraag 4: Waar draait de fictie naar David?
 
 **Vraag:** Is de toepassing op Davids verbannen zoon alleen inhoudelijk helder,
 of markeert de grammatica de draaibeweging?
@@ -182,7 +180,7 @@ het moment waarop de fictieve rechtszaak haar doel bereikt. Davids oordeel
 over de weduwe wordt een oordeel over zijn eigen weigering om terug te brengen.
 
 
-**Staat dit al in de commentaren?:** bekend, met een gedeeltelijke meettoevoeging.
+**Vergelijking met de commentaren:** bekend, met een gedeeltelijke meettoevoeging.
 Commentaren bespreken de overgang van zoon/uitroeiing naar
 terugbrengen/verdrevene als kern van de parabeltoepassing op Absalom. De
 bredere directionele bewegingsas is vooral een ondersteunende formalisering.
@@ -192,7 +190,7 @@ bredere directionele bewegingsas is vooral een ondersteunende formalisering.
 `dynamic_query=banished_return_frame` / `spatial_kinetic_axis` · robustness:
 robust · versie 2023
 
-## Vraag 5 — Hoe verraadt de tekst Joabs hand?
+## Vraag 5: Hoe verraadt de tekst Joabs hand?
 
 **Vraag:** Wordt Joab pas aan het slot genoemd, of bereidt de vorm van de rede
 zijn verborgen regie voor?
@@ -219,11 +217,10 @@ clause kind=VC  (#Objc/Cmpl/Loca/Time/Adju)
 **Duiding:** De vrouw spreekt lang alsof de zaak van haarzelf is, maar de koning
 herkent een andere actor. De kale predicaatstructuur ondersteunt dat: de rede
 beweegt vaak in korte handelingen van spreken, vragen, gaan, bevelen en doen,
-tot David de verborgen agent benoemt. Joab verschijnt dan niet als gesprekspartner
-maar als hand achter de gesprekspartner.
+tot David de verborgen agent benoemt. Joab blijkt dan degene die de gesprekspartner haar opdracht heeft gegeven.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Joabs verborgen regie en de
+**Vergelijking met de commentaren:** gedeeltelijk. Joabs verborgen regie en de
 "hand van Joab" zijn standaardmateriaal. De nul-complement-valentie is niet als
 zodanig uitgewerkt en blijft een voorzichtige vormlaag bij die bekende lezing.
 

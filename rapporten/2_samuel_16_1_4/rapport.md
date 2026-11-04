@@ -17,7 +17,7 @@ compact geladen: veel nominale clauses, vertraging rond inventaris en vragen,
 een regelmatige getallenecho, en robuuste dynamische treffers rond identiteit,
 vraag en gunstformule.
 
-## Vraag 1 — Waarom vertraagt de inventaris?
+## Vraag 1: Waarom vertraagt de inventaris?
 
 **Vraag:** Is Ziba's geschenk alleen decor, of remt de vorm van de tekst de
 vertelling rond de goederen af?
@@ -39,21 +39,19 @@ clause typ=NmCl
 % narratieve wayq-clause + 1-4 nominale/participiale clauses + narratieve wayq-clause
 ```
 
-**Duiding:** De inventaris vertraagt de scène. De tekst beweegt niet alleen
-vooruit met handelingen; hij blijft staan bij wat de goederen zijn, voor wie ze
-bestemd zijn, en waar de afwezige eigenaar is. Dat is belangrijk voor de as van
-deceptie: de gift wordt eerst als nuttige voorziening zichtbaar, voordat de
+**Duiding:** De inventaris vertraagt de scène. Tussen de handelingen beschrijft de tekst wat de goederen zijn, voor wie ze
+bestemd zijn en waar de afwezige eigenaar is. In de lezing van de misleiding krijgt dit een functie: de gift wordt eerst als nuttige voorziening zichtbaar, voordat de
 beschuldiging tegen Mefiboset het bezit van betekenis verandert.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
+**Vergelijking met de commentaren:** gedeeltelijk. Commentaren bespreken de
 strategische vertraging rond gift, vragen en overdracht; de hoge
 nominale-clause-dichtheid en de onderbroken wayyiqtol-keten zijn de meetlaag.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `typ=NmCl` /
 `circumstantial_slowdown` · robustness: robust · versie 2023
 
-## Vraag 2 — Hoe wordt Ziba aan Mefiboset vastgemaakt?
+## Vraag 2: Hoe wordt Ziba aan Mefiboset vastgemaakt?
 
 **Vraag:** Verschijnt Ziba als zelfstandige helper, of houdt de grammatica hem
 vanaf het begin aan Mefiboset gekoppeld?
@@ -87,7 +85,7 @@ daarmee een dubbele lading: hij spreekt over iemand aan wie hij door dienst en
 huisrelatie verbonden is.
 
 
-**Staat dit al in de commentaren?:** bekend. De commentaren bespreken Ziba als
+**Vergelijking met de commentaren:** bekend. De commentaren bespreken Ziba als
 knecht/beheerder van de afwezige Mefiboset en lezen Davids vraag naar de zoon
 van Ziba's heer als loyaliteitstest.
 
@@ -95,7 +93,7 @@ van Ziba's heer als loyaliteitstest.
 `dynamic_query=ziba_mephibosheth_servant_identity` /
 `dynamic_query=where_is_lord_son_question` · robustness: robust · versie 2023
 
-## Vraag 3 — Hoe verkoopt Ziba de goederen?
+## Vraag 3: Hoe verkoopt Ziba de goederen?
 
 **Vraag:** Worden de goederen als bezit gepresenteerd, of als onmiddellijk
 bruikbare noodvoorziening voor Davids kamp?
@@ -120,14 +118,13 @@ clause domain=Q
 positions of repeated content lexemes; compare adjacent gaps
 ```
 
-**Duiding:** Ziba framed het bezit functioneel: ezels voor het koninklijk huis,
+**Duiding:** Ziba beschrijft het bezit naar zijn gebruik: ezels voor het koninklijk huis,
 brood en zomervruchten voor de knechten, wijn voor de vermoeide in de woestijn.
-De regelmatige "honderd"-echo versterkt de indruk van een geordende gift. Juist
-die bruikbaarheid maakt de beschuldiging gevaarlijk effectief: David ontvangt
+De regelmatige "honderd"-echo versterkt de indruk van een geordende gift. Die bruikbaarheid helpt Ziba zijn beschuldiging geloofwaardig te maken: David ontvangt
 voorziening op het moment dat hij afhankelijk is.
 
 
-**Staat dit al in de commentaren?:** bekend, met een gedeeltelijke meettoevoeging.
+**Vergelijking met de commentaren:** bekend, met een gedeeltelijke meettoevoeging.
 De strategische gift en noodvoorraad zijn standaardmateriaal. De herhaling en
 regelmatige afstand van `M>H/` ("honderd") zijn vooral formele ondersteuning.
 
@@ -135,7 +132,7 @@ regelmatige afstand van `M>H/` ("honderd") zijn vooral formele ondersteuning.
 `dynamic_query=gift_inventory_for_king_house` /
 `regular_lexeme_echo_distance` · robustness: robust · versie 2023
 
-## Vraag 4 — Waarom klinkt de scène gespiegeld?
+## Vraag 4: Waarom klinkt de scène gespiegeld?
 
 **Vraag:** Heeft de korte passage een vormspiegeling die past bij vraag,
 antwoord en beslissing?
@@ -163,7 +160,7 @@ vormspiegeling is geen chiasmeclaim op literair niveau, maar een formele aanwijz
 dat de tekst in compacte vraag-antwoordblokken werkt.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Commentaren bespreken de
+**Vergelijking met de commentaren:** gedeeltelijk. Commentaren bespreken de
 compacte vraag-antwoordstructuur en de gespannen loyaliteitstest; de
 palindromische clause-typevensters en lokale overgangsmeting blijven
 ondersteunende vormobservaties.
@@ -172,7 +169,7 @@ ondersteunende vormobservaties.
 `palindromic_clause_type_sequence` / `local_clause_type_transition` · robustness:
 robust · versie 2023
 
-## Vraag 5 — Hoe eindigt Ziba's winst?
+## Vraag 5: Hoe eindigt Ziba's winst?
 
 **Vraag:** Sluit de passage af met rechtspraak over Mefiboset, of met een
 gunstrelatie tussen David en Ziba?
@@ -196,13 +193,12 @@ clause domain=Q
 clause typ=NmCl
 ```
 
-**Duiding:** De scène eindigt niet met hoor en wederhoor. Zij eindigt met bezit
-en gunst: David draagt het bezit van de afwezige over, Ziba buigt en vraagt
+**Duiding:** De scène eindigt met bezit en gunst, zonder hoor en wederhoor: David draagt het bezit van de afwezige over, Ziba buigt en vraagt
 gunst in Davids ogen. De grammatica sluit dus aan bij de narratieve verdenking:
 Ziba's woorden leveren hem onmiddellijk een nieuwe verhouding tot David op.
 
 
-**Staat dit al in de commentaren?:** bekend. Commentaren bespreken Davids
+**Vergelijking met de commentaren:** bekend. Commentaren bespreken Davids
 onmiddellijke overdracht zonder wederhoor, Ziba's winst en de gunstformule als
 sluitstuk van zijn succesvolle intrige.
 

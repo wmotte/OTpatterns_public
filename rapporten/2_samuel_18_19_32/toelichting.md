@@ -1,7 +1,7 @@
 # Toelichting bij 2 Samuël 18:19-32: boden, snelheid en uitgesteld nieuws
 
 *Lekenuitleg bij [rapport.md](rapport.md). Deze toelichting hoort bij het
-bronrapport. De nieuwheidstoets tegen de commentaren is afgerond; zie
+bronrapport. De nieuwheidstoets tegen de commentaren is afgerond. Zie
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
@@ -30,8 +30,7 @@ De vertraging wordt gemeten met een engineproxy:
 % narratieve wayq-clause + 1-4 nominale/participiale clauses + narratieve wayq-clause
 ```
 
-Samen tonen deze metingen dat de scène snel vertelt maar rond de poort en de
-bodemond vertraagt.
+Samen tonen deze metingen dat de scène snel vertelt maar bij de poort en bij het spreken van de bode vertraagt.
 
 ## Nieuws in de mond
 

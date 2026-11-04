@@ -3,13 +3,10 @@
 *Lekenuitleg bij [rapport.md](rapport.md) over 1 Samuël 3:15-18 (Samuël en
 Eli, de ochtend na de nachtelijke godsspraak).*
 
-Dit document laat zien waarop de analyse rust, in gewone taal, met de
-zoekopdrachten erbij zodat u de tellingen zelf kunt nalopen.
-
-Achter de waarnemingen zit de BHSA: een database waarin de hele Hebreeuwse
+De metingen gebruiken de BHSA: een database waarin de hele Hebreeuwse
 bijbel woord voor woord van grammaticale etiketten is voorzien (woordsoort,
 werkwoordsvorm, persoon) door taalkundigen van het ETCBC in Amsterdam. Met een
-programma dat Text-Fabric heet kun je in die geannoteerde tekst zoeken: u
+programma dat Text-Fabric heet kunt u in die geannoteerde tekst zoeken: u
 beschrijft een patroon, en het geeft alle plaatsen waar dat patroon voorkomt.
 Een waarschuwing vooraf: van de vier waarnemingen hieronder is er één die u
 met één zoekregel kunt narekenen. De andere drie zijn metingen die een
@@ -19,9 +16,9 @@ zelf draait.
 
 ## De spreker komt na zijn stem
 
-De ruggengraat van de analyse is een eigenaardigheid in de volgorde. Voordat
+De analyse begint bij de volgorde van persoonsverwijzingen. Voordat
 de namen vallen, staan de werkwoorden er al: er klinkt een stem, er volgt een
-antwoord, en pas daarna pint de zin vast wie het was. Zelfs *hinneni*, "hier
+antwoord, en pas daarna noemt de zin de spreker. Zelfs *hinneni*, "hier
 ben ik" (vers 16), schuift de spreker naar een aanhangsel van de stem. In deze
 vier verzen gaat een voornaamwoord of een persoonsvorm elf keer aan zijn
 eigenlijke referent vooraf, waar een stuk van deze lengte er gewoonlijk
@@ -30,19 +27,18 @@ dialogen vergelijkt; het is dus meer dan een gewoon dialoog-effect. De taal
 houdt de plek van de spreker even open, in een scène die van begin tot eind
 over uitstel gaat.
 
-**Wat je vindt als je telt.** Elf keer komt het voornaamwoord vóór de naam,
+**De telling.** Elf keer komt het voornaamwoord vóór de naam,
 tegen ongeveer één verwacht. Dit getal komt uit een hulpprogramma dat de
 verwijzingen langsloopt en telt waar een voornaamwoord of werkwoordsuitgang
 eerder valt dan de naam waar het bij hoort. Die elf plaatsen zijn alleen in
 een volledige Text-Fabric-omgeving reproduceerbaar; de vondst die u hieronder
 wél zelf kunt natellen, is het omklemmende werkwoord.
 
-**Staat dit al in de commentaren?** Nieuw (`novel`: niet aangetroffen in de
+**Vergelijking met de commentaren.** Nieuw (`novel`: niet aangetroffen in de
 geraadpleegde bronnen). Tsumura (*The First Book of Samuel*), Auld (*I & II
 Samuel*) en McCarter (*I Samuel*) analyseren het chiasme, de eedformule en de
 thematiek; de referentiële vooruit-binding, het opengehouden slot vóór de
-naam, komt bij geen van hen voor. Dit is de meest eigen vondst van het
-rapport.
+naam, komt bij geen van hen voor. Hier voegt het rapport een formele meting aan de bekende thematiek toe.
 
 ## Het werkwoord dat de scène omklemt
 
@@ -53,7 +49,7 @@ gedwongen toch doet: "en hij vertelde het hem, alles." Het werkwoord omsluit
 de scène als twee haken: vrees aan de ene kant, gedwongen onthulling aan de
 andere.
 
-**Wat je vindt als je telt.** Twee keer staat deze causatieve vorm, op precies
+**De telling.** Twee keer staat deze causatieve vorm, op precies
 de twee uiteinden, waar je er in een stuk van deze lengte vrijwel nooit een
 verwacht.
 
@@ -76,7 +72,7 @@ de bekende, breed besproken kern van de scène; Cartledge (*1 & 2 Samuel*),
 Long (*1 and 2 Samuel*) en McCarter (*I Samuel*) bespreken de eed uitvoerig.
 Hij hoort hier als context bij de twee haken eromheen.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Bergen
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Bergen
 (*1, 2 Samuel*) leest het "deuren openen" van vers 15 als woordspel op het
 gedwongen bekendmaken, en Auld (*I & II Samuel*) benoemt Samuëls angst om te
 spreken. De gang van vrees naar onthulling is dus thematisch gedekt; de
@@ -87,13 +83,13 @@ lezing als aanwijzing.
 
 ## Het woord dat alleen ondergaat
 
-Het woord zelf doet niets. Het wordt gevreesd, geëist, verhuld en ten slotte
-verteld; het onderneemt nergens iets. Tel je wie er handelt en wie ondergaat,
+Het woord wordt gevreesd, geëist, verhuld en ten slotte verteld. Het staat
+daarmee vooral aan de ontvangende kant van het handelen. Tel je wie er handelt en wie ondergaat,
 dan komen Samuël en Eli naar voren als de twee die spreken en eisen en
 vertellen, terwijl *davar*, "het woord", vrijwel uitsluitend de ontvangende
 kant bezet.
 
-**Wat je vindt als je telt.** Eén deelnemer aan de scène domineert: de
+**De telling.** Eén deelnemer aan de scène domineert: de
 mannelijke derde persoon (Samuël en Eli als sprekers) heeft negen keer een
 handelende rol en geen enkele keer een ondergaande; "het woord" staat drie
 keer aan de ontvangende kant en één keer aan de handelende. Dat is een
@@ -101,7 +97,7 @@ graaf-meting: een hulpprogramma telt per deelnemer hoe vaak hij onderwerp en
 hoe vaak hij lijdend voorwerp is. Zij is alleen in een volledige
 Text-Fabric-omgeving reproduceerbaar.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`).
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`).
 Tsumura (*The First Book of Samuel*) toont *davar* als centrale as van de
 chiastische dialoog, en Auld (*I & II Samuel*) volgt het "woord van JHWH" dat
 hier het object van de confrontatie wordt. De structuur is dus gedekt; de
@@ -110,12 +106,11 @@ getallen. De betrouwbaarheid is middelhoog.
 
 ## De wending naar JHWH
 
-De breuk komt aan het eind. Zodra Samuël alles heeft verteld, stopt de scène
-met haar eigen ritme. De reeks gewone verhaalzinnen wordt onderbroken door een
+Aan het eind, zodra Samuël alles heeft verteld, verandert het vertelritme. De reeks gewone verhaalzinnen wordt onderbroken door een
 zin die de godsnaam vooropplaatst: "JHWH is het; laat Hij doen wat goed is in
 zijn ogen." De menselijke dialoog houdt op zodra die naam vooraan staat.
 
-**Wat je vindt als je telt.** Op dat ene punt maakt de tekst een
+**De telling.** Op dat ene punt maakt de tekst een
 zinsbouw-overgang die lokaal onverwacht is: na een keten gewone verhaalzinnen
 springt hij naar een constructie met de godsnaam voorop. In het venster ervoor
 waren zulke overgangen vrijwel afwezig. Ook dit is een meting over
@@ -123,7 +118,7 @@ opeenvolgende zinstypen: een hulpprogramma vergelijkt elke overgang met het
 venster eraan vooraf. Zij is alleen in een volledige Text-Fabric-omgeving
 reproduceerbaar.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Long
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Long
 (*1 and 2 Samuel*) koppelt Eli's berusting aan een vrijwel identieke
 onderwerping van David later, maar geeft geen technische analyse. De vrome
 berusting is dus gedekt; de meting voegt toe dat die berusting samenvalt met

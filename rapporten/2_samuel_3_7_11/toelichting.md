@@ -1,7 +1,7 @@
 # Toelichting bij 2 Samuël 3:7-11: Abner neemt het kader over
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; de samenvatting staat in
+commentaren is afgerond. De samenvatting staat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
@@ -49,8 +49,7 @@ clause domain=Q typ=InfC
   word lex=<BR[|QWM[
 ```
 
-De betekenis is niet dat een infinitief altijd dreiging is. Hier staat de vorm
-in Abners eigen rede, bij de overdracht van het koningschap en de oprichting van
+De infinitieven staan hier in Abners eigen dreigende rede, bij de overdracht van het koningschap en de oprichting van
 Davids troon. Daardoor wordt zijn woede als programma geformuleerd.
 
 Ook dit is geen volledig nieuw terrein. De doelwoorden "overbrengen" en
@@ -88,7 +87,7 @@ aanwijst.
 
 Het slot meldt dat Isboset Abner niets meer kon antwoorden, omdat hij hem
 vreesde. De meting bewijst die reden niet; de tekst geeft haar zelf. De engine
-laat wel zien dat Abners antwoord als spreekarchitectuur zwaar is:
+laat wel zien dat Abners antwoord syntactisch uitvoerig is:
 
 ```text
 clause txt~Q OR speech-verb Pred OR interrogative word/ls=ques
@@ -105,8 +104,7 @@ zoekregel in de browser na te doen.
 
 De commentaren beschrijven de retorische zwaarte en abrupte wending van Abners
 antwoord, maar niet met deze technische metingen. De cijfers kwantificeren dus
-een bekende literaire indruk zonder de oude inbeddingsdiepte-claim nog als
-bewijsdrager te gebruiken.
+een bekende literaire indruk zonder daarmee de inbeddingsdiepte als zelfstandige bewijsgrond te gebruiken.
 
 ## Rizpa's korte grammaticale aanwezigheid
 

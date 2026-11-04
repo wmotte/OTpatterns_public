@@ -15,7 +15,7 @@ snel tussen werkwoordsvormen, concentreert rollen ongelijk, maakt Davids eigen
 oordeel syntactisch inzetbaar en zet daarna een korte identificatie naast een
 lange goddelijke aanklacht.
 
-## Vraag 1 — Waarom werkt de parabel als beweging?
+## Vraag 1: Waarom werkt de parabel als beweging?
 
 **Vraag:** Is de parabel alleen een inhoudelijke omweg, of krijgt zij een
 meetbare tijd- en vormonrust?
@@ -32,20 +32,19 @@ kopen, laten opgroeien, eten, drinken, liggen en nemen wisselen snel van vorm.
 sliding window over Pred verb vt values
 ```
 
-**Duiding:** Natan vertelt geen vlak verhaal. De parabel beweegt snel van
-situatieschets naar huishoudelijke routine en dan naar diefstal. Die
-vormwisseling draagt bij aan de val: David hoort een casus die narratief levend
-wordt voordat hij zichzelf erin herkent.
+**Duiding:** Natans parabel gaat snel van
+situatieschets naar huishoudelijke routine en dan naar diefstal. Door die vormwisseling krijgt de casus voor David gestalte voordat hij
+zichzelf erin herkent.
 
 
-**Staat dit al in de commentaren?:** novel. De retorische kracht van de
+**Vergelijking met de commentaren:** novel. De retorische kracht van de
 parabel is standaardmateriaal, maar de snelle TAM-wisseling wordt niet als
 kwantitatieve vormmaat besproken.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `rapid_tam_switching` ·
 robustness: robust · versie 2023
 
-## Vraag 2 — Wie draagt de rollen?
+## Vraag 2: Wie draagt de rollen?
 
 **Vraag:** Hoe worden de fictieve en echte machtsrollen grammaticaal verdeeld?
 
@@ -72,14 +71,14 @@ lage meervoudsdichtheid ondersteunt die vernauwing. De aanklacht wordt geen
 algemeen politiek betoog; zij komt terecht bij een enkelvoudig "jij".
 
 
-**Staat dit al in de commentaren?:** standard/partially_covered. De
+**Vergelijking met de commentaren:** standard/partially_covered. De
 rolverdeling is standaardcommentaar; de lage meervoudsdichtheid is een
 gedeeltelijk gedekte BHSA-formalisering van de vernauwing.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `actant_in_out_degree` ·
 robustness: robust · versie 2023
 
-## Vraag 3 — Hoe maakt David zichzelf rechter?
+## Vraag 3: Hoe maakt David zichzelf rechter?
 
 **Vraag:** Waar wordt Davids oordeel grammaticaal bruikbaar tegen hemzelf?
 
@@ -102,14 +101,14 @@ dat zijn oordeel niet vloeiend in de parabel oplost. Het wordt een eigen
 spraakmoment dat Natan vervolgens kan keren.
 
 
-**Staat dit al in de commentaren?:** novel. De structuurbreuken zijn thematisch
+**Vergelijking met de commentaren:** novel. De structuurbreuken zijn thematisch
 herkend, maar de lokale clause-type-overgangen worden niet als kwantitatieve
 vormlaag besproken.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature:
 `local_clause_type_transition` · robustness: robust · versie 2023
 
-## Vraag 4 — Wat gebeurt bij "jij bent de man"?
+## Vraag 4: Wat gebeurt bij "jij bent de man"?
 
 **Vraag:** Is de beroemde zin meetbaar als korte identificatie na de omweg?
 
@@ -138,14 +137,14 @@ de contrastas: ik heb gegeven, jij hebt gedaan, ik zal doen. De grammatica zet
 persoonlijke toewijzing voorop.
 
 
-**Staat dit al in de commentaren?:** standard/partially_covered. "Jij bent de
+**Vergelijking met de commentaren:** standard/partially_covered. "Jij bent de
 man" is standaardcommentaar; de zelfstandige pronomina in JHWH's ik/jij-rede
 zijn gedeeltelijk gedekte vormmeting.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=you_are_the_man` · robustness: robust · versie 2023
 
-## Vraag 5 — Hoe wordt de parabel concreet?
+## Vraag 5: Hoe wordt de parabel concreet?
 
 **Vraag:** Waar verlaat Natan de fictie en noemt hij Davids concrete geweld?
 
@@ -166,12 +165,11 @@ verse
 ```
 
 **Duiding:** De abstracte parabel wordt hier een opsomming van Davids daden:
-Uria geslagen, zijn vrouw genomen, hem gedood met het zwaard van Ammon. De vorm
-maakt de omweg hard concreet. De fictieve arme man verdwijnt; Uria en de vrouw
-komen in de aanklacht zelf te staan.
+Uria geslagen, zijn vrouw genomen, hem gedood met het zwaard van Ammon. Natan benoemt de daden nu rechtstreeks. De fictieve arme man maakt plaats
+voor Uria en de vrouw in de aanklacht.
 
 
-**Staat dit al in de commentaren?:** standard. De concrete aanklacht met Uria,
+**Vergelijking met de commentaren:** standard. De concrete aanklacht met Uria,
 zwaard, vrouw, nemen en doden is bekend; BHSA markeert het lexicale cluster in
 12:9.
 

@@ -5,8 +5,7 @@ commentaren is uitgevoerd op 13 juni 2026; zie
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA. De engine vergelijkt deze zeven verzen met
-het hele Oude Testament en met nauwere vergelijkingsgroepen. Omdat dit een
-geweldspassage is, blijft de toelichting technisch en sober.
+het hele Oude Testament en met nauwere vergelijkingsgroepen. De toelichting beschrijft de metingen bij deze geweldspassage terughoudend.
 
 ## Kamer
 
@@ -68,7 +67,7 @@ De aanvullende volitiefproxy is:
 % aangrenzende txt~Q clauses met volitief direct↔softened transition
 ```
 
-Die tweede meting is slechts partially robust.
+Die tweede meting is gedeeltelijk robuust (partially robust).
 
 ## Inbedding
 

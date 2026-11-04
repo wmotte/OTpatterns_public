@@ -16,7 +16,7 @@ narratieve clauses overheersen, directe rede juist laag is en enkele
 zelfpresentatiepunten zwaar wegen: "ik ben Amalekiet", doodstaal rond Saul en
 Jonatan, kroon en armband, en ten slotte "uw mond heeft tegen u geantwoord".
 
-## Vraag 1 — Hoe maakt de spreker zichzelf zichtbaar?
+## Vraag 1: Hoe maakt de spreker zichzelf zichtbaar?
 
 **Vraag:** Is de Amalekiet alleen boodschapper, of zet zijn grammatica hem als
 persoon in het geding?
@@ -47,7 +47,7 @@ achtergrondinformatie, maar tot deel van het proces dat op zijn veroordeling
 uitloopt.
 
 
-**Staat dit al in de commentaren?:** standard/partially_covered. De
+**Vergelijking met de commentaren:** standard/partially_covered. De
 zelfidentificatie als Amalekiet is standaardcommentaar; de
 naam-naar-pronomen/nulreferentie is gedeeltelijk gedekte BHSA-formalisering.
 
@@ -55,7 +55,7 @@ naam-naar-pronomen/nulreferentie is gedeeltelijk gedekte BHSA-formalisering.
 `dynamic_query=amalekite_identity_self_report`, `name_to_pronominal_run` ·
 robustness: robust · versie 2023
 
-## Vraag 2 — Waarom is er zoveel verhaal en relatief weinig citaat?
+## Vraag 2: Waarom is er zoveel verhaal en relatief weinig citaat?
 
 **Vraag:** Staat de scène vooral in gesproken woorden, of draagt de narratieve
 keten het tempo?
@@ -77,18 +77,17 @@ word vt=wayq
 
 **Duiding:** De passage is geen lange pleitrede van de Amalekiet. Het verhaal
 duwt door: aankomst, val, vraag, antwoord, opdracht, executie. De directe rede
-is aanwezig, maar kort en ingebed in een sterke narratieve machine. Daardoor
-krijgt de eigen claim van de man weinig ruimte om zich te herstellen.
+is aanwezig, maar kort en ingebed in een doorgaande verhaalketen. De boodschapper krijgt daardoor weinig gelegenheid zijn bewering bij te stellen.
 
 
-**Staat dit al in de commentaren?:** novel/standard. Het staccato tempo is
+**Vergelijking met de commentaren:** novel/standard. Het staccato tempo is
 bekend en door wayyiqtol bevestigd; de combinatie van hoge narratieve
 clause-dichtheid en lage citaatdichtheid wordt niet als vormclaim besproken.
 
 **Confidence:** Hoog (≤ plafond Hoog) · features: `domain=N`, `domain=Q`,
 `vt=wayq` · robustness: robust · versie 2023
 
-## Vraag 3 — Hoe klinkt de doodsclaim?
+## Vraag 3: Hoe klinkt de doodsclaim?
 
 **Vraag:** Wordt Sauls dood als één feit gemeld, of krijgt het doodswerkwoord
 meerdere frames?
@@ -120,7 +119,7 @@ er bericht, daarna geciteerd verzoek, daarna zelfbelastende uitvoering, daarna
 Davids oordeel. Juist die keten maakt de claim gevaarlijk voor de boodschapper.
 
 
-**Staat dit al in de commentaren?:** standard. De doodstaal, Sauls verzoek
+**Vergelijking met de commentaren:** standard. De doodstaal, Sauls verzoek
 "dood mij" en het verliesbericht over Saul en Jonatan worden besproken; BHSA
 kwantificeert de lexicale dichtheid en markeert de berichtformule.
 
@@ -128,7 +127,7 @@ kwantificeert de lexicale dichtheid en markeert de berichtformule.
 `dynamic_query=saul_jonathan_death_report` · robustness: global_only / robust ·
 versie 2023
 
-## Vraag 4 — Wat doen kroon en armband?
+## Vraag 4: Wat doen kroon en armband?
 
 **Vraag:** Zijn kroon en armband alleen bewijsstukken, of vertragen zij de
 claim grammaticaal?
@@ -155,12 +154,11 @@ verse
   word lex=ZRW</
 ```
 
-**Duiding:** De bewijsstukken onderbreken de vertelling. De man brengt geen
-abstract bericht mee; hij brengt objecten die aan Sauls lichaam waren gekoppeld.
+**Duiding:** De bewijsstukken onderbreken de vertelling. De man brengt objecten mee die Saul op zijn lichaam droeg.
 Die vertraging maakt de claim tastbaar en juridisch gevaarlijk.
 
 
-**Staat dit al in de commentaren?:** standard. Kroon en armband als
+**Vergelijking met de commentaren:** standard. Kroon en armband als
 bewijsstukken en machtssymbolen worden breed besproken; BHSA markeert de
 narratieve vertraging en het objectcluster.
 
@@ -168,7 +166,7 @@ narratieve vertraging en het objectcluster.
 features: `circumstantial_slowdown`,
 `dynamic_query=crown_armlet_transfer` · robustness: robust · versie 2023
 
-## Vraag 5 — Waarom wordt zijn mond het bewijs?
+## Vraag 5: Waarom wordt zijn mond het bewijs?
 
 **Vraag:** Komt Davids vonnis van buitenaf, of laat de tekst de eigen woorden
 van de man tegen hem werken?
@@ -203,7 +201,7 @@ slag, dood, vonnis. De man wordt niet veroordeeld op een uitgebreid dossier,
 maar op de eigen claim die hij in de dialoog heeft neergelegd.
 
 
-**Staat dit al in de commentaren?:** standard/partially_covered/novel. De
+**Vergelijking met de commentaren:** standard/partially_covered/novel. De
 juridische formule van de eigen mond is standaardcommentaar; korte elliptische
 clauses zijn gedeeltelijk gedekt en de asyndetische druk is de
 BHSA-specifieke toevoeging.

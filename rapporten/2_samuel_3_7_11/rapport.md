@@ -19,7 +19,7 @@ gegevens laten vooral zien hoe smal de syntaxis wordt: weinig meervoud, veel
 inbedding, een concentratie van infinitieven en enkele robuuste dynamische
 treffers in Abners rede.
 
-## Vraag 1 — Wie bepaalt het kader?
+## Vraag 1: Wie bepaalt het kader?
 
 **Vraag:** Blijft de scène bij Isbosets beschuldiging over Rizpa, of neemt
 Abner het frame grammaticaal over?
@@ -53,7 +53,7 @@ generaal en een dynastiek huis. Dat past bij de machtsas van deze dialoog: de
 man zonder kroon bepaalt de termen waarin de koning nog kan spreken.
 
 
-**Staat dit al in de commentaren?:** gemengd. De huis/Saul-koppeling in Abners
+**Vergelijking met de commentaren:** gemengd. De huis/Saul-koppeling in Abners
 antwoord is gangbare commentaarstof: commentaren lezen zijn beroep op het huis
 van Saul als politieke herframing van de Rizpa-beschuldiging. De lage
 meervoudsdichtheid is gedeeltelijk gedekt. De versmalling naar Abner en
@@ -63,7 +63,7 @@ kwantitatieve laag toe.
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=saul_house_in_abner_speech` · robustness: robust · versie 2023
 
-## Vraag 2 — Waar wordt dreiging doeltaal?
+## Vraag 2: Waar wordt dreiging doeltaal?
 
 **Vraag:** Is Abners dreiging alleen inhoudelijk fors, of verandert de syntaxis
 in een reeks doelconstructies?
@@ -89,14 +89,13 @@ clause domain=Q typ=InfC
   word lex=<BR[|QWM[
 ```
 
-**Duiding:** Abner spreekt niet alleen in boosheid. Zijn rede krijgt een
-teleologische vorm: om het koningschap over te brengen, om Davids troon op te
+**Duiding:** Abner formuleert zijn woede in doelconstructies: om het koningschap over te brengen, om Davids troon op te
 richten. De syntaxis maakt zijn dreiging programmatisch. Daarmee keert de
 machtsverhouding: Isboset vraagt naar een daad in het verleden; Abner formuleert
 een toekomstig politiek programma.
 
 
-**Staat dit al in de commentaren?:** gemengd. De gerichte doelketen
+**Vergelijking met de commentaren:** gemengd. De gerichte doelketen
 `<BR[`/`QWM[` is bekend: commentaren bespreken "overbrengen" en "oprichten" als
 inhoudelijke kern van Abners politieke eed. De bredere concentratie van
 infinitiefconstructies is gedeeltelijk gedekt. Commentaren zien de
@@ -108,7 +107,7 @@ doelquery en een ondersteunende infc-keten, niet meer via een brede
 `dynamic_query=purpose_infinitive_transfer_and_establish`,
 `infc_purpose_chains` · robustness: robust / global_only · versie 2023
 
-## Vraag 3 — Hoe zwaar is Abners eed?
+## Vraag 3: Hoe zwaar is Abners eed?
 
 **Vraag:** Is de eedformule slechts conventioneel, of krijgt zij in deze korte
 dialoog een meetbare scharnierfunctie?
@@ -133,14 +132,14 @@ clause domain=Q
 % clause met txt~Q en predicaat word vt=impf ps=p3
 ```
 
-**Duiding:** Abner gebruikt de eed niet als versiering. Hij maakt zichzelf het
+**Duiding:** Met de eed maakt Abner zichzelf het
 object van een goddelijke sanctie en bindt die sanctie aan zijn politieke
 dreiging. Daardoor verschuift de scène van Isbosets aanklacht naar Abners
 zelfbinding: de generaal zet een vloek op zijn eigen toekomstige handelen en
 ontneemt de koning daarmee de normerende positie.
 
 
-**Staat dit al in de commentaren?:** bekend. De eedformule, de zelfimprecatie
+**Vergelijking met de commentaren:** bekend. De eedformule, de zelfimprecatie
 en het performatieve karakter van Abners verklaring worden expliciet besproken.
 De BHSA-query geeft een formele corpusmarkering voor een bekend eedregister en
 dient hier als ijkpunt.
@@ -148,7 +147,7 @@ dient hier als ijkpunt.
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=abner_divine_oath_formula` · robustness: robust · versie 2023
 
-## Vraag 4 — Waarom antwoordt Isboset niet?
+## Vraag 4: Waarom antwoordt Isboset niet?
 
 **Vraag:** Wordt Isbosets zwijgen voorbereid door de vorm van Abners rede?
 
@@ -178,11 +177,11 @@ zoekregels in de browser te reproduceren.
 **Duiding:** Isbosets stilte in 3:11 komt na een syntactisch zware repliek. De
 tekst motiveert het zwijgen expliciet met vrees voor Abner, maar de vorm van
 Abners rede bereidt dat mee voor: vraag, beledigde tegenvraag en dienstclaim
-gaan direct over in negatie, eed en dynastiek programma. De koning stelt één
-vraag; daarna neemt Abners syntaxis de scène over.
+gaan direct over in negatie, eed en dynastiek programma. Na één vraag van de koning bepaalt Abners uitvoerige repliek het verdere
+verloop van het gesprek.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren
+**Vergelijking met de commentaren:** gedeeltelijk gedekt. Commentaren
 beschrijven de retorische zwaarte, abrupte wending en woordmassa van Abners
 rede; zij gebruiken niet de technische termen quote-topology of lokale
 clause-overgang. De metingen kwantificeren dus een bekende literaire indruk.
@@ -190,7 +189,7 @@ clause-overgang. De metingen kwantificeren dus een bekende literaire indruk.
 **Confidence:** Middel (≤ plafond Middel) · features: `quote_topology`,
 `syntactic_surprise` · robustness: global_only / robust · versie 2023
 
-## Vraag 5 — Wat doet Rizpa in de grammatica?
+## Vraag 5: Wat doet Rizpa in de grammatica?
 
 **Vraag:** Is Rizpa alleen de aanleiding van de scène, of maakt de vormlaag
 zichtbaar hoe snel zij uit het gesprek verdwijnt?
@@ -212,11 +211,11 @@ David, God en koningschap.
 **Duiding:** Rizpa is de aanleiding, niet het gespreksonderwerp dat Abner laat
 staan. De grammatica volgt die verdwijning: de vrouwelijke cluster zit bij de
 beschuldiging; Abners repliek verplaatst het conflict naar mannelijke dynastie-
-en machtstaal. Dat moet sober worden gezegd, omdat de tekst Rizpa zelf geen
-stem geeft.
+en machtstaal. De tekst geeft Rizpa zelf geen stem, wat de interpretatie van haar
+grammaticale aanwezigheid begrenst.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren
+**Vergelijking met de commentaren:** gedeeltelijk gedekt. Commentaren
 bespreken Rizpa breed als politiek scharnier, symbool van koninklijke macht of
 katalysator van de breuk tussen Abner en Isboset. De grammaticale cluster zelf
 wordt niet als meting besproken. Omdat de bevinding laag en niet robuust is,

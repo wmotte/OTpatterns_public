@@ -19,7 +19,7 @@ het doodswerkwoord gaat over van vonnis naar uitvoering, Achimelechs naam keert
 op vaste afstanden terug, en het slot van de passage laat pas laat zien wie
 buiten het mannelijke ambtsconflict mee wordt vernietigd.
 
-## Vraag 1 — Wie draagt de handeling?
+## Vraag 1: Wie draagt de handeling?
 
 **Vraag:** Is het verhoor alleen inhoudelijk scheef, of verdeelt de syntaxis de
 handelende en ondergane rollen ook meetbaar ongelijk?
@@ -44,12 +44,11 @@ Deze meting is een samengestelde graafproxy uit de engine en is daarom niet als
 **Duiding:** De scène zet Achimelech narratief en grammaticaal klem. Saul
 spreekt vanuit de positie van handelende koning; de
 priesterlijke groep wordt het object van oproep, beschuldiging en bevel. Dat
-past bij de machtsas van de reeks: de meerdere gebruikt informatie niet ter
-weging; hij organiseert de rollen zo dat het antwoord van de mindere al in een
-schuldpositie terechtkomt.
+past bij de machtsas van de reeks: Saul weegt de informatie niet af, maar plaatst Achimelech bij voorbaat in
+de rol van beschuldigde.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk gedekt. De commentaren
+**Vergelijking met de commentaren:** gedeeltelijk gedekt. De commentaren
 beschrijven Saul breed als aanklager en handelende macht tegenover de priesters
 als beklaagden en slachtoffers. De exacte actantmeting, met uitgaande en
 inkomende syntactische relaties, voegt een formele onderbouwing toe.
@@ -57,7 +56,7 @@ inkomende syntactische relaties, voegt een formele onderbouwing toe.
 **Confidence:** Middel (≤ plafond Middel) · feature: `actant_in_out_degree` ·
 robustness: robust · versie 2023
 
-## Vraag 2 — Wanneer wordt het verhoor een doodsbevel?
+## Vraag 2: Wanneer wordt het verhoor een doodsbevel?
 
 **Vraag:** Waar kantelt Sauls ondervraging grammaticaal naar geweld tegen de
 priesters?
@@ -86,13 +85,13 @@ clause domain=Q
 ```
 
 **Duiding:** De overgang zit in de lexicale koppeling: priester + doden,
-priester + slaan. Sauls vraag aan Achimelech wordt een bevel dat het
-priesterambt zelf in het objectveld van geweld trekt. Dat Doëgs uitvoering met
+priester + slaan. Sauls vraag aan Achimelech gaat over in een bevel waarin de priesters het
+object van geweld worden. Dat Doëgs uitvoering met
 `PG<[` volgt op Sauls doodsbevel maakt de machtslijn zichtbaar: het woord van de
 koning zoekt een uitvoerder en vindt die pas buiten de gewone knechten.
 
 
-**Staat dit al in de commentaren?:** gemengd. De koppeling priester +
+**Vergelijking met de commentaren:** gemengd. De koppeling priester +
 doodswerkwoord is gedeeltelijk gedekt: commentaren zien het doodsbevel als
 kantelpunt, maar tellen de lexicale koppeling niet. De koppeling priester +
 `PG<[` is bekend, vooral doordat commentaren het rauwe fysieke karakter van
@@ -103,7 +102,7 @@ en `PG<[` zijn respectievelijk gedeeltelijk gedekt en bekend.
 `dynamic_query=priest_object_of_royal_death_command` · robustness: robust ·
 versie 2023
 
-## Vraag 3 — Hoe verdedigt Achimelech zich?
+## Vraag 3: Hoe verdedigt Achimelech zich?
 
 **Vraag:** Probeert Achimelech zichzelf vrij te pleiten door Saul tegen te
 spreken, of door David binnen Sauls eigen dienstorde te plaatsen?
@@ -125,7 +124,7 @@ clause domain=Q
   word lex=MLK/
 ```
 
-**Duiding:** Achimelech kiest een verdediging die Saul niet frontaliseert. Hij
+**Duiding:** Achimelech vermijdt in zijn verdediging een frontale aanval op Saul. Hij
 plaatst David als betrouwbare dienaar rond de koning en zichzelf als iemand die
 binnen die orde heeft gehandeld. Juist daardoor wordt Sauls antwoord harder:
 hij laat de diensttaal niet als ontlasting gelden. De regelmatige terugkeer van
@@ -133,7 +132,7 @@ Achimelechs naam versterkt dat kader: de priester wordt eerst opgeroepen, dan
 antwoordt hij, daarna wordt hij met naam ter dood veroordeeld.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk gedekt. De diensttaal in
+**Vergelijking met de commentaren:** gedeeltelijk gedekt. De diensttaal in
 Achimelechs verdediging is bekend: commentaren lezen "uw dienaar" en "koning"
 als juridische kern van zijn pleidooi. De regelmatige naamafstand rond
 oproep, verdediging en vonnis wordt niet geteld; die meting verfijnt een
@@ -142,7 +141,7 @@ bestaande narratieve observatie.
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=servant_defense_before_king` · robustness: robust · versie 2023
 
-## Vraag 4 — Wie verdwijnt uit het grammaticale veld?
+## Vraag 4: Wie verdwijnt uit het grammaticale veld?
 
 **Vraag:** De scène gaat over mannen met ambtstitels: koning, priester,
 knechten, Doëg. Is dat mannelijke register ook formeel zichtbaar?
@@ -160,15 +159,14 @@ vrouw verschijnt dus vooral in de slotlijst van wat in Nob wordt geslagen.
 word gn=f
 ```
 
-**Duiding:** De grammatica houdt de hoofddialoog smal: mannelijke personen,
-mannelijke ambten, mannelijke machtsposities. Het slot breekt dat register open
+**Duiding:** De hoofddialoog verwijst grammaticaal naar mannelijke personen en ambten. Het slot breekt dat register open
 wanneer de stad wordt geraakt: dan verschijnen stad, zwaard en vrouw in de
 vormlijst. De telling maakt het geweld niet groter dan de tekst zegt; zij laat
 zien dat de slachtoffers buiten het eigenlijke ambtsverhoor pas aan het einde
 grammaticaal zichtbaar worden.
 
 
-**Staat dit al in de commentaren?:** nieuw. Commentaren bespreken het
+**Vergelijking met de commentaren:** nieuw. Commentaren bespreken het
 slotgeweld uitvoerig, vooral de overeenkomst met het Amalek-bevel en Sauls
 morele omkering. Geen geraadpleegde bron verbindt dat met de lage dichtheid
 van vrouwelijke vormen en hun late grammaticale zichtbaarheid in de passage.
@@ -176,7 +174,7 @@ van vrouwelijke vormen en hun late grammaticale zichtbaarheid in de passage.
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `gn=f` · robustness: robust ·
 versie 2023
 
-## Vraag 5 — Waar wordt de taal compact?
+## Vraag 5: Waar wordt de taal compact?
 
 **Vraag:** Is de hele scène telegramstijl, of verdichten juist enkele
 geweldszinnen?
@@ -204,7 +202,7 @@ Dat maakt de vorm van het geweld scherper: de tekst drukt vooral het
 beslissende bevel samen.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk gedekt. Commentaren noemen
+**Vergelijking met de commentaren:** gedeeltelijk gedekt. Commentaren noemen
 de stijl van de scène kort en snel en bespreken de directe bevelstaal rond
 22:17-18. De content/function-ratio als technische meting blijft een
 toevoeging; deze vraag blijft daarom ondersteunend, niet dragend.

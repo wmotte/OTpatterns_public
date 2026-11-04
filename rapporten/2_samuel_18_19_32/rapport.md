@@ -17,7 +17,7 @@ wayyiqtol-voortgang wordt onderbroken door deictische waarneming, participia en
 vraag-antwoordblokken. Ahimaäz brengt de grammatica van nieuws en snelheid, maar
 ontwijkt de kernvraag; de Kusiet draagt uiteindelijk het bericht dat David vreest.
 
-## Vraag 1 — Waarom is deze scène zo snel en toch vertraagd?
+## Vraag 1: Waarom is deze scène zo snel en toch vertraagd?
 
 **Vraag:** Vertelt de tekst de bodewedstrijd gewoon snel, of bouwt hij tegelijk
 vertraging in rond het slechte nieuws?
@@ -45,20 +45,20 @@ clause typ=WayX
 % narratieve wayq-clause + 1-4 nominale/participiale clauses + narratieve wayq-clause
 ```
 
-**Duiding:** De vertelling jaagt vooruit, maar het nieuws zelf wordt vertraagd.
+**Duiding:** De vertelling volgt de snelle beweging van de boden, maar stelt het nieuws uit.
 De snelle werkwoordsketen laat de boden bewegen; de onderbrekingen laten David
-en de lezer wachten. Daardoor wordt de vraag niet: wie arriveert het eerst? maar:
-wie durft te zeggen wat de aankomst betekent?
+en de lezer wachten. De aandacht verschuift van wie het eerst aankomt naar wie het nieuws
+durft te vertellen.
 
 
-**Staat dit al in de commentaren?:** ja. De bodewedstrijd, Davids wachten en de
+**Vergelijking met de commentaren:** ja. De bodewedstrijd, Davids wachten en de
 vertraging van het slechte nieuws zijn bekend; de metingen van wayyiqtol,
 WayX en onderbreking dienen vooral als kwantitatieve bevestiging.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `vt=wayq` / `typ=WayX` /
 `circumstantial_slowdown` · robustness: robust · versie 2023
 
-## Vraag 2 — Hoe wordt nieuws in een mond opgesloten?
+## Vraag 2: Hoe wordt nieuws in een mond opgesloten?
 
 **Vraag:** Presenteert de tekst het bericht als uitgesproken inhoud, of eerst
 als nog-niet-geopende mogelijkheid?
@@ -83,21 +83,20 @@ word lex=BFRH/
 word lex=BFR[
 ```
 
-**Duiding:** David krijgt het nieuws eerst als potentie: "bericht in zijn mond".
+**Duiding:** David verneemt eerst dat er nieuws onderweg is: "bericht in zijn mond".
 Het bericht is aanwezig, maar nog niet gezegd. Dat past precies bij de scène:
 Ahimaäz kan rennen, aankomen en spreken, maar hij opent niet de volledige
-inhoud. De grammatica lokaliseert het nieuws bij de bode voordat het David
-bereikt.
+inhoud. De formulering plaatst het nieuws bij de bode voordat David de inhoud kent.
 
 
-**Staat dit al in de commentaren?:** ja. De idiomatische waarde van "bericht in
+**Vergelijking met de commentaren:** ja. De idiomatische waarde van "bericht in
 zijn mond" en de nieuwslogica van de scène worden expliciet besproken; de query
 markeert een bekende vertelstap.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=mouth_news_formula` · robustness: robust · versie 2023
 
-## Vraag 3 — Wie krijgt de nieuwsrol: Ahimaäz of de Kusiet?
+## Vraag 3: Wie krijgt de nieuwsrol: Ahimaäz of de Kusiet?
 
 **Vraag:** Zet de grammatica Ahimaäz en de Kusiet als gelijkwaardige boden neer,
 of verdeelt zij de nieuwsfunctie?
@@ -136,7 +135,7 @@ Ahimaäz is de snelle bode die de eerste aankomst opeist, maar de Kusiet is de
 bode bij wie het bericht zijn beslissende inhoud krijgt.
 
 
-**Staat dit al in de commentaren?:** ja. De rolverdeling tussen Ahimaäz als
+**Vergelijking met de commentaren:** ja. De rolverdeling tussen Ahimaäz als
 snelle, aandringende bode en de Kusiet als drager van het beslissende bericht is
 standaardmateriaal; de queries formaliseren die verdeling.
 
@@ -144,7 +143,7 @@ standaardmateriaal; de queries formaliseren die verdeling.
 `dynamic_query=ahimaaz_news_running_verse` /
 `dynamic_query=cushite_news_to_king_verse` · robustness: robust · versie 2023
 
-## Vraag 4 — Waarom staat David als waarnemer stil?
+## Vraag 4: Waarom staat David als waarnemer stil?
 
 **Vraag:** Is de wachterscène decor, of maakt de grammatica David en de wachter
 deel van het uitstelmechanisme?
@@ -172,7 +171,7 @@ maakt de aankomst zichtbaar voordat het nieuws hoorbaar wordt. De stilte rond
 Absaloms lot ontstaat uit waarneming die het spreken voor blijft.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De poort- en wachterscène als
+**Vergelijking met de commentaren:** gedeeltelijk. De poort- en wachterscène als
 zichtbare vertraging is bekend; de actieve participia als afzonderlijke
 meetlaag blijven een beperkte toevoeging.
 
@@ -180,7 +179,7 @@ meetlaag blijven een beperkte toevoeging.
 `deictic_shift_here_now` / `historical_present_participles` · robustness:
 robust · versie 2023
 
-## Vraag 5 — Waarom vraagt David twee keer naar "de jongeman"?
+## Vraag 5: Waarom vraagt David twee keer naar "de jongeman"?
 
 **Vraag:** Blijft David in de logica van slagbericht en overwinning, of stuurt
 zijn vraag de scène naar Absalom?
@@ -212,7 +211,7 @@ private vraag. Ahimaäz ontwijkt die vraag; de Kusiet beantwoordt haar indirect
 door Absalom onder Davids vijanden te rangschikken.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Davids dubbele vraag naar de
+**Vergelijking met de commentaren:** gedeeltelijk. Davids dubbele vraag naar de
 jongeman en de spanning tussen overwinning en vaderlijk verlies zijn bekend; de
 lage meervoudsdichtheid is vooral een aanvullende vormmeting.
 

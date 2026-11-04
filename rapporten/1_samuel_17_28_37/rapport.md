@@ -26,7 +26,7 @@ bewijs gedragen hypothesen.*
 > referentiële signatuur waarmee David als hoofdreferent het toneel
 > grammaticaal naar zich toe trekt.
 
-## Vraag 1 — de jongste die het toneel naar zich toe trekt
+## Vraag 1: de jongste die het toneel naar zich toe trekt
 
 **Vraag:** Eliab en Saul zetten David vast op zijn rang ("die paar schapen",
 "maar een knaap"). Keert de tekst die kleinering ook grammaticaal om, in de
@@ -34,7 +34,7 @@ manier waarop David als referent de scène domineert?
 
 **Wat de data toont:** De detector voor referentieel verval (een expliciete
 naam die mag overgaan in voornaamwoord of nul-subject voordat hij wordt
-ververst) telt twaalf zulke runs, tegen verwacht ongeveer 2,7 (G² = 19,3,
+ververst) telt twaalf clauses in drie ketens, tegen verwacht ongeveer 2,7 clauses (G² = 19,3,
 effect_size 3,6). De afwijking is robuust in elk stratum: same_genre G² = 16,5
 (verwacht 3,1), same_book G² = 12,9, same_period G² = 18,0. De runs hangen aan
 Davids naam: hij wordt geïntroduceerd (v28 בְּדָוִד, "tegen David"; v29
@@ -50,16 +50,15 @@ gereduceerd tot "een knaap", trekt de referentie van de scène naar zich toe.
 reproduceerbaar. De bouwsteen ervan, de eigennamen (`word sp=nmpr`,
 17 treffers), is wel direct in de zoekbrowser na te tellen.*
 
-**Duiding:** De kleinering kantelt om in de grammatica. Eliab en Saul drukken
-David naar beneden met status-termen, terwijl de tekst hem tot het
-referentiële zwaartepunt maakt: zijn naam is het anker waaromheen de
+**Duiding:** Tegenover de kleinering door Eliab en Saul staat Davids centrale plaats in
+de verwijzingsstructuur: zijn naam is het anker waaromheen de
 voornaamwoorden en suffixen zich rangschikken. Op de as van de kleinering is
 het referentiële verval het syntactische spoor van een omkering: de afgewezen
-jongste is degene naar wie de tekst telkens terugverwijst. De scène kent hem
-grammaticaal toe wat de sprekers hem in woorden ontzeggen.
+jongste is degene naar wie de tekst telkens terugverwijst. De grammaticale verwijzing kan daarmee als tegenwicht tegen de kleinering
+worden gelezen.
 
 
-**Staat dit al in de commentaren?:** nieuw. De commentaren zien Davids
+**Vergelijking met de commentaren:** nieuw. De commentaren zien Davids
 dominantie, maar niet als referentiële signatuur. Alter typeert David als
 "poised master of rhetoric" en merkt op dat dit zijn eerste sprekende scène
 is: een observatie die de retoriek betreft. Bodner wijst erop dat David "het
@@ -70,7 +69,7 @@ van naar voornaamwoorden te vervallen) om hem als hoofdpersoon te markeren.
 Campbell erkent expliciet dat de distributie van eigennaam tegenover titel in
 Samuël statistisch niet-willekeurig is, maar past dat toe op 2 Samuël 6-24, en
 laat deze perikoop buiten beschouwing. Dat Davids dominantie hier juist via
-een hoge dichtheid van referentieel verval gemeten wordt (twaalf runs waar er
+een hoge dichtheid van referentieel verval gemeten wordt (twaalf clauses in zulke ketens waar er
 bijna drie verwacht worden) staat nergens, en wijst tegen Tsumura's
 naam-herhalingslezing in.
 
@@ -144,6 +143,16 @@ bevestigt deze dialoog het verwachte patroon van een hoog-verzadigd fragment:
 de meest as-dragende metingen vallen in de ijk, en de enige nieuwheid zit in een
 formele, gemeten structuur die de commentaren (gericht op retoriek, theologie
 en woordbetekenis) niet tellen.
+
+
+## Methodisch voorbehoud
+
+De aanvullende controles bij [Hanna en Eli](../1_samuel_1_12_18/controles.md)
+laten zien dat inbeddingsdiepte ook citaatinbedding meet en dat referentieel
+verval bij gewone scène-einden kan voorkomen. Voor deze dialoog zijn die
+register- en vergelijkingscontroles nog niet uitgevoerd. De betreffende
+interpretaties blijven daarom voorlopig, ook bij een robuustheidslabel in de
+oorspronkelijke meetrun.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per

@@ -1,7 +1,7 @@
 # Toelichting bij 1 Samuël 24:9-22: David en Saul bij de grot
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
+commentaren is afgerond. Zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA. De engine vergelijkt deze veertien verzen
 met het Oude Testament en met nauwere groepen zoals 1 Samuël en narratief

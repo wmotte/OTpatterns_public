@@ -1,37 +1,42 @@
-# Niet-conventionele vragen bij 1 Samuël 1:12-18 (BHSA 2023)
+# Vragen bij 1 Samuël 1:12-18 (BHSA 2023)
 
-*Passage: 1 Samuël 1:12-18 (7 verzen, 124 woorden; genre narratief, periode
-EBH). Bron: ETCBC/BHSA versie 2023 via Text-Fabric. Anomalie-engine tegen het
-OT-corpus, gestratificeerd (global/boek/genre/taal/periode), baseline-schema
-v19; run van 13 juni 2026, 83 bevindingen (`evidence.json` in deze map).
-Robuustheidslabels in dit rapport: robuust (robust), gedeeltelijk robuust
-(partially_robust), alleen-globaal (global_only); betrouwbaarheid Hoog, Middel
-of Laag. Zoekregels zijn na te lopen in de
-[zoekbrowser](https://wmotte.github.io/OTpatterns_public/); achtergrond bij
-BHSA en Text-Fabric staat in [ACHTERGROND.md](../../ACHTERGROND.md). BHSA legt
-formele syntaxis vast, geen betekenis of theologie; duidingen blijven door het
-bewijs gedragen hypothesen.*
+*Passage: 1 Samuël 1:12-18, zeven verzen en 124 woorden. Bron: ETCBC/BHSA
+versie 2023 via Text-Fabric. De oorspronkelijke run van 13 juni 2026 bevat
+83 bevindingen, vergeleken met het hele OT, boek, genre, taal en periode
+(baseline-schema v19). De meetgegevens staan in [evidence.json](evidence.json).
+De [zoekbrowser](https://wmotte.github.io/OTpatterns_public/) ondersteunt de
+hieronder aangegeven eenvoudige tellingen.*
 
-> Eerste dialoog uit de Samuël-reeks. As: macht-asymmetrie in spraak en
-> ontwijking/mislukte communicatie. Eli (priester) leest Hanna's stille gebed
-> als dronkenschap; Hanna verdedigt zich; Eli zegent haar weg. De vraag is
-> telkens hoe het Hebreeuws de rangverhouding tussen de twee codeert, en waar
-> de communicatie eerst klapt voor ze zich herstelt.
+Eli ziet Hanna's stille gebed voor dronkenschap aan. Hanna verdedigt zich,
+waarna Eli haar zegent. Dit rapport onderzoekt hoe het Hebreeuws hun
+verhouding vormgeeft. De tellingen beschrijven formele kenmerken. Een lezing
+in termen van macht blijft een hermeneutische stap.
 
-## Vraag 1 — de genoemde meerdere, de naamloze mindere
+De [aanvullende controles](controles.md) veranderen het gewicht van enkele
+bevindingen. Het lidwoordtekort houdt stand. De vrouwelijke vormen en de
+inbeddingsdiepte dienen als ijkpunten, het referentieel verval als context.
+De vorm-hapaxen blijven vermeldenswaard, maar zijn minder uitzonderlijk dan
+de eerste analyse suggereerde. De oorspronkelijke meetbestanden zijn
+behouden, zodat meting en latere beoordeling afzonderlijk te controleren zijn.
 
-**Vraag:** Wie houdt het verhaal bij naam vast, wie laat het vervagen tot een
-voornaamwoord, en valt die keuze samen met de machtsverhouding?
+## Vraag 1: naamgeving en het enige lidwoord
 
-**Wat de data toont:** Eli wordt in deze zeven verzen vier keer expliciet bij
-naam genoemd (עֵלִי in 1:12, 1:13, 1:14, 1:17). Hanna draagt haar naam (חַנָּה)
-nog in 1:13 en 1:15, maar verdwijnt daarna uit de naamgeving: in het slotvers
-heet ze הָאִשָּׁה, "de vrouw" (1:18). Twee aanvullende metingen wijzen dezelfde
-kant op. De passage telt zes plaatsen waar een expliciet genoemde referent in
-een pronominale of subjectloze keten vervalt vóór hij ververst wordt (verwacht
-ongeveer één; 1:17 draagt een keten van lengte 6). En het lidwoord, dat in een
-passage van deze lengte ongeveer negen keer verwacht wordt, komt hier één keer
-voor: precies op die ene הָ van הָאִשָּׁה in 1:18.
+**Vraag:** Hoe verwijst de tekst naar Eli en Hanna, en welke afwijking blijft
+bij vergelijking met andere scènes overeind?
+
+**Wat de data toont:** Eli wordt vier keer bij naam genoemd: עֵלִי in 1:12,
+1:13, 1:14 en 1:17. Hanna draagt haar naam חַנָּה in 1:13 en 1:15. In het
+slotvers heet zij הָאִשָּׁה, "de vrouw" (1:18). Het lidwoord van die aanduiding
+is het enige in de passage, tegen een globale verwachting van 8,8
+(q = 5,8·10⁻⁴, robuust over alle strata).
+
+De naamtelling van Eli is alleen globaal opvallend (`global_only`) en draagt
+daarom geen zelfstandige statistische bewijslast. De detector voor
+referentieel verval vindt één keten van zes clauses in 1:17-18, tegen een
+globale verwachting van 1,7. Hij telt de som van de ketenlengtes, niet het
+aantal ketens. De verwachting staat in
+`findings[id=31].baselines.global.expected`. Het afgeronde veld `expected`
+in hetzelfde oorspronkelijke record bevat 1,0.
 
 ```
 naamgeving over de scène (× = expliciete naam):
@@ -40,152 +45,158 @@ Hanna          13 ×          15 ×                → "de vrouw" 18
                                               (enige lidwoord van de passage)
 ```
 
-**Text-Fabric-query:**
+**Text-Fabric-query's:**
+
+```
+word lex=<LJ==/
+```
+
+```
+word sp=art
+```
+
+De zoekbrowser geeft respectievelijk vier en één treffer. De samengestelde
+vervalmeting vereist een volledige Text-Fabric-omgeving:
 
     nmpr subject followed by pronoun/suffix/zero-subject run
 
-*Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
-reproduceerbaar. De naamtelling (`word lex=<LJ==/`, 4 treffers) en het
-lidwoord (`word sp=art`, 1 treffer) zijn wel direct in de zoekbrowser na te
-tellen.*
+**Aanvullende controle:** Het lidwoordtekort blijft bestaan na correctie voor
+de verhouding tussen directe rede en vertellerstekst. De verwachting wordt
+dan 9,6. Van alle zevenversvensters in narratief proza vertoont 3,0 procent
+een minstens even sterk tekort, van de spraakrijke vensters 4,1 procent.
+Geen van de zeven controlescènes met een vrouwelijke hoofdpersoon heeft een
+vergelijkbaar significant tekort. In het bredere venster 1:9-20 staan zes
+lidwoorden waar er ruim zeventien verwacht worden.
 
-**Duiding:** De meerdere blijft expliciet in beeld; de mindere lost op in
-voornaamwoorden en wordt aan het slot een soortnaam. Het enige lidwoord van de
-hele passage markeert juist het moment waarop Hanna haar eigennaam kwijtraakt
-en "de vrouw" wordt. Voor wie de scène voorleest of preekt is dit een meetbaar
-ankerpunt: de tekst voert het statusverschil ook op in wie het waard wordt
-geacht herhaald genoemd te worden.
+Het referentieel verval is minder onderscheidend. Rechters 4, Ruth 3 en
+1 Samuël 25 hebben gelijke of langere ketens. Van alle nulvensters evenaart
+10,7 procent de casus, van de spraakrijke 12,7 procent. De naamloosheid is
+bovendien gebonden aan het scène-einde: in 1:19-20 heet Hanna weer Hanna.
 
+**Duiding:** Het enige lidwoord markeert het slot waarin Hanna als "de vrouw"
+vertrekt. Dat kan in een machtslezing worden verbonden met Eli's optreden.
+Een andere lezing ziet hierin de herneming van Hanna's zelfaanduiding als
+vrouw in 1:15. De telling beslist niet tussen die lezingen. Zij berust op de
+Masoretische tekst, terwijl de Septuaginta in 1:18 afwijkt.
 
-**Staat dit al in de commentaren?:** nieuw. Frolov en McCarter signaleren
-referentie-verschuivingen, maar tekstkritisch (LXX/4QSamᵃ-varianten in 1:13,
-1:18), niet als bewuste machtscodering; van Wijk-Bos en Bergen bespreken het
-statusverschil thematisch, zonder de naamgeving of het lidwoord als bewijs.
-De formulering van 1:18 is wel gedekt: Tsumura leest wayyiqtol met expliciet
-subject als alinea-markering, van Wijk-Bos leest "de vrouw" juist als teken
-van agency; de collostructionele binding van het patroon is de toevoeging.
+**Vergelijking met de commentaren:** Het lidwoordpatroon is niet aangetroffen
+in de geraadpleegde collectie. Frolov en McCarter bespreken
+referentieverschuivingen tekstkritisch. Tsumura en Van Wijk-Bos bespreken de
+formulering van 1:18 vanuit andere gezichtspunten. De collectie mist onder
+meer Fokkelman, Polzin en genderkritische studies over Hanna. Het oordeel
+"nieuw" blijft daarom beperkt tot de geraadpleegde bronnen.
 
-**Confidence:** Middel (≤ plafond Middel) · feature(s): referential_decay_rate,
-categorical sp=art, leitwort · robustness: robust (decay, lidwoord), global_only
-(naamtelling) · versie 2023
+**Beoordeling:** Lidwoordtekort: dragende bevinding, plafond Middel.
+Referentieel verval: context. Naamtelling: kwalitatieve context zonder
+zelfstandige statistische bewijslast. Bevindingen 33, 31 en 11.
 
-## Vraag 2 — een scène in de vrouwelijke vorm
+## Vraag 2: vrouwelijke vormen als ijkpunt
 
-**Vraag:** Welke grammaticale stem beheerst deze verzen, en strookt dat met wie
-hier institutioneel de macht heeft?
+**Vraag:** Is de oververtegenwoordiging van vrouwelijke vormen kenmerkend
+voor Hanna's gebed?
 
-**Wat de data toont:** Grammaticaal vrouwelijk geslacht is sterk
-oververtegenwoordigd: 27 vormen waar er in een vergelijkbaar venster ongeveer 11
-verwacht worden. De oververtegenwoordiging houdt stand tegen elk stratum
-(same_book: 27 vs 7,9; same_genre: vs 9,3; G² = 19,9; q significant). De vormen
-lopen door de hele scène: הִרְבְּתָה (1:12), חַנָּה, הִיא, מְדַבֶּרֶת,
-שְׂפָתֶיהָ (1:13), תִּשְׁתַּכָּרִין (1:14).
+**Wat de data toont:** De passage bevat 27 grammaticaal vrouwelijke vormen,
+tegen 10,7 globaal verwacht. Het contrast is robuust over alle strata
+(G² = 19,9, q = 1,2·10⁻⁵). Tot de voorbeelden behoren הִרְבְּתָה (1:12),
+חַנָּה, הִיא, מְדַבֶּרֶת en שְׂפָתֶיהָ (1:13), en תִּשְׁתַּכָּרִין (1:14).
 
 **Text-Fabric-query:**
 
     word gn=f
 
-*In de zoekbrowser na te tellen: 27 treffers in deze passage.*
+In de zoekbrowser zijn 27 treffers na te tellen.
 
-**Duiding:** De sociaal ondergeschikte partij verzadigt de grammatica van de
-scène. Eli heeft het ambt en opent met een bevel, maar de werkwoorden,
-suffixen en voornaamwoorden buigen overwegend naar Hanna. Er zit spanning tussen
-wie de institutionele macht draagt en wie de grammaticale ruimte vult; de
-preeklijn dat dit haar verhaal is, vindt zo al steun in de morfologie.
+**Aanvullende controle:** Alle zeven controlescènes met een vrouwelijke
+hoofdpersoon hebben eveneens een oververtegenwoordiging. Hanna's factor 2,5
+valt binnen hun bereik van 1,4 tot 2,6. Ruth op de dorsvloer ligt hoger.
 
+**Duiding:** Geslacht is in het Hebreeuws een congruentiekenmerk. Een
+vrouwelijke hoofdpersoon die veel spreekt, brengt vanzelf vrouwelijke
+werkwoorden, suffixen en voornaamwoorden met zich mee. De telling wijst
+Hanna's aanwezigheid aan en levert geen zelfstandig bewijs voor een
+retorische of theologische eigenschap van dit gebed.
 
-**Staat dit al in de commentaren?:** nieuw. Van Wijk-Bos, Evans en Frolov
-bespreken Hanna's narratieve dominantie (zij blijft het centrum, Elkana
-verdwijnt later onder haar), maar voeren de grammaticaal-vrouwelijke
-oververtegenwoordiging niet als bewijsvorm aan.
+**Vergelijking met de commentaren:** De grammaticale telling ontbrak in de
+geraadpleegde collectie. Van Wijk-Bos, Evans en Frolov bespreken Hanna's
+centrale plaats in het verhaal. Dat een telling niet in een commentaar staat,
+maakt haar nog niet tot een onderscheidende exegetische vondst.
 
-**Confidence:** Hoog (≤ plafond Hoog) · feature(s): categorical gn=f ·
-robustness: robust · versie 2023
+**Beoordeling:** IJkpunt. Het plafond Hoog betreft de formele annotatie,
+niet de exegetische zeggingskracht. Bevinding 21.
 
-## Vraag 3 — de wervelende werkwoordstijd van de confrontatie
+## Vraag 3: snelle wisseling van werkwoordsvormen
 
-**Vraag:** Waarom stapelen zich in zo'n korte scène zoveel verschillende
-werkwoordsvormen op?
+**Vraag:** Hoe sterk wisselen tijd, aspect en modus in deze scène?
 
-**Wat de data toont:** De passage telt 14 vensters van vijf clauses met drie of
-meer verschillende tempus-aspect-modus-waarden naast elkaar, waar er over het
-corpus ongeveer 3,6 verwacht worden (G² = 22,9; robuust over alle strata). De
-opeenhoping piekt op de scharnieren: 1:13 schakelt participium naar participium
-naar imperfectum naar wayyiqtol (de naderende, sprakeloze Hanna die Eli
-gadeslaat), 1:15 gaat van qatal naar wayyiqtol naar imperfectum naar qatal
-(Hanna's verweer).
+**Wat de data toont:** De passage telt 14 vensters van vijf clauses met drie
+of meer TAM-categorieën, tegen ongeveer 3,6 verwacht (G² = 22,9, robuust over
+alle strata). De vormwisselingen liggen onder meer in 1:13 en in Hanna's
+verweer in 1:15.
 
 **Text-Fabric-query:**
 
     sliding window over Pred verb vt values
 
-*Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
-reproduceerbaar.*
+Deze samengestelde telling vereist een volledige Text-Fabric-omgeving.
 
-**Duiding:** De dichtheid van vormwisselingen volgt de registerbeweging van de
-scène: het participiale stilzetten van 1:12-13 waarin Eli kijkt en oordeelt,
-het imperatieve uithalen van 1:14, het verdedigende qatal van 1:15. De
-werkwoordstijd zelf draagt de onrust van een gesprek dat eerst misloopt en zich
-dan herstelt.
+**Aanvullende controle:** Van alle nulvensters evenaart 1,9 procent dit
+aantal, van de spraakrijke 2,9 procent.
 
+**Duiding:** De variatie past bij de afwisseling tussen waarneming, bevel en
+verweer. Zij kwantificeert een stilistisch kenmerk en bewijst geen
+psychologische toestand van de sprekers.
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Frolov wijst op de "wild
-mix" van vormen in 1:2-7 en op de participiale digressie van 1:12-13a; Keil
-leest de "crowding together of the words" als teken van Hanna's nood; Tsumura
-koppelt vormvariatie aan tempo. De gestratificeerde dichtheidsmeting in de
-dialoog zelf voegt de kwantificering toe.
+**Vergelijking met de commentaren:** Gedeeltelijk gedekt. Frolov bespreekt de
+werkwoordsmix, Keil de opeenhoping van woorden en Tsumura de samenhang tussen
+vorm en tempo. De meting voegt de corpusvergelijking toe.
 
-**Confidence:** Hoog (≤ plafond Hoog) · feature(s): tam_chaos · robustness:
-robust · versie 2023
+**Beoordeling:** Kwantificering van een bekend patroon, plafond Hoog.
+Bevinding 16.
 
-## Vraag 4 — de diep ingebedde zelfverdediging
+## Vraag 4: wat meet de inbeddingsdiepte?
 
-**Vraag:** Waarom is de syntaxis van deze verzen veel sterker onderschikkend dan
-verhalend proza gewoonlijk is?
+**Vraag:** Beschrijft de hoge inbeddingsdiepte Hanna's verweer, of de wijze
+waarop de BHSA directe rede codeert?
 
-**Wat de data toont:** De passage draagt clauses tot inbeddingsdiepte 13 (vier
-keer, verwacht ongeveer 0,8) en diepte 15 (drie keer, verwacht ongeveer 0,4),
-beide robuust over de strata (same_book diepte 15: 3 vs 0,15; G² = 12,5). Zulke
-diepe hypotaxe hoort bij betoog en wet; verhalend proza werkt gewoonlijk in
-paratactische ketens. De zichtbare drager is Hanna's verweer in 1:15-16, met de
-ondergeschikte כִּי-clause מֵרֹב שִׂיחִי וְכַעְסִי דִּבַּרְתִּי ("want uit mijn
-grote zorg en verdriet heb ik gesproken").
+**Wat de data toont:** Vier clause-atomen hebben diepte 13 en drie diepte 15.
+Voor diepte 15 is de globale verwachting ongeveer 0,4 en de boekverwachting
+0,15 (G² = 12,5). Beide contrasten zijn robuust over de strata. In totaal
+hebben elf atomen een diepte van 13 of meer.
 
 **Text-Fabric-query:**
 
     clause_atom tab=15
 
-*Alleen in een volledige Text-Fabric-omgeving reproduceerbaar; de
-inbeddingsdiepte (`tab`) zit niet in de geëxporteerde featureset van de
-zoekbrowser.*
+Het kenmerk `tab` zit niet in de geëxporteerde zoekbrowsergegevens. De
+meting vereist daarom een volledige Text-Fabric-omgeving.
 
-**Duiding:** De onderschikking concentreert zich in de rede waarin de mindere
-zich moet rechtvaardigen. Eli beveelt in vlakke hoofdzinnen ("doe weg!");
-Hanna stapelt bijzinnen om uit te leggen wie ze is en waarom ze deed wat Eli
-verkeerd las. De syntactische gelaagdheid is de vorm van het je-moeten-verklaren
-naar boven toe.
+**Aanvullende controle:** `tab` loopt op met elke laag rede-in-vertelling.
+In narratief proza is de mediaan 8 in directe rede, tegenover 5 in
+vertellerstekst. Drie diepe atomen staan in Eli's zegen (1:17), één in
+vertellerstekst (1:15). Van de spraakrijke nulvensters haalt 14,2 procent
+dezelfde concentratie.
 
+**Duiding:** De eerdere koppeling tussen diepte en Hanna's noodzaak zich te
+rechtvaardigen houdt niet stand. De meting volgt grotendeels de codering van
+ingebedde rede en lokaliseert geen bijzondere hypotaxis van haar verweer.
 
-**Staat dit al in de commentaren?:** nieuw. McCarter bestempelt 1:16 als crux
-interpretum en richt zich op emendaties; Frolov typeert de dialoog als "verbal
-match"; Alter ziet een geparodieerde annunciatie. Een formele analyse van de
-inbeddingsdiepte ontbreekt.
+**Vergelijking met de commentaren:** De formele dieptemeting ontbreekt in de
+geraadpleegde collectie. McCarter, Frolov en Alter bespreken de dialoog vanuit
+andere vragen. Dat nieuwheidsoordeel verandert de uitkomst van de
+registercontrole niet.
 
-**Confidence:** Middel (≤ plafond Middel) · feature(s): clause_embedding ·
-robustness: robust · versie 2023
+**Beoordeling:** IJkpunt voor de codering van directe rede. Bevindingen 56-57.
 
-## Vraag 5 — de petitie waarin de wens de spreker verdringt
+## Vraag 5: wens en onderdanige zelfaanduiding
 
-**Vraag:** Hoe bouwt Hanna haar verzoeken op? Wie is het grammaticale subject
-als ze iets vraagt?
+**Vraag:** Hoe combineert Hanna haar verzoeken met de aanduiding
+"uw dienstmaagd"?
 
-**Wat de data toont:** Twee keer combineert een directe-rede-clause een volitief
-(jussief-proxy imperfectum) met een onderdanig zelf-substantief als subject,
-waar het corpus dat vrijwel nooit doet (2 treffers tegen verwacht ongeveer 0;
-G² = 19,6). In 1:16 staat אַל־תִּתֵּן אֶת־אֲמָתְךָ ("geef uw dienstmaagd
-niet…"), in 1:18 תִּמְצָא שִׁפְחָתְךָ חֵן ("moge uw dienstmaagd genade vinden").
-Het subject van het werkwoord is in beide gevallen "uw dienstmaagd"; de eerste
-persoon komt er niet in voor.
+**Wat de data toont:** Twee clauses in directe rede combineren een
+imperfectum als volitiefproxy met een onderdanige zelfaanduiding met
+2e-persoonssuffix (2 treffers tegen ongeveer 0 verwacht, G² = 19,6,
+q = 1,1·10⁻⁴). In 1:16 staat אַל־תִּתֵּן אֶת־אֲמָתְךָ, "geef uw dienstmaagd
+niet…". In 1:18 staat תִּמְצָא שִׁפְחָתְךָ חֵן, "moge uw dienstmaagd genade vinden".
 
 **Text-Fabric-query:**
 
@@ -193,75 +204,61 @@ persoon komt er niet in voor.
       word vt=impf
       word lex=>MH/|CPXH/ prs_ps=p2
 
-*In de zoekbrowser na te tellen: 2 treffers in deze passage.*
+De zoekbrowser geeft twee treffers. De query controleert het samen voorkomen
+van de vormen, niet hun subjectfunctie. In 1:16 is de aangesproken Eli het
+onderwerp van het werkwoord en is "uw dienstmaagd" object. In 1:18 is
+"uw dienstmaagd" onderwerp. De eerdere bewering dat zij in beide clauses
+subject is, wordt daarom teruggenomen.
 
-**Duiding:** Hanna's verzoek verlaagt haar grammaticale positie: de wens hangt
-aan "uw dienstmaagd", de eerste persoon ontbreekt. De zelfvernedering zit
-daarmee ook in de zinsbouw van de bede: de spreker maakt zich tot
-derde-persoons object van haar eigen verzoek aan de meerdere.
+**Duiding:** Hanna formuleert haar verzoeken met een onderdanige
+zelfaanduiding in de derde persoon. De meting verbindt wens en zelfvernedering,
+maar stelt geen gelijke syntactische rol in beide clauses vast.
 
+**Vergelijking met de commentaren:** Gedeeltelijk gedekt. Bodner, Tsumura en
+Keil bespreken de beleefdheidsformule en het zoeken naar gunst. De meting
+kwantificeert de combinatie van vormen.
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Bodner, Tsumura en Keil
-lezen 1:18 als beleefdheidsformule en gunst-zoekende zet; de zelfvernedering is
-standaard. De grammaticale versmelting van wens en onderdanig zelf-subject, en
-dat die over 1:16 én 1:18 covarieert, is wat de meting toevoegt.
+**Beoordeling:** Exploratieve bevinding, plafond Middel. De zoekvraag is door
+het taalmodel voorgesteld. Bevinding 22.
 
-**Confidence:** Middel (≤ plafond Middel) · feature(s): dynamic_query
-(deferential_volitive_petition) · robustness: robust, exploratief · versie 2023
+## Vraag 6: rangregister als bekende context
 
-## Vraag 6 — het rangregister dat heel het antwoord draagt
+**Vraag:** Hoe keert de rangverhouding in Hanna's antwoord terug?
 
-**Vraag:** Erkent Hanna de rangverhouding in één beleefdheidswoord, of trekt dat
-register door haar hele weerwoord heen?
-
-**Wat de data toont:** Drie van haar spraak-clauses dragen een rang-aanduidend
-lexeem, waar het corpus er bijna nooit drie zo dicht opeen heeft (3 treffers
-tegen verwacht ongeveer 0,1; G² = 13,7). Ze noemt Eli אֲדֹנִי, "mijn heer"
-(1:15), en zichzelf twee keer zijn dienstmaagd: אֲמָתְךָ (1:16), שִׁפְחָתְךָ
-(1:18). De twee zelf-aanduidingen dragen bovendien het 2e-persoonssuffix van de
-aangesprokene: een aparte, eveneens robuuste meting (amatka, shifchatka).
+**Wat de data toont:** Drie spraak-clauses bevatten een rangwoord, tegen
+ongeveer 0,1 verwacht (G² = 13,7). Hanna noemt Eli אֲדֹנִי, "mijn heer" (1:15),
+en zichzelf אֲמָתְךָ (1:16) en שִׁפְחָתְךָ (1:18). De twee zelfaanduidingen
+hebben een suffix dat naar de aangesprokene verwijst.
 
 **Text-Fabric-query:**
 
     clause domain=Q
       word lex=>DWN/|>MH/|CPXH/
 
-*In de zoekbrowser na te tellen: 3 treffers in deze passage; de
-zelf-aanduiding met suffix via `word lex=>MH/|CPXH/|<BD/ prs_ps=p2`
-(2 treffers).*
+De zoekbrowser geeft drie treffers. De zelfaanduidingen zijn afzonderlijk te
+tellen met `word lex=>MH/|CPXH/|<BD/ prs_ps=p2` (twee treffers).
 
-**Duiding:** Het statusverschil keert over Hanna's hele reactie terug: één keer
-door Eli "heer" te noemen, twee keer door zichzelf zijn dienstmaagd te noemen,
-telkens met het suffix dat naar hem verwijst. Ze codeert de meerdere
-grammaticaal in haar eigen zelfbenoeming. Het verweer is fel van inhoud ("geen
-dochter van Belial") en onderdanig van vorm tegelijk.
+**Duiding:** Hanna erkent de verhouding tot Eli in haar aanspreking en
+zelfbenoeming. Haar verweer kan tegelijk krachtig van inhoud en onderdanig
+van vorm zijn.
 
+**Vergelijking met de commentaren:** Gedeeltelijk gedekt. Bergen,
+Van Wijk-Bos, Cartledge en Weiss bespreken de nederigheid en etiquette.
+McCarter en Tsumura benoemen de aanspreekformule als conventie.
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Breed besproken als
-nederigheid en etiquette (Bergen, van Wijk-Bos, Cartledge, Weiss als standaard;
-Bodner, Frolov, Alter, Goldingay, Tsumura, Keil als deels). McCarter en Tsumura
-benoemen de aanspreekformule zelf expliciet als conventie. De covariantie van
-drie rang-clauses over de hele rede, en het 2e-persoonssuffix als grammaticale
-zelf-objectivering, is wat BHSA hier meetbaar maakt.
+**Beoordeling:** Bekende context, exploratief, plafond Laag. Bevindingen 28 en
+48 tellen niet mee als zelfstandige kandidaten van de rapportagevloer. De
+vaste aanspreekformule (bevinding 5) dient als ijkpunt.
 
-**Confidence:** Laag (≤ plafond Laag) · feature(s): dynamic_query
-(deferential_status_register, servile_self_term) · robustness: robust,
-exploratief · versie 2023
+## Vraag 7: twee vorm-hapaxen met voorbehoud
 
-## Vraag 7 — twee vormen die nergens anders voorkomen
+**Vraag:** Hoe uitzonderlijk zijn de twee unieke werkwoordsvormen?
 
-**Vraag:** Welke woordvormen van deze scène komen in het hele Oude Testament
-alleen hier voor, en wat hebben die twee gemeen?
-
-**Wat de data toont:** De passage draagt twee vorm-hapaxen: exacte
-werkwoordsvormen die in het hele corpus precies één keer voorkomen terwijl het
-werkwoord zelf frequent is (2 treffers tegen verwacht ongeveer 0,3; G² = 4,5;
-q-significant en robuust over alle strata). הִרְבְּתָה in 1:12 ("zij bleef
-overvloedig bidden"; de wortel רבה telt 224 voorkomens, deze vorm alleen hier)
-en הָסִירִי in 1:14 ("doe je wijn weg"; de wortel סור telt 297 voorkomens,
-deze vrouwelijke imperatief alleen hier). Beide unieke vormen zijn vrouwelijk
-gemarkeerd: de eerste vervoegt Hanna's bidden, de tweede richt Eli's bevel aan
-een vrouw.
+**Wat de data toont:** Twee exacte vormen komen in het OT alleen hier voor,
+terwijl hun lexeem frequent is: הִרְבְּתָה in 1:12 (wortel רבה, 224 voorkomens)
+en הָסִירִי in 1:14 (wortel סור, 297 voorkomens). De globale verwachting is
+ongeveer 0,3 (G² = 4,5, q = 0,035), de verwachting binnen narratief proza 0,2
+op 85 scoorbare woorden. Beide vormen zijn vrouwelijk gemarkeerd.
 
 ```
 vorm-hapaxen van de scène:
@@ -274,32 +271,36 @@ vorm-hapaxen van de scène:
     word met freq_occ<=1 en freq_lex>=100, geen nmpr, geen pronominaal
     suffix, geen qere; aandeel vs corpus
 
-*Samengestelde meting met drempelwaarden; alleen in een volledige
-Text-Fabric-omgeving reproduceerbaar.*
+Deze samengestelde meting vereist een volledige Text-Fabric-omgeving.
 
-**Duiding:** De twee morfologische unica van de scène staan precies op de twee
-scharnieren van het misverstand: het bidden dat Eli verkeerd las, en het bevel
-waarmee hij dat misverstand uitsprak. Dat allebei de vormen vrouwelijk zijn,
-sluit aan bij Vraag 2: de scène is ook in haar zeldzaamste morfologie op Hanna
-gericht. Wie de passage leest of bepreekt kan hier letterlijk zeggen dat de
-tekst voor dit gebed en dit bevel vormen gebruikt die nergens anders in het
-Oude Testament staan.
+**Aanvullende controle:** De ongecorrigeerde Poissonkans op minstens twee
+vorm-hapaxen is ongeveer 0,02. Na weging naar het genusprofiel wordt dat
+ongeveer 0,03. Vrouwelijk gemarkeerde vormen zijn corpusbreed ruim vier keer
+zo vaak vorm-hapax. De twee vrouwelijke hapaxen bieden dus geen onafhankelijk
+tweede bewijs naast de oververtegenwoordiging van vrouwelijke vormen.
 
+Van alle nulvensters heeft 3,8 procent minstens twee vorm-hapaxen, van de
+spraakrijke 6,3 procent. In de bredere proef hebben twee van de 23 dialogen
+zo'n paar. Dat is bij deze dichtheden niet uitzonderlijk.
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Auld plaatst de constructie
-"veel doen" plus infinitief in een breder corpusbeeld, Alter vertaalt de duur
-("she went on praying"), Frolov ziet de ironie van het wijn-bevel voor een
-aanstaande nazireeërmoeder. Niemand signaleert dat beide vormen morfologische
-unica zijn, of dat de enige twee unieke vormen van de scène allebei vrouwelijk
-gemarkeerd zijn.
+**Duiding:** De twee vormen staan bij het bidden dat Eli verkeerd begrijpt en
+het bevel waarin hij zijn misvatting uitspreekt. Dat verband kan in een
+lezing worden betrokken. De morfologische uniciteit is ook met de masora
+parva en een concordantie te vinden. De corpusmeting voegt de ijking toe.
 
-**Confidence:** Middel (≤ plafond Hoog) · feature(s): morphological_hapax ·
-robustness: robust · versie 2023
+**Vergelijking met de commentaren:** Gedeeltelijk gedekt. Auld, Alter en
+Frolov bespreken de handelingen. De morfologische uniciteit is niet
+geconstateerd in de geraadpleegde collectie.
+
+**Beoordeling:** Observatie met voorbehoud, confidence Middel bij een formeel
+plafond Hoog. Bevinding 55.
 
 **Claim-ledger**
-Koppeling van de rapportclaims aan velden in `evidence.json`, per
-bevinding-id; de nieuwheidsoordelen staan samengevat in
-[nieuwheidsoordelen.md](nieuwheidsoordelen.md).
+
+De onderstaande ledger koppelt de oorspronkelijke bevindingen aan velden in
+`evidence.json`. De latere beoordeling staat in
+[aanvullende_controles.json](aanvullende_controles.json). De ledger wijzigt de
+bewaarde meetrun niet.
 
 ```json
 {

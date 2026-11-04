@@ -1,7 +1,7 @@
 # Toelichting bij 1 Samuël 21:2-10: David en Achimelech
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
+commentaren is afgerond. Zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA. De engine vergelijkt de negen verzen met het
 Oude Testament en met nauwere groepen zoals 1 Samuël en narratief proza. De

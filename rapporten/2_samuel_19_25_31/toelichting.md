@@ -1,7 +1,7 @@
 # Toelichting bij 2 Samuël 19:25-31: Mefibosets verdediging
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
+commentaren is afgerond. Zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
 grammaticaal geannoteerd. De engine vergelijkt deze zeven verzen met het hele
@@ -62,7 +62,7 @@ De geneste rede wordt gemeten met een engineproxy:
 % clause met ≥2 'Q' in txt
 ```
 
-Die proxy vangt stem-binnen-stem: Mefiboset citeert wat hij wilde doen voordat
+Die proxy meet de ingebedde rede: Mefiboset citeert wat hij wilde doen voordat
 Ziba hem volgens zijn verdediging bedroog.
 
 ## Inbedding en actantverdeling

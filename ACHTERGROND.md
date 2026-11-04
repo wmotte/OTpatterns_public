@@ -1,16 +1,14 @@
 # Achtergrond: ETCBC/BHSA via Text-Fabric
 
-Dit project staat op de schouders van een bijzonder soort bijbeltekst: een digitale editie van de Hebreeuwse Bijbel die tegelijk een zorgvuldig geannoteerde onderzoeksdatabase is. De naam die je daarbij steeds tegenkomt is **ETCBC/BHSA**. In de praktijk betekent dat: de Hebreeuws-Aramese tekst van het Oude Testament, verrijkt met taalkundige informatie op meerdere niveaus, toegankelijk gemaakt via **Text-Fabric**.
+Dit project gebruikt **ETCBC/BHSA**, een digitale editie van de Hebreeuwse en Aramese tekst van het Oude Testament met taalkundige annotaties. **Text-Fabric** maakt die gegevens doorzoekbaar.
 
-Wie gewend is aan een gewone bijbeltekst, ziet eerst woorden, verzen en hoofdstukken. Wie met BHSA werkt, ziet daarnaast een tweede laag: woordsoorten, lexemen, werkwoordsvormen, grammaticale status, syntactische functies, frasen, clauses, tekstsoorten, relaties tussen eenheden en soms ook informatie over discourse. Dat klinkt technisch, maar de intuïtie is eenvoudig: de tekst krijgt handvatten waardoor je patronen kunt controleren die anders verborgen blijven.
+Wie gewend is aan een gewone bijbeltekst, ziet eerst woorden, verzen en hoofdstukken. Wie met BHSA werkt, ziet daarnaast een tweede laag: woordsoorten, lexemen, werkwoordsvormen, grammaticale status, syntactische functies, frasen, clauses, tekstsoorten, relaties tussen eenheden en soms ook informatie over discourse. Met die annotaties kun je patronen in de tekst opzoeken en controleren.
 
-Deze achtergrondtekst legt uit wat ETCBC/BHSA is, wat Text-Fabric toevoegt, wat je ermee kunt doen en waarom deze combinatie tamelijk uniek is voor exegese, vertaling, taalkunde en homiletische verkenning.
+## ETCBC en BHSA
 
-## Eerst: wat is ETCBC/BHSA?
+**ETCBC** staat voor het *Eep Talstra Centre for Bible and Computer* aan de Vrije Universiteit Amsterdam. Het centrum is voortgekomen uit de Amsterdamse WIVU-traditie, waarin de Hebreeuwse Bijbel systematisch werd gecodeerd voor computerondersteunde syntactische analyse. Het doel was haar grammaticale en syntactische structuur zo precies mogelijk toegankelijk te maken voor onderzoek. De uitleg zelf bleef mensenwerk.
 
-**ETCBC** staat voor het *Eep Talstra Centre for Bible and Computer* aan de Vrije Universiteit Amsterdam. Het centrum is voortgekomen uit de Amsterdamse WIVU-traditie, waarin de Hebreeuwse Bijbel systematisch werd gecodeerd voor computerondersteunde syntactische analyse. Het doel was haar grammaticale en syntactische structuur zo precies mogelijk toegankelijk te maken voor onderzoek; de uitleg zelf bleef mensenwerk.
-
-**BHSA** staat voor *Biblia Hebraica Stuttgartensia Amstelodamensis*. De naam zegt eigenlijk al veel. De tekstbasis is de *Biblia Hebraica Stuttgartensia*; "Amstelodamensis" verwijst naar de Amsterdamse annotatietraditie. In Text-Fabric-vorm is BHSA de Hebrew Bible Database met ETCBC-annotaties: de Hebreeuwse en Aramese tekst van het Oude Testament, verrijkt met formele taalkundige informatie.
+**BHSA** staat voor *Biblia Hebraica Stuttgartensia Amstelodamensis*. De tekstbasis is de *Biblia Hebraica Stuttgartensia*. "Amstelodamensis" verwijst naar de Amsterdamse annotatietraditie. In Text-Fabric-vorm is BHSA de Hebrew Bible Database met ETCBC-annotaties: de Hebreeuwse en Aramese tekst van het Oude Testament, verrijkt met formele taalkundige informatie.
 
 Een gewone digitale bijbel kan je vertellen: hier staat dit woord in dit vers. BHSA kan daarnaast vragen beantwoorden als:
 
@@ -24,24 +22,24 @@ Een gewone digitale bijbel kan je vertellen: hier staat dit woord in dit vers. B
 - hoe diep is een clause-atom ingebed?
 - welke eenheden zijn hiërarchisch of relationeel met elkaar verbonden?
 
-BHSA is daarmee vooral een zeer rijke grammaticale kaart van de tekst; commentaar en theologische duiding blijven het werk van de lezer. Die kaart kan fouten bevatten, en de annotaties zijn wetenschappelijke keuzes. Maar juist omdat die keuzes expliciet en herbruikbaar zijn, kun je ze controleren, tellen, vergelijken en bevragen.
+BHSA beschrijft daarmee de grammaticale opbouw van de tekst. Commentaar en theologische duiding blijven het werk van de lezer. De annotaties zijn wetenschappelijke keuzes en kunnen fouten bevatten. Doordat die keuzes expliciet zijn, kun je ze controleren en hergebruiken in tellingen en vergelijkingen.
 
-## Wat doet Text-Fabric?
+## Text-Fabric
 
-**Text-Fabric** is de laag waardoor de BHSA-data lokaal en programmeerbaar wordt. Je kunt SHEBANQ zien als de webinterface: handig om te lezen, queries te schrijven, resultaten te bekijken en patronen met anderen te delen. Text-Fabric is de onderzoekswerkbank: je haalt dezelfde data naar je eigen omgeving en verwerkt haar met Python.
+**Text-Fabric** is de laag waardoor de BHSA-data lokaal en programmeerbaar wordt. Je kunt SHEBANQ zien als de webinterface: handig om te lezen, queries te schrijven, resultaten te bekijken en patronen met anderen te delen. Met Text-Fabric haal je dezelfde data naar je eigen omgeving en verwerk je haar met Python.
 
 Text-Fabric ziet een tekst als een netwerk van objecten. Sommige objecten zijn herkenbaar voor elke bijbellezer: boek, hoofdstuk, vers, woord. Andere zijn taalkundiger: phrase, clause, clause_atom. Aan die objecten hangen features. Een feature is een klein stukje informatie: `lex` voor lexeem, `sp` voor woordsoort, `vt` voor verbale vorm, `function` voor frasefunctie, `typ` voor clause- of frasetype, `language` voor taal, enzovoort.
 
-Het mooie is dat Text-Fabric de vraagstelling openlaat. Je kunt klein beginnen:
+Text-Fabric schrijft geen vraagstelling voor. Je begint door de database te laden:
 
 ```python
 from tf.app import use
 A = use("ETCBC/bhsa", version="2021")
 ```
 
-Daarna kun je woorden, verzen, clauses of hele boeken opvragen, features lezen, door de niveaus heen bewegen, zoektemplates schrijven, tellingen maken en resultaten exporteren naar JSON, CSV, Pandas of R. Voor een exegetische workflow is vooral dit belangrijk: de analyse kan reproduceerbaar onderdeel worden van een script, pipeline of rapport.
+Daarna kun je woorden, verzen, clauses of hele boeken opvragen, features lezen, door de niveaus heen bewegen, zoektemplates schrijven, tellingen maken en resultaten exporteren naar JSON, CSV, Pandas of R. Je kunt de analyse opnemen in een script, pipeline of rapport, zodat anderen haar kunnen herhalen.
 
-## Hoe "ziet" BHSA de tekst?
+## Annotatielagen
 
 BHSA bewaart meerdere lagen van de tekst tegelijk.
 
@@ -53,13 +51,11 @@ Op clauseniveau komt de zins- en discourse-structuur in beeld. Je kunt kijken na
 
 Op relationeel niveau kun je eenheden met elkaar verbinden. Bijvoorbeeld: welke clause hangt onder welke moederstructuur? Welke clause-atoms staan naast elkaar? Waar is er sprake van syntactische herhaling? Zulke relaties maken het mogelijk om naast "woorden met eigenschap X" ook te zoeken naar patronen in de bouw van een passage.
 
-Dat is de reden waarom deze database zo waardevol is. Zij maakt de tekst telbaar en bewaart tegelijk haar opbouw.
+Deze lagen maken tellingen mogelijk waarin ook de opbouw van de tekst wordt meegenomen.
 
-## Wat kun je ermee doen?
+## Vragen aan het corpus
 
-Je kunt BHSA/Text-Fabric gebruiken voor heel eenvoudige én heel complexe vragen.
-
-Een eenvoudige vraag is: hoe vaak komt een bepaald lexeem voor in een passage, en hoe vaak in de rest van het Oude Testament? Dat is al nuttig. Veel "sleutelwoorden" worden in commentaren aangewezen op grond van close reading. Met BHSA kun je controleren of zo'n sleutelwoord ook corpusstatistisch opvallend is.
+Een eenvoudige vraag is: hoe vaak komt een bepaald lexeem voor in een passage, en hoe vaak in de rest van het Oude Testament? Commentaren wijzen veel "sleutelwoorden" aan op grond van close reading. Met BHSA kun je controleren of zo'n sleutelwoord ook corpusstatistisch opvallend is.
 
 Een tweede type vraag gaat over grammatica. Heeft een passage relatief veel nominale clauses? Veel ontkenningen? Veel constructusvormen? Veel vrouwelijke suffixen? Veel imperatieven? Veel Aramees binnen een Hebreeuwse context? Zulke vragen kunnen exegetisch scherp worden wanneer ze tegen de rest van het corpus worden gehouden.
 
@@ -67,29 +63,27 @@ Een derde type vraag gaat over syntaxis. Waar staan objecten? Welke werkwoorden 
 
 Een vierde type vraag gaat over discourse. Waar begint directe rede? Welke werkwoorden introduceren spraak? Verschuift de grammaticale persoon? Is een passage opvallend dicht in pronominale verwijzing? Wordt een tekst gedragen door "hij/zij", door "jij", door "wij", of door suffixen die relaties markeren?
 
-Een vijfde type vraag is methodisch misschien het meest interessant: je kunt ook negatieve claims toetsen, zoals: "dit patroon dat je zou verwachten, komt hier opvallend weinig voor". Dat is belangrijk voor exegese. Afwezigheid is vaak interpretatief riskant, maar corpusdata kan laten zien wanneer een afwezigheid niet zomaar toevallig is.
+Je kunt ook negatieve claims toetsen, zoals: "dit patroon dat je zou verwachten, komt hier opvallend weinig voor". Afwezigheid is interpretatief riskant. Corpusdata helpt bepalen hoe uitzonderlijk het ontbreken van een patroon is.
 
 De engine achter dit project maakt dat praktisch door eerst een corpusbrede baseline te bouwen. Daarna wordt een passage gelezen tegen een referentieprofiel: wat is normaal voor het corpus, voor het boek, voor het genre of voor de taal? Een bevinding is dan een gecontroleerde afwijking: observed versus expected, met voorbeelden en provenance.
 
-## Wat is er uniek aan?
+## Annotatie, vergelijking en reproduceerbaarheid
 
-Het unieke zit in de combinatie van eigenschappen.
+BHSA heeft annotaties op meerdere niveaus. Veel bijbeldatabases hebben morfologie: woordsoort, lexeem, soms parsing. BHSA gaat verder door frase- en clauseniveaus, syntactische functies, relaties en tekststructuur mee te nemen. Daardoor kun je vragen stellen die tussen grammatica en exegese in zitten: "wat doet deze woordgroep in deze clause?" en "hoe is deze passage opgebouwd?".
 
-Ten eerste is BHSA **diep geannoteerd**. Veel bijbeldatabases hebben morfologie: woordsoort, lexeem, soms parsing. BHSA gaat verder door frase- en clauseniveaus, syntactische functies, relaties en tekststructuur mee te nemen. Daardoor kun je vragen stellen die tussen grammatica en exegese in zitten: "wat doet deze woordgroep in deze clause?" en "hoe is deze passage opgebouwd?".
+De annotaties bestrijken het hele corpus. Je kunt een passage vergelijken met de hele Hebreeuws-Aramese OT-canon. Daarmee krijgt een exegetische leesindruk een expliciete vergelijkingsbasis. Een lezer kan denken: "dit voelt opvallend." De database kan helpen vragen: opvallend ten opzichte van wat? Ten opzichte van dit boek? Van narratief proza? Van poëzie? Van Hebreeuwse passages in het algemeen? Sommige leesindrukken houden in die vergelijking geen stand. Andere vragen om verdere uitleg.
 
-Ten tweede is BHSA **corpusbreed**. Je kunt een passage vergelijken met de hele Hebreeuws-Aramese OT-canon. Dat verandert de aard van exegetische intuïtie. Een lezer kan denken: "dit voelt opvallend." De database kan helpen vragen: opvallend ten opzichte van wat? Ten opzichte van dit boek? Van narratief proza? Van poëzie? Van Hebreeuwse passages in het algemeen? Sommige intuïties sneuvelen in die vergelijking; de intuïties die overblijven worden interessanter.
+Je kunt bovendien vastleggen welke versie van de data je gebruikt. BHSA bestaat in meerdere versies, en Text-Fabric maakt het mogelijk om expliciet te zeggen met welke versie je hebt gewerkt. Een rapport dat zegt "BHSA 2021, deze query, deze telling, deze voorbeelden" is controleerbaarder dan een algemene opmerking als "dit komt bijna nergens voor".
 
-Ten derde is de data **versieerbaar en reproduceerbaar**. BHSA bestaat in meerdere versies, en Text-Fabric maakt het mogelijk om expliciet te zeggen met welke versie je hebt gewerkt. Dat is belangrijk voor wetenschappelijke eerlijkheid. Een rapport dat zegt "BHSA 2021, deze query, deze telling, deze voorbeelden" is controleerbaarder dan een algemene opmerking als "dit komt bijna nergens voor".
+SHEBANQ en Text-Fabric verbinden zo close reading met corpusonderzoek. SHEBANQ houdt de tekst leesbaar en maakt queryresultaten deelbaar. Text-Fabric maakt dezelfde data geschikt voor scripts, statistiek, exports en herhaalbare workflows.
 
-Ten vierde vormt de combinatie van SHEBANQ en Text-Fabric een brug tussen **close reading** en **distant reading**. SHEBANQ houdt de tekst leesbaar en maakt queryresultaten deelbaar. Text-Fabric maakt dezelfde data geschikt voor scripts, statistiek, exports en herhaalbare workflows.
+In de Amsterdamse traditie achter de data gaat formele waarneming vooraf aan duiding. Syntax first betekent dat interpretatie sterker wordt wanneer ze eerst door formele waarneming heen is gegaan, ook al verklaart syntaxis lang niet alles.
 
-Ten vijfde past de database bij een gezonde exegetische volgorde: eerst waarnemen, dan duiden. Dat is de geest van de Amsterdamse traditie achter de data. Syntax first betekent dat interpretatie sterker wordt wanneer ze eerst door formele waarneming heen is gegaan, ook al verklaart syntaxis lang niet alles.
+## De rol van het taalmodel
 
-## Wat maakt dit anders dan een LLM die de Bijbel uitlegt?
+Een taalmodel kan snel verbanden formuleren, maar ook aannemelijk klinkende beweringen doen zonder controleerbare basis. Met BHSA/Text-Fabric kun je de gegevens waarop zulke beweringen berusten opzoeken en tellen.
 
-Een LLM kan snel verbanden formuleren, maar zij kan ook soepel klinkende beweringen maken zonder controleerbare basis. BHSA/Text-Fabric werkt anders: de database telt, labelt, verbindt en geeft voorbeelden. Juist daarom is zij waardevol naast een LLM.
-
-In dit project heeft de Python-laag daarom de harde rol. Zij resolveert de passage, laadt BHSA, bouwt of gebruikt een baseline, draait detectoren en schrijft evidence. De LLM-laag mag daarna selecteren, ordenen en uitleggen, maar zij mag geen patronen verzinnen. Een goede rapportage zegt steeds:
+In dit project voert de Python-laag de metingen uit. Zij zoekt de passage op, laadt BHSA, bouwt of gebruikt een referentieprofiel, voert detectoren uit en slaat de meetgegevens op. De LLM-laag mag daarna selecteren, ordenen en uitleggen, maar zij mag geen patronen verzinnen. Een goede rapportage zegt steeds:
 
 ```text
 Dit is de claim.
@@ -100,7 +94,7 @@ Dit bewijst het niet.
 Dit is de confidence.
 ```
 
-Die scheiding is wezenlijk; de kracht van de aanpak zit in deze rolverdeling.
+Door deze rolverdeling blijft elke kwantitatieve claim herleidbaar tot een meting.
 
 ## Voorbeelden van vragen die BHSA mogelijk maakt
 
@@ -114,11 +108,9 @@ Een exegeet kan vermoeden dat een verhaal traag of zwaar vertelt. BHSA kan compl
 
 Een onderzoeker kan een oude claim willen controleren: "deze constructie komt nergens anders voor." Met een expliciete Text-Fabric- of SHEBANQ-query wordt zo'n claim veel beter toetsbaar.
 
-## De kracht van "niet meteen interpreteren"
+## Van meting naar duiding
 
-De vruchtbaarste vraag aan BHSA is vaak: laat zien wat ik nog niet zie.
-
-Dat is ook de reden waarom dit project zoekt naar anomalieën. Een anomalie betekent hier alleen dat een passage meetbaar afwijkt van een referentieprofiel. Soms is dat exegetisch belangrijk. Soms is het genre. Soms is het een effect van kleine aantallen. Soms blijkt het een gewone eigenschap van het boek. De database verbetert dus vooral de eerste vraag.
+Dit project zoekt naar anomalieën die bij het lezen onopgemerkt kunnen blijven. Een anomalie betekent hier alleen dat een passage meetbaar afwijkt van een referentieprofiel. Zo’n afwijking kan exegetisch van belang zijn, maar ook samenhangen met genre, kleine aantallen of een eigenschap van het boek. De vergelijking helpt bepalen welke vraag verdere uitleg verdient.
 
 Een goede bevinding is daarom een beginpunt:
 
@@ -130,25 +122,21 @@ Waarom is de participantverwijzing zo dicht?
 Waarom is dit lexeem juist hier gebald?
 ```
 
-Dat soort vragen is vaak vruchtbaarder dan het zoveelste overzicht van bekende thema's.
+De telling geeft aanleiding tot zulke exegetische vragen en beantwoordt ze nog niet.
 
 ## Grenzen en voorzichtigheid
 
-BHSA is rijk en heeft tegelijk duidelijke grenzen.
-
-De annotaties zijn formeel en taalkundig. Zij zeggen veel over grammatica, syntaxis en structuur; betekenis, theologie, historische reconstructie en literaire intentie liggen buiten hun bereik. Een feature als `function=Frnt` kan fronting aanwijzen, maar niet automatisch zeggen of de functie focus, contrast, topicalisatie of retorische spanning is.
+De annotaties zijn formeel en taalkundig. Zij beschrijven grammatica, syntaxis en structuur. Betekenis, theologie, historische reconstructie en literaire intentie liggen buiten hun bereik. Een feature als `function=Frnt` kan fronting aanwijzen, maar niet automatisch zeggen of de functie focus, contrast, topicalisatie of retorische spanning is.
 
 Sommige features zijn harder dan andere. Taal, woordsoort, status, werkwoordsvorm of ontkenningspartikel zijn doorgaans directer te gebruiken dan discourse-labels of semantische categorieën. Een verantwoord rapport moet daarom confidence expliciet maken en interpretatieve claims aan controleerbare gegevens koppelen.
 
-Korte passages vragen extra voorzichtigheid. Drie treffers kunnen procentueel enorm lijken. Daarom moeten observed, expected en voorbeelden steeds samen zichtbaar blijven; pas in die combinatie wordt een telling controleerbaar.
+Korte passages vragen extra voorzichtigheid. Drie treffers kunnen procentueel enorm lijken. Daarom moeten waargenomen en verwachte aantallen samen met voorbeelden zichtbaar blijven. Pas dan kan de lezer de telling beoordelen.
 
-BHSA is bovendien een database van de Hebreeuwse en Aramese tekst van het Oude Testament. Nieuwtestamentische passages vallen buiten de reikwijdte. Wie met de data publiceert of software bouwt, moet ook rekening houden met licentie en attributie. De BHSA-data zelf valt onder CC BY-NC 4.0; code en afgeleide tools kunnen een andere licentie hebben.
+BHSA is bovendien een database van de Hebreeuwse en Aramese tekst van het Oude Testament. Nieuwtestamentische passages vallen buiten de reikwijdte. Wie met de data publiceert of software bouwt, moet ook rekening houden met licentie en attributie. De BHSA-data zelf valt onder CC BY-NC 4.0. Code en afgeleide tools kunnen een andere licentie hebben.
 
-## Waarom dit voor dit project belangrijk is
+## Werkwijze
 
-Dit project wil vragen vinden die uit de vorm van de tekst zelf opkomen. Daarvoor is BHSA bijzonder geschikt.
-
-De workflow is eenvoudig in bedoeling, ook als de techniek onder de motorkap complex is:
+Dit project zoekt exegetische vragen op basis van formele tekstkenmerken. De werkwijze bestaat uit de volgende stappen:
 
 1. kies een Oudtestamentische passage;
 2. resolveer haar naar BHSA-nodes;
@@ -157,13 +145,7 @@ De workflow is eenvoudig in bedoeling, ook als de techniek onder de motorkap com
 5. formuleer exegetische of homiletische vragen in gewoon Nederlands;
 6. houd bij elke claim zichtbaar wat data is en wat duiding is.
 
-Zo ontstaat een vorm van exegese die menselijk blijft, omdat de vragen en duiding nog steeds door lezers worden gevormd, en controleerbaar, omdat de claims teruggaan naar features, tellingen, queries en voorbeelden.
-
-## Kort gezegd
-
-ETCBC/BHSA via Text-Fabric is een manier om de Hebreeuwse Bijbel naast het lezen ook systematisch te bevragen. Zij maakt grammaticale en syntactische patronen zichtbaar op schaal van woord, frase, clause, vers, passage, boek en corpus. Zij is uniek omdat zij diepe annotatie, reproduceerbare data, programmeerbare toegang en deelbare querycultuur combineert.
-
-Voor exegese betekent dat vooral beter kijken. De interpretatie blijft bij de lezer; de database helpt om langzamer, preciezer en eerlijker te vragen: wat staat hier eigenlijk, hoe is het gebouwd, en waarom valt juist dit patroon op?
+De lezer formuleert de vragen en beoordeelt de duiding. De meetgegevens, queries en voorbeelden maken de kwantitatieve claims controleerbaar.
 
 ## Bronnen en verder lezen
 

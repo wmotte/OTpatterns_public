@@ -3,10 +3,7 @@
 *Lekenuitleg bij [rapport.md](rapport.md) over 1 Samuël 15:13-31 (Samuël zet
 Saul af; de afgewezen koning en de gescheurde mantel).*
 
-Dit document laat zien waarop de analyse rust, in gewone taal, met de
-zoekopdrachten erbij zodat u de tellingen zelf kunt nalopen.
-
-Achter de waarnemingen zit de BHSA: een database waarin de hele Hebreeuwse
+De metingen gebruiken de BHSA: een database waarin de hele Hebreeuwse
 bijbel woord voor woord van grammaticale etiketten is voorzien (woordsoort,
 werkwoordsvorm, getal, persoon, zinsdeel) door taalkundigen van het ETCBC in
 Amsterdam. Met een programma dat Text-Fabric heet kun je in die geannoteerde
@@ -18,8 +15,8 @@ naam worden genoemd.
 
 ## De werkwoorden die niets meebrengen
 
-De ruggengraat van de analyse is een telling die de commentaren niet maken:
-hoe zwaar geladen de werkwoorden van deze scène zijn. Een werkwoord kan kaal
+De analyse begint met een telling die in de geraadpleegde commentaren
+ontbreekt: hoeveel complementen de werkwoorden van deze scène hebben. Een werkwoord kan kaal
 staan ("ik heb gezondigd") of van alles met zich meeslepen: een lijdend
 voorwerp, een plaats, een tijd, een tweede object ("hij bracht het beste van
 het kleinvee uit Amalek mee"). Die aanhangsels heten in de taalkunde de
@@ -32,7 +29,7 @@ heb volbracht*, *ik heb geluisterd*, *ik heb gezondigd*, *gij hebt
 verworpen*. Het is de grammatica van een dispuut na de feiten, waarin alleen
 nog beweerd en geoordeeld wordt; het handelen ligt achter de rug.
 
-**Wat je vindt als je telt.** Vijf clauses met twee complementen, waar een
+**De telling.** Vijf clauses met twee complementen, waar een
 stuk directe rede van deze lengte er ongeveer dertien draagt: ruim de helft
 te weinig.
 
@@ -52,27 +49,23 @@ werkwoordelijke clauses; het corpus laat er ongeveer dertien verwachten. De
 complementtelling zelf vergt de frasefuncties en is alleen in een volledige
 Text-Fabric-omgeving reproduceerbaar.
 
-**Staat dit al in de commentaren?** Nieuw (`novel`: niet aangetroffen in de
+**Vergelijking met de commentaren.** Nieuw (`novel`: niet aangetroffen in de
 geraadpleegde bronnen). Geen geraadpleegd commentaar telt of bespreekt
 werkwoordsvalentie. Campbell (*1 Samuel*) typeert dit type Samuël-proza in
 het algemeen als "terse and allusive" (kortaf en toespelend), maar hij past
 dat niet toe op een meting van de zinsbouw, en zijn opmerking geldt feitelijk
 een ander hoofdstuk. De vage stijlintuïtie raakt dus aan de soberheid; de
-telbare ondervertegenwoordiging van het zware werkwoord staat nergens. Dit is
-de stevigste grondsoort: een harde, deterministische telling die standhoudt
-hoe je ook vergelijkt (met de hele bijbel, met hetzelfde boek, met dezelfde
-directe rede). Dat die kaalheid "assertie boven handelen" betekent, blijft
-een lezing boven het cijfer.
+telbare ondervertegenwoordiging van het zware werkwoord staat nergens. Deze deterministische telling houdt stand bij verschillende vergelijkingen (met de hele bijbel, met hetzelfde boek, met dezelfde
+directe rede). Dat de sobere zinsbouw "assertie boven handelen" betekent, blijft een
+interpretatie van de telling.
 
 ## Het meervoud dat wegvalt
 
 De tweede vondst betreft het getal. Saul verdedigt zich door telkens "het
-volk" in te schuiven: een collectief, een meervoud, een groep om achter te
-verdwijnen. Je zou verwachten dat een hoofdstuk over een heel volk, een heel
-leger en een hele buit zwaar van meervouden aan elkaar hangt. Het tegendeel
-is waar.
+volk" in te schuiven: een groep waaraan hij de verantwoordelijkheid kan toeschrijven. Ondanks de aandacht voor volk, leger en buit bevat de passage weinig
+meervoudsvormen.
 
-**Wat je vindt als je telt.** Veertien meervoudsvormen, waar een stuk van
+**De telling.** Veertien meervoudsvormen, waar een stuk van
 deze lengte er ongeveer achtenveertig draagt: nog geen derde van het
 verwachte.
 
@@ -88,7 +81,7 @@ clusteren bovendien in Sauls uitvluchten: *zij hebben gebracht* en *wij
 hebben gebannen* (vers 15), en in de offertermen waarmee hij de overtreding
 als eredienst verpakt.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Dat
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Dat
 Saul met een vaag "zij hebben gebracht" de schuld wegduwt, is breed gezien:
 Alter (*The David Story*) noemt het een "vague third-person plural"; Greear
 en Tsumura (*The First Book of Samuel*) wijzen op het enkelvoudige "hij
@@ -107,7 +100,7 @@ proza leunt op de afstandelijke derde persoon: hij ging, zij zeiden, het
 gebeurde. Deze scène doet dat veel minder; zij wordt grotendeels gevoerd in
 het rechtstreekse *ik* en *jij* van de twee sprekers.
 
-**Wat je vindt als je telt.** Drieënveertig vormen in de derde persoon, waar
+**De telling.** Drieënveertig vormen in de derde persoon, waar
 een stuk van deze lengte er ongeveer zestig draagt: de afstandelijke
 vertelvorm is duidelijk in de minderheid.
 
@@ -131,10 +124,10 @@ Drieëndertig woorden plus tien achtervoegsels maakt drieënveertig. Tegen de
 directe-rede-baseline is het tekort het scherpst: ook vergeleken met ander
 spraakproza valt de derde persoon hier weg.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). De
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). De
 dramatische directheid is gezien: Davis (*1 Samuel*) merkt op dat "het
 grootste deel van het verhaal via toespraken en gesprekken wordt verteld";
-Alter wijst op de tweede persoon waarin Samuël de aanklacht erin hamert
+Alter wijst op de tweede persoon waarin Samuël de aanklacht formuleert
 ("waarom hebt *gij* niet geluisterd"); Woodhouse (*1 Samuel*) noemt hoofdstuk
 15 een "fresh narrative" die op directe interactie is gebouwd. Wat bijkomt is
 dat die directheid meetbaar is, als ondervertegenwoordiging van de derde
@@ -153,7 +146,7 @@ hebben voor zulke zinseenheden een apart etiket: defectief, een zin die
 afbreekt of nooit voltooid raakt (het verschijnsel heet in de taalkunde
 anakoloet).
 
-**Wat je vindt als je telt.** Dertien defectieve zinseenheden, waar een stuk
+**De telling.** Dertien defectieve zinseenheden, waar een stuk
 van deze lengte er bijna vijf draagt: bijna driemaal het verwachte aantal, op
 een totaal van zevenentachtig zinseenheden.
 
@@ -176,7 +169,7 @@ kale bevelen "houd op" en "spreek" (vers 16), en Sauls verweer dat met een
 bijzin begint en er nooit uitkomt: "dat ik geluisterd heb naar de stem van
 JHWH..." (vers 20).
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). De
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). De
 ruwheid is stilistisch opgemerkt; geteld is zij nergens. Bodner (*1 Samuel*)
 noemt de "awkward syntax" van Sauls excuus in vers 15 en zet Samuëls vraag
 van twee woorden tegenover Sauls antwoord van zevenentwintig; Campbell ziet
@@ -184,7 +177,7 @@ de vorm van de profetische oordeelsrede in dit verhaal "opgelost", met de
 kale bevelen van vers 16; Tsumura leest de onpersoonlijke vorm van vers 15
 als bewust wegschuiven van verantwoordelijkheid; van Wijk-Bos (*The Road to
 Kingship*) en Alter beschrijven de levendige, hamerende dialoogvoering. Wat
-bijkomt is dat het harde etiket de breuk telbaar maakt. Twee kanttekeningen
+bijkomt is dat de annotatie de breuken telbaar maakt. Twee kanttekeningen
 horen erbij. Vergeleken met de rest van 1 Samuël (een boek dat zelf al rijk
 is aan gebroken zinnen) is deze dichtheid hoog maar gewoon; de afwijking
 staat tegenover de hele bijbel, het genre en de periode. En een deel van de

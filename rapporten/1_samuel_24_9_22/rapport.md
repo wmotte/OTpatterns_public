@@ -17,7 +17,7 @@ eerste- en tweede-persoonsmarkering, weinig derde-persoonssuffixen, hoge
 participantendichtheid, diepe inbedding en robuuste dynamische treffers rond
 zien, hand en JHWH als rechter.
 
-## Vraag 1 — Wie beheerst de persoonsas?
+## Vraag 1: Wie beheerst de persoonsas?
 
 **Vraag:** Blijft Saul grammaticaal de koning op afstand, of trekt David hem in
 een ik-jij-betoog?
@@ -42,13 +42,12 @@ word prs_ps=p3
 word prs_ps=p1|p2|p3  OR  word sp=prps|prde|prin
 ```
 
-**Duiding:** David maakt van de scène geen afstandelijke rechtszaak. Zijn rede
-zet voortdurend "ik", "mijn", "jij" en "jouw" naast elkaar. Daardoor ontstaat
+**Duiding:** David zet in zijn rede voortdurend "ik", "mijn", "jij" en "jouw" naast elkaar. Daardoor ontstaat
 een tijdelijke rolomkering: de ondergeschikte spreekt de koning direct aan en
 stuurt de interpretatie van diens handelen.
 
 
-**Staat dit al in de commentaren?:** partially_covered. De rolomkering en
+**Vergelijking met de commentaren:** partially_covered. De rolomkering en
 ik-jij-dynamiek zijn bekend; de hoge eerste- en tweede-persoonssuffixen, lage
 derde-persoonssuffixen en participantendichtheid zijn BHSA-specifieke
 formaliseringen.
@@ -56,7 +55,7 @@ formaliseringen.
 **Confidence:** Middel (≤ plafond Middel) · feature: `participant_density` ·
 robustness: robust · versie 2023
 
-## Vraag 2 — Hoe maakt David Saul tot getuige?
+## Vraag 2: Hoe maakt David Saul tot getuige?
 
 **Vraag:** Beroept David zich alleen op zijn eigen verklaring, of gebruikt hij
 Sauls waarneming als bewijs?
@@ -85,11 +84,10 @@ verse
 ```
 
 **Duiding:** David laat Saul kijken. De deictische vormen halen het bewijs naar
-het moment van spreken: deze dag, uw ogen, mijn hand. Saul wordt zo getuige van
-Davids niet-gebruik van macht.
+het moment van spreken: deze dag, uw ogen, mijn hand. Saul wordt zo getuige van Davids keuze om zijn macht niet te gebruiken.
 
 
-**Staat dit al in de commentaren?:** standard. David als iemand die Saul met
+**Vergelijking met de commentaren:** standard. David als iemand die Saul met
 "vandaag", "zie", eigen ogen en zichtbaar bewijsmateriaal tot getuige maakt is
 expliciet besproken; BHSA maakt de deictische en waarnemingscluster
 reproduceerbaar.
@@ -98,7 +96,7 @@ reproduceerbaar.
 `dynamic_query=your_eyes_saw_jhwh_gave_you_in_my_hand` · robustness: robust ·
 versie 2023
 
-## Vraag 3 — Wat doet de hand in deze scène?
+## Vraag 3: Wat doet de hand in deze scène?
 
 **Vraag:** Is "hand" alleen bezitstaal, of wordt handtaal het grammaticale punt
 waar macht wordt vastgehouden en geweigerd?
@@ -134,7 +132,7 @@ daad is het niet-uitstrekken van die hand. De rolomkering zit dus in beheerste
 macht: David kan handelen en maakt juist zijn weigering zichtbaar.
 
 
-**Staat dit al in de commentaren?:** standard. Handtaal als leitmotief voor
+**Vergelijking met de commentaren:** standard. Handtaal als leitmotief voor
 macht, controle en zelfbeheersing is uitvoerig besproken; BHSA kwantificeert
 het lexeem en specificeert de niet-uitstrekken-clause en staartmodificatie.
 
@@ -142,7 +140,7 @@ het lexeem en specificeert de niet-uitstrekken-clause en staartmodificatie.
 `dynamic_query=i_will_not_send_hand_against_my_lord` · robustness: robust ·
 versie 2023
 
-## Vraag 4 — Waar plaatst David het oordeel?
+## Vraag 4: Waar plaatst David het oordeel?
 
 **Vraag:** Neemt David zelf de rechterrol, of verplaatst hij het oordeel naar
 JHWH terwijl hij Saul aanspreekt?
@@ -185,11 +183,11 @@ clause domain=Q
 
 **Duiding:** David spreekt Saul rechtstreeks aan, maar hij eigent zich het
 vonnis niet toe. JHWH staat tussen de twee partijen als rechter. Daardoor kan
-David de koning corrigeren zonder zichzelf als koninglijke uitvoerder van het
+David de koning corrigeren zonder zichzelf als koninklijke uitvoerder van het
 vonnis neer te zetten.
 
 
-**Staat dit al in de commentaren?:** standard. JHWH als rechter of arbiter
+**Vergelijking met de commentaren:** standard. JHWH als rechter of arbiter
 tussen David en Saul, waardoor David eigenrichting afwijst, is standaard in de
 commentaren; BHSA formaliseert dit via JHWH als subject, de
 "gezalfde-van-JHWH"-constructie, actantcentraliteit en de oordeel-tussen-query.
@@ -197,7 +195,7 @@ commentaren; BHSA formaliseert dit via JHWH als subject, de
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=jhwh_judge_between_me_and_you` · robustness: robust · versie 2023
 
-## Vraag 5 — Waarom duurt Davids rede zo lang?
+## Vraag 5: Waarom duurt Davids rede zo lang?
 
 **Vraag:** Is de scène vooral Sauls bekentenis, of draagt Davids ononderbroken
 rede de rolomkering?
@@ -225,11 +223,10 @@ passive stem or 3mp verb without Subj phrase
 
 **Duiding:** David krijgt ruimte om de zaak uit te leggen. De lange rede,
 diepe inbedding en lage subjectverhulling maken zijn betoog expliciet: wie
-handelt, wie spaart en wie oordeelt blijft zichtbaar. Sauls antwoord komt na
-een grammaticaal zwaar opgebouwd dossier.
+handelt, wie spaart en wie oordeelt blijft zichtbaar. Sauls antwoord volgt op een syntactisch uitvoerig opgebouwd betoog.
 
 
-**Staat dit al in de commentaren?:** partially_covered. De uitzonderlijke
+**Vergelijking met de commentaren:** partially_covered. De uitzonderlijke
 lengte en retorische kwaliteit van Davids rede zijn bekend; de
 inbeddingsdiepte en lage actantverhulling blijven formele BHSA-toevoegingen.
 

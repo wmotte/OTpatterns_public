@@ -23,7 +23,7 @@ De twee treffers liggen in 1:8 en 1:13.
 
 ## Narratief tegenover citaat
 
-De vaste tellingen laten zien dat de passage narratief zwaar is:
+De vaste tellingen laten een groot aandeel vertellerstekst zien:
 
 ```text
 clause domain=N

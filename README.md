@@ -8,16 +8,17 @@ met de ETCBC/BHSA-database via Text-Fabric.
 ## Het idee
 
 Een bijbelpassage wijkt soms meetbaar af van de rest van het Oude Testament.
-Een woord komt vaker terug dan je op grond van het corpus zou verwachten, een
-persoonsvorm klapt halverwege om, de zinsbouw is opvallend diep ingebed, of er
-staat ineens een Aramees woord tussen het Hebreeuws. Zulke afwijkingen zijn
-vormsignalen in de tekst, die je als lezer makkelijk mist.
+Een woord komt vaker voor dan op grond van het corpus te verwachten is, de
+grammaticale persoon wisselt, de zinsbouw is diep ingebed, of er staat een
+Aramees woord tussen het Hebreeuws. Zulke vormkenmerken kunnen bij het lezen
+onopgemerkt blijven.
 
 De achterliggende engine meet die signalen tegen een gestratificeerde
-corpusreferentie (het hele OT, hetzelfde boek, hetzelfde genre, dezelfde taal)
-en zet er een statistiek omheen: observed versus expected, een G²-toets,
-FDR-correctie en een robuustheidslabel. De uitkomst wijst een passage aan en
-levert het bewijs erbij; de conclusie trekt de lezer.
+corpusreferentie (het hele OT, hetzelfde boek, hetzelfde genre, dezelfde taal
+en dezelfde taalhistorische periode)
+en rapporteert waargenomen en verwachte aantallen, een G²-toets,
+FDR-correctie en een robuustheidslabel. Bij elke bevinding staan de metingen
+waarop ze berust. De duiding blijft bij de lezer.
 
 ## Wat hier te vinden is
 
@@ -29,8 +30,10 @@ levert het bewijs erbij; de conclusie trekt de lezer.
   met metingen en query's, een toelichting in gewone taal, samengevatte
   nieuwheidsoordelen tegen de commentaarliteratuur en de volledige
   evidence-data. In 11 van de 23 dialogen staat minstens één observatie die de
-  geraadpleegde commentaren niet bespreken; samen gaat het om 21 zulke
-  observaties.
+  geraadpleegde commentaren niet bespreken. Samen gaat het om 21 zulke
+  observaties. Bij de [Hanna-casus](rapporten/1_samuel_1_12_18/controles.md)
+  begrenzen aanvullende controles de eerdere interpretaties. De overige dialogen
+  hebben die controles nog niet doorlopen.
 - **[De zoekbrowser](https://wmotte.github.io/OTpatterns_public/)** (`docs/`):
   een afgebakende, statische versie van de Text-Fabric-browser. Je kunt de
   zoekregels uit de toelichtingen zelf intypen en de treffers tellen, zonder
@@ -51,13 +54,13 @@ levert het bewijs erbij; de conclusie trekt de lezer.
 De vlakke laag meet brede afwijkingen per kenmerk: over- of
 ondervertegenwoordiging van woorden, woordsoorten en clausetypes, zeldzame
 lexemen, taalwissel, negatiedichtheid, godsbenamingen en constructusketens. De
-opt-in lagen kijken naar dingen die één losse telling mist: gespiegelde of
+optionele lagen zoeken naar patronen die één losse telling mist: gespiegelde of
 verhulde parallellie, woordspel op gedeelde wortels, infinitivus absolutus,
 casus pendens, samengestelde patronen zoals inclusio en chiasme, en lokale
 configuraties in de morfosyntaxis.
 
-Geen van de detectoren gebruikt embeddings, fuzzy matching of externe ML. Alles
-blijft terug te voeren op BHSA-features, Text-Fabric-traversal, vaste
+Geen van de detectoren gebruikt embeddings, fuzzy matching of externe ML. Elke meting
+berust op BHSA-features, Text-Fabric-traversal, vaste
 lexiconlijsten of vooraf geregistreerde patronen. Daardoor is een treffer
 controleerbaar: bij elk signaal hoort een Text-Fabric-query die je kunt reproduceren.
 

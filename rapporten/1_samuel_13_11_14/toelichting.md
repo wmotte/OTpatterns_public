@@ -3,10 +3,7 @@
 *Lekenuitleg bij [rapport.md](rapport.md) over 1 Samuël 13:11-14 (Samuël
 ondervraagt Saul in Gilgal en ontneemt hem de dynastie).*
 
-Dit document laat zien waarop de analyse rust, in gewone taal, met de
-zoekopdrachten erbij zodat u de tellingen zelf kunt nalopen.
-
-Achter de waarnemingen zit de BHSA: een database waarin de hele Hebreeuwse
+De metingen gebruiken de BHSA: een database waarin de hele Hebreeuwse
 bijbel woord voor woord van grammaticale etiketten is voorzien (woordsoort,
 werkwoordsvorm, getal) door taalkundigen van het ETCBC in Amsterdam. Met een
 programma dat Text-Fabric heet doorzoekt u die geannoteerde tekst: u
@@ -14,14 +11,13 @@ beschrijft een patroon, en het programma geeft alle plaatsen waar dat patroon
 voorkomt. Onderaan staat hoe u de zoekopdrachten zelf draait, en welke
 commentaren ik bij naam noem.
 
-Eén waarschuwing vooraf, die voor alle drie de vondsten geldt: dit is een
-korte passage van vier verzen en zesennegentig woorden. Kleine aantallen
-tellen snel als opvallend, en de betrouwbaarheid is daardoor begrensd. De
-cijfers wijzen iets aan; ze dwingen niets af.
+De passage telt slechts vier verzen en zesennegentig woorden. Kleine
+aantallen vallen daardoor snel op, wat de betrouwbaarheid van alle drie de
+bevindingen begrenst. De cijfers vragen om duiding en bepalen die niet.
 
 ## De tijd die niet stil kan staan
 
-De ruggengraat van de analyse is een onrust in de werkwoordstijd van Sauls
+De analyse begint bij de snelle wisseling van werkwoordsvormen in Sauls
 verweer. Verhalend Hebreeuws loopt doorgaans op één tijdsvorm: de verteller
 rijgt zijn gebeurtenissen aaneen met steeds dezelfde vorm (de zogeheten
 wayyiqtol, de gewone vertel-verleden-tijd). Sauls antwoord springt van een
@@ -29,11 +25,11 @@ afgesloten verleden ("het volk liep weg") naar een lopende toestand ("de
 Filistijnen verzamelden zich") naar een toekomst ("nu zullen ze afdalen") en
 weer terug, allemaal binnen één verweer.
 
-**Wat je vindt als je telt.** Schuif een venster van vijf zinsdelen over de
+**De telling.** Schuif een venster van vijf zinsdelen over de
 passage; tel hoe vaak daarin drie of meer verschillende werkwoordstijden naast
 elkaar staan. Je vindt tien zulke zones, waar een verhaal van deze lengte er
 gemiddeld ongeveer tweeënhalf draagt: ruim vier keer zoveel. Het patroon houdt
-bovendien stand hoe je ook vergelijkt: met de hele bijbel, met het boek
+bovendien stand bij verschillende vergelijkingen: met de hele bijbel, met het boek
 Samuël, en ook met het verhalende proza, het genre waar je een rustige
 tijdslijn zou verwachten.
 
@@ -54,29 +50,26 @@ gaat: in Sauls antwoord (vers 11-12) staan voltooid, lopend en toekomstig vlak
 na elkaar. (`sp=verb` betekent "woordsoort is werkwoord"; het etiket `vt`, de
 werkwoordstijd, verschilt per woord en is wat de telling vergelijkt.)
 
-**Staat dit al in de commentaren?** Nieuw (`novel`: niet aangetroffen in de
+**Vergelijking met de commentaren.** Nieuw (`novel`: niet aangetroffen in de
 geraadpleegde bronnen). Dit is de nieuwe vondst van het rapport; de toon is
 breed opgemerkt. Bodner (*1 Samuel*) hoort het antwoord "desperate" klinken en
 wijst op de wanverhouding (zevenentwintig woorden tegenover Samuëls twee) als
 teken van overcompensatie. Tsumura (*The First Book of Samuel*) zet precies
 deze werkwoordsvormen op een rij, maar leest ze als de gewone opbouw van een
 verhaal (eerst de situatie, dan de gebeurtenis) en koppelt de snelle
-afwisseling niet aan Sauls verweer. De stap van "het klinkt wanhopig" naar een
-gemeten onrust in de werkwoordstijd, die ook tegen het verhaalgenre overeind
-blijft, staat nergens. De waarneming is een formele aanwijzing voor een
-onrustige tijdslijn: een meetbaar spoor. Wat er in Saul omging bewijst zij
-niet.
+afwisseling niet aan Sauls verweer. De vergelijking tussen "het klinkt wanhopig" en een gemeten onrust in de
+werkwoordstijd ontbreekt in de geraadpleegde bronnen. Het gemeten contrast
+blijft ook ten opzichte van het verhaalgenre bestaan. De waarneming is een formele aanwijzing voor een onrustige tijdslijn. Zij bewijst niet wat er in Saul omging.
 
 ## Het nu dat van kant wisselt
 
 Naast de werkwoordstijd draagt één woord opvallend veel: עַתָּה, "nu". Saul
 zet het in om zijn noodoffer dringend te maken ("nu zullen de Filistijnen op
 mij afkomen"). Samuël neemt hetzelfde woord over en keert het om: "nu zou JHWH
-je koningschap bevestigd hebben", en "nu zal het niet standhouden". Het
-dringende heden van de koning wordt het ogenblik waarop de profeet het vonnis
-ophangt.
+je koningschap bevestigd hebben", en "nu zal het niet standhouden". De profeet gebruikt zo het dringende heden van de koning om zijn vonnis
+te formuleren.
 
-**Wat je vindt als je telt.** Twee keer staat "nu" vlak bij een toekomende
+**De telling.** Twee keer staat "nu" vlak bij een toekomende
 werkwoordsvorm in de directe rede, een combinatie die in een stuk van deze
 lengte vrijwel nooit voorkomt. Een tweede, los daarvan werkende telling
 bevestigt het: een proximale "nu/hier/zie"-markering dringt driemaal de
@@ -96,7 +89,7 @@ die hier de toekomst draagt; `domain=Q` beperkt de zoektocht tot de directe
 rede. De vreemde tekens in `lex=...` hoeft u niet te begrijpen, alleen
 letterlijk over te typen.)
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`); nieuw
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`); nieuw
 is de uitbreiding en de dubbele bevestiging. Auld (*I & II Samuel*) behandelt
 het dubbele "nu" van vers 13-14 uitdrukkelijk als een sleutelprobleem voor de
 logica van het argument: het "nu" van wat God had kunnen doen tegenover het
@@ -117,7 +110,7 @@ Filistijnen zich verzamelden) en Samuël zet er één eigen grond tegenover:
 omdat je het gebod niet hebt bewaard. Het hele dispuut is opgebouwd uit
 redenen.
 
-**Wat je vindt als je telt.** Vier keer staat het grond-voegwoord
+**De telling.** Vier keer staat het grond-voegwoord
 "want/omdat" in de directe rede van deze korte scène, waar je er ongeveer één
 zou verwachten. De treffers verdelen zich over beide sprekers: Saul stapelt er
 drie, Samuël grondt zijn vonnis op de zijne.
@@ -132,15 +125,14 @@ clause domain=Q
 *In de zoekbrowser na te tellen: 4 treffers in deze passage.* (`KJ` is de
 databaseschrijfwijze voor *ki*, het voegwoord "want/omdat".)
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`); het
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`); het
 thema is geraakt, de grammaticale figuur blijft buiten beeld. Bodner
 (*1 Samuel*) wijst op de "abundant specificity" in Sauls rechtvaardiging (de
 soldaten, Samuëls afwezigheid, de Filistijnen) tegenover de algemene termen
 van Samuël; dat is precies het contrast tussen omstandig en absoluut, gelezen
 als communicatiestijl. Auld noemt het idioom "want nu" in een lijst van
-vindplaatsen. Dat het grond-voegwoord zich symmetrisch over beide sprekers
-opstapelt en zo de telbare drager van een twist-door-redengeving wordt,
-benoemt niemand. Ook deze waarneming komt uit een gerichte zoekslag:
+vindplaatsen. Dat beide sprekers hun redenen met het grond-voegwoord formuleren, wordt in
+de geraadpleegde commentaren niet als patroon beschreven. Ook deze waarneming komt uit een gerichte zoekslag:
 exploratief, middelhoge betrouwbaarheid, een bescheiden effect. De indeling
 van "want" als grond-voegwoord is bovendien deels uitleg: een enkele treffer
 is in vertaling ook als "dat" of als tijdsbepaling te lezen.

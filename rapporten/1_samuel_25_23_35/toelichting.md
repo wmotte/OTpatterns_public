@@ -1,7 +1,7 @@
 # Toelichting bij 1 Samuël 25:23-35: Abigaïls rem op Davids hand
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-1-2 Samuël-commentaren is afgerond; de publieke samenvatting staat in
+1-2 Samuël-commentaren is afgerond. De publieke samenvatting staat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord

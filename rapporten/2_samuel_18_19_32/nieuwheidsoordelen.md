@@ -3,7 +3,7 @@
 Elke bevinding uit [rapport.md](rapport.md) is voorgelegd aan een
 notebookcollectie van commentaren en studies bij 1-2 Samuël (NotebookLM,
 notebook "1-2 Samuel - exegesis", opgeslagen 13 juni 2026). De tabel vat de
-oordelen samen; de verdictwaarden zijn novel (in de rapporten "nieuw"),
+oordelen samen. De verdictwaarden zijn novel (in de rapporten "nieuw"),
 partially_covered ("gedeeltelijk gedekt") en standard ("bekend"). Id verwijst
 naar het finding-id in `evidence.json`. De volledige antwoorden van de
 notebookbevraging blijven buiten de publieke repository omdat ze parafrasen en

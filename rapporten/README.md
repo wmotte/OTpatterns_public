@@ -1,19 +1,19 @@
 # Rapporten: 23 dialogen uit 1-2 Samuël
 
-Drieëntwintig gespreksscènes uit 1-2 Samuël, geanalyseerd op één as: machtsasymmetrie in
-spraak (en de ontwijking of mislukte communicatie die daarbij hoort). Per
-passage staat hier het volledige rapport, een toelichting voor lezers zonder
+Deze rapporten analyseren drieëntwintig gespreksscènes uit 1-2 Samuël op
+machtsasymmetrie in spraak en de ontwijking of mislukte communicatie die
+daarbij hoort. Per passage staat hier het volledige rapport, een toelichting voor lezers zonder
 Hebreeuws of statistiek, de samenvattende nieuwheidsoordelen tegen de
-commentaarliteratuur, en de onderliggende data (`evidence.json`,
+commentaarliteratuur en de onderliggende data (`evidence.json`,
 `dynamic_queries.json`). De zoekregels uit de rapporten zijn na te lopen in de
 [zoekbrowser](https://wmotte.github.io/OTpatterns_public/); achtergrond bij
 ETCBC/BHSA en Text-Fabric staat in [ACHTERGROND.md](../ACHTERGROND.md).
 
-In 11 van de 23 dialogen staat minstens één observatie die de geraadpleegde commentaren niet bespreken; samen gaat het om 21 zulke observaties.
+In 11 van de 23 dialogen staat minstens één observatie die niet in de geraadpleegde commentaren is aangetroffen. Samen gaat het om 21 zulke observaties.
 
 | # | Passage | Scène | In één regel | Rapport | Toelichting |
 |---|---------|-------|--------------|---------|-------------|
-| 1 | 1 Sam. 1:12-18 | Eli en Hanna bij de deurpost | Eli blijft bij naam, Hanna wordt "de vrouw": naamgeving, het enige lidwoord en vrouwelijke morfologie coderen het rangverschil | [rapport](1_samuel_1_12_18/rapport.md) | [toelichting](1_samuel_1_12_18/toelichting.md) |
+| 1 | 1 Sam. 1:12-18 | Eli en Hanna bij de deurpost | Het enige lidwoord staat op "de vrouw". Aanvullende controles begrenzen de interpretatie van naamgeving, vrouwelijke vormen en inbeddingsdiepte | [rapport](1_samuel_1_12_18/rapport.md) | [toelichting](1_samuel_1_12_18/toelichting.md) |
 | 2 | 1 Sam. 3:15-18 | Samuël moet Eli het visioen melden | De jongen die niet durft te zeggen en de priester die dwingt tot volledig spreken: meld-werkwoorden en verzwijg-syntaxis | [rapport](1_samuel_3_15_18/rapport.md) | [toelichting](1_samuel_3_15_18/toelichting.md) |
 | 3 | 1 Sam. 8:4-22 | De oudsten eisen een koning | Een collectief tegenover één profeet: meervoudsvormen, "luister naar hun stem" en het koningsrecht als waarschuwing | [rapport](1_samuel_8_4_22/rapport.md) | [toelichting](1_samuel_8_4_22/toelichting.md) |
 | 4 | 1 Sam. 10:14-16 | Saul en zijn oom | Drie verzen ontwijking: de vraag naar het koningschap krijgt antwoord over de ezelinnen | [rapport](1_samuel_10_14_16/rapport.md) | [toelichting](1_samuel_10_14_16/toelichting.md) |
@@ -27,7 +27,7 @@ In 11 van de 23 dialogen staat minstens één observatie die de geraadpleegde co
 | 12 | 1 Sam. 25:23-35 | Abigaïl remt Davids hand | Abigaïls rede zet David in de tweede persoon onder druk en verschuift de wraak naar zegen, zelfvernedering en JHWH's voorzienige hand | [rapport](1_samuel_25_23_35/rapport.md) | [toelichting](1_samuel_25_23_35/toelichting.md) |
 | 13 | 1 Sam. 28:8-19 | Saul bij de vrouw van Endor | Vermomming, dodenoproep en onrustige waarneming: Saul zoekt controle maar de grammatica laat de scène kantelen naar ontmaskering en oordeel | [rapport](1_samuel_28_8_19/rapport.md) | [toelichting](1_samuel_28_8_19/toelichting.md) |
 | 14 | 2 Sam. 1:1-16 | De Amalekiet brengt Sauls doodsbericht | Bericht, kroon en vonnis komen samen: de boodschapper probeert winst te halen uit Sauls dood maar wordt grammaticaal in zijn eigen verhaal vastgezet | [rapport](2_samuel_1_1_16/rapport.md) | [toelichting](2_samuel_1_1_16/toelichting.md) |
-| 15 | 2 Sam. 3:7-11 | Isboset beschuldigt Abner | Een zwakke koning stelt één vraag; Abner neemt de syntactische ruimte over met huis-taal, doelinfinitieven en eedformule | [rapport](2_samuel_3_7_11/rapport.md) | [toelichting](2_samuel_3_7_11/toelichting.md) |
+| 15 | 2 Sam. 3:7-11 | Isboset beschuldigt Abner | Op één vraag van de zwakke koning antwoordt Abner met een uitvoerige rede met huis-taal, doelinfinitieven en een eedformule | [rapport](2_samuel_3_7_11/rapport.md) | [toelichting](2_samuel_3_7_11/toelichting.md) |
 | 16 | 2 Sam. 11:6-13 | David roept Uria terug | Davids bevelen sturen Uria naar huis, maar de vorm blijft terugkeren naar niet-binnengaan, melden en liggen bij de knechten | [rapport](2_samuel_11_6_13/rapport.md) | [toelichting](2_samuel_11_6_13/toelichting.md) |
 | 17 | 2 Sam. 12:1-13 | Natan confronteert David | De parabel lokt Davids vonnis uit en keert dan als directe aanklacht terug: fictieve rollen, jij-formules en goddelijke rede vallen samen | [rapport](2_samuel_12_1_13/rapport.md) | [toelichting](2_samuel_12_1_13/toelichting.md) |
 | 18 | 2 Sam. 13:10-16 | Amnon en Tamar | Een bevelscène wordt geweldsscène: Tamar spreekt in argumenten en familieverband, terwijl Amnons taal vernauwt naar bevel, grijpen en wegsturen | [rapport](2_samuel_13_10_16/rapport.md) | [toelichting](2_samuel_13_10_16/toelichting.md) |
@@ -35,7 +35,26 @@ In 11 van de 23 dialogen staat minstens één observatie die de geraadpleegde co
 | 20 | 2 Sam. 16:1-4 | Ziba onderschept David | Geschenk, beschuldiging en snelle overdracht: de tekst laat Davids oordeel sneller komen dan controle op Mefibosets afwezigheid | [rapport](2_samuel_16_1_4/rapport.md) | [toelichting](2_samuel_16_1_4/toelichting.md) |
 | 21 | 2 Sam. 18:19-32 | Ahimaäz en de Kusiet brengen nieuws | Snel rennen en traag zeggen: bodewedstrijd, poortwaarneming en Davids vraag naar "de jongeman" stellen slecht nieuws uit | [rapport](2_samuel_18_19_32/rapport.md) | [toelichting](2_samuel_18_19_32/toelichting.md) |
 | 22 | 2 Sam. 19:25-31 | Mefiboset verdedigt zich bij Davids terugkeer | Een half herstel na bedrog: Mefibosets knecht-taal en Davids verdelingsclause laten de beschuldiger naast de verdediger staan | [rapport](2_samuel_19_25_31/rapport.md) | [toelichting](2_samuel_19_25_31/toelichting.md) |
-| 23 | 2 Sam. 20:16-22 | De wijze vrouw van Abel onderhandelt met Joab | Stad, vrouw en bevelhebber komen in een spreek-hoorstructuur samen; Joab vernauwt het geweld tot Seba en de stad wordt gered via een harde overdrachtsclause | [rapport](2_samuel_20_16_22/rapport.md) | [toelichting](2_samuel_20_16_22/toelichting.md) |
+| 23 | 2 Sam. 20:16-22 | De wijze vrouw van Abel onderhandelt met Joab | De vrouw onderhandelt met Joab over de stad. Hij beperkt zijn eis tot Seba, waarna diens overdracht de stad redt | [rapport](2_samuel_20_16_22/rapport.md) | [toelichting](2_samuel_20_16_22/toelichting.md) |
+
+## Reikwijdte van de bevindingen
+
+"Nieuw" betekent hier niet aangetroffen in de geraadpleegde collectie. De
+collectie telt 32 titels en heeft lacunes, waaronder Fokkelman, Polzin en
+genderkritische studies over Hanna. De 21 nieuwheidsobservaties zijn dus geen
+21 onafhankelijk bevestigde exegetische vondsten.
+
+Bij [Hanna en Eli](1_samuel_1_12_18/rapport.md) zijn aanvullende controles
+uitgevoerd met vergelijkbare tekstvensters, gespreksregisters en scènes met
+een vrouwelijke hoofdpersoon. Die controles verzwakken enkele eerdere
+interpretaties. Het lidwoordtekort blijft de dragende bevinding. Vrouwelijke
+vormen en inbeddingsdiepte dienen als ijkpunt, referentieel verval als context.
+De [controles en uitkomsten](1_samuel_1_12_18/controles.md) zijn apart opgenomen.
+
+Deze aanvullende controles zijn niet op de overige 22 dialogen uitgevoerd.
+Vooral interpretaties op basis van inbeddingsdiepte en referentieel verval
+vragen daar nog om dezelfde register- en vergelijkingscontrole. Een
+robuustheidslabel over geneste strata biedt geen onafhankelijke bevestiging.
 
 ## Wat er per map staat
 

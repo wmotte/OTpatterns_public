@@ -1,7 +1,7 @@
 # Toelichting bij 2 Samuël 16:1-4: Ziba, goederen en snelle overdracht
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
+commentaren is afgerond. Zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
 grammaticaal geannoteerd. De engine vergelijkt deze vier verzen met het hele
@@ -82,7 +82,7 @@ De korte scène bevat formele spiegeling in de clause-types:
 clause typ window equals its reverse
 ```
 
-Dit is geen literaire chiasmeclaim. Het is een beperkte vormproxy: de engine
+Dit is een beperkte vormproxy die geen literaire chiasmeclaim rechtvaardigt: de engine
 ziet korte vensters waarvan de clause-typevolgorde gespiegeld is.
 Commentaren bespreken de compacte dialoog, maar niet deze technische
 spiegelingsmeting.

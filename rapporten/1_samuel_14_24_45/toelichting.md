@@ -4,10 +4,7 @@
 (Saul bindt zijn leger met een vloek-eed; Jonatan proeft honing en wordt
 ondervraagd).*
 
-Dit document laat zien waarop de analyse rust, in gewone taal, met de
-zoekopdrachten erbij zodat u de tellingen zelf kunt nalopen.
-
-Achter de waarnemingen zit de BHSA: een database waarin de hele Hebreeuwse
+De metingen gebruiken de BHSA: een database waarin de hele Hebreeuwse
 bijbel woord voor woord van grammaticale etiketten is voorzien (woordsoort,
 getal, persoon, werkwoordsvorm) door taalkundigen van het ETCBC in Amsterdam.
 Met een programma dat Text-Fabric heet kun je in die geannoteerde tekst
@@ -19,15 +16,15 @@ worden.
 
 ## Het leger dat uit beeld raakt
 
-De ruggengraat van de analyse is dat de scène langzaam tot twee mannen krimpt.
+De analyse volgt hoe de aandacht zich van het leger naar Saul en Jonatan
+verplaatst.
 Op papier is het een legerverhaal: een volk, Filistijnen, vijanden, allemaal
 groepen. In de full-run valt vooral de pluralis in suffixen weg. Het Hebreeuws
 behandelt "het volk" vaak als één enkelvoudige massa, en de aandacht schuift
-intussen naar Saul en Jonatan. De grammatica ruimt het toneel leeg voor de
-confrontatie tussen vader en zoon, tot het volk aan het slot als handelende
-partij terugkeert om Jonatan vrij te kopen.
+intussen naar Saul en Jonatan. De grammaticale verwijzing volgt de toespitsing op vader en zoon. Aan het
+slot treedt het volk weer handelend op om Jonatan vrij te kopen.
 
-**Wat je vindt als je telt.** Vier pluralissuffixen, waar een stuk verhaal van
+**De telling.** Vier pluralissuffixen, waar een stuk verhaal van
 deze lengte er gemiddeld ongeveer vijftien draagt: duidelijk minder dan
 gebruikelijk.
 
@@ -40,7 +37,7 @@ word prs_nu=pl
 In 1 Samuël 14:24-30 en 43-45 levert dit vier treffers op. (`prs_nu=pl` zoekt
 pronominale suffixen die grammaticaal meervoudig zijn.)
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Dat de
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Dat de
 scène toespitst op de twee mannen, is breed gezien: Bodner (*1 Samuel: A
 Narrative Commentary*) leest Saul en Jonatan als tegenpolen. Dat "het volk"
 een enkelvoudig collectief is dat enkelvoudige werkwoorden trekt, noteert
@@ -49,14 +46,13 @@ vergelijking met de rest van de bijbel. McCarter (*I Samuel*) bespreekt de
 enkelvoudsvormen tekstkritisch. Dat pluralissuffixen hier zo sterk wegvallen
 tegenover een vergelijkbaar stuk tekst, en dat die ondervertegenwoordiging de
 toespitsing op vader en zoon grammaticaal ondersteunt, staat er niet. Het
-patroon houdt stand hoe je ook vergelijkt (met de hele bijbel, met hetzelfde
+patroon houdt stand bij verschillende vergelijkingen (met de hele bijbel, met hetzelfde
 boek, met hetzelfde genre); het label is "robuust" (robust), met een hoog
 betrouwbaarheidsplafond.
 
 ## De confrontatie die langs de tweede persoon heen gaat
 
-Naast het wegvallende pluralissuffix draagt ook de schaarse suffixale
-aanspraak de afstand. Een verhoor verwacht je vol "jij" en "jouw". De
+Ook de schaarse suffixale aanspraak past bij de afstand tussen de sprekers. Een verhoor verwacht je vol "jij" en "jouw". De
 tweede-persoonssuffixen zijn hier echter schaars; het grootste deel van het
 dispuut verloopt zonder herhaalde bezits- of relatie-markering. Saul vervloekt
 "de man die eet" (v24); het volk vraagt "zal Jonatan sterven?" (v45). Deze
@@ -64,7 +60,7 @@ telling loopt samen met de vorige: twee onafhankelijke suffixsporen, getal en
 persoon, wijzen dezelfde kant op, weg van de groep en weg van de
 rechtstreekse aanspraak.
 
-**Wat je vindt als je telt.** Drie tweede-persoonssuffixen, waar een stuk van
+**De telling.** Drie tweede-persoonssuffixen, waar een stuk van
 deze lengte er ongeveer veertien tot vijftien draagt.
 
 **De zoekopdracht.**
@@ -73,11 +69,11 @@ deze lengte er ongeveer veertien tot vijftien draagt.
 word prs_ps=p2
 ```
 
-Deze waarneming rust op een kleiner monster; de afwijking is stevig, en de
-stap van "weinig jouw/uw" naar "afstandelijke confrontatie" blijft een lezing
-die het rapport aanbiedt.
+Deze waarneming berust op een kleinere steekproef. De afwijking is groot,
+maar de stap van "weinig jouw/uw" naar "afstandelijke confrontatie" blijft
+een interpretatie.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). De
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). De
 vervreemding is goed in beeld: Alter (*The David Story*) merkt op dat Sauls
 eed een formele derde-persoonsvloek is ("vervloekt is de man") waar je een
 rechtstreeks bevel aan de troepen zou verwachten, en leest daarin Sauls
@@ -99,7 +95,7 @@ gemiddeld. De sprongen die er wel zijn, liggen vooral op de naden van het
 gesprek: het volk dat Jonatan inlicht (v28), Jonatan die zijn vader aanklaagt
 (v29), en de voortgang naar het verhoor.
 
-**Wat je vindt als je telt.** Drieëndertig lokaal-onverwachte
+**De telling.** Drieëndertig lokaal-onverwachte
 zinstype-overgangen, waar een vergelijkbaar stuk er ongeveer drieënveertig
 draagt.
 
@@ -110,7 +106,7 @@ vergelijking over een glijdend venster, en die is alleen in een volledige
 Text-Fabric-omgeving reproduceerbaar. In de tekst zelf kunt u wel zien dat de
 zinssoort op v28, v29 en v43 omslaat.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). Het
+**Vergelijking met de commentaren.** Deels bekend (`partially_covered`). Het
 stijloordeel is er: Campbell (*1 Samuel*) noemt het Michmas-verhaal een van de
 lastigste teksten, geschreven in bondig en zinspelend Hebreeuws; Tsumura (*The
 First Book of Samuel*) noemt de syntaxis van v43 ronduit "strange"; McCarter

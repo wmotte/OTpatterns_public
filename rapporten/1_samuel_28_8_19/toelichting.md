@@ -5,8 +5,8 @@ commentaren is uitgevoerd op 13 juni 2026; zie
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De engine vergelijkt deze twaalf verzen met het hele Oude Testament en met
-nauwere vergelijkingsgroepen. De passage heeft genoeg robuuste vaste findings;
-de dynamische queries dienen vooral om passagespecifieke knooppunten te testen.
+nauwere vergelijkingsgroepen. De passage levert voldoende robuuste bevindingen uit de vaste detectoren op.
+De dynamische queries toetsen vooral specifieke patronen in deze passage.
 
 ## Vermomming
 
@@ -64,8 +64,8 @@ narratieve omgeving:
 
 ## Namen en pronomina
 
-Saul wordt genoemd, zakt weg in pronominale of nulreferentie en wordt weer
-opgehaald. Dat meet de engine met:
+Na Sauls naam volgen pronominale of impliciete verwijzingen, waarna zijn
+naam opnieuw verschijnt. Dat meet de engine met:
 
 ```text
 nmpr subject followed by pronoun/suffix/zero-subject run

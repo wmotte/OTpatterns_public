@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "passage": "1 Samuel 1:12-18",
+  "bhsa_version": "2023",
+  "provenance": {
+    "kind": "selected_stored_control_results",
+    "new_corpus_run": false,
+    "sources": [
+      {
+        "filename": "v8_analyses_output.json",
+        "sha256": "61a9211ddf25cb09a8dbdac18fb38c0f69647d3bf230dfef36c9e42a900dc38a"
+      },
+      {
+        "filename": "v8_decay_output.json",
+        "sha256": "ba053738f80d4107057e12071abad9fd8f31ceed92cf784fecf2deee66f7b761"
+      }
+    ],
+    "field_notes": [
+      "Referential decay is the sum of chain lengths, from v8_decay_output.json. The run counts from the first analysis are not used as the decay statistic.",
+      "The legacy key P_tab_ge13_ge7 compared with the case count cs[tab_ge13], which is 11. The exported key states that threshold explicitly."
+    ]
+  },
+  "corpus": {
+    "n_words": 426590,
+    "art": 30386,
+    "gn_f": 36721,
+    "p_art_glob": 0.07123,
+    "p_gnf_glob": 0.08608
+  },
+  "case": {
+    "n_words": 124,
+    "gn_f": 27,
+    "art": 1,
+    "scoreable": 85,
+    "hapax": 2,
+    "hapax_f": 2,
+    "q_words": 55,
+    "tab13": 4,
+    "tab15": 3,
+    "tab_ge13": 11,
+    "max_tab": 16,
+    "n_clause_atoms": 31,
+    "tam_hits": 14,
+    "q_share": 0.4435,
+    "referential_decay_length_sum": 6,
+    "referential_decay_runs": 1
+  },
+  "case_names": {
+    "JHWH/": 2,
+    "<LJ==/": 4,
+    "XNH/": 2,
+    "JFR>L/": 1
+  },
+  "case_clause_atoms": [
+    {
+      "vers": 12,
+      "tab": 6,
+      "domain": "N"
+    },
+    {
+      "vers": 12,
+      "tab": 7,
+      "domain": "N"
+    },
+    {
+      "vers": 12,
+      "tab": 9,
+      "domain": "N"
+    },
+    {
+      "vers": 12,
+      "tab": 8,
+      "domain": "N"
+    },
+    {
+      "vers": 13,
+      "tab": 9,
+      "domain": "N"
+    },
+    {
+      "vers": 13,
+      "tab": 11,
+      "domain": "N"
+    },
+    {
+      "vers": 13,
+      "tab": 12,
+      "domain": "N"
+    },
+    {
+      "vers": 13,
+      "tab": 13,
+      "domain": "D"
+    },
+    {
+      "vers": 13,
+      "tab": 10,
+      "domain": "N"
+    },
+    {
+      "vers": 14,
+      "tab": 10,
+      "domain": "N"
+    },
+    {
+      "vers": 14,
+      "tab": 11,
+      "domain": "Q"
+    },
+    {
+      "vers": 14,
+      "tab": 12,
+      "domain": "Q"
+    },
+    {
+      "vers": 15,
+      "tab": 10,
+      "domain": "N"
+    },
+    {
+      "vers": 15,
+      "tab": 11,
+      "domain": "N"
+    },
+    {
+      "vers": 15,
+      "tab": 12,
+      "domain": "Q"
+    },
+    {
+      "vers": 15,
+      "tab": 15,
+      "domain": "Q"
+    },
+    {
+      "vers": 15,
+      "tab": 14,
+      "domain": "Q"
+    },
+    {
+      "vers": 15,
+      "tab": 15,
+      "domain": "Q"
+    },
+    {
+      "vers": 15,
+      "tab": 16,
+      "domain": "N"
+    },
+    {
+      "vers": 16,
+      "tab": 13,
+      "domain": "Q"
+    },
+    {
+      "vers": 16,
+      "tab": 14,
+      "domain": "Q"
+    },
+    {
+      "vers": 17,
+      "tab": 10,
+      "domain": "N"
+    },
+    {
+      "vers": 17,
+      "tab": 11,
+      "domain": "N"
+    },
+    {
+      "vers": 17,
+      "tab": 13,
+      "domain": "Q"
+    },
+    {
+      "vers": 17,
+      "tab": 14,
+      "domain": "Q"
+    },
+    {
+      "vers": 17,
+      "tab": 15,
+      "domain": "Q"
+    },
+    {
+      "vers": 18,
+      "tab": 12,
+      "domain": "N"
+    },
+    {
+      "vers": 18,
+      "tab": 13,
+      "domain": "Q"
+    },
+    {
+      "vers": 18,
+      "tab": 4,
+      "domain": "N"
+    },
+    {
+      "vers": 18,
+      "tab": 5,
+      "domain": "N"
+    },
+    {
+      "vers": 18,
+      "tab": 6,
+      "domain": "N"
+    }
+  ],
+  "article_register_control": {
+    "narratief_n_Q": 58945,
+    "narratief_n_N": 124812,
+    "p_art_Q": 0.07151,
+    "p_art_N": 0.0823,
+    "casus_q_words": 55,
+    "casus_n": 124,
+    "verwacht_onder_QN_mix": 9.61,
+    "G2_vs_mix": 13.33,
+    "p_vs_mix": 0.000261,
+    "obs": 1
+  },
+  "embedding_register_control": {
+    "mediaan_tab_Q": 8,
+    "mediaan_tab_N": 5,
+    "gem_tab_Q": 8.63,
+    "gem_tab_N": 5.86,
+    "aandeel_tab_ge13_Q": 0.139,
+    "aandeel_tab_ge13_N": 0.05112,
+    "n_ca_Q": 13341,
+    "n_ca_N": 22416
+  },
+  "hapax_gender_control": {
+    "narratief_scoorbaar_f": 7223,
+    "narratief_hapax_f": 63,
+    "narratief_scoorbaar_rest": 124413,
+    "narratief_hapax_rest": 247,
+    "dichtheid_f": 0.0087221,
+    "dichtheid_rest": 0.0019853,
+    "casus_scoorbaar": 85,
+    "casus_scoorbaar_f": 15,
+    "lambda_vlak": 0.2,
+    "lambda_genusgewogen": 0.27,
+    "P_ge2_vlak": 0.0176,
+    "P_ge2_genusgewogen": 0.0305
+  },
+  "window_sensitivity": {
+    "1:9-20": {
+      "n_words": 244,
+      "gn_f": 48,
+      "art": 6,
+      "scoreable": 167,
+      "hapax": 2,
+      "hapax_f": 2,
+      "q_words": 93,
+      "tab13": 4,
+      "tab15": 3,
+      "tab_ge13": 11,
+      "max_tab": 16,
+      "n_clause_atoms": 58,
+      "tam_hits": 19,
+      "q_share": 0.3811,
+      "namen": {
+        "XNH/": 5,
+        "CLH/": 1,
+        "<LJ==/": 5,
+        "JHWH/": 9,
+        "JFR>L/": 1,
+        "RMH==/": 1,
+        ">LQNH/": 1,
+        "CMW>L/": 1
+      },
+      "gn_f_exp_glob": 21.0,
+      "gn_f_G2": 28.76,
+      "art_exp_glob": 17.38,
+      "art_G2": 10.56,
+      "referential_decay_length_sum": 7
+    },
+    "1:12-18": {
+      "n_words": 124,
+      "gn_f": 27,
+      "art": 1,
+      "scoreable": 85,
+      "hapax": 2,
+      "hapax_f": 2,
+      "q_words": 55,
+      "tab13": 4,
+      "tab15": 3,
+      "tab_ge13": 11,
+      "max_tab": 16,
+      "n_clause_atoms": 31,
+      "tam_hits": 14,
+      "q_share": 0.4435,
+      "namen": {
+        "JHWH/": 2,
+        "<LJ==/": 4,
+        "XNH/": 2,
+        "JFR>L/": 1
+      },
+      "gn_f_exp_glob": 10.67,
+      "gn_f_G2": 19.94,
+      "art_exp_glob": 8.83,
+      "art_G2": 11.83,
+      "referential_decay_length_sum": 6
+    }
+  },
+  "comparison_scenes": {
+    "Genesis 24:15-27": {
+      "n_words": 221,
+      "gn_f": 40,
+      "art": 10,
+      "scoreable": 152,
+      "hapax": 0,
+      "hapax_f": 0,
+      "q_words": 73,
+      "tab13": 3,
+      "tab15": 0,
+      "tab_ge13": 4,
+      "max_tab": 14,
+      "n_clause_atoms": 63,
+      "tam_hits": 7,
+      "q_share": 0.3303,
+      "art_exp_glob": 15.74,
+      "art_G2": 2.57,
+      "art_richting": "under",
+      "referential_decay_length_sum": 0,
+      "referential_decay_runs": 0
+    },
+    "Genesis 27:5-17": {
+      "n_words": 214,
+      "gn_f": 26,
+      "art": 9,
+      "scoreable": 135,
+      "hapax": 0,
+      "hapax_f": 0,
+      "q_words": 110,
+      "tab13": 2,
+      "tab15": 3,
+      "tab_ge13": 9,
+      "max_tab": 16,
+      "n_clause_atoms": 50,
+      "tam_hits": 3,
+      "q_share": 0.514,
+      "art_exp_glob": 15.24,
+      "art_G2": 3.2,
+      "art_richting": "under",
+      "referential_decay_length_sum": 4,
+      "referential_decay_runs": 1
+    },
+    "Rechters 4:4-22": {
+      "n_words": 479,
+      "gn_f": 64,
+      "art": 26,
+      "scoreable": 332,
+      "hapax": 0,
+      "hapax_f": 0,
+      "q_words": 139,
+      "tab13": 3,
+      "tab15": 1,
+      "tab_ge13": 12,
+      "max_tab": 18,
+      "n_clause_atoms": 96,
+      "tam_hits": 16,
+      "q_share": 0.2902,
+      "art_exp_glob": 34.12,
+      "art_G2": 2.25,
+      "art_richting": "under",
+      "referential_decay_length_sum": 7,
+      "referential_decay_runs": 1
+    },
+    "Ruth 2": {
+      "n_words": 541,
+      "gn_f": 115,
+      "art": 43,
+      "scoreable": 376,
+      "hapax": 6,
+      "hapax_f": 6,
+      "q_words": 275,
+      "tab13": 0,
+      "tab15": 0,
+      "tab_ge13": 0,
+      "max_tab": 12,
+      "n_clause_atoms": 136,
+      "tam_hits": 44,
+      "q_share": 0.5083,
+      "art_exp_glob": 38.54,
+      "art_G2": 0.54,
+      "art_richting": "over",
+      "referential_decay_length_sum": 4,
+      "referential_decay_runs": 1
+    },
+    "Ruth 3": {
+      "n_words": 352,
+      "gn_f": 80,
+      "art": 27,
+      "scoreable": 254,
+      "hapax": 3,
+      "hapax_f": 3,
+      "q_words": 232,
+      "tab13": 1,
+      "tab15": 0,
+      "tab_ge13": 1,
+      "max_tab": 13,
+      "n_clause_atoms": 112,
+      "tam_hits": 14,
+      "q_share": 0.6591,
+      "art_exp_glob": 25.07,
+      "art_G2": 0.16,
+      "art_richting": "over",
+      "referential_decay_length_sum": 6,
+      "referential_decay_runs": 2
+    },
+    "1 Samuël 25:23-35": {
+      "n_words": 332,
+      "gn_f": 46,
+      "art": 17,
+      "scoreable": 228,
+      "hapax": 1,
+      "hapax_f": 0,
+      "q_words": 247,
+      "tab13": 0,
+      "tab15": 0,
+      "tab_ge13": 0,
+      "max_tab": 11,
+      "n_clause_atoms": 80,
+      "tam_hits": 11,
+      "q_share": 0.744,
+      "art_exp_glob": 23.65,
+      "art_G2": 2.22,
+      "art_richting": "under",
+      "referential_decay_length_sum": 8,
+      "referential_decay_runs": 2
+    },
+    "2 Samuël 14:4-20": {
+      "n_words": 465,
+      "gn_f": 58,
+      "art": 60,
+      "scoreable": 375,
+      "hapax": 2,
+      "hapax_f": 0,
+      "q_words": 330,
+      "tab13": 1,
+      "tab15": 0,
+      "tab_ge13": 1,
+      "max_tab": 13,
+      "n_clause_atoms": 102,
+      "tam_hits": 20,
+      "q_share": 0.7097,
+      "art_exp_glob": 33.12,
+      "art_G2": 19.25,
+      "art_richting": "over",
+      "referential_decay_length_sum": 0,
+      "referential_decay_runs": 0
+    }
+  },
+  "empirical_null": {
+    "all_windows": {
+      "n_vensters": 8517,
+      "P_gnf_G2_ge_casus": 0.0182,
+      "P_art_G2_ge_casus": 0.02971,
+      "P_hapax_ge2": 0.03757,
+      "P_tab_ge13_aanwezig": 0.3128,
+      "P_tam_ge_casus": 0.01914,
+      "P_tab_ge13_count_ge11": 0.07773,
+      "P_decay_length_sum_ge6": 0.1071
+    },
+    "speech_rich_windows": {
+      "n_vensters": 2162,
+      "P_gnf_G2_ge_casus": 0.02174,
+      "P_art_G2_ge_casus": 0.0407,
+      "P_hapax_ge2": 0.06337,
+      "P_tab_ge13_aanwezig": 0.4778,
+      "P_tam_ge_casus": 0.02868,
+      "P_tab_ge13_count_ge11": 0.1415,
+      "P_decay_length_sum_ge6": 0.1272
+    }
+  },
+  "hapax_per_dialogue": {
+    "1_samuel_10_14_16": 0,
+    "1_samuel_13_11_14": 0,
+    "1_samuel_14_24_45": 0,
+    "1_samuel_15_13_31": 0,
+    "1_samuel_17_28_37": 0,
+    "1_samuel_1_12_18": 2,
+    "1_samuel_21_2_10": 2,
+    "1_samuel_22_11_19": 0,
+    "1_samuel_24_9_22": 0,
+    "1_samuel_25_23_35": 0,
+    "1_samuel_28_8_19": 0,
+    "1_samuel_3_15_18": 0,
+    "1_samuel_8_4_22": 0,
+    "2_samuel_11_6_13": 0,
+    "2_samuel_12_1_13": 0,
+    "2_samuel_13_10_16": 0,
+    "2_samuel_14_4_20": 0,
+    "2_samuel_16_1_4": 0,
+    "2_samuel_18_19_32": 0,
+    "2_samuel_19_25_31": 0,
+    "2_samuel_1_1_16": 0,
+    "2_samuel_20_16_22": 0,
+    "2_samuel_3_7_11": 0
+  },
+  "referential_decay": {
+    "casus": {
+      "obs_som_kettinglengtes": 6,
+      "n_runs": 1,
+      "runs": [
+        {
+          "start": "1_Samuel 1:17",
+          "lengte": 6,
+          "clauses": [
+            "1_Samuel 1:17",
+            "1_Samuel 1:18",
+            "1_Samuel 1:18",
+            "1_Samuel 1:18",
+            "1_Samuel 1:18",
+            "1_Samuel 1:18"
+          ]
+        }
+      ]
+    },
+    "venster_9_20": {
+      "obs": 7,
+      "n_runs": 1
+    },
+    "controles": {
+      "Genesis 24:15-27": {
+        "obs": 0,
+        "n_runs": 0
+      },
+      "Genesis 27:5-17": {
+        "obs": 4,
+        "n_runs": 1
+      },
+      "Rechters 4:4-22": {
+        "obs": 7,
+        "n_runs": 1
+      },
+      "Ruth 2": {
+        "obs": 4,
+        "n_runs": 1
+      },
+      "Ruth 3": {
+        "obs": 6,
+        "n_runs": 2
+      },
+      "1 Samuël 25:23-35": {
+        "obs": 8,
+        "n_runs": 2
+      },
+      "2 Samuël 14:4-20": {
+        "obs": 0,
+        "n_runs": 0
+      }
+    },
+    "nul": {
+      "n_vensters": 8517,
+      "P_obs_ge6_alle": 0.1071,
+      "n_vensters_Qrijk": 2162,
+      "P_obs_ge6_Qrijk": 0.1272,
+      "gemiddelde_alle": 1.621
+    }
+  },
+  "assessment": {
+    "33": {
+      "status": "dragende_bevinding",
+      "ceiling": "Middel"
+    },
+    "31": {
+      "status": "context_niet_onderscheidend"
+    },
+    "11": {
+      "status": "global_only_geen_statistische_bewijslast"
+    },
+    "16": {
+      "status": "kwantificering_bekend_patroon"
+    },
+    "21": {
+      "status": "ijkpunt"
+    },
+    "56": {
+      "status": "ijkpunt"
+    },
+    "57": {
+      "status": "ijkpunt"
+    },
+    "22": {
+      "status": "exploratief",
+      "ceiling": "Middel",
+      "query_tests_subject_function": false
+    },
+    "28": {
+      "status": "context_exploratief",
+      "ceiling": "Laag"
+    },
+    "48": {
+      "status": "context_exploratief",
+      "ceiling": "Laag"
+    },
+    "55": {
+      "status": "observatie_met_voorbehoud",
+      "confidence": "Middel"
+    }
+  }
+}

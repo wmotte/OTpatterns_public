@@ -32,7 +32,7 @@ bewijs gedragen hypothesen.*
 > vastloopt, en de "beter dan"-constructie die het vonnis van v28 in de mal
 > van de kernspreuk van v22 giet.
 
-## Vraag 1 — de confrontatie in kale werkwoorden
+## Vraag 1: de confrontatie in kale werkwoorden
 
 **Vraag:** Voelt deze tekst alleen "kortaf", of is de soberheid ook meetbaar
 in de werkwoorden zelf, die hier minder zwaar geladen zijn dan directe rede
@@ -63,14 +63,11 @@ maar de complementtelling per clause vergt de frasefuncties.*
 beweren en beoordelen: Saul claimt, Samuël klaagt aan, beiden vellen oordelen
 over een daad die al achter de rug ligt. Zulke spraak draait om assertie, en
 assertieve predicaten dragen weinig complementen: men zegt "ik heb
-gezondigd", zonder object, plaats of ontvanger erbij. De
-ondervertegenwoordiging van het zwaar geladen werkwoord is op de as
-ontwijking/mislukte communicatie de grammaticale signatuur van een dispuut
-waarin alleen nog beweerd en geoordeeld wordt. De deflectie heeft de
-handeling uit de zinnen geperst.
+gezondigd", zonder object, plaats of ontvanger erbij. De ondervertegenwoordiging van werkwoorden met veel complementen past bij
+dit dispuut over reeds voltooide handelingen.
 
 
-**Staat dit al in de commentaren?:** nieuw. Geen bron telt of bespreekt
+**Vergelijking met de commentaren:** nieuw. Geen bron telt of bespreekt
 werkwoordsvalentie. Campbell typeert dit type Samuël-proza algemeen als
 "terse and allusive", maar past dat niet toe op een meting van
 predicaatstructuur en spreekt feitelijk over het Michmas-hoofdstuk. Een vage
@@ -80,7 +77,7 @@ van het zwaar geladen werkwoord tegen de directe-rede-baseline staat nergens.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): valence (complements=2,
 onder) · robustness: robust · versie 2023
 
-## Vraag 2 — het collectief dat naar het enkelvoud krimpt
+## Vraag 2: het collectief dat naar het enkelvoud krimpt
 
 **Vraag:** Saul beroept zich telkens op "het volk", een collectief. Spreekt
 de grammatica dat collectief ook als groep aan, of kantelt ze naar het
@@ -102,19 +99,17 @@ hebben gebannen", v15), שִׁבְטֵי ("stammen", v17), עֹלוֹת en זְ�
 
 *In de zoekbrowser na te tellen: 14 treffers in deze passage.*
 
-**Duiding:** Het collectief wordt grammaticaal uit elkaar gehaald. Saul maakt
-"het volk" tot het meervoudige schild waarachter hij wegduikt (zíj spaarden,
+**Duiding:** Saul verschuift verantwoordelijkheid naar "het volk" door meervoudige
+vormen te gebruiken (zíj spaarden,
 zíj brachten), maar de scène zelf verdicht zich tot twee mannen die tegenover
 elkaar staan, en het Hebreeuws volgt die verdichting: het meervoud valt tegen
-het corpus weg. De confrontatie is op de as macht-asymmetrie een duel tussen
-twee mannen; de grammatica maakt het toneel leeg op Samuël en Saul na. De
+het corpus weg. De grammaticale verwijzing concentreert zich daarmee op Samuël en Saul. De
 weinige meervouden keren terug waar Saul de daad van zich af schuift (de
 gebrachte dieren) en waar Samuël de cultische verpakking afbreekt (de offers
-die het luisteren niet vervangen). Het meervoud is het register van de
-uitvlucht.
+die het luisteren niet vervangen). De meervouden vallen hier dus samen met Sauls uitvluchten.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Het thema is geraakt, de
+**Vergelijking met de commentaren:** gedeeltelijk. Het thema is geraakt, de
 meting ontbreekt. Alter merkt op dat Saul in v15 een "vage derde persoon
 meervoud" (הֱבִיאוּם, "ze hebben gebracht") inzet om de verantwoordelijkheid
 naar onbenoemde anderen te schuiven. Greear en Tsumura wijzen op het
@@ -130,7 +125,7 @@ Saul-confrontaties heen terugkeert.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): categorical (nu=pl,
 onder) · robustness: robust · versie 2023
 
-## Vraag 3 — de vertelafstand die wegvalt
+## Vraag 3: de vertelafstand die wegvalt
 
 **Vraag:** Verhalend proza leunt op de afstandelijke derde persoon. Houdt
 deze scène die afstand, of wordt ze grotendeels in de rechtstreekse aanspraak
@@ -156,9 +151,8 @@ naar het rechtstreekse jij-tegen-jij.
 suffixen die naar een derde persoon verwijzen via `word prs_ps=p3`
 (10 treffers). Samen 43, het cijfer van de meting.*
 
-**Duiding:** De vertelafstand wordt uit de scène geperst. Een hoofdstuk dat
-als verhaal begint, kantelt in een aanhoudende face-to-face-aanvaring waarin
-verteller en derde persoon terugtreden voor de directe confrontatie. Saul en
+**Duiding:** Een hoofdstuk dat als verhaal begint, gaat over in een langdurige
+woordenwisseling. Verteller en derde persoon treden daarin terug. Saul en
 Samuël staan recht tegenover elkaar, zonder verteller ertussen, en de
 grammatica registreert dat als een tekort aan de afstandelijke vorm. Op de as
 macht-asymmetrie is de lage derde persoon de syntactische maat van een
@@ -166,7 +160,7 @@ onttroning die zich in de aanspraak zelf voltrekt: de profeet spreekt het
 vonnis rechtstreeks tegen de koning uit.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De directheid is gezien,
+**Vergelijking met de commentaren:** gedeeltelijk. De directheid is gezien,
 de telling ontbreekt. Davis merkt op dat "het grootste deel van het verhaal
 via toespraken en gesprekken wordt verteld", wat de scène haar dramatische
 directheid geeft. Alter typeert Samuël als iemand die de aanklacht er in de
@@ -181,7 +175,7 @@ dezelfde verdichting naar het jij-tegen-jij.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): person_shift (p3,
 onder) · robustness: robust · versie 2023
 
-## Vraag 4 — de gebroken zinnen van het verhoor
+## Vraag 4: de gebroken zinnen van het verhoor
 
 **Vraag:** Het gesprek tussen Samuël en Saul klinkt gejaagd en afgebroken.
 Blijft dat een leesindruk, of markeert de ETCBC-codering hier meetbaar vaker
@@ -222,7 +216,7 @@ dispuut van assertie en oordeel, gevoerd in syntaxis die afbreekt op de
 momenten van claim, verhoor en vonnis.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De ruwheid is stilistisch
+**Vergelijking met de commentaren:** gedeeltelijk. De ruwheid is stilistisch
 gezien, geteld is ze nergens. Bodner noemt de "awkward syntax" van Sauls
 excuus in v15 en zet Samuëls vraag van twee woorden tegenover Sauls antwoord
 van zevenentwintig; Campbell typeert het Samuël-proza als "terse and
@@ -238,7 +232,7 @@ worden, significant tegen corpus, genre en periode.
 defective_clause_atom_density (code=999, over) · robustness: robust ·
 versie 2023
 
-## Vraag 5 — de spreukvorm die het vonnis voltrekt
+## Vraag 5: de spreukvorm die het vonnis voltrekt
 
 **Vraag:** De kernspreuk "gehoorzamen is beter dan offer" (v22) en het vonnis
 "uw naaste, die beter is dan u" (v28) delen het woord טוֹב. Delen ze ook de
@@ -273,15 +267,14 @@ passage-treffers zijn wel na te tellen via `clause typ=AjCl` met daaronder
 Hebreeuws één grammaticaal thuis: het predicaat van de werkwoordloze
 oordeelszin, "X is goed/beter". Samuël formuleert in v22 de norm in die mal
 (gehoorzamen is beter dan offer) en voltrekt in v28 het vonnis in dezelfde
-mal (de naaste is beter dan u). De maatstaf die Saul te horen kreeg, wordt
-het meetlint waarlangs hij wordt afgemeten. Het lexeemveld goed/beter omspant
+mal (de naaste is beter dan u). Samuël beoordeelt Saul zo met de maatstaf die hij eerder formuleerde. Het lexeemveld goed/beter omspant
 bovendien de hele scène als waardeschaal: Saul greep zelf naar מֵיטַב, "het
 beste" van het vee (v9, v15), en juist de offer-overtreffende "beter"-zin
 spreekt hem uit het koningschap. Op de as ontwijking/mislukte communicatie
 krijgt Sauls eigen waardetaal zo het laatste woord tegen hem.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. De vorm is per vers
+**Vergelijking met de commentaren:** gedeeltelijk. De vorm is per vers
 gezien. Keil analyseert טוֹב in v22 expliciet als predicaat, met מִזֶּבַח
 voorop geplaatst "for the sake of emphasis"; Tsumura typeert v22-23 als
 poëtisch proza met parallellisme; Bergen noemt v22 een kort doch diepzinnig

@@ -15,7 +15,7 @@ grammaticaal aanwezig is: vrouwelijke suffixen en vormen zijn robuust dicht,
 ontkenningen zijn uitzonderlijk hoog, de rede is ingebed en Tamar zoekt nog een
 formeel alternatief via de koning.
 
-## Vraag 1 — Hoe sluit de kamer de scène?
+## Vraag 1: Hoe sluit de kamer de scène?
 
 **Vraag:** Wordt de verplaatsing naar de kamer vormelijk gemarkeerd?
 
@@ -42,14 +42,14 @@ binnen. De vormmeting markeert het tekstuele moment waarop de dialoog ruimtelijk
 wordt vernauwd.
 
 
-**Staat dit al in de commentaren?:** standard. De binnenkamer als structureel
+**Vergelijking met de commentaren:** standard. De binnenkamer als structureel
 punt van Amnons valstrik wordt besproken; BHSA markeert actoren, beweging en
 locatie in 13:10.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=amnon_tamar_private_room` · robustness: robust · versie 2023
 
-## Vraag 2 — Hoe hoorbaar blijft Tamar?
+## Vraag 2: Hoe hoorbaar blijft Tamar?
 
 **Vraag:** Laat de grammatica Tamar alleen als object zien, of blijft haar
 aanwezigheid vormelijk sterk?
@@ -70,13 +70,12 @@ word prs_gn=f
 word gn=f
 ```
 
-**Duiding:** De passage blijft grammaticaal rond Tamar getrokken. Dat verzacht
-de scène niet. Het betekent dat haar lichaam, haar stem, haar verwantschap en
-haar aanspreekpositie formeel herhaald worden. De tekst laat haar niet
+**Duiding:** De grammaticale verwijzingen blijven op Tamar gericht: haar lichaam, stem,
+verwantschap en aanspreekpositie worden herhaald genoemd. De tekst laat haar niet
 verdwijnen op het moment dat Amnon haar niet hoort.
 
 
-**Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
+**Vergelijking met de commentaren:** partially_covered. Commentaren herkennen
 Tamars stem en aanwezigheid; de vrouwelijke suffix- en genusdichtheid zijn
 BHSA-formaliseringen. De formulering blijft zakelijk om het geweld niet te
 verfraaien.
@@ -84,7 +83,7 @@ verfraaien.
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `prs_gn=f` · robustness:
 robust · versie 2023
 
-## Vraag 3 — Wat doet Tamars negatieve rede?
+## Vraag 3: Wat doet Tamars negatieve rede?
 
 **Vraag:** Is Tamars antwoord vooral een verzoek, of bestaat het uit formele
 verbodstaal?
@@ -100,20 +99,20 @@ ongeveer 2,14 verwacht (G² = 9,60; q ≈ 0,00195). De voorbeelden liggen in
 word sp=nega
 ```
 
-**Duiding:** Tamar spreekt niet vaag. Haar rede begint met verbod en
+**Duiding:** Tamars rede begint met verbod en
 ontkenning: doe dit niet, zo doet men niet in Israël, doe deze schanddaad niet.
 De verteller herneemt daarna de ontkenning bij Amnon: hij wilde niet luisteren.
 De passage wordt dus sterk bepaald door wat Tamar afwijst en door wat Amnon
 weigert te horen.
 
 
-**Staat dit al in de commentaren?:** standard. Tamars herhaalde ontkenningen
+**Vergelijking met de commentaren:** standard. Tamars herhaalde ontkenningen
 worden expliciet besproken; BHSA bevestigt de negatieconcentratie.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature: `sp=nega` · robustness:
 robust · versie 2023
 
-## Vraag 4 — Waarom noemt Tamar de koning?
+## Vraag 4: Waarom noemt Tamar de koning?
 
 **Vraag:** Probeert Tamar nog een formele route te openen binnen de
 machtsstructuur?
@@ -138,20 +137,18 @@ clause domain=Q
 % aangrenzende txt~Q clauses met volitief direct↔softened transition
 ```
 
-**Duiding:** Tamar roept niet alleen "nee". Zij formuleert ook een procedurele
-uitweg: spreek toch met de koning. De combinatie van imperatief en `na` maakt
-de uitweg dringend en verzacht tegelijk. In de machtsas van de reeks is dit
-belangrijk: iemand zonder macht zoekt nog een erkende gezagsroute.
+**Duiding:** Naast haar "nee" formuleert Tamar een procedurele uitweg: spreek toch met de koning. De combinatie van imperatief en `na` maakt
+de uitweg dringend en verzacht tegelijk. Zonder zelf macht te hebben, zoekt Tamar zo een uitweg via het erkende gezag.
 
 
-**Staat dit al in de commentaren?:** standard/partially_covered. Tamars beroep
+**Vergelijking met de commentaren:** standard/partially_covered. Tamars beroep
 op de koning is standaardcommentaar; de volitiefbotsing tussen bevel en
 verzachte smeekrede is gedeeltelijk gedekt.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=speak_please_to_the_king` · robustness: robust · versie 2023
 
-## Vraag 5 — Hoe zwaar is de inbedding?
+## Vraag 5: Hoe zwaar is de inbedding?
 
 **Vraag:** Heeft Tamars argumentatie een andere syntactische dichtheid dan
 Amnons bevelen?
@@ -183,7 +180,7 @@ inbeddings- en zwaartemetingen ondersteunen die asymmetrie tussen bevel en
 argument.
 
 
-**Staat dit al in de commentaren?:** novel/standard. De inbeddingsdiepten 9 en
+**Vergelijking met de commentaren:** novel/standard. De inbeddingsdiepten 9 en
 17 worden niet als technische vormlaag besproken; de morfologische zwaarte rond
 Amnons handelingen is inhoudelijk bekend en door BHSA gekwantificeerd.
 

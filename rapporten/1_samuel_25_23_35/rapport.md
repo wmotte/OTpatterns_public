@@ -16,7 +16,7 @@ kern van de scène: bloed, hand en tegenhouden/redden staan samen in twee
 verzen. Abigaïls rede werkt dus via relationele druk en via een nauw geformuleerde
 rem op Davids hand.
 
-## Vraag 1 — Hoe spreekt Abigaïl zichzelf klein?
+## Vraag 1: Hoe spreekt Abigaïl zichzelf klein?
 
 **Vraag:** Is Abigaïls nederigheid vooral narratief gebaar, of zit zij ook in
 de grammatica van haar rede?
@@ -44,13 +44,11 @@ word prs_ps=p1
 ```
 
 **Duiding:** Abigaïl zet zichzelf in de taal van afhankelijkheid en David in de
-taal van aangesproken heer. Dat is geen lege beleefdheid. De hoge suffixdruk
-maakt haar rede relationeel compact: mijn schuld, uw oren, uw leven, uw hand.
-Zo krijgt David geen abstract advies, maar een reeks directe aanspraken op zijn
-eigen handelen.
+taal van aangesproken heer. De vele suffixen leggen telkens een relatie tussen haar en David: mijn schuld, uw oren, uw leven, uw hand.
+Zo spreekt Abigaïl David herhaaldelijk aan op zijn eigen handelen.
 
 
-**Staat dit al in de commentaren?:** deels. De dienstvrouw/heer-taal en
+**Vergelijking met de commentaren:** deels. De dienstvrouw/heer-taal en
 Abigaïls nederige diplomatie zijn `standard` in de commentaren. De
 suffixdichtheden zijn `partially_covered`: de directe aanspreekdruk is bekend,
 maar BHSA kwantificeert hoe sterk ik/u-taal deze rede draagt.
@@ -59,7 +57,7 @@ maar BHSA kwantificeert hoe sterk ik/u-taal deze rede draagt.
 `dynamic_query=maidservant_lord_address`, `prs_ps=p2`, `prs_ps=p1` ·
 robustness: robust · versie 2023
 
-## Vraag 2 — Waar zit de rem op Davids geweld?
+## Vraag 2: Waar zit de rem op Davids geweld?
 
 **Vraag:** Wordt de-escalatie vooral als emotionele overtuiging verteld, of als
 een concrete grammatica van bloed en hand?
@@ -90,7 +88,7 @@ bloed mag niet aan zijn hand komen. Davids latere zegen neemt precies die lijn
 over. De query verbindt haar waarschuwing en zijn erkenning in één patroon.
 
 
-**Staat dit al in de commentaren?:** grotendeels. De koppeling van bloed,
+**Vergelijking met de commentaren:** grotendeels. De koppeling van bloed,
 hand en weerhouding is `standard`: commentaren lezen Abigaïls interventie al
 als Gods middel om David van bloedschuld en eigenrichting af te houden. De
 objectloze `JC<[`-meting is `partially_covered` en blijft een technische
@@ -100,7 +98,7 @@ formalisering van die bekende lijn.
 `dynamic_query=blood_hand_restraint`, `valence_object_drop=JC<[` · robustness:
 robust · versie 2023
 
-## Vraag 3 — Wie krijgt grammaticale agency?
+## Vraag 3: Wie krijgt grammaticale agency?
 
 **Vraag:** Laat de tekst David als enige handelende partij staan, of verdeelt
 de syntaxis de agency breder?
@@ -124,11 +122,10 @@ Deze meting is een engineproxy en geen enkele statische zoekregel.
 **Duiding:** De scène draait rond David, maar de grammatica laat hem niet als
 enige handelaar staan. Abigaïl handelt, JHWH handelt, en David wordt juist door
 aanspraak in een verantwoordingspositie gezet. Dat past bij de machtsas van de
-reeks: iemand zonder formele militaire macht zet de gewapende leider
-grammaticaal vast.
+reeks: iemand zonder formele militaire macht roept de gewapende leider ter verantwoording.
 
 
-**Staat dit al in de commentaren?:** ja. De agencyverdeling over David,
+**Vergelijking met de commentaren:** ja. De agencyverdeling over David,
 Abigaïl, Nabal en JHWH is `standard`; commentaren bespreken de scène al als
 een driehoek waarin JHWH's voorzienige hand achter Abigaïls optreden staat.
 BHSA kwantificeert die bekende verdeling als actantcentraliteit.
@@ -136,7 +133,7 @@ BHSA kwantificeert die bekende verdeling als actantcentraliteit.
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `actant_in_out_degree` · robustness: robust · versie 2023
 
-## Vraag 4 — Hoe dicht is de aanspreking?
+## Vraag 4: Hoe dicht is de aanspreking?
 
 **Vraag:** Is Abigaïls rede vooral argumentatie, of werkt zij door een hoge
 dichtheid van persoonsverwijzing?
@@ -158,12 +155,11 @@ word ps=p3
 ```
 
 **Duiding:** Abigaïl houdt David in de rede aanwezig. Haar betoog heeft weinig
-afstandelijke derde-persoonstaal en veel relationele markering. Dat maakt de
-de-escalatie minder juridisch-deductief en meer aanspreekbaar: David hoort zijn
+afstandelijke derde-persoonstaal en veel relationele markering. Bij de de-escalatie gaat het zo om de directe aanspraak: David hoort zijn
 eigen hand, ziel, vijanden en toekomst terug.
 
 
-**Staat dit al in de commentaren?:** deels. Commentaren typeren Abigaïls rede
+**Vergelijking met de commentaren:** deels. Commentaren typeren Abigaïls rede
 als lang, rijk en diplomatiek intens, maar niet als corpusmeting van
 participantendichtheid of lage derde-persoonsmarkering. De BHSA-bijdrage is
 daarom `partially_covered`.
@@ -171,7 +167,7 @@ daarom `partially_covered`.
 **Confidence:** Middel (≤ plafond Middel) · features:
 `participant_density`, `ps/prs_ps=p3` · robustness: robust · versie 2023
 
-## Vraag 5 — Waarom eindigt het met zegen zonder object?
+## Vraag 5: Waarom eindigt het met zegen zonder object?
 
 **Vraag:** Is Davids zegen aan het slot gewoon afsluitende beleefdheid, of
 verdicht de grammatica het antwoord?
@@ -201,7 +197,7 @@ De lage actorverhulling past daarbij: David noemt wie ingrijpt en wie gezegend
 wordt.
 
 
-**Staat dit al in de commentaren?:** deels. Davids drievoudige zegen in
+**Vergelijking met de commentaren:** deels. Davids drievoudige zegen in
 25:32-33 als teken van ommekeer is bekend. De meting van `BRK[` zonder
 expliciete BHSA-Objc en de lage actorverhulling zijn `partially_covered` en
 blijven secundaire vormobservaties.

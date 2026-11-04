@@ -15,7 +15,7 @@ al kent. De data laat vooral onrust in tijd, referentie en rolverdeling zien.
 De tekst beweegt snel met wayyiqtol, wisselt lokaal sterk van werkwoordsvorm en
 laat namen in pronominale reeksen wegzakken voordat zij opnieuw verschijnen.
 
-## Vraag 1 — Hoe begint de vermomming grammaticaal?
+## Vraag 1: Hoe begint de vermomming grammaticaal?
 
 **Vraag:** Is Sauls vermomming alleen een inhoudelijk detail, of krijgt zij een
 meetbare openingsconfiguratie?
@@ -48,7 +48,7 @@ gemarkeerde narratieve clauses. Sauls poging om zijn identiteit te verbergen
 staat dus aan het begin van een versneld handelingspatroon.
 
 
-**Staat dit al in de commentaren?:** partially_covered. Sauls vermomming en
+**Vergelijking met de commentaren:** partially_covered. Sauls vermomming en
 andere kleding zijn standaardcommentaar; de wayyiqtol- en WayX-overmaat zijn
 gedeeltelijk gedekte BHSA-formaliseringen van tempo en expliciete actoren.
 
@@ -56,7 +56,7 @@ gedeeltelijk gedekte BHSA-formaliseringen van tempo en expliciete actoren.
 `dynamic_query=saul_disguise_other_clothes`, `vt=wayq`, `typ=WayX` ·
 robustness: robust · versie 2023
 
-## Vraag 2 — Waar breekt de vermomming?
+## Vraag 2: Waar breekt de vermomming?
 
 **Vraag:** Hoe registreert de tekst het moment waarop de vrouw Saul herkent en
 bang wordt?
@@ -81,12 +81,12 @@ verse
 count subject vs object mentions by lexical/person key
 ```
 
-**Duiding:** De vrouw is geen passief decor. Wanneer zij Saul herkent, wordt
+**Duiding:** Wanneer de vrouw Saul herkent, wordt
 haar angst grammaticaal aan zijn naam gekoppeld. De actantmeting past daarbij:
-meerdere partijen trekken aan de scène, terwijl Saul zijn controle verliest.
+meerdere partijen handelen, terwijl Saul zijn controle verliest.
 
 
-**Staat dit al in de commentaren?:** standard. De angst van de vrouw en Sauls
+**Vergelijking met de commentaren:** standard. De angst van de vrouw en Sauls
 geruststelling worden besproken; BHSA markeert het syntactische kruispunt van
 vrouw, vrezen en Saul.
 
@@ -94,7 +94,7 @@ vrouw, vrezen en Saul.
 `dynamic_query=woman_fear_and_do_not_fear`, `actant_in_out_degree` · robustness:
 robust · versie 2023
 
-## Vraag 3 — Waarom voelt de tijd onrustig?
+## Vraag 3: Waarom voelt de tijd onrustig?
 
 **Vraag:** Klinkt de scène als rustige ondervraging, of schakelt de grammatica
 voortdurend van tijd/aspect/modus?
@@ -121,20 +121,20 @@ Dat past bij een nachtelijke raadpleging waarin Saul dwingt, de vrouw reageert
 en Samuëls verschijning als iets gaands/opkomends wordt beschreven.
 
 
-**Staat dit al in de commentaren?:** novel/partially_covered. De onrust van de
+**Vergelijking met de commentaren:** novel/partially_covered. De onrust van de
 scène is bekend, maar de TAM-wisseling is niet als technische vormmaat
 aangetroffen; de participia zijn inhoudelijk deels besproken.
 
 **Confidence:** Hoog (≤ plafond Hoog) · features: `rapid_tam_switching`,
 `historical_present_participles` · robustness: robust · versie 2023
 
-## Vraag 4 — Hoe blijven namen verdwijnen en terugkomen?
+## Vraag 4: Hoe blijven namen verdwijnen en terugkomen?
 
 **Vraag:** Houdt de tekst de deelnemers voortdurend expliciet, of laat hij namen
 wegzakken in pronominale reeksen?
 
 **Wat de data toont:** De referential-decay-meting is robuust hoog:
-achttien gevallen van expliciete naam gevolgd door pronominale of nulreferentie,
+achttien clauses in ketens na een expliciete naam, met pronominale of nulreferentie,
 waar ongeveer vier verwacht zijn (G² = 31,27; q < 0,000001). Voorbeelden zijn
 Saul in 28:8, Saul in 28:9 en Saul opnieuw in 28:15. De cataforische proxy is
 ook hoog: twintig pronominale slots vóór latere nominale explicitering, waar
@@ -151,11 +151,11 @@ clause with pronoun/suffix before later nmpr/subs in short window
 ```
 
 **Duiding:** De passage werkt met herkenning en verhulling op referentieniveau.
-Saul wordt genoemd, verdwijnt in vormen en komt weer terug. Dat sluit aan bij
+Na Sauls naam volgen pronominale verwijzingen, waarna zijn naam weer terugkeert. Dat sluit aan bij
 de inhoudelijke vermomming zonder die inhoud uit de grammatica af te leiden.
 
 
-**Staat dit al in de commentaren?:** partially_covered/novel. Commentaren volgen
+**Vergelijking met de commentaren:** partially_covered/novel. Commentaren volgen
 focusverschuivingen, maar de naam-naar-pronomen/nulreferentie en vooral de
 pronominale verwijzing vóór latere naamgeving zijn BHSA-specifieke meetlagen.
 
@@ -163,7 +163,7 @@ pronominale verwijzing vóór latere naamgeving zijn BHSA-specifieke meetlagen.
 `name_to_pronominal_run`, `pronoun_before_nominal` · robustness: robust · versie
 2023
 
-## Vraag 5 — Wat doet Samuëls opkomen met Saul?
+## Vraag 5: Wat doet Samuëls opkomen met Saul?
 
 **Vraag:** Wordt Samuël vooral als losse verschijning geteld, of blijft zijn
 opkomen aan Saul gekoppeld?
@@ -189,7 +189,7 @@ De meting helpt vooral om de verschijning niet los te trekken van Sauls mislukte
 zoektocht.
 
 
-**Staat dit al in de commentaren?:** standard. Samuëls opkomen voor Saul wordt
+**Vergelijking met de commentaren:** standard. Samuëls opkomen voor Saul wordt
 als hoogtepunt van de scène besproken; BHSA formaliseert het lexicale cluster
 in 28:14-15.
 

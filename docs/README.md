@@ -1,13 +1,13 @@
 # Statische zoekbrowser bij de 1-2 Samuël-rapporten
 
-Een afgebakende, statische versie van de Text-Fabric-zoekbrowser, bedoeld voor GitHub Pages. De
-lezer kan de zoekregels uit de [rapporten en toelichtingen](../rapporten/README.md) zelf intypen
-en de treffers tellen, zonder iets te installeren, volledig client-side, over alleen de
-geëxporteerde passages.
+Met deze statische zoekbrowser kunt u de zoekregels uit de
+[rapporten en toelichtingen](../rapporten/README.md) invoeren en de treffers
+tellen. De browser werkt op GitHub Pages en doorzoekt de geëxporteerde
+passages, zonder installatie.
 
-De echte Text-Fabric-browser is een Python-server en kan **niet** op Pages draaien. Deze versie
-omzeilt dat door per passage de woorden + kenmerken vooraf te exporteren naar JSON en de zoeklogica
-in `app.js` te draaien.
+De volledige Text-Fabric-browser heeft een Python-server nodig en draait
+daarom niet op GitHub Pages. Deze versie gebruikt vooraf geëxporteerde woorden
+en kenmerken in JSON. `app.js` doorzoekt die gegevens in uw browser.
 
 ## Bestanden
 
@@ -25,6 +25,6 @@ docs/
 
 Een deel van Text-Fabric: één anchor-object (`word` / `clause` / `phrase` / `sentence`) met
 eventueel ingesprongen `word`-regels eronder, en `kenmerk=waarde`-filters (meerdere waarden met
-`|`). Relationele operatoren (`<`, `<:`, `[[ ]]`, `mother`, …) worden niet ondersteund; presets met
+`|`). Relationele operatoren (`<`, `<:`, `[[ ]]`, `mother`, …) worden niet ondersteund. Presets met
 zulke syntaxis worden door het export-script automatisch overgeslagen.
 

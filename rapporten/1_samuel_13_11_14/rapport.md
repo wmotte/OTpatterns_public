@@ -26,7 +26,7 @@ bewijs gedragen hypothesen.*
 > Sauls excuus, het עַתָּה ("nu") dat van rechtvaardiging naar vonnis kantelt,
 > en de causale כִּי-stapeling die beide sprekers tegen elkaar uitspelen.
 
-## Vraag 1 — de tijd die niet stilstaat in het excuus
+## Vraag 1: de tijd die niet stilstaat in het excuus
 
 **Vraag:** Klinkt Sauls zelfrechtvaardiging alleen "wanhopig", of is de
 ongedurigheid ook syntactisch meetbaar, in de werkwoordstijd die niet tot rust
@@ -50,18 +50,16 @@ toekomstig en terug.
 *Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
 reproduceerbaar.*
 
-**Duiding:** De tijd staat niet stil in het excuus. Saul moet in één antwoord
-drie dingen tegelijk doen: een afgesloten verleden verantwoorden ("het volk
+**Duiding:** Sauls antwoord verbindt drie tijdsperspectieven: een afgesloten verleden verantwoorden ("het volk
 liep weg", perfectum), een lopende noodtoestand schetsen ("de Filistijnen
 verzamelden zich", participium) en een dreigende toekomst projecteren ("nu
 zullen ze afdalen", imperfectum). De grammaticale tijd kantelt mee met de drie
 rechtvaardigingsgronden, en dat levert een meetbaar onrustige tijdstructuur
-op. Op de as zelfrechtvaardiging is de TAM-instabiliteit het syntactische
-spoor van een verweer dat vooruit en achteruit tegelijk moet praten om de
-overtreding recht te leggen.
+op. De snelle TAM-wisseling past bij een verweer dat naar verleden en toekomst
+verwijst om het handelen te rechtvaardigen.
 
 
-**Staat dit al in de commentaren?:** nieuw. De commentaren richten zich op de
+**Vergelijking met de commentaren:** nieuw. De commentaren richten zich op de
 toon. Tsumura geeft een nauwkeurige structurele lijst van precies deze
 werkwoordsvormen (wayqtl, qtl, yiqtol) door de scène heen, maar leest die als
 discourse-opbouw (setting, event) en koppelt de snelle afwisseling niet aan
@@ -74,7 +72,7 @@ nergens.
 **Confidence:** Middel (≤ plafond Middel) · feature: tam_chaos
 (rapid_tam_switching) · robustness: robust · versie 2023
 
-## Vraag 2 — het "nu" dat van kant wisselt
+## Vraag 2: het "nu" dat van kant wisselt
 
 **Vraag:** Is het herhaalde עַתָּה ("nu") in deze scène een toevallig
 stopwoord, of een scharnier waarop dezelfde tijdsmarkering eerst het excuus
@@ -103,13 +101,12 @@ v12-14.
 noodoffer te rechtvaardigen: nu, op dit beslissende moment, komen de
 Filistijnen en moet er geofferd zijn. Samuël neemt het woord over en keert het
 om: nu, op ditzelfde moment, zou God je dynastie bevestigd hebben (v13), en nu
-zal ze niet standhouden (v14). De deictische markering die Saul inzet om het
-heden dringend te maken, wordt het scharnier waaraan Samuël het vonnis
-ophangt. Op de as macht-asymmetrie is dit de syntactische greep van de
-meerdere: hij buigt het "nu" van de mindere om tot het ogenblik van afwijzing.
+zal ze niet standhouden (v14). Samuël gebruikt hetzelfde "nu" waarmee Saul zijn handelen dringend maakte
+om diens afwijzing te formuleren. Zo krijgt het woord in de mond van de
+profeet een andere functie.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Het effect is gezien, de
+**Vergelijking met de commentaren:** gedeeltelijk. Het effect is gezien, de
 drievoudige structuur ontbreekt. Auld behandelt het dubbele עַתָּה in v13-14
 expliciet als "key problem" voor de logica van het argument: het hypothetische
 "nu" (wat God had kunnen doen) tegenover het oordeels-"nu". Bodner noteert
@@ -123,7 +120,7 @@ bevestigen (dynamisch én deterministisch) is de toevoeging.
 (attah_future_projection), corroboratie deictic_shift_here_now · robustness:
 robust, exploratief · versie 2023
 
-## Vraag 3 — een twist die met "want" wordt gevoerd
+## Vraag 3: een twist die met "want" wordt gevoerd
 
 **Vraag:** Is het meningsverschil tussen profeet en koning syntactisch een
 ruzie van beschuldigingen, of een over-en-weer van redengeving, argument tegen
@@ -148,15 +145,12 @@ ingeleid.
 **Duiding:** De twist wordt met "want" gevoerd. Saul verdedigt zich met een
 keten van gronden: omdat ik zag, omdat het volk uiteenviel, omdat jij niet
 kwam. Samuël zet er een eigen grond-keten tegenover: omdat je niet gehoorzaamd
-hebt. Beide partijen spelen het spel van de redengeving, en juist daarin toont
-zich de asymmetrie: Sauls gronden zijn omstandig en concreet (de soldaten, de
-tijd, de vijand), Samuëls grond is één en absoluut (het gebod). De
-De כִּי-stapeling toont hoe de mindere zich uitput in redenen terwijl
-de meerdere met één grond volstaat. Op de as zelfrechtvaardiging is het
-grond-voegwoord de syntactische drager van het hele dispuut.
+hebt. Beide partijen geven redenen, maar die verschillen: Sauls gronden zijn omstandig en concreet (de soldaten, de
+tijd, de vijand), Samuëls grond is één en absoluut (het gebod). De כִּי-stapeling maakt dat verschil zichtbaar: Saul voert meerdere redenen
+aan, terwijl Samuël met één grond volstaat.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Het thema is geraakt, de
+**Vergelijking met de commentaren:** gedeeltelijk. Het thema is geraakt, de
 grammaticale figuur blijft buiten beeld. Bodner wijst op de "abundant
 specificity" in Sauls rechtvaardiging (de soldaten, Samuëls afwezigheid, de
 Filistijnen) tegenover de algemene termen van Samuëls antwoord; dat is precies

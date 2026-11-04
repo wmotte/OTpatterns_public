@@ -1,7 +1,7 @@
 # Toelichting bij 1 Samuël 22:11-19: verhoor, vonnis en uitvoering
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; de samenvatting staat in
+commentaren is afgerond. De samenvatting staat in
 [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
@@ -12,12 +12,11 @@ opvalt, maar ook tegen die smallere vergelijkingen overeind blijft.
 
 ## De rollen in het verhoor
 
-De eerste dragende meting is geen losse woordzoekopdracht, maar een
-actantentelling: wie staat syntactisch als handelende of ondergane partij in de
+De eerste meting telt de actanten: wie staat syntactisch als handelende of ondergane partij in de
 clauses? In deze passage is die verdeling robuust scheef. De koning heeft veel
 meer uitgaande handelingsrelaties; de priesterrol heeft vooral inkomende
-relaties. Dat past bij de scène: Achimelech wordt niet als gelijke gesprekspartner
-gepositioneerd, maar als degene op wie oproep, beschuldiging en bevel neerkomen.
+relaties. Dat past bij Achimelechs positie in de scène: oproep, beschuldiging en bevel
+zijn op hem gericht.
 
 De meting is alleen in de volledige engine reproduceerbaar:
 
@@ -97,7 +96,7 @@ count content sp vs function sp per clause
 
 De volledige run staat in [evidence.json](evidence.json). De dynamische queries
 staan in [dynamic_queries.json](dynamic_queries.json). De statische zoekbrowser
-heeft nu ook een passagebestand voor deze tekst:
+heeft ook een passagebestand voor deze tekst:
 `docs/data/1_samuel_22_11_19.json`.
 
 Gebruikte run:

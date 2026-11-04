@@ -21,7 +21,7 @@ bewijs gedragen hypothesen.*
 > codeert, en waar de morfologie het conflict over verhullen en vertellen
 > draagt.
 
-## Vraag 1 — het verhul-werkwoord dat de confrontatie beheerst
+## Vraag 1: het verhul-werkwoord dat de confrontatie beheerst
 
 **Vraag:** Welke werkwoordsvorm draagt grammaticaal het deelstuk waarin Eli de
 onthulling afdwingt, en valt die samen met de spanning tussen spreken en
@@ -51,7 +51,7 @@ v17-18 leest, ziet het twistpunt telkens terugkeren: niet achterhouden, niets
 verhullen, alles vertellen.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Tsumura bespreekt "did not
+**Vergelijking met de commentaren:** gedeeltelijk. Tsumura bespreekt "did not
 hide" (כחד) als ontkende antoniem van "told" en wijst op de Akkadische
 diviner-protocol-parallel *lu aqabbi la akattamu* ("ik zal vertellen en niet
 verhullen"); Auld noemt de "double insistence" op geen-geheimhouding. Het
@@ -62,7 +62,7 @@ formele concentratie van `KXD[` en de binding tussen verhullen en "woord".
 `verb_root_argument_frames`, `KXD[ × DBR/` · robustness: global_only / robust ·
 versie 2023
 
-## Vraag 2 — de vrees om te vertellen, het hifil dat haar omkadert
+## Vraag 2: de vrees om te vertellen, het hifil dat haar omkadert
 
 **Vraag:** Is de spanning tussen Samuëls vrees en zijn gedwongen onthulling
 ook grammaticaal afgebakend, of staat ze alleen in de inhoud?
@@ -93,7 +93,7 @@ gedwongen doet. De dwang tot spreken zit zo in de causatieve stam, en de
 eedformule van v17 staat precies tussen de twee hifil-vormen in.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Bergen leest v15 ("de
+**Vergelijking met de commentaren:** gedeeltelijk. Bergen leest v15 ("de
 deuren openen") als double entendre voor het gedwongen openen of bekendmaken
 (higgid); Auld noemt Samuël "understandably fearful" om te verklaren. Het
 kader van vrees naar onthulling is thematisch gedekt. De
@@ -104,7 +104,7 @@ toevoeging.
 (disclosure_hifil_bracket); ijk: self_imprecation_oath_formula · robustness:
 robust, exploratief · versie 2023
 
-## Vraag 3 — het verbod dat zich op de eiser terugricht
+## Vraag 3: het verbod dat zich op de eiser terugricht
 
 **Vraag:** Hoe is Eli's eis grammaticaal opgebouwd: vraagt hij om vertellen,
 of om iets anders?
@@ -129,14 +129,12 @@ gedefinieerd als onthouding-aan-de-eiser.
 het 1e-persoonssuffix via `clause domain=Q` met `word lex=KXD[ vs=piel` en
 `word lex=MN prs_ps=p1` (2 treffers).*
 
-**Duiding:** Eli's eis luidt: geen-verhullen-voor-MIJ. Het verbod hangt aan
-een verhul-werkwoord dat via de prepositie naar Eli zelf wijst. De dwang is
-grammaticaal teruggericht op de meerdere als degene aan wie niets onthouden
-mag worden; de eiser plaatst zichzelf met het suffix in het werkwoord van de
-ander.
+**Duiding:** Eli eist dat Samuël niets voor hem verhult. Het verbod hangt aan
+een verhul-werkwoord dat via de prepositie naar Eli zelf wijst. Het suffix verwijst naar Eli als degene aan wie Samuël niets mag onthouden.
+Zo is de verhouding tussen de twee ook in het werkwoord vastgelegd.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Auld noemt de "double
+**Vergelijking met de commentaren:** gedeeltelijk. Auld noemt de "double
 insistence" op geen-geheimhouding (thematisch). Tsumura brengt in zijn
 chiastische analyse van v17 de elementen "hide it from me" (B) en "hide from
 me" (B′) expliciet in kaart, dus de gerichtheid op Eli is door hem al
@@ -146,7 +144,7 @@ structureel gevisualiseerd. De BHSA-meting voegt de corpus-kwantificering toe.
 (vetitive_against_concealment, concealment_with_ablative_speaker) ·
 robustness: robust, exploratief · versie 2023
 
-## Vraag 4 — het woord dat alleen ondergaat
+## Vraag 4: het woord dat alleen ondergaat
 
 **Vraag:** Wie handelt in deze scène grammaticaal, en wat ondergaat alleen
 maar?
@@ -172,7 +170,7 @@ het machtsspel tussen Eli en Samuël in: de twee mannen handelen, en het woord
 ondergaat hun spreken, verhullen en vertellen.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Tsumura toont davar als
+**Vergelijking met de commentaren:** gedeeltelijk. Tsumura toont davar als
 centrale as (A / A′) van de chiastische dialoog; Auld bespreekt het "woord van
 JHWH" (3:1) dat in 3:17-18 het object van de confrontatie wordt. Het thema en
 de structuur zijn gedekt. De graaf-meting van actant-asymmetrie via in- en
@@ -181,7 +179,7 @@ uitgaande graad is wat BHSA toevoegt.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): actant_centrality ·
 robustness: robust · versie 2023
 
-## Vraag 5 — de naam die pas na het voornaamwoord komt
+## Vraag 5: de naam die pas na het voornaamwoord komt
 
 **Vraag:** In welke volgorde pint de tekst vast wie spreekt: eerst de persoon,
 of eerst een voornaamwoord dat zijn referent uitstelt?
@@ -200,14 +198,14 @@ expliciteren, en הִנֵּנִי ("hier ben ik") in v16.
 *Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
 reproduceerbaar.*
 
-**Duiding:** De scène houdt referentiële slots open: wie spreekt, wordt
-grammaticaal pas later vastgepind. In een dialoog die om uitstel en onthouding
+**Duiding:** De scène noemt bij verschillende verwijzingen pas later expliciet wie de
+spreker is. In een dialoog die om uitstel en onthouding
 van informatie draait, loopt diezelfde vooruit-binding door de
-verwijzingsstructuur. De tekst stelt het expliciteren uit, net zoals Samuël
-het vertellen uitstelt.
+verwijzingsstructuur. Dat uitstel van expliciete naamgeving kan worden verbonden met Samuëls
+uitstel van het vertellen.
 
 
-**Staat dit al in de commentaren?:** nieuw. De geconsulteerde commentaren
+**Vergelijking met de commentaren:** nieuw. De geconsulteerde commentaren
 (Tsumura, Auld, Cartledge, Long, McCarter, Bergen) raken dit patroon niet. Zij
 analyseren het chiasme, de eedformule en de thematiek; de referentiële
 vooruit-binding komt er niet in voor.
@@ -215,7 +213,7 @@ vooruit-binding komt er niet in voor.
 **Confidence:** Middel (≤ plafond Middel) · feature(s):
 forward_predictive_scaffolding · robustness: robust · versie 2023
 
-## Vraag 6 — de onverwachte wending naar JHWH
+## Vraag 6: de onverwachte wending naar JHWH
 
 **Vraag:** Hoe is Eli's berusting in v18 syntactisch gevormd: zet het verhaal
 zijn ritme voort, of breekt de vorm?
@@ -239,7 +237,7 @@ verhaalketen wordt onderbroken door een vooropgeplaatste godsnaam. De vorm van
 de onderwerping is een gemarkeerde wending in het vertelritme.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Long koppelt de respons
+**Vergelijking met de commentaren:** gedeeltelijk. Long koppelt de respons
 thematisch aan Davids vrijwel identiek geformuleerde onderwerping later in
 2 Samuël (vrome berusting), maar geeft geen technische analyse; een
 syntactische lezing van de casus-pendens-wending ontbreekt in de geraadpleegde

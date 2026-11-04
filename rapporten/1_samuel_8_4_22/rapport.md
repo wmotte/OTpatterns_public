@@ -22,7 +22,7 @@ bewijs gedragen hypothesen.*
 > uitgewerkt en dienen hier als ijk; de dragende vragen liggen bij vijf
 > minder-belichte, gemeten patronen.
 
-## Vraag 1 — de stem die gehoorzaamd moet worden
+## Vraag 1: de stem die gehoorzaamd moet worden
 
 **Vraag:** Wie moet in dit hoofdstuk naar wiens stem luisteren, en valt die
 gezagsrichting samen met de machtsverhouding?
@@ -53,7 +53,7 @@ macht-asymmetrie in spraak is dit een ompoling: het bevel om te gehoorzamen
 loopt naar boven, de weigering loopt naar onder.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Woodhouse leest de ironie
+**Vergelijking met de commentaren:** gedeeltelijk. Woodhouse leest de ironie
 scherp: het gevolg van de weigering om naar Samuël te horen is dat Samuël hún
 stem zal horen, het einde van het richter-tijdperk. Chisholm telt het "luister"
 in vv7, 9 en 22 tegen de weigering in v19 en glosseert שׁמע ב- als "accede to".
@@ -67,7 +67,7 @@ clausebundel tegen het corpus.
 **Confidence:** Middel (≤ plafond Middel) · feature: dynamic_query
 (heed_the_voice_axis) · robustness: robust, exploratief · versie 2023
 
-## Vraag 2 — de opwaartse bevel-eis
+## Vraag 2: de opwaartse bevel-eis
 
 **Vraag:** In welke werkwoordsvorm verpakt het volk zijn vraag om een koning, en
 wat zegt die vorm over de gezagsverhouding met de profeet?
@@ -95,7 +95,7 @@ wie hier spreekt, beveelt waar hij zou kunnen verzoeken. Op de as
 macht-asymmetrie in spraak is de vorm zelf het datapunt.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Bergen levert de scherpste
+**Vergelijking met de commentaren:** gedeeltelijk. Bergen levert de scherpste
 taalkundige observatie, zij het bij een andere passage: een "bald-faced
 imperative" is een ongebruikelijke en weinig respectvolle vorm voor een mindere,
 waar normaal een jussief "moge de heer..." zou staan. Woodhouse traceert de
@@ -108,7 +108,7 @@ imperatief naast koning, getoetst tegen het corpus.
 **Confidence:** Middel (≤ plafond Middel) · feature: dynamic_query
 (upward_demand_for_king) · robustness: robust, exploratief · versie 2023
 
-## Vraag 3 — het collectief dat als meervoud spreekt en wordt aangesproken
+## Vraag 3: het collectief dat als meervoud spreekt en wordt aangesproken
 
 **Vraag:** Wie is in dit hoofdstuk de tegenspeler van de profeet, en hoe codeert
 de grammatica diens identiteit?
@@ -134,7 +134,7 @@ neemt") naar de eerste persoon meervoud ("ónze koning", "ónze oorlogen"). De
 meervoudsdichtheid is het formele spoor van die collectieve stem.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Chisholm telt het
+**Vergelijking met de commentaren:** gedeeltelijk. Chisholm telt het
 bezittelijke "jullie" twaalfmaal in vv11-17. Halbertal en Holmes wijzen op de
 omslag naar de eerste persoon meervoud in vv19-20. Chapman behandelt de groep
 als een "collective character". Het collectieve register is dus thematisch
@@ -144,14 +144,14 @@ is nieuw.
 **Confidence:** Hoog (telling; de duiding blijft lezing) · feature: categorical
 prs_nu=pl · robustness: robust · versie 2023
 
-## Vraag 4 — de naam die naar het voornaamwoord wegvalt
+## Vraag 4: de naam die naar het voornaamwoord wegvalt
 
 **Vraag:** Hoe lang houdt de tekst de eigennamen van de hoofdrolspelers vast
 voordat zij in voornaamwoorden overgaan?
 
 **Wat de data toont:** Een expliciete naam die in een pronominale of
-nul-verwijzingsketen wegvalt is sterk oververtegenwoordigd: 22 tegen verwacht
-ongeveer 1 (G² = 46,9), robuust (robust) in alle strata. In v10 וַיֹּאמֶר
+nul-verwijzingsketen wegvalt levert hier een keten van 22 clauses op, tegen
+een globale verwachting van ongeveer 3,8 clauses in zulke ketens (G² = 46,9), robuust (robust) in alle strata. In v10 וַיֹּאמֶר
 שְׁמוּאֵל אֵת כָּל דִּבְרֵי יְהוָה אֶל הָעָם ("en Samuël sprak al de woorden van
 JHWH tot het volk") worden de namen Samuël en JHWH ingezet en daarna lang
 pronominaal voortgezet.
@@ -163,14 +163,12 @@ pronominaal voortgezet.
 *Samengestelde meting; alleen in een volledige Text-Fabric-omgeving
 reproduceerbaar.*
 
-**Duiding:** Het hoofdstuk verloopt als een snelle bemiddelingsketen: volk naar
-Samuël, Samuël naar JHWH, JHWH terug naar Samuël, Samuël terug naar het volk. In
-zo'n keten houdt de tekst de eigennamen kort en laat voornaamwoorden de last
-dragen. Samuël als doorgeefluik vervaagt referentieel; de actoren worden niet
-telkens opnieuw vastgepind. De hoge verval-rate is daarvan het meetbare spoor.
+**Duiding:** De sprekers volgen elkaar in een bemiddelingsketen op: volk naar
+Samuël, Samuël naar JHWH, JHWH terug naar Samuël, Samuël terug naar het volk. In die keten volgen op eigennamen vaak voornaamwoorden. Samuël wordt
+niet telkens opnieuw bij naam genoemd. De hoge verval-rate is daarvan het meetbare spoor.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Tsumura beschrijft de
+**Vergelijking met de commentaren:** gedeeltelijk. Tsumura beschrijft de
 discourse-grammatica waarin eigennamen vooral bij de eerste introductie nodig
 zijn en daarna pronominaal worden voortgezet ten dienste van de "narrative
 flow". Frolov tekent de structurele "movements" gedetailleerd uit, met namen die
@@ -183,7 +181,7 @@ corpus-anomalie is nieuw.
 **Confidence:** Middel (≤ plafond Middel) · feature: referential_decay_rate ·
 robustness: robust · versie 2023
 
-## Vraag 5 — wie handelt, wie ondergaat
+## Vraag 5: wie handelt, wie ondergaat
 
 **Vraag:** Hoe is de agency over de spelers verdeeld wanneer je subject- en
 object-vermeldingen telt, en houdt die verdeling stand tegen de theologie van
@@ -209,12 +207,12 @@ handelen vrijwel uitsluitend en ondergaan nauwelijks. Hier botst de meting op de
 theologie van het hoofdstuk. v7 positioneert God en Samuël juist expliciet als
 lijdend voorwerp van de verwerping ("Míj hebben zij verworpen, dat Ik geen
 koning over hen zal zijn"). De graaf-meting registreert oppervlakte-syntaxis en
-die theologische patiens-positie staat daarmee in spanning. De eenzijdige agency
-is dus een meting van de grammaticale buitenkant, die de diepere positie van God
-en Samuël als ondergane partij maskeert.
+die theologische patiens-positie staat daarmee in spanning. De eenzijdige agency beschrijft dus de grammaticale rolverdeling. Zij
+geeft de theologische positie van God en Samuël als verworpen partij niet
+weer.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Bergen laat zien dat de
+**Vergelijking met de commentaren:** gedeeltelijk. Bergen laat zien dat de
 agency grammaticaal gecodeerd is: het 3ms-suffix komt veertienmaal voor op 85
 woorden en de toe-eigeningswerkwoorden לקח en עשׂה hebben de koning als agens.
 Tsumura wijst erop dat in procedureel discours het object voorop staat en de
@@ -268,6 +266,16 @@ bevindingen, de tweede één, deze derde geen enkele. 1 Samuël 8 is een verzadi
 hoofdstuk waar BHSA vooral kwantificering toevoegt boven op een bestaande
 lezing. Het bruikbare signaal zit in de minder-belichte vragen 1 tot en met 5,
 en in de saturatie zelf als vergelijkend datapunt.
+
+
+## Methodisch voorbehoud
+
+De aanvullende controles bij [Hanna en Eli](../1_samuel_1_12_18/controles.md)
+laten zien dat inbeddingsdiepte ook citaatinbedding meet en dat referentieel
+verval bij gewone scène-einden kan voorkomen. Voor deze dialoog zijn die
+register- en vergelijkingscontroles nog niet uitgevoerd. De betreffende
+interpretaties blijven daarom voorlopig, ook bij een robuustheidslabel in de
+oorspronkelijke meetrun.
 
 **Claim-ledger**
 Koppeling van de rapportclaims aan velden in `evidence.json`, per

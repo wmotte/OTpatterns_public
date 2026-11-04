@@ -16,7 +16,7 @@ doel vernauwt tot Seba, de zoon van Bichri. De meting laat een korte tekst zien
 met abrupte verbale druk, ongewoon diepe inbedding en robuuste dynamische
 treffers rond vrouw, stad, Joab, horen en de overdracht van het hoofd.
 
-## Vraag 1 — Hoe krijgt de stad een stem?
+## Vraag 1: Hoe krijgt de stad een stem?
 
 **Vraag:** Wordt Abel vooral als belegerde ruimte getekend, of krijgt de stad
 grammaticaal een spreekpositie?
@@ -52,20 +52,19 @@ verse
   word lex=DBR[|>MR[
 ```
 
-**Duiding:** De vrouw functioneert als toegang van de stad tot het gesprek.
-Zij roept niet alleen uit de stad; de meting vangt dat vrouw, stad, Joab en
-horen in één versconcentratie samenkomen. Het militaire object krijgt zo een
-spreekbare vertegenwoordiger.
+**Duiding:** De vrouw spreekt namens de belegerde stad. De meting laat zien dat vrouw,
+stad, Joab en horen in één vers samenkomen. Via haar wordt de stad partij in
+het gesprek.
 
 
-**Staat dit al in de commentaren?:** standard. De rol van de wijze vrouw en de
+**Vergelijking met de commentaren:** standard. De rol van de wijze vrouw en de
 spreek-hoorstructuur met Joab worden al expliciet besproken; BHSA voegt vooral
 kwantificering van de versconcentratie vrouw-stad-Joab-horen toe.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=joab_and_woman_hear_speak` · robustness: robust · versie 2023
 
-## Vraag 2 — Waarom klinkt de onderhandeling zo staccato?
+## Vraag 2: Waarom klinkt de onderhandeling zo staccato?
 
 **Vraag:** Loopt de scène als gewone narratieve rede, of stapelt zij korte
 verbale handelingen onder belegeringsdruk?
@@ -86,14 +85,14 @@ met korte verbale stappen: hoor, zeg, kom dichterbij, luister. Dat past bij een
 gesprek dat moet ontstaan voordat de belegering haar uitkomst krijgt.
 
 
-**Staat dit al in de commentaren?:** standard. Commentaren beschrijven de
+**Vergelijking met de commentaren:** standard. Commentaren beschrijven de
 rede van de vrouw al als verhoogd, repetitief en retorisch geconcentreerd;
 BHSA specificeert de spreekdruk als asyndetische clause-stapeling.
 
 **Confidence:** Hoog (≤ plafond Hoog) · feature:
 `verbal_clause_run_without_waw` · robustness: robust · versie 2023
 
-## Vraag 3 — Hoe vernauwt Joab het geweld?
+## Vraag 3: Hoe vernauwt Joab het geweld?
 
 **Vraag:** Blijft Joabs aanval gericht op de hele stad, of wordt het geweld in
 zijn antwoord grammaticaal tot één man teruggebracht?
@@ -124,14 +123,14 @@ conflict tot Seba te reduceren. Dat is onderhandelingstaal: als het probleem
 één man is, hoeft de stad niet als geheel vernietigd te worden.
 
 
-**Staat dit al in de commentaren?:** standard. Joabs vernauwing van de stad
+**Vergelijking met de commentaren:** standard. Joabs vernauwing van de stad
 naar de ene rebel Seba is breed bekend; BHSA markeert vooral de precieze
 identificatieclause.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=man_from_ephraim_lifted_hand` · robustness: robust · versie 2023
 
-## Vraag 4 — Waarom is deze korte scène zo diep ingebed?
+## Vraag 4: Waarom is deze korte scène zo diep ingebed?
 
 **Vraag:** Maakt de tekst de onderhandeling eenvoudig, of stapelt zij lagen van
 rede, citaatformule en voorwaardelijke uitvoering?
@@ -160,14 +159,14 @@ stad en dwingt Joab tot een voorwaardelijk antwoord. De diepe inbedding past
 bij overleg onder geweldsdruk.
 
 
-**Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
+**Vergelijking met de commentaren:** partially_covered. Commentaren herkennen
 de rede als welsprekend, verhoogd en zorgvuldig opgebouwd, maar niet de
 formele BHSA-meting van extreme inbeddingsdiepte.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `tab` · robustness:
 robust · versie 2023
 
-## Vraag 5 — Hoe wordt redding tot een overdrachtsclause?
+## Vraag 5: Hoe wordt redding tot een overdrachtsclause?
 
 **Vraag:** Eindigt de onderhandeling in abstracte vrede, of in een concrete
 grammatica van hoofd, muur en overgave?
@@ -189,12 +188,11 @@ clause domain=Q
 ```
 
 **Duiding:** De vrouw vertaalt Joabs eis in een uitvoerbare clausule: het hoofd
-wordt over de muur naar hem geworpen. Daarmee wordt stadsredding niet als
-gevoel of belofte geformuleerd, maar als harde overdracht die de belegering
-kan beëindigen.
+wordt over de muur naar hem geworpen. De redding van de stad wordt zo verbonden aan een concrete overdracht
+die de belegering kan beëindigen.
 
 
-**Staat dit al in de commentaren?:** standard. De overdracht van Seba's hoofd
+**Vergelijking met de commentaren:** standard. De overdracht van Seba's hoofd
 over de muur als beslissende deal is al besproken; BHSA specificeert de
 concrete overdrachtsclause.
 

@@ -1,159 +1,153 @@
-# Toelichting bij 1 Samuël 1:12-18: tellen wat de tekst doet
+# Toelichting bij 1 Samuël 1:12-18: Hanna en Eli
 
-*Lekenuitleg bij [rapport.md](rapport.md) over 1 Samuël 1:12-18 (Eli en Hanna
-bij de deurpost).*
+*Bij [rapport.md](rapport.md). De [aanvullende controles](controles.md)
+verklaren waarom enkele eerdere interpretaties zijn afgezwakt.*
 
-Dit document laat zien waarop de analyse rust, in gewone taal, met de
-zoekopdrachten erbij zodat u de tellingen zelf kunt nalopen.
-
-Achter de waarnemingen zit de BHSA: een database waarin de hele Hebreeuwse
-bijbel woord voor woord van grammaticale etiketten is voorzien (woordsoort,
-geslacht, werkwoordsvorm) door taalkundigen van het ETCBC in Amsterdam. Met een
-programma dat Text-Fabric heet kun je in die geannoteerde tekst zoeken: u
-beschrijft een patroon, en het geeft alle plaatsen waar dat patroon voorkomt.
-Een "vondst" is zo'n patroon dat in deze zeven verzen opvallend vaker of minder
-vaak voorkomt dan in een vergelijkbaar stuk bijbel. Onderaan staat hoe u de
-zoekopdrachten zelf draait.
-
-## Eli viermaal bij naam, Hanna die haar naam verliest
-
-De ruggengraat van de analyse is een verschil in hoe de tekst de twee
-gesprekspartners vasthoudt. Eli wordt in deze verzen vier keer met zijn eigen
-naam genoemd. Hanna draagt haar naam nog in vers 13 en 15, maar verdwijnt
-daarna uit de naamgeving: in het slotvers heet zij "de vrouw". De tekst doet
-bovendien iets meetbaars met die verschuiving. Op zes plaatsen valt een
-expliciet genoemde persoon terug op een voornaamwoord of een onderwerploos
-werkwoord vóórdat de naam wordt herhaald, waar je er in een stuk van deze
-lengte ongeveer één zou verwachten. Hanna's naam zakt weg, die van Eli blijft
-staan.
-
-**Wat je vindt als je telt.** Eli's naam komt vier keer voor; de
-naam-naar-voornaamwoord-keten telt zes plaatsen tegen ongeveer één verwacht.
-
-**De zoekopdracht.** Eli's naam is een eenvoudige zoekregel:
-
-```
-word lex=<LJ==/
-```
-
-In 1 Samuël 1:12-18 levert dit vier treffers op. De terugval-meting zelf is
-geen enkele zoekregel: een hulpprogramma loopt de tekst door en telt de ketens
-waarin een genoemde persoon wegzakt naar een voornaamwoord. Die meting is
-alleen in een volledige Text-Fabric-omgeving reproduceerbaar; de naamtelling
-hierboven en het lidwoord hieronder kunt u wel zelf controleren.
-
-**Staat dit al in de commentaren?** Nieuw (`novel`: niet aangetroffen in de
-geraadpleegde bronnen). Frolov en McCarter merken referentie-verschuivingen op,
-maar tekstkritisch, niet als bewuste machtscodering; van Wijk-Bos en Bergen
-bespreken de status-asymmetrie thematisch, niet grammaticaal. Eli's herhaalde
-naamgeving is op zichzelf vooral opvallend tegen de hele bijbel (alleen-globaal,
-`global_only`); daarom breng ik haar als een telling die u gewoon kunt
-natellen, zonder hard statistisch gewicht.
+De BHSA bevat de Hebreeuwse tekst met taalkundige annotaties. Met Text-Fabric
+kunt u daarin patronen zoeken en hun frequentie vergelijken met die in andere
+teksten. Zo'n vergelijking laat zien hoe uitzonderlijk een kenmerk is. Wat
+het in de scène betekent, blijft een vraag voor de lezer.
 
 ## Het enige lidwoord
 
-In het Hebreeuws is het bepaald lidwoord een voorvoegsel (de letter *he*, הָ).
-In een passage van deze lengte zou je er ongeveer negen verwachten. Hier staat
-er precies één, en die ene valt op *hā'iššā*, "de vrouw", in vers 18. Op het
-moment dat Hanna haar eigennaam verliest, krijgt de taal voor het eerst dat
-afstandelijke randje: zij wordt een soort in plaats van een persoon.
+In deze zeven verzen staat één bepaald lidwoord, waar er op grond van het
+hele corpus ongeveer negen verwacht worden. Het staat op *hā'iššā*, "de vrouw"
+(1:18), wanneer de verteller Hanna aan het slot niet meer bij naam noemt.
 
-**Wat je vindt als je telt.** Eén lidwoord, waar er ongeveer negen passen: een
-opvallende schaarste.
-
-**De zoekopdracht.**
+**De zoekopdracht:**
 
 ```
 word sp=art
 ```
 
-In 1 Samuël 1:12-18 levert dit één treffer op, op "de vrouw" in vers 18.
+De zoekbrowser geeft één treffer. De BHSA telt ook lidwoorden mee die na een
+voorzetsel alleen in de klinkertekens zichtbaar zijn. Het tekort ontstaat dus
+niet doordat de telling zulke vormen mist.
 
-**Staat dit al in de commentaren?** Nieuw (`novel`). Auld let elders op
-lidwoord-varianten, maar past dit niet toe op deze passage; geen bron bespreekt
-de schaarste of dat ene lidwoord op "de vrouw". De betrouwbaarheid van deze
-meting is middelhoog: het lidwoord is een hard grammaticaal kenmerk, maar de
-duiding ervan blijft een lezing.
+De aanvullende controles houden rekening met het gespreksregister. Directe
+rede gebruikt nauwelijks minder lidwoorden dan vertellerstekst. Voor de
+verhouding tussen die twee in deze passage blijft de verwachting 9,6.
+Ook in zeven andere scènes met een vrouwelijke hoofdpersoon komt zo'n sterk
+tekort niet voor. Van alle vergelijkbare zevenversvensters vertoont 3,0
+procent een minstens even sterk tekort, van de spraakrijke vensters 4,1
+procent. In de langere passage 1:9-20 blijft het tekort bestaan.
 
-## De grammatica buigt vrouwelijk
+**Duiding:** Dat het enige lidwoord op "de vrouw" staat, kan worden verbonden
+met de verhouding tussen Eli en Hanna. Het kan ook aansluiten bij Hanna's
+eigen aanduiding als vrouw in 1:15. De telling beslist niet tussen deze
+lezingen. Zij betreft de Masoretische tekst. De Griekse vertaling wijkt in
+1:18 af.
 
-Onder de naamgeving gebeurt nog iets. De grammaticaal vrouwelijke vormen
-(werkwoorden, achtervoegsels en voornaamwoorden die zich naar een vrouw
-richten) komen in deze verzen opvallend dicht opeen. Eli heeft het ambt en
-opent met een bevel, maar de morfologie trekt voortdurend naar Hanna toe. Zij
-raakt haar naam kwijt en bezet tegelijk grammaticaal de hele scène.
+**Vergelijking met de commentaren:** Het lidwoordpatroon is niet aangetroffen
+in de geraadpleegde collectie. Die collectie mist onder meer Fokkelman,
+Polzin en genderkritische studies over Hanna. "Nieuw" betekent hier dus
+alleen: niet gevonden in de gebruikte bronnen.
 
-**Wat je vindt als je telt.** Zevenentwintig vrouwelijke vormen, waar een stuk
-van deze lengte er gemiddeld bijna elf draagt: ruim het dubbele.
+## Eli viermaal bij naam, Hanna tweemaal
 
-**De zoekopdracht.**
+Eli wordt vier keer bij naam genoemd, Hanna twee keer. Na vers 15 verschijnt
+Hanna's naam in dit venster niet meer. In 1:19-20 keert haar naam direct
+terug. De naamloosheid hoort dus bij het einde van deze scène.
+
+**De zoekopdracht voor Eli:**
+
+```
+word lex=<LJ==/
+```
+
+Deze geeft vier treffers. De naamtelling is alleen opvallend ten opzichte
+van het hele corpus en draagt volgens de eigen rapportregels geen
+zelfstandig statistisch bewijs.
+
+Een andere meting telt hoeveel clauses volgen waarin een expliciete naam
+plaatsmaakt voor een voornaamwoord, suffix of impliciet onderwerp. Hier is
+dat één keten van zes clauses. De eerdere formulering over zes afzonderlijke
+ketens was onjuist. De samengestelde meting vereist een volledige
+Text-Fabric-omgeving.
+
+Zulke ketens komen ook aan het slot van andere scènes voor. Rechters 4,
+Ruth 3 en 1 Samuël 25 halen dezelfde of langere ketens. Van de vergelijkbare
+tekstvensters evenaart 10,7 procent deze passage. De naamgeving blijft
+bruikbaar voor close reading, maar krijgt haar kwantitatieve steun vooral
+van het lidwoordtekort.
+
+## Vrouwelijke vormen: een verwacht patroon
+
+De passage telt 27 vrouwelijke vormen, tegen ongeveer elf verwacht.
+Werkwoorden, achtervoegsels en voornaamwoorden stemmen in het Hebreeuws
+vaak overeen met het geslacht van de persoon naar wie ze verwijzen.
+
+**De zoekopdracht:**
 
 ```
 word gn=f
 ```
 
-In 1 Samuël 1:12-18 levert dit zevenentwintig treffers op.
+Deze geeft 27 treffers. Het contrast is statistisch robuust, maar blijkt bij
+controle geen bijzonder kenmerk van dit gebed. Alle zeven andere scènes met
+een vrouwelijke hoofdpersoon hebben eveneens relatief veel vrouwelijke
+vormen. Hanna valt binnen dat bereik. De telling bevestigt dat de
+meetmodule een verwacht patroon terugvindt en dient daarom als ijkpunt.
+Het hoge betrouwbaarheidsplafond zegt iets over de annotatie, niet over de
+betekenis van de uitkomst.
 
-**Staat dit al in de commentaren?** Nieuw als bewijsvorm (`novel`). Van
-Wijk-Bos, Evans en Frolov bespreken Hanna's verhalende overwicht (zij blijft
-het middelpunt, Elkana verdwijnt onder haar), maar voeren de
-grammaticaal-vrouwelijke oververtegenwoordiging niet als bewijs aan. Dit is de
-hardste van de vondsten: het geslacht is een ondubbelzinnig kenmerk en het
-patroon houdt stand hoe je ook vergelijkt (met de hele bijbel, met hetzelfde
-boek, met hetzelfde genre). Het label is "robuust" (robust), met een hoog
-betrouwbaarheidsplafond.
+## Diepe inbedding is hier grotendeels een registereffect
 
-## Een fel verweer in onderdanige vorm
+De eerste analyse verbond hoge inbeddingsdiepte met Hanna's verweer. Bij
+controle bleek dat het BHSA-kenmerk ook elke laag rede-in-vertelling
+meetelt. Directe rede krijgt daardoor vanzelf hogere waarden. De diepe
+zinseenheden staan bovendien ook in Eli's zegen en in vertellerstekst.
+Van de spraakrijke vensters haalt 14,2 procent dezelfde concentratie.
+De eerdere interpretatie als bijzondere onderschikking in Hanna's verweer
+is daarom teruggenomen.
 
-Hanna verdedigt zich in de zachtste aanspreekvorm die het Hebreeuws kent. Zij
-noemt Eli "mijn heer" en zichzelf zijn dienstmaagd, en die zelfaanduidingen
-dragen het achtervoegsel dat naar hém wijst. Over haar korte weerwoord heen
-codeert zij zo het rangverschil grammaticaal, verspreid over meerdere zinnen.
+## Verzoeken in onderdanige vorm
 
-**Wat je vindt als je telt.** Drie zinnen in de directe rede dragen een
-rang-aanduidend woord (heer / dienstmaagd / slavin); twee keer staat zo'n
-onderdanige zelf-aanduiding met het achtervoegsel dat naar de aangesprokene
-wijst.
-
-**De zoekopdracht.** Voor de rang-woorden in de directe rede:
+Hanna noemt Eli "mijn heer" en zichzelf zijn dienstmaagd. Het suffix aan de
+zelfaanduiding verwijst naar hem. De volgende zoekregel telt drie clauses
+in directe rede met een rangwoord:
 
 ```
 clause domain=Q
   word lex=>DWN/|>MH/|CPXH/
 ```
 
-En voor de zelf-aanduiding met het tweede-persoons-achtervoegsel:
+Deze regel geeft twee zelfaanduidingen met een suffix voor de aangesprokene:
 
 ```
 word lex=>MH/|CPXH/|<BD/ prs_ps=p2
 ```
 
-In 1 Samuël 1:12-18 leveren deze respectievelijk drie en twee treffers op.
+De nederigheid is breed besproken in de commentaren. Deze twee gerichte
+zoekvragen blijven exploratief en hebben een laag betrouwbaarheidsplafond.
+Zij dienen als context en dragen de analyse niet zelfstandig.
 
-**Staat dit al in de commentaren?** Deels bekend (`partially_covered`). De
-nederigheid is breed besproken (Bergen, van Wijk-Bos, Cartledge, Weiss); Bergen
-wijst expliciet op *amatekha* als term voor een huisslavin. Wat hier wordt
-toegevoegd, is de meting: dat het rangverschil over drie zinnen heen terugkeert.
-Let op: deze twee vondsten komen uit een gerichte, vooraf opgestelde zoekslag
-naar een vermoeden. Ze zijn exploratief, met een laag betrouwbaarheidsplafond,
-en ondersteunen de lezing als aanwijzing.
+De combinatie van een verzoek met "uw dienstmaagd" heeft als afzonderlijke
+exploratieve meting plafond Middel. De query vindt twee clauses, maar
+controleert geen subjectfunctie: in vers 16 is Eli het onderwerp van het
+werkwoord en is "uw dienstmaagd" object. In vers 18 is "uw dienstmaagd"
+onderwerp. De overeenkomst ligt in de onderdanige zelfaanduiding binnen een
+verzoek, niet in een identieke syntactische rol.
 
-## Hoe draai je deze zoekopdrachten zelf
+## Wat daarnaast overeind blijft
 
-De zoekregels hierboven kunt u zonder installatie draaien in de
-[zoekbrowser](https://wmotte.github.io/OTpatterns_public/): kies de passage
-1 Samuël 1:12-18, plak een zoekregel in het zoekvak en tel de treffers. Komt
-het aantal overeen met het getal hierboven, dan heeft u de waarneming
-gereproduceerd.
+De snelle wisseling van werkwoordsvormen kwantificeert een bekend stilistisch
+kenmerk. De twee unieke werkwoordsvormen staan bij het bidden en bij Eli's
+bevel. Hun uitzonderlijkheid neemt af wanneer rekening wordt gehouden met
+vrouwelijke vormen, vergelijkbare tekstvensters en het aantal onderzochte
+dialogen. Het [rapport](rapport.md) geeft de tellingen en voorbehouden.
 
-Wie de hele Hebreeuwse bijbel wil doorzoeken, gebruikt de volledige
-Text-Fabric-omgeving (de zoekregels zijn geschreven voor Text-Fabric; de
-website shebanq werkt met een andere zoektaal):
+## Zoekopdrachten zelf uitvoeren
 
-1. Installeer Text-Fabric: `pip install text-fabric` (eenmalig; vereist
-   Python).
-2. Start de zoekbrowser: `text-fabric ETCBC/bhsa`. De eerste keer haalt het
-   programma de BHSA-gegevens op; daarna opent een zoekvenster in uw browser.
-3. Plak een zoekregel in het zoekvak, voer hem uit en blader naar de treffers
-   in 1 Samuël 1:12-18.
+Kies in de [zoekbrowser](https://wmotte.github.io/OTpatterns_public/) de
+passage 1 Samuël 1:12-18, plak een zoekregel en vergelijk het aantal treffers
+met de telling hierboven. De browser doorzoekt alleen de geëxporteerde
+passages en ondersteunt niet alle samengestelde metingen.
 
+Voor de hele Hebreeuwse Bijbel gebruikt u Text-Fabric. SHEBANQ gebruikt een
+andere zoektaal.
+
+1. Installeer Text-Fabric met `pip install text-fabric`. Hiervoor is Python nodig.
+2. Start de zoekbrowser met `text-fabric ETCBC/bhsa`. De eerste keer worden
+   de gegevens opgehaald.
+3. Voer de zoekregel uit en bekijk de treffers in 1 Samuël 1:12-18.

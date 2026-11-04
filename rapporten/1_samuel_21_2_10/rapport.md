@@ -16,7 +16,7 @@ beschikbaarheid en reinheid. De meting laat een scène zien waarin David zijn
 verhaal met een onzichtbare groep knechten ondersteunt, terwijl de priester de
 noodvraag in formele existentie- en reinheidsclauses omzet.
 
-## Vraag 1 — Hoe wordt Davids leugen als opdracht gecodeerd?
+## Vraag 1: Hoe wordt Davids leugen als opdracht gecodeerd?
 
 **Vraag:** Presenteert David zijn komst als persoonlijke vlucht, of als geheime
 koninklijke zending?
@@ -45,18 +45,18 @@ clause domain=Q
 ```
 
 **Duiding:** David geeft zijn vlucht een ambtelijke vorm. De zaak is door de
-koning bevolen en mag door niemand gekend worden. De leugen werkt dus niet via
-lange uitleg, maar via een compacte opdracht- en geheimhoudingsformule.
+koning bevolen en mag door niemand gekend worden. David maakt zijn verhaal geloofwaardig met een compacte opdracht- en
+geheimhoudingsformule.
 
 
-**Staat dit al in de commentaren?:** standard. De geheime koninklijke opdracht
+**Vergelijking met de commentaren:** standard. De geheime koninklijke opdracht
 en de formule dat niemand van de zaak mag weten worden al expliciet besproken;
 BHSA kwantificeert de opdracht-plus-geheimhouding als formele cluster.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=king_command_secret_mission` · robustness: robust · versie 2023
 
-## Vraag 2 — Waarom zijn Davids knechten grammaticaal vreemd?
+## Vraag 2: Waarom zijn Davids knechten grammaticaal vreemd?
 
 **Vraag:** Dragen de knechten Davids verhaal als echte groep, of blijven zij
 een smalle constructie binnen zijn rede?
@@ -80,20 +80,20 @@ clause domain=Q
   word lex=MQWM/
 ```
 
-**Duiding:** De knechten zijn grammaticaal dun. David heeft ze nodig om zijn
+**Duiding:** Er zijn weinig grammaticale verwijzingen naar de knechten. David heeft ze nodig om zijn
 opdracht geloofwaardig te maken, maar de passage blijft sterk enkelvoudig:
 David vraagt, Achimelech toetst, David antwoordt. De groep bestaat vooral in
 Davids uitleg.
 
 
-**Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
+**Vergelijking met de commentaren:** partially_covered. Commentaren herkennen
 de knechten als vage, afwezige of mogelijk fictieve groep; de lage
 meervoudsdichtheid en de geïsoleerde plaats-clause blijven meettoevoegingen.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=young_men_appointed_place` · robustness: robust · versie 2023
 
-## Vraag 3 — Hoe houdt Achimelech de broodvraag onder voorwaarden?
+## Vraag 3: Hoe houdt Achimelech de broodvraag onder voorwaarden?
 
 **Vraag:** Geeft Achimelech simpelweg voedsel, of zet hij Davids verzoek eerst
 om in beschikbaarheid en heiligheid?
@@ -127,14 +127,14 @@ Hij formuleert eerst wat er is en onder welke cultische voorwaarde het gegeven
 kan worden. Zo krijgt zijn voorzichtigheid grammaticale vorm.
 
 
-**Staat dit al in de commentaren?:** standard. Het heilige brood, de
+**Vergelijking met de commentaren:** standard. Het heilige brood, de
 beschikbaarheid en de rituele voorwaarde zijn standaardcommentaar; BHSA
 formaliseert dit met Exst-, NCop- en broodmetingen.
 
 **Confidence:** Middel (≤ plafond Middel) · feature: `function=Exst` ·
 robustness: robust · versie 2023
 
-## Vraag 4 — Hoe antwoordt David op de reinheidsvoorwaarde?
+## Vraag 4: Hoe antwoordt David op de reinheidsvoorwaarde?
 
 **Vraag:** Laat David de cultische voorwaarde staan, of schuift hij zijn
 onzichtbare knechten opnieuw naar voren?
@@ -163,14 +163,14 @@ verhaal over de knechten. De reinheidsclaim rust dus op dezelfde afwezige groep
 die ook de geheime opdracht geloofwaardig moet maken.
 
 
-**Staat dit al in de commentaren?:** standard. De reinheidsvoorwaarde en
+**Vergelijking met de commentaren:** standard. De reinheidsvoorwaarde en
 Davids toepassing daarvan op zijn jonge mannen zijn bekend; BHSA specificeert
 de clause met knechten, vrouwen en bewaren/onthouden en de rede-in-rede.
 
 **Confidence:** Middel (≤ plafond Middel) · feature:
 `dynamic_query=young_men_kept_from_women` · robustness: robust · versie 2023
 
-## Vraag 5 — Waarom voelt de scène subjectief betrokken?
+## Vraag 5: Waarom voelt de scène subjectief betrokken?
 
 **Vraag:** Is dit alleen een uitwisseling van goederen, of trekt de grammatica
 het verzoek naar de sprekers zelf?
@@ -192,12 +192,12 @@ onafgesloten blijven.
 % clause txt~Q met word vt=impv; scan volgende clauses op finiet predicaat
 ```
 
-**Duiding:** De goederen zijn niet neutraal. Brood en zwaard komen in een
-scène waarin de hand, de geadresseerde en het "voor mij/voor jou" dicht op de
-handeling liggen. De grammatica maakt de nood persoonlijk.
+**Duiding:** Bij het vragen om brood en zwaard staan de hand, de geadresseerde en het
+"voor mij/voor jou" dicht bij de handeling. Die grammaticale relaties
+benadrukken Davids persoonlijke nood.
 
 
-**Staat dit al in de commentaren?:** partially_covered. Commentaren herkennen
+**Vergelijking met de commentaren:** partially_covered. Commentaren herkennen
 de bondige, geladen transactie rond brood en zwaard; de ethische-lamedmeting
 en het imperatief-responsprofiel blijven formele BHSA-toevoegingen.
 

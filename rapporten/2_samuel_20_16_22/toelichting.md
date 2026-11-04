@@ -1,7 +1,7 @@
 # Toelichting bij 2 Samuël 20:16-22: de vrouw van Abel en Joab
 
 *Lekenuitleg bij [rapport.md](rapport.md). De nieuwheidstoets tegen de
-commentaren is afgerond; zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
+commentaren is afgerond. Zie [nieuwheidsoordelen.md](nieuwheidsoordelen.md).*
 
 De passage is gemeten met de BHSA: de Hebreeuwse tekst is woord voor woord
 grammaticaal geannoteerd. De engine vergelijkt deze zeven verzen met het hele

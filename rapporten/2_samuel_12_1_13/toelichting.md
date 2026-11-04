@@ -6,8 +6,7 @@ commentaren is uitgevoerd op 13 juni 2026; zie
 
 De passage is gemeten met de BHSA. De engine vergelijkt deze dertien verzen met
 het hele Oude Testament en met nauwere vergelijkingsgroepen. Omdat deze passage
-sterk becommentarieerd is, werkt de meting hier vooral als ijkpunt: zij moet
-bekende observaties niet als grote nieuwheid verkopen.
+sterk becommentarieerd is, dienen de metingen hier vooral als ijkpunt voor bekende observaties.
 
 ## TAM-onrust in de parabel
 

@@ -27,7 +27,7 @@ bewijs gedragen hypothesen.*
 > zinstypen in de ondervraging, de grammaticale individualisering van het
 > collectief, en de afstandelijke tweede persoon.
 
-## Vraag 1 — de ondervraging die strakker loopt dan ze klinkt
+## Vraag 1: de ondervraging die strakker loopt dan ze klinkt
 
 **Vraag:** Lezers en commentatoren ervaren deze scène als kortaf en stroef. Is
 die schokkerigheid ook meetbaar in de zinstype-overgangen?
@@ -57,7 +57,7 @@ in de plaatsing van enkele gespreksnaden, niet in een algemene overmaat aan
 zinstypewisselingen.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk gedekt (`partially_covered`).
+**Vergelijking met de commentaren:** gedeeltelijk gedekt (`partially_covered`).
 Campbell noemt het Michmas-verhaal een van de "most perplexing texts",
 geschreven in "terse and allusive Hebrew" met grote tekstuele moeilijkheden.
 Tsumura noemt de syntaxis van v43 expliciet "strange" (een VSO-bouw met een
@@ -71,7 +71,7 @@ het corpus gemeten is de keten gelijkmatiger dan gemiddeld.
 **Confidence:** Hoog (≤ plafond Hoog) · feature(s): syntactic_surprise
 (local_clause_type_transition) · robustness: robust · versie 2023
 
-## Vraag 2 — een leger dat grammaticaal uiteenvalt in personen
+## Vraag 2: een leger dat grammaticaal uiteenvalt in personen
 
 **Vraag:** De scène gaat over collectieven: "het volk" en "de vijanden".
 Spreekt de grammatica die collectieven ook als groep aan, of kantelt ze naar
@@ -91,16 +91,14 @@ groepen schaars.
 
 *In de zoekbrowser na te tellen: 4 treffers in deze passage.*
 
-**Duiding:** Het collectief wordt grammaticaal uit elkaar gehaald. Het leger
-heet "het volk", het Hebreeuws behandelt dat vaak als een enkelvoudige eenheid,
+**Duiding:** De grammaticale verwijzing naar het collectief neemt af. Het leger heet "het volk", het Hebreeuws behandelt dat vaak als een enkelvoudige eenheid,
 en de suffixale verwijzing naar groepen blijft laag. De scène spitst zich toe
 op een vader en een zoon die tegenover elkaar komen te staan, terwijl het volk
-eromheen grammaticaal minder als pluralis-referent aanwezig is. Op de as
-macht-asymmetrie is die individualisering de grammaticale voorbereiding van
-het duel: het toneel wordt leeggemaakt tot twee personen en een eed.
+eromheen grammaticaal minder als pluralis-referent aanwezig is. De lage pluralisdichtheid ondersteunt zo de toespitsing op het conflict
+tussen vader en zoon.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Tsumura wijst er
+**Vergelijking met de commentaren:** gedeeltelijk. Tsumura wijst er
 herhaaldelijk op dat הָעָם een collectief-enkelvoud is met enkelvoudige
 congruentie, als grammaticafeit zonder corpusvergelijking. McCarter bespreekt
 de enkelvoudsvormen van de Masoretische tekst tekstkritisch. Bodner leest de
@@ -113,7 +111,7 @@ ondersteunen.
 **Confidence:** Middel (≤ plafond Middel) · feature(s): categorical
 (`prs_nu=pl`, onder) · robustness: robust · versie 2023
 
-## Vraag 3 — de confrontatie die langs de tweede persoon heen gaat
+## Vraag 3: de confrontatie die langs de tweede persoon heen gaat
 
 **Vraag:** Een ondervraging verwacht je vol "jij": jij at, jij zult sterven.
 Staat de directe tweede-persoons-aanspraak hier inderdaad voorop, of wordt de
@@ -139,15 +137,14 @@ op, weg van groeps- en jij-markering, naar afstand.
 in de derde persoon op "de man die eet"; ook het volk spreekt over Jonatan in
 de derde persoon wanneer het zijn leven verdedigt ("zal Jonatan sterven?").
 Zelfs waar de macht het scherpst is, bij het doodvonnis, spreken de personages
-vaak over elkaar in de derde persoon. De enkele directe "jij"-momenten in het
-verhaal blijven inhoudelijk scherp, maar de gemeten afwijking zit nu
-specifieker in de suffixen. Op de as ontwijking is de lage
+vaak over elkaar in de derde persoon. Het verhaal bevat ook directe "jij"-momenten. De gemeten afwijking betreft
+specifiek de suffixen. Op de as ontwijking is de lage
 tweede-persoonssuffixdichtheid een vorm van relationele afstand: het gesprek
 vermijdt herhaald bezit of aanspreekrelatie en handelt de breuk vaak in de
 derde persoon af.
 
 
-**Staat dit al in de commentaren?:** gedeeltelijk. Alter merkt op dat Sauls
+**Vergelijking met de commentaren:** gedeeltelijk. Alter merkt op dat Sauls
 eed (v24) een formele derde-persoons-vloek is ("vervloekt is de man") waar een
 directe instructie aan de troepen voor de hand lag, en leest dat als zijn
 onvermogen rechtstreeks te communiceren. Woodhouse benadrukt Sauls "totale
